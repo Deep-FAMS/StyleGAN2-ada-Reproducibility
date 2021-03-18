@@ -1,6 +1,11 @@
 import os
 WORK = os.environ["WORK"]
 os.chdir(f'{WORK}/ADA_Project')
+print(os.getcwd())
+
+import sys
+sys.path.insert(0, f'{WORK}/ADA_Project')
+sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
 from glob import glob
 import numpy as np
