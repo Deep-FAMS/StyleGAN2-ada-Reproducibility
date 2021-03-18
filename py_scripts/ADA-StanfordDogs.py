@@ -43,28 +43,28 @@ print(f'Raw: {len(raw_imgs)}, Resized: {len(glob(f"{RESIZED_IMGS_DIR}/*"))}')
 # DeepFAMS.preprocessing.tf_record_exporter(tfrecord_dir=DATA_CUSTOM_DIR, image_dir=RESIZED_IMGS_DIR, shuffle=1)
 
 
-with open('compile_model.sh', 'w') as f:
-        f.write(f'''#!/bin/bash
-module load anaconda
-module load compiler/gcc/4.7
-module load cuda
-$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
---outdir={TRAIN_RUNS_DIR} \
---gpus=2 \
---data={DATA_CUSTOM_DIR} \
---snap=1 \
---kimg=1''')
+# with open('compile_model.sh', 'w') as f:
+#         f.write(f'''#!/bin/bash
+# module load anaconda
+# module load compiler/gcc/4.7
+# module load cuda
+# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
+# --outdir={TRAIN_RUNS_DIR} \
+# --gpus=2 \
+# --data={DATA_CUSTOM_DIR} \
+# --snap=1 \
+# --kimg=1''')
 
-DeepFAMS.utils.execute('cat compile_model.sh')
+# DeepFAMS.utils.execute('cat compile_model.sh')
 
-p = subprocess.Popen("bash compile_model.sh",
-                     shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+# p = subprocess.Popen("bash compile_model.sh",
+#                      shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
-while p.poll() is None:
-    line = p.stdout.readline()
-    print(line)
+# while p.poll() is None:
+#     line = p.stdout.readline()
+#     print(line)
 
-os.remove('compile_model.sh')
+# os.remove('compile_model.sh')
 
 
 for num in range(-1, -10, -1):
