@@ -1,6 +1,7 @@
 import os
 WORK = os.environ["WORK"]
-os.chdir(f'{WORK}/ADA_Project')
+PROJ_DIR = f'{WORK}/ADA_Project'
+os.chdir(WORK)
 print(os.getcwd())
 
 import sys
