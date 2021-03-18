@@ -1,0 +1,6 @@
+ln: creating symbolic link `/lib/libcuda.so': Permission denied
+2021-03-18 13:52:57.118594: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2021-03-18 13:52:57.404129: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3000005000 Hz
+2021-03-18 13:52:57.411507: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556d5a9fafd0 executing computations on platform Host. Devices:
+2021-03-18 13:52:57.412386: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2021-03-18 13:52:57.429455: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1

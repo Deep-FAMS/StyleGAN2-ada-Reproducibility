@@ -52,7 +52,7 @@ module load cuda
 module load anaconda
 module load compiler/gcc/6.1
 conda activate $WORK/.conda/envs/ada-env
-$WORK/.conda/envs/ada-env/bin/python {WORK}/py_scripts/{file_name}.py
+$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/py_scripts/{file_name}.py
 ''')
 
 print(
