@@ -16,6 +16,23 @@ from training import dataset
 from metrics import metric_defaults
 
 
+"""
+The `RunTraining()` function is forked from https://github.com/NVlabs/stylegan2-ada,
+    and edited to work on Crane.
+
+    "3.1 Redistribution. You may reproduce or distribute the Work only if (a) you do so under this License, (b) you include a complete copy of this License with your distribution, and (c) you retain without modification any copyright, patent, trademark, or attribution notices that are present in the Work.""
+    – https://nvlabs.github.io/stylegan2-ada/license.html
+"""
+
+# Copyright (c) 2020, NVIDIA CORPORATION.  All rights reserved.
+#
+# NVIDIA CORPORATION and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA CORPORATION is strictly prohibited.
+
+
 def RunTraining(outdir, seed, dry_run, run_desc, training_options):
     # Setup training options.
     tflib.init_tf({'rnd.np_random_seed': seed})
