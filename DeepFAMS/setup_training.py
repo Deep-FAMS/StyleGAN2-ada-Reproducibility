@@ -55,6 +55,22 @@ for item in prepend_paths:
     sys.path.insert(0, item)
 
 
+"""
+The `setup_training_options()` function is forked from https://github.com/NVlabs/stylegan2-ada,
+    and edited to work on Crane.
+
+    "3.1 Redistribution. You may reproduce or distribute the Work only if (a) you do so under this License, (b) you include a complete copy of this License with your distribution, and (c) you retain without modification any copyright, patent, trademark, or attribution notices that are present in the Work.""
+    – https://nvlabs.github.io/stylegan2-ada/license.html
+"""
+
+# Copyright (c) 2020, NVIDIA CORPORATION.  All rights reserved.
+#
+# NVIDIA CORPORATION and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA CORPORATION is strictly prohibited.
+
 #----------------------------------------------------------------------------
 
 class UserError(Exception):
