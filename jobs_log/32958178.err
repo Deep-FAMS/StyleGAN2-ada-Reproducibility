@@ -1,0 +1,5 @@
+ln: creating symbolic link `/lib/libcuda.so': Permission denied
+Traceback (most recent call last):
+  File "/work/chaselab/malyetama/ADA_Project/py_scripts/ADA-StanfordDogs.py", line 21, in <module>
+    import DeepFAMS
+ModuleNotFoundError: No module named 'DeepFAMS'
