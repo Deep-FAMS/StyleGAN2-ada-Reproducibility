@@ -12,21 +12,36 @@ import tensorflow as tf    # tensorflow_version 1.x
 print(f'Tensorflow version: {tf.__version__}')
 
 
-def resize_imgs(img, size, output_dir):
-    img = PIL.Image.open(img)
+def resize_imgs(im, size, output_dir):
+    img = PIL.Image.open(im)
     img_name = Path(img.filename).name
+    img_ext = Path(img.filename).suffix
     
     img = tf.keras.preprocessing.image.img_to_array(img)
-
     resized_array = tf.image.resize_images(
         img, size, method='bilinear')
-    
     resized_array = resized_array.numpy()
-
     resized_img = tf.keras.preprocessing.image.array_to_img(resized_array)
 
     Path(output_dir).mkdir(exist_ok=True)
-    resized_img.save(f'{output_dir}/{img_name}')
+    
+    try:
+        if img_ext != '.png':
+            resized_img.save(f'{output_dir}/{img_name}')
+        elif img_ext == '.png':
+            rgb_im = resized_img.convert('RGB')
+            rgb_im.save(f'{output_dir}/{img_name}')
+
+    except (KeyError, OSError) as e:
+        print(e)
+        print(f'Warning! Failed to save {im}!\n'
+             'Deleting corrupted image...')
+        try:
+            os.remove(f'{output_dir}/{img_name}')
+        except:
+            print('Failed to remove the corrputed image!\n'
+                  f'Remove it manually ==> {output_dir}/{img_name}')
+        pass
 
 
 def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
@@ -137,7 +152,8 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
                         img = img.transpose([2, 0, 1]) # HWC => CHW
                     tfr.add_image(img)
 
-                except ValueError:
+                except (ValueError, OSError) as e:
+                    print(e)
                     print(f'Failed to export {image_filenames[order[idx]]}')
                 
     create_from_images(tfrecord_dir, image_dir, shuffle)
