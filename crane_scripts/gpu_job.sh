@@ -43,6 +43,7 @@ with open(f'{Path(file_name).stem}.sh', 'w') as f:
 #SBATCH --partition='{partition}'
 #SBATCH --gres=gpu:{no_gpus}
 {const_line}
+#SBATCH --mem=32gb
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user='en4byxffy93v6uy@pipedream.net'
 #SBATCH --error='{WORK}/ADA_Project/jobs_log/%J.err'

@@ -1,7 +1,7 @@
 /lustre/work/chaselab/malyetama/ADA_Project
 Tensorflow version: 1.14.0
-/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00043-102flowers_custom-auto2-resumecustom/network-snapshot-000008.pkl
-Thu Mar 18 13:53:04 2021       
+/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/network-snapshot-000409.pkl
+Thu Mar 18 14:31:12 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.0     |
 |-------------------------------+----------------------+----------------------+
@@ -9,12 +9,12 @@ Thu Mar 18 13:53:04 2021
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
-|   0  Tesla V100S-PCI...  Off  | 00000000:60:00.0 Off |                    0 |
-| N/A   45C    P0    40W / 250W |    311MiB / 32510MiB |      0%      Default |
+|   0  Tesla V100-PCIE...  On   | 00000000:5E:00.0 Off |                    0 |
+| N/A   31C    P0    38W / 250W |    311MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
-|   1  Tesla V100S-PCI...  Off  | 00000000:DA:00.0 Off |                    0 |
-| N/A   34C    P0    35W / 250W |    311MiB / 32510MiB |      0%      Default |
+|   1  Tesla V100-PCIE...  On   | 00000000:D8:00.0 Off |                    0 |
+| N/A   33C    P0    36W / 250W |    311MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -23,8 +23,8 @@ Thu Mar 18 13:53:04 2021
 |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
 |        ID   ID                                                   Usage      |
 |=============================================================================|
-|    0   N/A  N/A     59577      C   ...a/envs/ada-env/bin/python      307MiB |
-|    1   N/A  N/A     59577      C   ...a/envs/ada-env/bin/python      307MiB |
+|    0   N/A  N/A     55373      C   ...a/envs/ada-env/bin/python      307MiB |
+|    1   N/A  N/A     55373      C   ...a/envs/ada-env/bin/python      307MiB |
 +-----------------------------------------------------------------------------+
 
 Training options:
@@ -84,7 +84,7 @@ Training options:
   "image_snapshot_ticks": 1,
   "network_snapshot_ticks": 1,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -105,7 +105,7 @@ Training options:
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -115,12 +115,12 @@ Training options:
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00043-102flowers_custom-auto2-resumecustom/network-snapshot-000008.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00045-102flowers_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/network-snapshot-000409.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00016-cars196_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00045-102flowers_custom-auto2-resumecustom
-Training data:     /work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00016-cars196_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/cars196_custom
 Training length:   25000 kimg
 Resolution:        256
 Number of GPUs:    2
@@ -184,7 +184,7 @@ Training options:
   "image_snapshot_ticks": 1,
   "network_snapshot_ticks": 1,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -205,7 +205,7 @@ Training options:
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -215,12 +215,12 @@ Training options:
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00043-102flowers_custom-auto2-resumecustom/network-snapshot-000008.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00045-102flowers_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/network-snapshot-000409.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00016-cars196_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00045-102flowers_custom-auto2-resumecustom
-Training data:     /work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00016-cars196_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/cars196_custom
 Training length:   25000 kimg
 Resolution:        256
 Number of GPUs:    2
@@ -233,4 +233,3 @@ Label shape: [0]
 Constructing networks...
 Setting up TensorFlow plugin "fused_bias_act.cu": Loading... Done.
 Setting up TensorFlow plugin "upfirdn_2d.cu": Loading... Done.
-Resuming from "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00043-102flowers_custom-auto2-resumecustom/network-snapshot-000008.pkl"
