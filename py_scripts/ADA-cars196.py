@@ -69,7 +69,7 @@ print(latest_snap)
 
 run_desc, training_options = DeepFAMS.setup_training_options(
     gpus       = 2,
-    snap       = 1,
+    snap       = 30,
     data       = DATA_CUSTOM_DIR,
     resume     = latest_snap
 )
