@@ -1358,4 +1358,2836 @@ Transferring:
  * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 97% /270.043M, 10.915M/s, 0s
  * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 10.677M/s, 0s
  * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 10.611M/s, 0s
- * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 15.948M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 15.948M/s, 0sTransferred:   	    2.962G / 7.249 GBytes, 41%, 40.846 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m14.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:100% /270.043M, 12.096M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 9.151M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 10.611M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 12.758M/s, 0sTransferred:   	    2.962G / 7.249 GBytes, 41%, 40.573 MBytes/s, ETA 1m48s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m14.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:100% /270.043M, 12.096M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 9.151M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 9.095M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 12.758M/s, 0sTransferred:   	    2.962G / 7.301 GBytes, 41%, 40.304 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           57 / 10065, 1%
+Elapsed time:      1m15.2s
+Transferring:
+ * training_runs/Stanford…2-resumecustom/log.txt:100% /6.660k, 0/s, -
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 9.095M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 10.632M/s, 0s
+ * training_runs/Stanford…ecustom/fakes_init.png:  0% /63.887M, 0/s, -Transferred:   	    2.962G / 7.301 GBytes, 41%, 40.038 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           58 / 10066, 1%
+Elapsed time:      1m15.7s
+Transferring:
+ * training_runs/Stanford…2-resumecustom/log.txt:100% /6.660k, 0/s, -
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 10.632M/s, 0s
+ * training_runs/Stanford…ecustom/fakes_init.png:  0% /63.887M, 0/s, -
+ * training_runs/Stanford…metric-fid50k_full.txt:100% /350, 0/s, -Transferred:   	    2.962G / 7.356 GBytes, 40%, 39.775 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           59 / 10067, 1%
+Elapsed time:      1m16.2s
+Transferring:
+ * training_runs/Stanford…2-resumecustom/log.txt:100% /6.660k, 6.658k/s, 0s
+ * training_runs/Stanford…ecustom/fakes_init.png:  0% /63.887M, 0/s, -
+ * training_runs/Stanford…metric-fid50k_full.txt:100% /350, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000000.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.968G / 7.356 GBytes, 40%, 39.597 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           60 / 10068, 1%
+Elapsed time:      1m16.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:  5% /63.887M, 0/s, -
+ * training_runs/Stanford…metric-fid50k_full.txt:100% /350, 349/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl:  1% /270.043M, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000004.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.985G / 7.356 GBytes, 41%, 39.571 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           60 / 10068, 1%
+Elapsed time:      1m17.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png: 21% /63.887M, 3.184M/s, 15s
+ * training_runs/Stanford…metric-fid50k_full.txt:100% /350, 349/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl:  2% /270.043M, 4.807M/s, 54s
+ * training_runs/Stanford…rk-snapshot-000004.pkl:  1% /270.043M, 0/s, -Transferred:   	    3.009G / 7.407 GBytes, 41%, 39.625 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m17.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png: 37% /63.887M, 3.184M/s, 12s
+ * training_runs/Stanford…rk-snapshot-000000.pkl:  5% /270.043M, 4.807M/s, 52s
+ * training_runs/Stanford…rk-snapshot-000004.pkl:  2% /270.043M, 7.998M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000008.pkl:  0% /270.043M, 0/s, -Transferred:   	    3.044G / 7.407 GBytes, 41%, 39.829 MBytes/s, ETA 1m52s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m18.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png: 50% /63.887M, 8.001M/s, 3s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 11% /270.043M, 15.515M/s, 15
+ * training_runs/Stanford…rk-snapshot-000004.pkl:  4% /270.043M, 7.998M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000008.pkl:  2% /270.043M, 0/s, -Transferred:   	    3.071G / 7.407 GBytes, 41%, 39.934 MBytes/s, ETA 1m51s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m18.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png: 62% /63.887M, 8.001M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 11% /270.043M, 15.515M/s, 15
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 10% /270.043M, 11.999M/s, 20
+ * training_runs/Stanford…rk-snapshot-000008.pkl:  4% /270.043M, 7.923M/s, 32sTransferred:   	    3.119G / 7.407 GBytes, 42%, 40.304 MBytes/s, ETA 1m48s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m19.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png: 83% /63.887M, 11.343M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 16% /270.043M, 13.306M/s, 16
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 14% /270.043M, 11.999M/s, 19
+ * training_runs/Stanford…rk-snapshot-000008.pkl:  8% /270.043M, 7.923M/s, 31sTransferred:   	    3.165G / 7.407 GBytes, 43%, 40.636 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m19.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 11.343M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 20% /270.043M, 13.306M/s, 16
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 20% /270.043M, 18.248M/s, 11
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 11% /270.043M, 14.765M/s, 16Transferred:   	    3.212G / 7.407 GBytes, 43%, 40.974 MBytes/s, ETA 1m44s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m20.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 12.737M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 26% /270.043M, 17.908M/s, 11
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 26% /270.043M, 18.248M/s, 10
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 17% /270.043M, 14.765M/s, 15Transferred:   	    3.255G / 7.407 GBytes, 44%, 41.272 MBytes/s, ETA 1m43s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m20.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 12.737M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 32% /270.043M, 17.908M/s, 10
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 32% /270.043M, 21.302M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 22% /270.043M, 17.340M/s, 12Transferred:   	    3.301G / 7.407 GBytes, 45%, 41.608 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m21.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 10.614M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 38% /270.043M, 20.677M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 21.302M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 28% /270.043M, 17.340M/s, 11Transferred:   	    3.309G / 7.407 GBytes, 45%, 41.446 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:              2848 / 8807, 32%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m21.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 10.614M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 20.677M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 20.690M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 20.019M/s, 9sTransferred:   	    3.309G / 7.407 GBytes, 45%, 41.193 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:              3908 / 8807, 44%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m22.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 9.098M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 17.976M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 20.690M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 20.019M/s, 9sTransferred:   	    3.309G / 7.407 GBytes, 45%, 40.938 MBytes/s, ETA 1m42s
+Errors:                 4 (retrying may help)
+Checks:              4690 / 8807, 53%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m22.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 9.098M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 17.976M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 17.242M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 16.021M/s, 11Transferred:   	    3.309G / 7.462 GBytes, 44%, 40.698 MBytes/s, ETA 1m44s
+Errors:                 4 (retrying may help)
+Checks:              5211 / 8807, 59%
+Transferred:           61 / 10070, 1%
+Elapsed time:      1m23.2s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 7.960M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 15.413M/s, 10
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 17.242M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 16.021M/s, 11Transferred:   	    3.309G / 7.462 GBytes, 44%, 40.454 MBytes/s, ETA 1m45s
+Errors:                 4 (retrying may help)
+Checks:              5784 / 8807, 66%
+Transferred:           61 / 10070, 1%
+Elapsed time:      1m23.7s
+Transferring:
+ * training_runs/Stanford…ecustom/fakes_init.png:100% /63.887M, 7.960M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 15.413M/s, 10
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 14.783M/s, 11
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 13.356M/s, 14Transferred:   	    3.309G / 7.462 GBytes, 44%, 40.212 MBytes/s, ETA 1m45s
+Errors:                 4 (retrying may help)
+Checks:              8237 / 8807, 94%
+Transferred:           61 / 10069, 1%
+Elapsed time:      1m24.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 40% /270.043M, 13.486M/s, 12
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 38% /270.043M, 14.783M/s, 11
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 29% /270.043M, 13.356M/s, 14Transferred:   	    3.319G / 7.462 GBytes, 44%, 40.099 MBytes/s, ETA 1m45s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m24.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 41% /270.043M, 13.486M/s, 11
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 39% /270.043M, 13.354M/s, 12
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 30% /270.043M, 11.448M/s, 16
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  0% /270.043M, 0/s, -Transferred:   	    3.342G / 7.462 GBytes, 45%, 40.142 MBytes/s, ETA 1m45s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m25.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 44% /270.043M, 13.042M/s, 11
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 43% /270.043M, 13.354M/s, 11
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 32% /270.043M, 11.448M/s, 15
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  0% /270.043M, 0/s, -Transferred:   	    3.376G / 7.462 GBytes, 45%, 40.312 MBytes/s, ETA 1m43s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m25.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 50% /270.043M, 13.042M/s, 10
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 47% /270.043M, 14.187M/s, 10
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 35% /270.043M, 11.020M/s, 15
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  0% /270.043M, 0/s, -Transferred:   	    3.417G / 7.462 GBytes, 46%, 40.571 MBytes/s, ETA 1m42s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m26.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 53% /270.043M, 14.367M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 53% /270.043M, 14.187M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 41% /270.043M, 11.020M/s, 14
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  1% /270.043M, 0/s, -Transferred:   	    3.458G / 7.462 GBytes, 46%, 40.816 MBytes/s, ETA 1m40s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m26.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 59% /270.043M, 14.367M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 56% /270.043M, 15.139M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 45% /270.043M, 12.462M/s, 11
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  2% /270.043M, 3.013M/s, 1m2Transferred:   	    3.512G / 7.462 GBytes, 47%, 41.217 MBytes/s, ETA 1m38s
+Errors:                 4 (retrying may help)
+Checks:              8807 / 8807, 100%
+Transferred:           62 / 10071, 1%
+Elapsed time:      1m27.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 65% /270.043M, 15.282M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 61% /270.043M, 15.139M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 52% /270.043M, 12.462M/s, 10
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  5% /270.043M, 3.013M/s, 1m2Transferred:   	    3.540G / 7.462 GBytes, 47%, 41.298 MBytes/s, ETA 1m37s
+Errors:                 4 (retrying may help)
+Checks:              9108 / 16995, 54%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m27.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 15.282M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 15.882M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 14.398M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 7.934M/s, 31sTransferred:   	    3.540G / 7.462 GBytes, 47%, 41.068 MBytes/s, ETA 1m37s
+Errors:                 4 (retrying may help)
+Checks:              9883 / 16994, 58%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m28.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 15.321M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 15.882M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 14.398M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 7.934M/s, 31sTransferred:   	    3.540G / 7.462 GBytes, 47%, 40.833 MBytes/s, ETA 1m38s
+Errors:                 4 (retrying may help)
+Checks:             10527 / 16996, 62%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m28.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 15.321M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 14.559M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 13.092M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 5.958M/s, 41sTransferred:   	    3.540G / 7.462 GBytes, 47%, 40.601 MBytes/s, ETA 1m38s
+Errors:                 4 (retrying may help)
+Checks:             11087 / 16996, 65%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m29.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 14.145M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 14.559M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 13.092M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 5.958M/s, 41sTransferred:   	    3.540G / 7.462 GBytes, 47%, 40.383 MBytes/s, ETA 1m39s
+Errors:                 4 (retrying may help)
+Checks:             11579 / 16996, 68%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m29.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 14.145M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 13.442M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 12.003M/s, 10
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 4.773M/s, 51sTransferred:   	    3.540G / 7.462 GBytes, 47%, 40.158 MBytes/s, ETA 1m40s
+Errors:                 4 (retrying may help)
+Checks:             12036 / 16996, 71%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m30.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 13.135M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 13.442M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 12.003M/s, 10
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 4.773M/s, 51sTransferred:   	    3.540G / 7.462 GBytes, 47%, 39.935 MBytes/s, ETA 1m40s
+Errors:                 4 (retrying may help)
+Checks:             12465 / 16996, 73%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m30.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 13.135M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 12.481M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 11.080M/s, 11
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 3.977M/s, 1m1Transferred:   	    3.540G / 7.462 GBytes, 47%, 39.707 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:             12886 / 16996, 76%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m31.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 12.259M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 12.481M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 11.080M/s, 11
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 3.977M/s, 1m1Transferred:   	    3.540G / 7.462 GBytes, 47%, 39.498 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:             13242 / 16996, 78%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m31.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 12.259M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 11.649M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 10.289M/s, 12
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 3.409M/s, 1m1Transferred:   	    3.540G / 7.462 GBytes, 47%, 39.282 MBytes/s, ETA 1m42s
+Errors:                 4 (retrying may help)
+Checks:             13586 / 16996, 80%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m32.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 11.493M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 11.649M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 10.289M/s, 12
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 3.409M/s, 1m1Transferred:   	    3.540G / 7.462 GBytes, 47%, 39.070 MBytes/s, ETA 1m42s
+Errors:                 4 (retrying may help)
+Checks:             13925 / 16996, 82%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m32.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 11.493M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 10.921M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 9.603M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.983M/s, 1m2Transferred:   	    3.540G / 7.462 GBytes, 47%, 38.867 MBytes/s, ETA 1m43s
+Errors:                 4 (retrying may help)
+Checks:             14238 / 16996, 84%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m33.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 10.775M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 10.921M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 9.603M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.983M/s, 1m2Transferred:   	    3.540G / 7.462 GBytes, 47%, 38.659 MBytes/s, ETA 1m43s
+Errors:                 4 (retrying may help)
+Checks:             14554 / 16996, 86%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m33.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 10.775M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 10.239M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 9.002M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.651M/s, 1m3Transferred:   	    3.540G / 7.462 GBytes, 47%, 38.451 MBytes/s, ETA 1m44s
+Errors:                 4 (retrying may help)
+Checks:             14851 / 16996, 87%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m34.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 10.101M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 10.239M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 9.002M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.651M/s, 1m3Transferred:   	    3.540G / 7.462 GBytes, 47%, 38.247 MBytes/s, ETA 1m44s
+Errors:                 4 (retrying may help)
+Checks:             15141 / 16996, 89%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m34.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 10.101M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 9.599M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 8.440M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.386M/s, 1m4Transferred:   	    3.540G / 7.462 GBytes, 47%, 38.048 MBytes/s, ETA 1m45s
+Errors:                 4 (retrying may help)
+Checks:             15415 / 16995, 91%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m35.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 9.470M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 9.599M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 8.440M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.386M/s, 1m4Transferred:   	    3.540G / 7.462 GBytes, 47%, 37.842 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:             15689 / 16995, 92%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m35.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 9.470M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 8.999M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 7.912M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.169M/s, 1m5Transferred:   	    3.540G / 7.462 GBytes, 47%, 37.656 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:             15938 / 16994, 94%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m36.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 68% /270.043M, 8.878M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 65% /270.043M, 8.999M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 53% /270.043M, 7.912M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:  8% /270.043M, 2.169M/s, 1m5Transferred:   	    3.554G / 7.462 GBytes, 48%, 37.599 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:             16162 / 16996, 95%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m36.7s
+Checking:
+ *   datasets/102flowers_resized/image_07349.jpg: checking
+ *   datasets/102flowers_resized/image_07350.jpg: checking
+ *   datasets/102flowers_resized/image_07351.jpg: checking
+ *   datasets/102flowers_resized/image_07352.jpg: checking
+ *   datasets/102flowers_resized/image_07353.jpg: checking
+ *   datasets/102flowers_resized/image_07354.jpg: checking
+ *   datasets/102flowers_resized/image_07355.jpg: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 69% /270.043M, 8.878M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 8.650M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 7.418M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 10% /270.043M, 1.989M/s, 2m1Transferred:   	    3.554G / 7.462 GBytes, 48%, 37.412 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:             16406 / 16996, 97%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m37.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 69% /270.043M, 8.560M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 8.650M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 7.418M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 10% /270.043M, 1.989M/s, 2m1Transferred:   	    3.558G / 7.462 GBytes, 48%, 37.264 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:             16621 / 25140, 66%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m37.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 70% /270.043M, 8.560M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 8.112M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 7.182M/s, 17s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 10% /270.043M, 2.110M/s, 1m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 37.114 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:             16848 / 25141, 67%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m38.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 8.265M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 8.112M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 7.182M/s, 17s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 2.110M/s, 1m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.925 MBytes/s, ETA 1m48s
+Errors:                 4 (retrying may help)
+Checks:             17081 / 25141, 68%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m38.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 8.265M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 7.605M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 6.733M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 2.242M/s, 1m4Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.738 MBytes/s, ETA 1m48s
+Errors:                 4 (retrying may help)
+Checks:             17311 / 25141, 69%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m39.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 7.749M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 7.605M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 6.733M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 2.242M/s, 1m4Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.552 MBytes/s, ETA 1m49s
+Errors:                 4 (retrying may help)
+Checks:             17532 / 25141, 70%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m39.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 7.749M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 7.129M/s, 12s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 6.312M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 2.093M/s, 1m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.376 MBytes/s, ETA 1m49s
+Errors:                 4 (retrying may help)
+Checks:             17743 / 25141, 71%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m40.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 7.265M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 7.129M/s, 12s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 6.312M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 2.093M/s, 1m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.195 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:             17958 / 25141, 71%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m40.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 7.265M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 6.684M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.918M/s, 20s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.962M/s, 2m1Transferred:   	    3.562G / 7.462 GBytes, 48%, 36.015 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:             18166 / 25141, 72%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m41.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 6.810M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 6.684M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.918M/s, 20s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.962M/s, 2m1Transferred:   	    3.562G / 7.462 GBytes, 48%, 35.837 MBytes/s, ETA 1m51s
+Errors:                 4 (retrying may help)
+Checks:             18376 / 25141, 73%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m41.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 6.810M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 6.266M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.548M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.839M/s, 2m9Transferred:   	    3.562G / 7.462 GBytes, 48%, 35.661 MBytes/s, ETA 1m51s
+Errors:                 4 (retrying may help)
+Checks:             18579 / 25141, 74%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m42.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 6.385M/s, 12s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 6.266M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.548M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.839M/s, 2m9Transferred:   	    3.562G / 7.462 GBytes, 48%, 35.487 MBytes/s, ETA 1m52s
+Errors:                 4 (retrying may help)
+Checks:             18778 / 25141, 75%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m42.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 6.385M/s, 12s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.875M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.201M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.724M/s, 2m1Transferred:   	    3.562G / 7.462 GBytes, 48%, 35.320 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:             18967 / 25141, 75%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m43.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.986M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.875M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 5.201M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.724M/s, 2m1Transferred:   	    3.562G / 7.462 GBytes, 48%, 35.142 MBytes/s, ETA 1m53s
+Errors:                 4 (retrying may help)
+Checks:             19138 / 25146, 76%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m43.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.986M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.507M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.876M/s, 25s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.616M/s, 2m2Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.971 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:             19229 / 25145, 76%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m44.3s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.612M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.507M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.876M/s, 25s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.616M/s, 2m2Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.811 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:             19300 / 25145, 77%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m44.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.612M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.163M/s, 17s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.571M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.545M/s, 2m3Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.648 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:             19469 / 25145, 77%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m45.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.261M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 5.163M/s, 17s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.571M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.545M/s, 2m3Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.483 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:             19647 / 25145, 78%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m45.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 5.261M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.840M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.286M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.448M/s, 2m4Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.327 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:             19784 / 25145, 79%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m46.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.932M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.840M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.286M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.448M/s, 2m4Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.166 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:             19968 / 25145, 79%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m46.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.932M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.538M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.018M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.358M/s, 2m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 34.005 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:             20148 / 25145, 80%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m47.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.624M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.538M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 4.018M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.358M/s, 2m5Transferred:   	    3.562G / 7.462 GBytes, 48%, 33.850 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:             20297 / 25145, 81%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m47.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.624M/s, 16s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.254M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 3.767M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.273M/s, 3m6Transferred:   	    3.562G / 7.462 GBytes, 48%, 33.689 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:             20453 / 25145, 81%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m48.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.335M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 4.254M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 3.767M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.273M/s, 3m6Transferred:   	    3.562G / 7.462 GBytes, 48%, 33.534 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:             20624 / 25145, 82%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m48.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.335M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 3.988M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 3.531M/s, 34s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.194M/s, 3m1Transferred:   	    3.562G / 7.462 GBytes, 48%, 33.379 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:             20791 / 25145, 83%
+Transferred:           62 / 10072, 1%
+Elapsed time:      1m49.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.064M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 66% /270.043M, 3.988M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 54% /270.043M, 3.531M/s, 34s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 11% /270.043M, 1.194M/s, 3m1Transferred:   	    3.572G / 7.462 GBytes, 48%, 33.320 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:             20934 / 25146, 83%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m49.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 4.064M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.952M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.310M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.119M/s, 3m2Transferred:   	    3.572G / 7.462 GBytes, 48%, 33.167 MBytes/s, ETA 2m
+Errors:                 4 (retrying may help)
+Checks:             21098 / 25146, 84%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m50.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.828M/s, 20s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.952M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.310M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.119M/s, 3m2Transferred:   	    3.572G / 7.462 GBytes, 48%, 33.023 MBytes/s, ETA 2m
+Errors:                 4 (retrying may help)
+Checks:             21252 / 25146, 85%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m50.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.828M/s, 20s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.707M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.299M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.269M/s, 3m4Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.872 MBytes/s, ETA 2m1s
+Errors:                 4 (retrying may help)
+Checks:             21415 / 25146, 85%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m51.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.588M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.707M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.299M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.269M/s, 3m4Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.729 MBytes/s, ETA 2m1s
+Errors:                 4 (retrying may help)
+Checks:             21570 / 25146, 86%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m51.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.588M/s, 21s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.475M/s, 25s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.093M/s, 38s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.190M/s, 3m1Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.581 MBytes/s, ETA 2m2s
+Errors:                 4 (retrying may help)
+Checks:             21732 / 25146, 86%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m52.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.364M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.475M/s, 25s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 3.093M/s, 38s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.190M/s, 3m1Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.436 MBytes/s, ETA 2m2s
+Errors:                 4 (retrying may help)
+Checks:             21887 / 25146, 87%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m52.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.364M/s, 23s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.258M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.899M/s, 41s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.116M/s, 3m3Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.292 MBytes/s, ETA 2m3s
+Errors:                 4 (retrying may help)
+Checks:             22040 / 25146, 88%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m53.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.154M/s, 24s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.258M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.899M/s, 41s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.116M/s, 3m3Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.155 MBytes/s, ETA 2m3s
+Errors:                 4 (retrying may help)
+Checks:             22186 / 25146, 88%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m53.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 3.154M/s, 24s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.055M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.718M/s, 43s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.046M/s, 3m4Transferred:   	    3.572G / 7.462 GBytes, 48%, 32.014 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:             22341 / 25146, 89%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m54.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 2.957M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 3.055M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.718M/s, 43s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1.046M/s, 3m4Transferred:   	    3.572G / 7.462 GBytes, 48%, 31.873 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:             22497 / 25146, 89%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m54.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 2.957M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 2.864M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.548M/s, 46s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1003.957k/s, Transferred:   	    3.572G / 7.462 GBytes, 48%, 31.734 MBytes/s, ETA 2m5s
+Errors:                 4 (retrying may help)
+Checks:             22650 / 25146, 90%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m55.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 2.772M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 2.864M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.548M/s, 46s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 1003.957k/s, Transferred:   	    3.572G / 7.462 GBytes, 48%, 31.596 MBytes/s, ETA 2m6s
+Errors:                 4 (retrying may help)
+Checks:             22799 / 25146, 91%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m55.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 71% /270.043M, 2.772M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 67% /270.043M, 2.685M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 55% /270.043M, 2.389M/s, 49s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 13% /270.043M, 941.209k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 31.542 MBytes/s, ETA 2m5s
+Errors:                 4 (retrying may help)
+Checks:             22923 / 25146, 91%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m56.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.813M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.685M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.389M/s, 49s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 941.209k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 31.406 MBytes/s, ETA 2m6s
+Errors:                 4 (retrying may help)
+Checks:             23069 / 25146, 92%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m56.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.813M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.572M/s, 33s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.322M/s, 50s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 1.100M/s, 3m2Transferred:   	    3.582G / 7.462 GBytes, 48%, 31.277 MBytes/s, ETA 2m7s
+Errors:                 4 (retrying may help)
+Checks:             23209 / 25146, 92%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m57.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.637M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.572M/s, 33s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.322M/s, 50s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 1.100M/s, 3m2Transferred:   	    3.582G / 7.462 GBytes, 48%, 31.143 MBytes/s, ETA 2m7s
+Errors:                 4 (retrying may help)
+Checks:             23350 / 25146, 93%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m57.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.637M/s, 28s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.411M/s, 35s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.177M/s, 54s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 1.032M/s, 3m4Transferred:   	    3.582G / 7.462 GBytes, 48%, 31.010 MBytes/s, ETA 2m8s
+Errors:                 4 (retrying may help)
+Checks:             23493 / 25146, 93%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m58.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.473M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.411M/s, 35s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.177M/s, 54s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 1.032M/s, 3m4Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.880 MBytes/s, ETA 2m8s
+Errors:                 4 (retrying may help)
+Checks:             23635 / 25146, 94%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m58.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.473M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.260M/s, 38s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.041M/s, 57s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 990.389k/s, 3Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.748 MBytes/s, ETA 2m9s
+Errors:                 4 (retrying may help)
+Checks:             23773 / 25146, 95%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m59.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.318M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.260M/s, 38s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 2.041M/s, 57s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 990.389k/s, 3Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.619 MBytes/s, ETA 2m9s
+Errors:                 4 (retrying may help)
+Checks:             23914 / 25146, 95%
+Transferred:           62 / 10073, 1%
+Elapsed time:      1m59.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.318M/s, 32s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.119M/s, 40s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.913M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 928.489k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.496 MBytes/s, ETA 2m10s
+Errors:                 4 (retrying may help)
+Checks:             24046 / 25146, 96%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m0.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.173M/s, 34s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 2.119M/s, 40s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.913M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 928.489k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.369 MBytes/s, ETA 2m10s
+Errors:                 4 (retrying may help)
+Checks:             24183 / 25146, 96%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m0.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.173M/s, 34s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 1.987M/s, 43s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.794M/s, 1m5
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 870.459k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.243 MBytes/s, ETA 2m11s
+Errors:                 4 (retrying may help)
+Checks:             24318 / 25146, 97%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m1.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.037M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 1.987M/s, 43s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.794M/s, 1m5
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 870.459k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 30.116 MBytes/s, ETA 2m11s
+Errors:                 4 (retrying may help)
+Checks:             24457 / 25145, 97%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m1.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 2.037M/s, 36s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 1.862M/s, 46s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.681M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 816.055k/s, 4Transferred:   	    3.582G / 7.462 GBytes, 48%, 29.997 MBytes/s, ETA 2m12s
+Errors:                 4 (retrying may help)
+Checks:             24585 / 25145, 98%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m2.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 72% /270.043M, 1.910M/s, 39s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 68% /270.043M, 1.862M/s, 46s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 56% /270.043M, 1.681M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 816.055k/s, 4Transferred:   	    3.593G / 7.462 GBytes, 48%, 29.963 MBytes/s, ETA 2m12s
+Errors:                 4 (retrying may help)
+Checks:             24701 / 25146, 98%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m2.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 73% /270.043M, 1.910M/s, 37s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 69% /270.043M, 1.977M/s, 41s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 57% /270.043M, 1.576M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 765.052k/s, 5Transferred:   	    3.593G / 7.462 GBytes, 48%, 29.846 MBytes/s, ETA 2m12s
+Errors:                 4 (retrying may help)
+Checks:             24827 / 25146, 99%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m3.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 73% /270.043M, 2.000M/s, 35s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 69% /270.043M, 1.977M/s, 41s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 57% /270.043M, 1.576M/s, 1m1
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 765.052k/s, 5Transferred:   	    3.593G / 7.462 GBytes, 48%, 29.725 MBytes/s, ETA 2m13s
+Errors:                 4 (retrying may help)
+Checks:             24956 / 25146, 99%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m3.7s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 73% /270.043M, 2.000M/s, 35s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 69% /270.043M, 1.855M/s, 44s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 57% /270.043M, 1.700M/s, 1m7
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 751.544k/s, 5Transferred:   	    3.593G / 7.462 GBytes, 48%, 29.604 MBytes/s, ETA 2m13s
+Errors:                 4 (retrying may help)
+Checks:             25083 / 25146, 100%
+Transferred:           62 / 10073, 1%
+Elapsed time:       2m4.2s
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 73% /270.043M, 1.875M/s, 37s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 69% /270.043M, 1.855M/s, 44s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 57% /270.043M, 1.700M/s, 1m7
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 14% /270.043M, 751.544k/s, 5Transferred:   	    3.605G / 7.462 GBytes, 48%, 29.590 MBytes/s, ETA 2m13s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m4.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 74% /270.043M, 1.875M/s, 37s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 70% /270.043M, 1.986M/s, 39s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 59% /270.043M, 1.594M/s, 1m9
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 16% /270.043M, 932.965k/s, 4Transferred:   	    3.633G / 7.462 GBytes, 49%, 29.699 MBytes/s, ETA 2m12s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m5.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 76% /270.043M, 2.075M/s, 30s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 72% /270.043M, 1.986M/s, 37s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 62% /270.043M, 1.594M/s, 1m4
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 19% /270.043M, 932.965k/s, 3Transferred:   	    3.676G / 7.462 GBytes, 49%, 29.936 MBytes/s, ETA 2m9s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m5.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 79% /270.043M, 2.075M/s, 26s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 77% /270.043M, 2.818M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 66% /270.043M, 2.607M/s, 34s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 23% /270.043M, 1.889M/s, 1m4Transferred:   	    3.719G / 7.462 GBytes, 50%, 30.168 MBytes/s, ETA 2m7s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m6.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 85% /270.043M, 3.439M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 79% /270.043M, 2.818M/s, 19s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 71% /270.043M, 2.607M/s, 29s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 26% /270.043M, 1.889M/s, 1m4Transferred:   	    3.755G / 7.462 GBytes, 50%, 30.330 MBytes/s, ETA 2m5s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m6.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 85% /270.043M, 3.439M/s, 11s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 85% /270.043M, 4.147M/s, 9s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 75% /270.043M, 3.630M/s, 18s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 29% /270.043M, 3.028M/s, 1m2Transferred:   	    3.798G / 7.462 GBytes, 51%, 30.560 MBytes/s, ETA 2m2s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m7.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 88% /270.043M, 3.969M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 91% /270.043M, 4.147M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 79% /270.043M, 3.630M/s, 14s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 32% /270.043M, 3.028M/s, 1m0Transferred:   	    3.851G / 7.462 GBytes, 52%, 30.870 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m7.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl: 94% /270.043M, 3.969M/s, 3s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 97% /270.043M, 5.699M/s, 1s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 85% /270.043M, 5.404M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 35% /270.043M, 3.837M/s, 45sTransferred:   	    3.881G / 7.462 GBytes, 52%, 30.985 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m8.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl:100% /270.043M, 5.252M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000004.pkl: 97% /270.043M, 5.699M/s, 1s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 85% /270.043M, 5.404M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 41% /270.043M, 3.837M/s, 41sTransferred:   	    3.907G / 7.462 GBytes, 52%, 31.074 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m8.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl:100% /270.043M, 5.252M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000004.pkl:100% /270.043M, 5.971M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 88% /270.043M, 5.814M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 45% /270.043M, 5.100M/s, 28sTransferred:   	    3.934G / 7.462 GBytes, 53%, 31.167 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           62 / 10074, 1%
+Elapsed time:       2m9.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000000.pkl:100% /270.043M, 5.302M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000004.pkl:100% /270.043M, 5.971M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 94% /270.043M, 5.814M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 50% /270.043M, 5.100M/s, 26sTransferred:   	    3.948G / 7.516 GBytes, 53%, 31.154 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           63 / 10075, 1%
+Elapsed time:       2m9.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000004.pkl:100% /270.043M, 5.597M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000008.pkl: 97% /270.043M, 7.183M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 52% /270.043M, 5.781M/s, 22s
+ * training_runs/Stanford…rk-snapshot-000016.pkl:  0% /270.043M, 0/s, -Transferred:   	    3.971G / 7.516 GBytes, 53%, 31.221 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           64 / 10076, 1%
+Elapsed time:      2m10.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000008.pkl:100% /270.043M, 7.183M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 56% /270.043M, 5.781M/s, 20s
+ * training_runs/Stanford…rk-snapshot-000016.pkl:  2% /270.043M, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000020.pkl:  0% /270.043M, 0/s, -Transferred:   	    4.000G / 7.516 GBytes, 53%, 31.323 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           64 / 10076, 1%
+Elapsed time:      2m10.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…rk-snapshot-000008.pkl:100% /270.043M, 7.131M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 61% /270.043M, 6.904M/s, 15s
+ * training_runs/Stanford…rk-snapshot-000016.pkl:  7% /270.043M, 7.998M/s, 31s
+ * training_runs/Stanford…rk-snapshot-000020.pkl:  1% /270.043M, 0/s, -Transferred:   	    4.026G / 7.568 GBytes, 53%, 31.412 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m11.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:  0% /52.902M, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 65% /270.043M, 6.904M/s, 13s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 11% /270.043M, 7.998M/s, 29s
+ * training_runs/Stanford…rk-snapshot-000020.pkl:  2% /270.043M, 3.370M/s, 1m1Transferred:   	    4.074G / 7.568 GBytes, 54%, 31.665 MBytes/s, ETA 1m52s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m11.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:  6% /52.902M, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 70% /270.043M, 7.987M/s, 10s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 17% /270.043M, 19.449M/s, 11
+ * training_runs/Stanford…rk-snapshot-000020.pkl:  8% /270.043M, 3.370M/s, 1m1Transferred:   	    4.116G / 7.568 GBytes, 54%, 31.870 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m12.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png: 22% /52.902M, 7.980M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 74% /270.043M, 7.987M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 23% /270.043M, 19.449M/s, 10
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 11% /270.043M, 12.000M/s, 19Transferred:   	    4.163G / 7.568 GBytes, 55%, 32.111 MBytes/s, ETA 1m48s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m12.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png: 45% /52.902M, 7.980M/s, 3s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 77% /270.043M, 8.989M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 29% /270.043M, 22.524M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 16% /270.043M, 12.000M/s, 18Transferred:   	    4.206G / 7.568 GBytes, 56%, 32.321 MBytes/s, ETA 1m46s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m13.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png: 75% /52.902M, 18.573M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 78% /270.043M, 8.989M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 32% /270.043M, 22.524M/s, 8s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 22% /270.043M, 15.903M/s, 13Transferred:   	    4.255G / 7.568 GBytes, 56%, 32.577 MBytes/s, ETA 1m44s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m13.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 18.573M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 82% /270.043M, 8.927M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 38% /270.043M, 23.453M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 26% /270.043M, 15.903M/s, 12Transferred:   	    4.281G / 7.568 GBytes, 57%, 32.654 MBytes/s, ETA 1m43s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m14.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 17.583M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 85% /270.043M, 8.927M/s, 4s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 38% /270.043M, 23.453M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 32% /270.043M, 19.002M/s, 9sTransferred:   	    4.318G / 7.568 GBytes, 57%, 32.810 MBytes/s, ETA 1m41s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m14.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 17.583M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 91% /270.043M, 9.866M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 41% /270.043M, 20.758M/s, 7s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 37% /270.043M, 19.002M/s, 8sTransferred:   	    4.362G / 7.568 GBytes, 58%, 33.025 MBytes/s, ETA 1m39s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m15.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 13.187M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl: 96% /270.043M, 9.866M/s, 1s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 47% /270.043M, 20.758M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 44% /270.043M, 20.740M/s, 7sTransferred:   	    4.396G / 7.568 GBytes, 58%, 33.162 MBytes/s, ETA 1m37s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m15.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 13.187M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:100% /270.043M, 11.001M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 50% /270.043M, 21.299M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 50% /270.043M, 20.740M/s, 6sTransferred:   	    4.416G / 7.568 GBytes, 58%, 33.187 MBytes/s, ETA 1m37s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           65 / 10077, 1%
+Elapsed time:      2m16.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 10.550M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000012.pkl:100% /270.043M, 11.001M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 51% /270.043M, 21.299M/s, 6s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 56% /270.043M, 23.346M/s, 5sTransferred:   	    4.443G / 7.623 GBytes, 58%, 33.270 MBytes/s, ETA 1m37s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           66 / 10078, 1%
+Elapsed time:      2m16.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * training_runs/Stanford…/training_options.json:  0% /2.288k, 0/s, -
+ * training_runs/Stanford…resumecustom/reals.png:100% /52.902M, 10.550M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 56% /270.043M, 20.151M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 62% /270.043M, 23.346M/s, 4sTransferred:   	    4.474G / 7.623 GBytes, 59%, 33.383 MBytes/s, ETA 1m36s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           67 / 10079, 1%
+Elapsed time:      2m17.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:  0% /19.315k, 0/s, -
+ * training_runs/Stanford…/training_options.json:100% /2.288k, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 62% /270.043M, 20.151M/s, 5s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 68% /270.043M, 25.167M/s, 3sTransferred:   	    4.506G / 7.623 GBytes, 59%, 33.494 MBytes/s, ETA 1m35s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           67 / 10079, 1%
+Elapsed time:      2m17.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:  0% /19.315k, 0/s, -
+ * training_runs/Stanford…/training_options.json:100% /2.288k, 2.287k/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 68% /270.043M, 21.833M/s, 3s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 74% /270.043M, 25.167M/s, 2sTransferred:   	    4.533G / 7.623 GBytes, 59%, 33.572 MBytes/s, ETA 1m34s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           67 / 10079, 1%
+Elapsed time:      2m18.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:  0% /19.315k, 0/s, -
+ * training_runs/Stanford…/training_options.json:100% /2.288k, 2.287k/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 74% /270.043M, 21.833M/s, 3s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 78% /270.043M, 25.021M/s, 2sTransferred:   	    4.549G / 7.623 GBytes, 60%, 33.570 MBytes/s, ETA 1m33s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           68 / 10079, 1%
+Elapsed time:      2m18.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ *                 .git/refs/remotes/origin/main:  0% /41, 0/s, -
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:100% /19.315k, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 75% /270.043M, 22.146M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 82% /270.043M, 25.021M/s, 1sTransferred:   	    4.560G / 7.623 GBytes, 60%, 33.536 MBytes/s, ETA 1m33s
+Errors:                 4 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           68 / 10079, 1%
+Elapsed time:      2m19.2s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ *                 .git/refs/remotes/origin/main:  0% /41, 0/s, -
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:100% /19.315k, 9.657k/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 77% /270.043M, 22.146M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 85% /270.043M, 24.900M/s, 1s
+2021-03-19 10:20:57 ERROR : .git/refs/remotes/origin/main: Failed to copy: can't copy - source file is being updated (mod time changed from 2021-03-19 10:12:47 -0500 CDT to 2021-03-19 10:20:01 -0500 CDT)
+Transferred:   	    4.570G / 7.623 GBytes, 60%, 33.576 MBytes/s, ETA 1m33s
+Errors:                 5 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           68 / 10079, 1%
+Elapsed time:      2m19.3s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ *                 .git/refs/remotes/origin/main:  0% /41, 0/s, -
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:100% /19.315k, 9.657k/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 78% /270.043M, 22.146M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 87% /270.043M, 24.900M/s, 1sTransferred:   	    4.589G / 7.623 GBytes, 60%, 33.625 MBytes/s, ETA 1m32s
+Errors:                 5 (retrying may help)
+Checks:             25145 / 25146, 100%
+Transferred:           68 / 10079, 1%
+Elapsed time:      2m19.7s
+Checking:
+ *                     .git/logs/refs/heads/main: checking
+Transferring:
+ * .git/objects/31/88f900…9acf6b97f7ff27bcd68566:100% /19.315k, 9.657k/s, 0s
+ * .git/objects/38/995e00…0b6a2d2edbdf15a546ba6f:  0% /225, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 81% /270.043M, 21.140M/s, 2s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 91% /270.043M, 24.900M/s, 0sTransferred:   	    4.615G / 7.623 GBytes, 61%, 33.696 MBytes/s, ETA 1m31s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           69 / 10079, 1%
+Elapsed time:      2m20.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:  0% /11.452k, 0/s, -
+ * .git/objects/38/995e00…0b6a2d2edbdf15a546ba6f:  0% /225, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 85% /270.043M, 21.140M/s, 1s
+ * training_runs/Stanford…rk-snapshot-000020.pkl: 97% /270.043M, 25.172M/s, 0sTransferred:   	    4.629G / 7.623 GBytes, 61%, 33.676 MBytes/s, ETA 1m31s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           69 / 10079, 1%
+Elapsed time:      2m20.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:  0% /11.452k, 0/s, -
+ * .git/objects/38/995e00…0b6a2d2edbdf15a546ba6f:100% /225, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 88% /270.043M, 21.548M/s, 1s
+ * training_runs/Stanford…rk-snapshot-000020.pkl:100% /270.043M, 25.172M/s, 0sTransferred:   	    4.644G / 7.623 GBytes, 61%, 33.670 MBytes/s, ETA 1m30s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           69 / 10079, 1%
+Elapsed time:      2m21.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:  0% /11.452k, 0/s, -
+ * .git/objects/38/995e00…0b6a2d2edbdf15a546ba6f:100% /225, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl: 94% /270.043M, 21.548M/s, 0s
+ * training_runs/Stanford…rk-snapshot-000020.pkl:100% /270.043M, 24.553M/s, 0sTransferred:   	    4.658G / 7.623 GBytes, 61%, 33.650 MBytes/s, ETA 1m30s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           70 / 10080, 1%
+Elapsed time:      2m21.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:100% /11.452k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000003.jpg:  0% /11.676k, 0/s, -
+ * .git/objects/38/995e00…0b6a2d2edbdf15a546ba6f:100% /225, 115/s, 0s
+ * training_runs/Stanford…rk-snapshot-000016.pkl:100% /270.043M, 21.623M/s, 0sTransferred:   	    4.658G / 7.623 GBytes, 61%, 33.532 MBytes/s, ETA 1m30s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           71 / 10081, 1%
+Elapsed time:      2m22.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:100% /11.452k, 5.695k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000003.jpg:100% /11.676k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000004.jpg:  0% /13.598k, 0/s, -
+ * training_runs/Stanford…rk-snapshot-000016.pkl:100% /270.043M, 21.623M/s, 0sTransferred:   	    4.658G / 7.623 GBytes, 61%, 33.415 MBytes/s, ETA 1m30s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           72 / 10082, 1%
+Elapsed time:      2m22.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000002.jpg:100% /11.452k, 5.695k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000003.jpg:100% /11.676k, 11.670k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000004.jpg:100% /13.598k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000005.jpg:  0% /13.135k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 33.297 MBytes/s, ETA 1m32s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           73 / 10083, 1%
+Elapsed time:      2m23.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000003.jpg:100% /11.676k, 11.670k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000004.jpg:100% /13.598k, 13.594k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000005.jpg:100% /13.135k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000006.jpg:  0% /14.523k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 33.182 MBytes/s, ETA 1m33s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           73 / 10084, 1%
+Elapsed time:      2m23.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000003.jpg:100% /11.676k, 5.835k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000004.jpg:100% /13.598k, 13.594k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000005.jpg:100% /13.135k, 13.131k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000006.jpg:100% /14.523k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 33.067 MBytes/s, ETA 1m33s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           75 / 10086, 1%
+Elapsed time:      2m24.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000005.jpg:100% /13.135k, 13.131k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000006.jpg:100% /14.523k, 14.520k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000007.jpg:  0% /12.166k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000009.jpg:  0% /16.018k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 32.953 MBytes/s, ETA 1m33s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           76 / 10087, 1%
+Elapsed time:      2m24.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000006.jpg:100% /14.523k, 14.520k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000007.jpg:100% /12.166k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000009.jpg:100% /16.018k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000010.jpg:100% /12.391k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 32.840 MBytes/s, ETA 1m34s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           77 / 10088, 1%
+Elapsed time:      2m25.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000007.jpg:100% /12.166k, 12.163k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000009.jpg:100% /16.018k, 16.013k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000010.jpg:100% /12.391k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000012.jpg:  0% /11.945k, 0/s, -Transferred:   	    4.658G / 7.678 GBytes, 61%, 32.727 MBytes/s, ETA 1m34s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           78 / 10089, 1%
+Elapsed time:      2m25.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000007.jpg:100% /12.166k, 12.163k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000010.jpg:100% /12.391k, 12.385k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000012.jpg:100% /11.945k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000013.jpg:  0% /12.700k, 0/s, -Transferred:   	    4.658G / 7.731 GBytes, 60%, 32.616 MBytes/s, ETA 1m36s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           79 / 10090, 1%
+Elapsed time:      2m26.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000010.jpg:100% /12.391k, 12.385k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000012.jpg:100% /11.945k, 11.942k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000013.jpg:100% /12.700k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000014.jpg:  0% /20.242k, 0/s, -Transferred:   	    4.658G / 7.731 GBytes, 60%, 32.505 MBytes/s, ETA 1m36s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           80 / 10091, 1%
+Elapsed time:      2m26.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000010.jpg:100% /12.391k, 6.192k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000013.jpg:100% /12.700k, 12.697k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000014.jpg:100% /20.242k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000015.jpg:100% /20.107k, 0/s, -Transferred:   	    4.658G / 7.731 GBytes, 60%, 32.394 MBytes/s, ETA 1m37s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           81 / 10092, 1%
+Elapsed time:      2m27.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000013.jpg:100% /12.700k, 12.697k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000014.jpg:100% /20.242k, 20.237k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000015.jpg:100% /20.107k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000017.jpg:  0% /11.644k, 0/s, -Transferred:   	    4.658G / 7.731 GBytes, 60%, 32.285 MBytes/s, ETA 1m37s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           82 / 10093, 1%
+Elapsed time:      2m27.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000014.jpg:100% /20.242k, 20.237k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000015.jpg:100% /20.107k, 20.103k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000017.jpg:100% /11.644k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000018.jpg:100% /16.756k, 0/s, -Transferred:   	    4.658G / 7.994 GBytes, 58%, 32.176 MBytes/s, ETA 1m46s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           84 / 10095, 1%
+Elapsed time:      2m28.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000017.jpg:100% /11.644k, 11.641k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000018.jpg:100% /16.756k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000019.jpg:100% /10.534k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000020.jpg:100% /14.280k, 0/s, -Transferred:   	    4.658G / 7.994 GBytes, 58%, 32.068 MBytes/s, ETA 1m46s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           84 / 10095, 1%
+Elapsed time:      2m28.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000017.jpg:100% /11.644k, 11.641k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000018.jpg:100% /16.756k, 16.752k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000019.jpg:100% /10.534k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000020.jpg:100% /14.280k, 0/s, -Transferred:   	    4.658G / 8.258 GBytes, 56%, 31.961 MBytes/s, ETA 1m55s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           85 / 10096, 1%
+Elapsed time:      2m29.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000018.jpg:100% /16.756k, 16.752k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000019.jpg:100% /10.534k, 10.531k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000020.jpg:100% /14.280k, 14.277k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000021.jpg:100% /13.418k, 0/s, -Transferred:   	    4.658G / 8.312 GBytes, 56%, 31.854 MBytes/s, ETA 1m57s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           87 / 10098, 1%
+Elapsed time:      2m29.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000019.jpg:100% /10.534k, 10.531k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000021.jpg:100% /13.418k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000022.jpg:100% /11.268k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000023.jpg:  0% /12.886k, 0/s, -Transferred:   	    4.658G / 8.312 GBytes, 56%, 31.748 MBytes/s, ETA 1m57s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           88 / 10099, 1%
+Elapsed time:      2m30.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000019.jpg:100% /10.534k, 5.266k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000022.jpg:100% /11.268k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000023.jpg:100% /12.886k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000024.jpg:  0% /14.001k, 0/s, -Transferred:   	    4.658G / 8.312 GBytes, 56%, 31.643 MBytes/s, ETA 1m58s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           89 / 10100, 1%
+Elapsed time:      2m30.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000022.jpg:100% /11.268k, 11.265k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000023.jpg:100% /12.886k, 12.883k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000024.jpg:100% /14.001k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000025.jpg:  0% /7.311k, 0/s, -Transferred:   	    4.658G / 8.576 GBytes, 54%, 31.538 MBytes/s, ETA 2m7s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           90 / 10101, 1%
+Elapsed time:      2m31.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000023.jpg:100% /12.886k, 12.883k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000024.jpg:100% /14.001k, 13.997k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000025.jpg:100% /7.311k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000026.jpg: transferringTransferred:   	    4.658G / 8.840 GBytes, 53%, 31.435 MBytes/s, ETA 2m16s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           92 / 10103, 1%
+Elapsed time:      2m31.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000025.jpg:100% /7.311k, 7.309k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000026.jpg:100% /16.087k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000027.jpg:100% /13.981k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:  0% /9.843k, 0/s, -Transferred:   	    4.658G / 8.895 GBytes, 52%, 31.331 MBytes/s, ETA 2m18s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           93 / 10104, 1%
+Elapsed time:      2m32.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000026.jpg:100% /16.087k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000027.jpg:100% /13.981k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:  0% /9.843k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000029.jpg:  0% /11.318k, 0/s, -Transferred:   	    4.658G / 8.895 GBytes, 52%, 31.229 MBytes/s, ETA 2m18s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           93 / 10104, 1%
+Elapsed time:      2m32.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000026.jpg:100% /16.087k, 16.062k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000027.jpg:100% /13.981k, 13.979k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:100% /9.843k, 9.840k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000029.jpg:100% /11.318k, 0/s, -Transferred:   	    4.658G / 8.895 GBytes, 52%, 31.127 MBytes/s, ETA 2m19s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           95 / 10106, 1%
+Elapsed time:      2m33.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:100% /9.843k, 9.840k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000029.jpg:100% /11.318k, 11.315k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000030.jpg:100% /13.537k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000031.jpg:  0% /12.611k, 0/s, -Transferred:   	    4.658G / 8.895 GBytes, 52%, 31.026 MBytes/s, ETA 2m19s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           95 / 10106, 1%
+Elapsed time:      2m33.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:100% /9.843k, 4.920k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000029.jpg:100% /11.318k, 11.315k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000030.jpg:100% /13.537k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000031.jpg:100% /12.611k, 0/s, -Transferred:   	    4.658G / 8.895 GBytes, 52%, 30.926 MBytes/s, ETA 2m20s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           96 / 10107, 1%
+Elapsed time:      2m34.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000028.jpg:100% /9.843k, 4.920k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000030.jpg:100% /13.537k, 13.533k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000031.jpg:100% /12.611k, 12.608k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000032.jpg:100% /14.194k, 0/s, -Transferred:   	    4.658G / 9.158 GBytes, 51%, 30.826 MBytes/s, ETA 2m29s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           97 / 10108, 1%
+Elapsed time:      2m34.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000030.jpg:100% /13.537k, 13.533k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000031.jpg:100% /12.611k, 12.608k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000032.jpg:100% /14.194k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000033.jpg:100% /11.756k, 0/s, -Transferred:   	    4.658G / 9.158 GBytes, 51%, 30.727 MBytes/s, ETA 2m29s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:           98 / 10109, 1%
+Elapsed time:      2m35.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000030.jpg:100% /13.537k, 6.767k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000032.jpg:100% /14.194k, 14.190k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000033.jpg:100% /11.756k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000034.jpg:100% /10.883k, 0/s, -Transferred:   	    4.658G / 9.422 GBytes, 49%, 30.628 MBytes/s, ETA 2m39s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          100 / 10111, 1%
+Elapsed time:      2m35.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000033.jpg:100% /11.756k, 11.753k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000034.jpg:100% /10.883k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000035.jpg:100% /14.631k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 0/s, -Transferred:   	    4.659G / 9.422 GBytes, 49%, 30.530 MBytes/s, ETA 2m39s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          101 / 10112, 1%
+Elapsed time:      2m36.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000034.jpg:100% /10.883k, 10.880k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000035.jpg:100% /14.631k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000037.jpg:100% /14.002k, 0/s, -Transferred:   	    4.659G / 9.422 GBytes, 49%, 30.433 MBytes/s, ETA 2m40s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          102 / 10114, 1%
+Elapsed time:      2m36.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000035.jpg:100% /14.631k, 14.627k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 12.276k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000037.jpg:100% /14.002k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000038.jpg:100% /14.801k, 0/s, -Transferred:   	    4.659G / 9.422 GBytes, 49%, 30.336 MBytes/s, ETA 2m40s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          103 / 10115, 1%
+Elapsed time:      2m37.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 12.276k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000037.jpg:100% /14.002k, 13.998k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000038.jpg:100% /14.801k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000039.jpg:100% /17.028k, 0/s, -Transferred:   	    4.659G / 9.422 GBytes, 49%, 30.240 MBytes/s, ETA 2m41s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          103 / 10115, 1%
+Elapsed time:      2m37.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 6.138k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000037.jpg:100% /14.002k, 13.998k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000038.jpg:100% /14.801k, 14.797k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000039.jpg:100% /17.028k, 0/s, -Transferred:   	    4.659G / 9.686 GBytes, 48%, 30.145 MBytes/s, ETA 2m50s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          105 / 10117, 1%
+Elapsed time:      2m38.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000036.jpg:100% /12.279k, 6.138k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000039.jpg:100% /17.028k, 17.024k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000040.jpg:100% /15.753k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000041.jpg:  0% /15.973k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 30.050 MBytes/s, ETA 3m
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          107 / 10119, 1%
+Elapsed time:      2m38.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000040.jpg:100% /15.753k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000041.jpg:100% /15.973k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000042.jpg:  0% /12.781k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:  0% /13.937k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 29.955 MBytes/s, ETA 3m
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          108 / 10120, 1%
+Elapsed time:      2m39.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000041.jpg:100% /15.973k, 15.968k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000042.jpg:  0% /12.781k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:  0% /13.937k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000044.jpg:  0% /15.090k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 29.862 MBytes/s, ETA 3m1s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          109 / 10121, 1%
+Elapsed time:      2m39.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000042.jpg:100% /12.781k, 12.778k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:100% /13.937k, 13.933k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000044.jpg:100% /15.090k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000045.jpg:  0% /8.375k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 29.769 MBytes/s, ETA 3m2s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          109 / 10121, 1%
+Elapsed time:      2m40.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000042.jpg:100% /12.781k, 12.778k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:100% /13.937k, 13.933k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000044.jpg:100% /15.090k, 15.085k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000045.jpg:100% /8.375k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 29.676 MBytes/s, ETA 3m2s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          110 / 10122, 1%
+Elapsed time:      2m40.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000042.jpg:100% /12.781k, 6.389k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:100% /13.937k, 6.966k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000045.jpg:100% /8.375k, 8.372k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000046.jpg:  0% /13.875k, 0/s, -Transferred:   	    4.659G / 9.950 GBytes, 47%, 29.584 MBytes/s, ETA 3m3s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          111 / 10123, 1%
+Elapsed time:      2m41.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000043.jpg:100% /13.937k, 6.966k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000045.jpg:100% /8.375k, 8.372k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000046.jpg:100% /13.875k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000047.jpg:100% /20.746k, 0/s, -Transferred:   	    4.659G / 10.214 GBytes, 46%, 29.493 MBytes/s, ETA 3m12s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          113 / 10125, 1%
+Elapsed time:      2m41.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000046.jpg:100% /13.875k, 13.871k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000047.jpg:100% /20.746k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000048.jpg:  0% /16.140k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000049.jpg:  0% /10.488k, 0/s, -Transferred:   	    4.659G / 10.477 GBytes, 44%, 29.402 MBytes/s, ETA 3m22s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          114 / 10126, 1%
+Elapsed time:      2m42.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000047.jpg:100% /20.746k, 20.741k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000048.jpg:100% /16.140k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000049.jpg:100% /10.488k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000050.jpg:  0% /16.273k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 29.312 MBytes/s, ETA 3m34s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          115 / 10127, 1%
+Elapsed time:      2m42.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000048.jpg:100% /16.140k, 16.136k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000049.jpg:100% /10.488k, 10.485k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000050.jpg:100% /16.273k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:  0% /12.656k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 29.222 MBytes/s, ETA 3m35s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          116 / 10128, 1%
+Elapsed time:      2m43.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000048.jpg:100% /16.140k, 16.136k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000050.jpg:100% /16.273k, 16.269k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:  0% /12.656k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000052.jpg:  0% /13.743k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 29.133 MBytes/s, ETA 3m36s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          117 / 10129, 1%
+Elapsed time:      2m43.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000048.jpg:100% /16.140k, 8.067k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:  0% /12.656k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000052.jpg:100% /13.743k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:  0% /20.688k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 29.044 MBytes/s, ETA 3m36s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          118 / 10130, 1%
+Elapsed time:      2m44.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:100% /12.656k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000052.jpg:100% /13.743k, 13.739k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:  0% /20.688k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000054.jpg:  0% /22.048k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 28.957 MBytes/s, ETA 3m37s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          119 / 10131, 1%
+Elapsed time:      2m44.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:100% /12.656k, 6.327k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:100% /20.688k, 20.682k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000054.jpg:100% /22.048k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000055.jpg:  0% /18k, 0/s, -Transferred:   	    4.659G / 10.805 GBytes, 43%, 28.869 MBytes/s, ETA 3m37s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          119 / 10131, 1%
+Elapsed time:      2m45.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000051.jpg:100% /12.656k, 6.327k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:100% /20.688k, 20.682k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000054.jpg:100% /22.048k, 22.042k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000055.jpg:100% /18k, 0/s, -Transferred:   	    4.659G / 11.068 GBytes, 42%, 28.782 MBytes/s, ETA 3m48s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          121 / 10133, 1%
+Elapsed time:      2m45.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:100% /20.688k, 10.341k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000055.jpg:100% /18k, 17.995k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000057.jpg:100% /13.926k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000058.jpg:  0% /10.958k, 0/s, -Transferred:   	    4.659G / 11.332 GBytes, 41%, 28.696 MBytes/s, ETA 3m58s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          122 / 10134, 1%
+Elapsed time:      2m46.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:100% /20.688k, 10.341k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000057.jpg:100% /13.926k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000058.jpg:100% /10.958k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000059.jpg:  0% /16.671k, 0/s, -Transferred:   	    4.659G / 11.332 GBytes, 41%, 28.609 MBytes/s, ETA 3m58s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          122 / 10134, 1%
+Elapsed time:      2m46.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000053.jpg:100% /20.688k, 6.894k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000057.jpg:100% /13.926k, 13.923k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000058.jpg:100% /10.958k, 10.955k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000059.jpg:  0% /16.671k, 0/s, -Transferred:   	    4.659G / 11.659 GBytes, 40%, 28.524 MBytes/s, ETA 4m11s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          124 / 10136, 1%
+Elapsed time:      2m47.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000058.jpg:100% /10.958k, 10.955k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000059.jpg:  0% /16.671k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000060.jpg:100% /22.593k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000061.jpg:  0% /11.018k, 0/s, -Transferred:   	    4.659G / 11.659 GBytes, 40%, 28.439 MBytes/s, ETA 4m12s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          125 / 10137, 1%
+Elapsed time:      2m47.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000059.jpg:100% /16.671k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000060.jpg:100% /22.593k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000061.jpg:  0% /11.018k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 0/s, -Transferred:   	    4.659G / 11.659 GBytes, 40%, 28.355 MBytes/s, ETA 4m12s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          125 / 10137, 1%
+Elapsed time:      2m48.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000059.jpg:100% /16.671k, 8.335k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000060.jpg:100% /22.593k, 22.588k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000061.jpg:100% /11.018k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 0/s, -Transferred:   	    4.659G / 11.660 GBytes, 40%, 28.271 MBytes/s, ETA 4m13s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          127 / 10139, 1%
+Elapsed time:      2m48.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000061.jpg:100% /11.018k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 12.248k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000063.jpg:100% /10.894k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000064.jpg:  0% /12.627k, 0/s, -Transferred:   	    4.659G / 11.923 GBytes, 39%, 28.187 MBytes/s, ETA 4m23s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          128 / 10140, 1%
+Elapsed time:      2m49.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 12.248k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000063.jpg:100% /10.894k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000064.jpg:100% /12.627k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000065.jpg:  0% /16.521k, 0/s, -Transferred:   	    4.659G / 11.923 GBytes, 39%, 28.104 MBytes/s, ETA 4m24s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          128 / 10140, 1%
+Elapsed time:      2m49.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 6.124k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000063.jpg:100% /10.894k, 10.891k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000064.jpg:100% /12.627k, 12.624k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000065.jpg:100% /16.521k, 0/s, -Transferred:   	    4.659G / 12.187 GBytes, 38%, 28.022 MBytes/s, ETA 4m35s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          130 / 10142, 1%
+Elapsed time:      2m50.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 6.124k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000065.jpg:100% /16.521k, 16.517k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000066.jpg:  0% /18.073k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000067.jpg:  0% /10.773k, 0/s, -Transferred:   	    4.659G / 12.514 GBytes, 37%, 27.940 MBytes/s, ETA 4m47s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          131 / 10143, 1%
+Elapsed time:      2m50.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 4.082k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000066.jpg:  0% /18.073k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000067.jpg:100% /10.773k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000068.jpg:100% /9.910k, 0/s, -Transferred:   	    4.659G / 12.514 GBytes, 37%, 27.858 MBytes/s, ETA 4m48s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          131 / 10143, 1%
+Elapsed time:      2m51.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000062.jpg:100% /12.251k, 4.082k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000066.jpg:100% /18.073k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000067.jpg:100% /10.773k, 10.771k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000068.jpg:100% /9.910k, 0/s, -Transferred:   	    4.659G / 12.514 GBytes, 37%, 27.777 MBytes/s, ETA 4m49s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          133 / 10145, 1%
+Elapsed time:      2m51.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000066.jpg:100% /18.073k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000068.jpg:100% /9.910k, 9.907k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000069.jpg:100% /17.452k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000070.jpg:  0% /12.726k, 0/s, -Transferred:   	    4.659G / 12.514 GBytes, 37%, 27.697 MBytes/s, ETA 4m50s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          134 / 10146, 1%
+Elapsed time:      2m52.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000066.jpg:100% /18.073k, 9.036k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000069.jpg:100% /17.452k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000070.jpg:100% /12.726k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000071.jpg:100% /15.298k, 0/s, -Transferred:   	    4.659G / 12.514 GBytes, 37%, 27.617 MBytes/s, ETA 4m51s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          135 / 10147, 1%
+Elapsed time:      2m52.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000069.jpg:100% /17.452k, 17.447k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000070.jpg:100% /12.726k, 12.723k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000071.jpg:100% /15.298k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000072.jpg:  0% /12.545k, 0/s, -Transferred:   	    4.659G / 12.778 GBytes, 36%, 27.537 MBytes/s, ETA 5m1s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          136 / 10148, 1%
+Elapsed time:      2m53.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000070.jpg:100% /12.726k, 12.723k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000071.jpg:100% /15.298k, 15.294k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000072.jpg:  0% /12.545k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000073.jpg:  0% /19.632k, 0/s, -Transferred:   	    4.659G / 12.778 GBytes, 36%, 27.458 MBytes/s, ETA 5m2s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          137 / 10149, 1%
+Elapsed time:      2m53.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000070.jpg:100% /12.726k, 6.361k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000072.jpg:100% /12.545k, 12.542k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000073.jpg:100% /19.632k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000074.jpg:100% /22.731k, 0/s, -Transferred:   	    4.659G / 13.042 GBytes, 36%, 27.379 MBytes/s, ETA 5m13s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          138 / 10150, 1%
+Elapsed time:      2m54.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000072.jpg:100% /12.545k, 12.542k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000073.jpg:100% /19.632k, 19.627k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000074.jpg:100% /22.731k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:  0% /13.649k, 0/s, -Transferred:   	    4.659G / 13.369 GBytes, 35%, 27.301 MBytes/s, ETA 5m26s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          139 / 10151, 1%
+Elapsed time:      2m54.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000073.jpg:100% /19.632k, 19.627k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000074.jpg:100% /22.731k, 22.726k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:  0% /13.649k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000077.jpg:100% /13.679k, 0/s, -Transferred:   	    4.659G / 13.369 GBytes, 35%, 27.223 MBytes/s, ETA 5m27s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          140 / 10152, 1%
+Elapsed time:      2m55.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000074.jpg:100% /22.731k, 22.726k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:  0% /13.649k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000077.jpg:100% /13.679k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000078.jpg:  0% /13.912k, 0/s, -Transferred:   	    4.659G / 13.369 GBytes, 35%, 27.146 MBytes/s, ETA 5m28s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          141 / 10153, 1%
+Elapsed time:      2m55.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:100% /13.649k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000077.jpg:100% /13.679k, 13.675k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000078.jpg:100% /13.912k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:  0% /19.474k, 0/s, -Transferred:   	    4.659G / 13.369 GBytes, 35%, 27.069 MBytes/s, ETA 5m29s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          142 / 10154, 1%
+Elapsed time:      2m56.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:100% /13.649k, 6.824k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000078.jpg:100% /13.912k, 13.907k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:  0% /19.474k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000081.jpg:100% /11.981k, 0/s, -Transferred:   	    4.659G / 13.369 GBytes, 35%, 26.993 MBytes/s, ETA 5m30s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          143 / 10155, 1%
+Elapsed time:      2m56.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000075.jpg:100% /13.649k, 6.824k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:100% /19.474k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000081.jpg:100% /11.981k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000082.jpg:  0% /13.105k, 0/s, -Transferred:   	    4.659G / 13.633 GBytes, 34%, 26.916 MBytes/s, ETA 5m41s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          144 / 10156, 1%
+Elapsed time:      2m57.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:100% /19.474k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000081.jpg:100% /11.981k, 11.979k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000082.jpg:100% /13.105k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:  0% /13.271k, 0/s, -Transferred:   	    4.659G / 13.633 GBytes, 34%, 26.841 MBytes/s, ETA 5m42s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          145 / 10157, 1%
+Elapsed time:      2m57.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:100% /19.474k, 9.736k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000082.jpg:100% /13.105k, 13.102k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:  0% /13.271k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:  0% /11.371k, 0/s, -Transferred:   	    4.659G / 13.633 GBytes, 34%, 26.765 MBytes/s, ETA 5m43s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          145 / 10157, 1%
+Elapsed time:      2m58.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000079.jpg:100% /19.474k, 9.736k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000082.jpg:100% /13.105k, 13.102k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:  0% /13.271k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:  0% /11.371k, 0/s, -Transferred:   	    4.659G / 14.224 GBytes, 33%, 26.691 MBytes/s, ETA 6m6s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          147 / 10159, 1%
+Elapsed time:      2m58.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:  0% /13.271k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:  0% /11.371k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000085.jpg:100% /12.058k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000086.jpg:100% /12.640k, 0/s, -Transferred:   	    4.659G / 14.224 GBytes, 33%, 26.616 MBytes/s, ETA 6m7s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          147 / 10159, 1%
+Elapsed time:      2m59.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:100% /13.271k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:100% /11.371k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000085.jpg:100% /12.058k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000086.jpg:100% /12.640k, 0/s, -Transferred:   	    4.659G / 14.224 GBytes, 33%, 26.542 MBytes/s, ETA 6m9s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          147 / 10159, 1%
+Elapsed time:      2m59.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:100% /13.271k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:100% /11.371k, 5.686k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000085.jpg:100% /12.058k, 12.055k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000086.jpg:100% /12.640k, 12.637k/s, 0sTransferred:   	    4.659G / 14.224 GBytes, 33%, 26.469 MBytes/s, ETA 6m10s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          149 / 10161, 1%
+Elapsed time:       3m0.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000083.jpg:100% /13.271k, 4.423k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:100% /11.371k, 5.686k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000087.jpg:100% /12.345k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000088.jpg:  0% /14.098k, 0/s, -Transferred:   	    4.659G / 14.224 GBytes, 33%, 26.396 MBytes/s, ETA 6m11s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          150 / 10162, 1%
+Elapsed time:       3m0.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:100% /11.371k, 3.790k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000087.jpg:100% /12.345k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000088.jpg:100% /14.098k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000089.jpg:  0% /17.028k, 0/s, -Transferred:   	    4.659G / 14.224 GBytes, 33%, 26.323 MBytes/s, ETA 6m12s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          150 / 10162, 1%
+Elapsed time:       3m1.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000084.jpg:100% /11.371k, 3.790k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000087.jpg:100% /12.345k, 12.341k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000088.jpg:100% /14.098k, 14.095k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000089.jpg:  0% /17.028k, 0/s, -Transferred:   	    4.659G / 14.488 GBytes, 32%, 26.251 MBytes/s, ETA 6m23s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          152 / 10164, 1%
+Elapsed time:       3m1.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000088.jpg:100% /14.098k, 14.095k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000089.jpg:  0% /17.028k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000091.jpg:100% /18.487k, 0/s, -Transferred:   	    4.659G / 14.488 GBytes, 32%, 26.179 MBytes/s, ETA 6m24s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          153 / 10165, 2%
+Elapsed time:       3m2.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000089.jpg:100% /17.028k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000091.jpg:100% /18.487k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000092.jpg:100% /14.237k, 0/s, -Transferred:   	    4.659G / 14.751 GBytes, 32%, 26.107 MBytes/s, ETA 6m35s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          154 / 10166, 2%
+Elapsed time:       3m2.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000089.jpg:100% /17.028k, 8.514k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 12.229k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000092.jpg:100% /14.237k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000093.jpg:  0% /14.260k, 0/s, -Transferred:   	    4.659G / 15.079 GBytes, 31%, 26.036 MBytes/s, ETA 6m49s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          155 / 10167, 2%
+Elapsed time:       3m3.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 12.229k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000092.jpg:100% /14.237k, 14.233k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000093.jpg:100% /14.260k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000094.jpg:  0% /15.407k, 0/s, -Transferred:   	    4.659G / 15.079 GBytes, 31%, 25.965 MBytes/s, ETA 6m50s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          156 / 10168, 2%
+Elapsed time:       3m3.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 6.114k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000093.jpg:100% /14.260k, 14.252k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000094.jpg:100% /15.407k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000095.jpg:  0% /11.427k, 0/s, -Transferred:   	    4.659G / 15.079 GBytes, 31%, 25.895 MBytes/s, ETA 6m52s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          156 / 10168, 2%
+Elapsed time:       3m4.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000090.jpg:100% /12.233k, 6.114k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000093.jpg:100% /14.260k, 14.252k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000094.jpg:100% /15.407k, 15.402k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000095.jpg:100% /11.427k, 0/s, -Transferred:   	    4.659G / 15.079 GBytes, 31%, 25.825 MBytes/s, ETA 6m53s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          157 / 10169, 2%
+Elapsed time:       3m4.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000093.jpg:100% /14.260k, 7.126k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000094.jpg:100% /15.407k, 15.402k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000095.jpg:100% /11.427k, 11.423k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000097.jpg:100% /12.429k, 0/s, -Transferred:   	    4.659G / 15.079 GBytes, 31%, 25.755 MBytes/s, ETA 6m54s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          159 / 10171, 2%
+Elapsed time:       3m5.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000095.jpg:100% /11.427k, 11.423k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000097.jpg:100% /12.429k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000098.jpg:100% /10.877k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000099.jpg:100% /8.712k, 0/s, -Transferred:   	    4.659G / 15.343 GBytes, 30%, 25.686 MBytes/s, ETA 7m5s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          161 / 10173, 2%
+Elapsed time:       3m5.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000098.jpg:100% /10.877k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000099.jpg:100% /8.712k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000100.jpg:100% /8.293k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000101.jpg:  0% /21.355k, 0/s, -Transferred:   	    4.659G / 15.343 GBytes, 30%, 25.617 MBytes/s, ETA 7m7s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          161 / 10173, 2%
+Elapsed time:       3m6.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000098.jpg:100% /10.877k, 10.874k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000099.jpg:100% /8.712k, 8.709k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000100.jpg:100% /8.293k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000101.jpg:100% /21.355k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.549 MBytes/s, ETA 7m18s
+Errors:                 5 (retrying may help)
+Checks:             25146 / 25146, 100%
+Transferred:          162 / 10174, 2%
+Elapsed time:       3m6.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000098.jpg:100% /10.877k, 10.874k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000100.jpg:100% /8.293k, 8.290k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000101.jpg:100% /21.355k, 21.351k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000102.jpg:100% /14.869k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.480 MBytes/s, ETA 7m19s
+Errors:                 5 (retrying may help)
+Checks:             25229 / 25230, 100%
+Transferred:          164 / 10176, 2%
+Elapsed time:       3m7.2s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000101.jpg:100% /21.355k, 21.351k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000102.jpg:100% /14.869k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:  0% /17.389k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.413 MBytes/s, ETA 7m21s
+Errors:                 5 (retrying may help)
+Checks:             25229 / 25230, 100%
+Transferred:          165 / 10177, 2%
+Elapsed time:       3m7.7s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000102.jpg:100% /14.869k, 14.865k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000105.jpg:100% /19.623k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.345 MBytes/s, ETA 7m22s
+Errors:                 5 (retrying may help)
+Checks:             25384 / 25385, 100%
+Transferred:          166 / 10179, 2%
+Elapsed time:       3m8.2s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 18.045k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 17.385k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000105.jpg:100% /19.623k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000106.jpg:100% /10.670k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.278 MBytes/s, ETA 7m23s
+Errors:                 5 (retrying may help)
+Checks:             25384 / 25385, 100%
+Transferred:          166 / 10179, 2%
+Elapsed time:       3m8.7s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 18.045k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 17.385k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000105.jpg:100% /19.623k, 19.618k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000106.jpg:100% /10.670k, 0/s, -Transferred:   	    4.659G / 15.606 GBytes, 30%, 25.212 MBytes/s, ETA 7m24s
+Errors:                 5 (retrying may help)
+Checks:             25384 / 25385, 100%
+Transferred:          167 / 10180, 2%
+Elapsed time:       3m9.2s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 9.022k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 8.692k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000106.jpg:100% /10.670k, 10.666k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000107.jpg:100% /18.760k, 0/s, -Transferred:   	    4.659G / 15.870 GBytes, 29%, 25.145 MBytes/s, ETA 7m36s
+Errors:                 5 (retrying may help)
+Checks:             25384 / 25385, 100%
+Transferred:          168 / 10181, 2%
+Elapsed time:       3m9.7s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000103.jpg:100% /18.047k, 9.022k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 8.692k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000107.jpg:100% /18.760k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000109.jpg:100% /10.062k, 0/s, -Transferred:   	    4.659G / 16.134 GBytes, 29%, 25.079 MBytes/s, ETA 7m48s
+Errors:                 5 (retrying may help)
+Checks:             25384 / 25385, 100%
+Transferred:          170 / 10183, 2%
+Elapsed time:      3m10.2s
+Checking:
+ * training_runs/metfaces…3201.crane.hcc.unl.edu: checking
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000104.jpg:100% /17.389k, 5.795k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000109.jpg:100% /10.062k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000110.jpg:100% /13.587k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000111.jpg:  0% /17.178k, 0/s, -Transferred:   	    4.659G / 16.134 GBytes, 29%, 25.013 MBytes/s, ETA 7m49s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          171 / 10183, 2%
+Elapsed time:      3m10.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000109.jpg:100% /10.062k, 10.059k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000110.jpg:100% /13.587k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000111.jpg:100% /17.178k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000112.jpg:  0% /6.524k, 0/s, -Transferred:   	    4.659G / 16.134 GBytes, 29%, 24.948 MBytes/s, ETA 7m50s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          171 / 10183, 2%
+Elapsed time:      3m11.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000109.jpg:100% /10.062k, 10.059k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000110.jpg:100% /13.587k, 13.571k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000111.jpg:100% /17.178k, 17.173k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000112.jpg:100% /6.524k, 0/s, -Transferred:   	    4.659G / 16.134 GBytes, 29%, 24.883 MBytes/s, ETA 7m52s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          173 / 10185, 2%
+Elapsed time:      3m11.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000111.jpg:100% /17.178k, 17.173k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000112.jpg:100% /6.524k, 6.522k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000113.jpg:100% /10.243k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:  0% /17.607k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.819 MBytes/s, ETA 7m53s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          175 / 10187, 2%
+Elapsed time:      3m12.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000113.jpg:100% /10.243k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:100% /17.607k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000115.jpg:100% /14.673k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000116.jpg:  0% /10.651k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.754 MBytes/s, ETA 7m54s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          175 / 10187, 2%
+Elapsed time:      3m12.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000113.jpg:100% /10.243k, 10.240k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:100% /17.607k, 17.604k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000115.jpg:100% /14.673k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000116.jpg:100% /10.651k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.690 MBytes/s, ETA 7m55s
+Errors:                 5 (retrying may help)
+Checks:             25385 / 25385, 100%
+Transferred:          176 / 10188, 2%
+Elapsed time:      3m13.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:100% /17.607k, 17.604k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000115.jpg:100% /14.673k, 14.669k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000116.jpg:100% /10.651k, 10.648k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000117.jpg:100% /15.999k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.627 MBytes/s, ETA 7m57s
+Errors:                 5 (retrying may help)
+Checks:             25560 / 25560, 100%
+Transferred:          177 / 10188, 2%
+Elapsed time:      3m13.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:100% /17.607k, 8.802k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000116.jpg:100% /10.651k, 10.648k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000117.jpg:100% /15.999k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000118.jpg:100% /13.416k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.563 MBytes/s, ETA 7m58s
+Errors:                 5 (retrying may help)
+Checks:             25560 / 25560, 100%
+Transferred:          178 / 10190, 2%
+Elapsed time:      3m14.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000114.jpg:100% /17.607k, 8.802k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000117.jpg:100% /15.999k, 15.994k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000118.jpg:100% /13.416k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000119.jpg:100% /10.191k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.500 MBytes/s, ETA 7m59s
+Errors:                 5 (retrying may help)
+Checks:             25733 / 25733, 100%
+Transferred:          179 / 10190, 2%
+Elapsed time:      3m14.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000117.jpg:100% /15.999k, 15.994k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000118.jpg:100% /13.416k, 13.410k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000119.jpg:100% /10.191k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000120.jpg:100% /17.390k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.438 MBytes/s, ETA 8m
+Errors:                 5 (retrying may help)
+Checks:             25733 / 25733, 100%
+Transferred:          180 / 10191, 2%
+Elapsed time:      3m15.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000117.jpg:100% /15.999k, 7.997k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000119.jpg:100% /10.191k, 10.188k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000120.jpg:100% /17.390k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000121.jpg:  0% /11.446k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.375 MBytes/s, ETA 8m2s
+Errors:                 5 (retrying may help)
+Checks:             25918 / 25918, 100%
+Transferred:          182 / 10193, 2%
+Elapsed time:      3m15.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000120.jpg:100% /17.390k, 17.388k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000121.jpg:100% /11.446k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000122.jpg:100% /13.469k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000124.jpg:100% /10.980k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.313 MBytes/s, ETA 8m3s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          183 / 10194, 2%
+Elapsed time:      3m16.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000121.jpg:100% /11.446k, 11.443k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000122.jpg:100% /13.469k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000124.jpg:100% /10.980k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000125.jpg:100% /12.489k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.252 MBytes/s, ETA 8m4s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          184 / 10195, 2%
+Elapsed time:      3m16.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000122.jpg:100% /13.469k, 13.466k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000124.jpg:100% /10.980k, 10.979k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000125.jpg:100% /12.489k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000126.jpg:100% /10.054k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.190 MBytes/s, ETA 8m5s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          185 / 10196, 2%
+Elapsed time:      3m17.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000122.jpg:100% /13.469k, 13.466k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000125.jpg:100% /12.489k, 12.486k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000126.jpg:100% /10.054k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000127.jpg:100% /9.406k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.129 MBytes/s, ETA 8m6s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          186 / 10197, 2%
+Elapsed time:      3m17.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000122.jpg:100% /13.469k, 6.732k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000126.jpg:100% /10.054k, 10.052k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000127.jpg:100% /9.406k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000128.jpg:100% /10.364k, 0/s, -Transferred:   	    4.660G / 16.134 GBytes, 29%, 24.068 MBytes/s, ETA 8m8s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          188 / 10199, 2%
+Elapsed time:      3m18.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000127.jpg:100% /9.406k, 9.400k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000128.jpg:100% /10.364k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000129.jpg:100% /12.983k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000130.jpg:  0% /19.848k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 24.008 MBytes/s, ETA 8m9s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          189 / 10200, 2%
+Elapsed time:      3m18.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000128.jpg:100% /10.364k, 10.361k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000129.jpg:100% /12.983k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000130.jpg:100% /19.848k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000131.jpg:  0% /16.463k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.948 MBytes/s, ETA 8m10s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          189 / 10200, 2%
+Elapsed time:      3m19.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000128.jpg:100% /10.364k, 10.361k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000129.jpg:100% /12.983k, 12.979k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000130.jpg:100% /19.848k, 19.842k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000131.jpg:100% /16.463k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.888 MBytes/s, ETA 8m11s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          190 / 10200, 2%
+Elapsed time:      3m19.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000128.jpg:100% /10.364k, 5.181k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000130.jpg:100% /19.848k, 19.842k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000131.jpg:100% /16.463k, 16.459k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000132.jpg:100% /13.101k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.828 MBytes/s, ETA 8m13s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          192 / 10202, 2%
+Elapsed time:      3m20.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000131.jpg:100% /16.463k, 16.459k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000132.jpg:100% /13.101k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000133.jpg:100% /21.554k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000134.jpg:100% /19.765k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.769 MBytes/s, ETA 8m14s
+Errors:                 5 (retrying may help)
+Checks:             25926 / 25926, 100%
+Transferred:          193 / 10203, 2%
+Elapsed time:      3m20.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000132.jpg:100% /13.101k, 13.007k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000133.jpg:100% /21.554k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000134.jpg:100% /19.765k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000135.jpg:100% /17.381k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.710 MBytes/s, ETA 8m15s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          194 / 10204, 2%
+Elapsed time:      3m21.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000133.jpg:100% /21.554k, 21.548k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000134.jpg:100% /19.765k, 19.761k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000135.jpg:100% /17.381k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000137.jpg:100% /14.373k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.651 MBytes/s, ETA 8m16s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          195 / 10205, 2%
+Elapsed time:      3m21.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000133.jpg:100% /21.554k, 21.548k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000135.jpg:100% /17.381k, 17.376k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000137.jpg:100% /14.373k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000138.jpg:100% /12.283k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.593 MBytes/s, ETA 8m18s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          196 / 10206, 2%
+Elapsed time:      3m22.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000133.jpg:100% /21.554k, 10.773k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000137.jpg:100% /14.373k, 14.370k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000138.jpg:100% /12.283k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000139.jpg:100% /14.094k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.535 MBytes/s, ETA 8m19s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          197 / 10207, 2%
+Elapsed time:      3m22.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000137.jpg:100% /14.373k, 14.370k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000138.jpg:100% /12.283k, 12.279k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000139.jpg:100% /14.094k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000140.jpg:100% /22.536k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.477 MBytes/s, ETA 8m20s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          198 / 10208, 2%
+Elapsed time:      3m23.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000137.jpg:100% /14.373k, 7.185k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000139.jpg:100% /14.094k, 14.090k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000140.jpg:100% /22.536k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000141.jpg:100% /16.182k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.420 MBytes/s, ETA 8m21s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          201 / 10211, 2%
+Elapsed time:      3m23.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000141.jpg:100% /16.182k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000142.jpg:100% /15.512k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000143.jpg:100% /13.570k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000144.jpg:  0% /7.909k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.362 MBytes/s, ETA 8m22s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          201 / 10211, 2%
+Elapsed time:      3m24.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000141.jpg:100% /16.182k, 16.177k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000142.jpg:100% /15.512k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000143.jpg:100% /13.570k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000144.jpg:100% /7.909k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.305 MBytes/s, ETA 8m24s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          203 / 10213, 2%
+Elapsed time:      3m24.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000143.jpg:100% /13.570k, 13.566k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000144.jpg:100% /7.909k, 7.907k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000145.jpg:100% /13.289k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:  0% /15.211k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.249 MBytes/s, ETA 8m25s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          203 / 10213, 2%
+Elapsed time:      3m25.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000143.jpg:100% /13.570k, 13.566k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000144.jpg:100% /7.909k, 7.907k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000145.jpg:100% /13.289k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:100% /15.211k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.192 MBytes/s, ETA 8m26s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          204 / 10214, 2%
+Elapsed time:      3m25.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000143.jpg:100% /13.570k, 6.783k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000145.jpg:100% /13.289k, 13.285k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:100% /15.211k, 15.207k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000147.jpg:100% /13.585k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.136 MBytes/s, ETA 8m27s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          205 / 10215, 2%
+Elapsed time:      3m26.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000145.jpg:100% /13.289k, 13.285k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:100% /15.211k, 15.207k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000147.jpg:100% /13.585k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000148.jpg:100% /8.702k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.080 MBytes/s, ETA 8m29s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          206 / 10216, 2%
+Elapsed time:      3m26.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:100% /15.211k, 7.604k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000147.jpg:100% /13.585k, 13.581k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000148.jpg:100% /8.702k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000149.jpg:100% /13.104k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 23.024 MBytes/s, ETA 8m30s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          206 / 10216, 2%
+Elapsed time:      3m27.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000146.jpg:100% /15.211k, 7.604k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000147.jpg:100% /13.585k, 13.581k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000148.jpg:100% /8.702k, 8.699k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000149.jpg:100% /13.104k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.969 MBytes/s, ETA 8m31s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          209 / 10219, 2%
+Elapsed time:      3m27.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000149.jpg:100% /13.104k, 13.100k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000150.jpg:100% /14.365k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000151.jpg:100% /13.063k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000153.jpg:100% /14.099k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.914 MBytes/s, ETA 8m32s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          210 / 10220, 2%
+Elapsed time:      3m28.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000150.jpg:100% /14.365k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000151.jpg:100% /13.063k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000153.jpg:100% /14.099k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.859 MBytes/s, ETA 8m34s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          211 / 10221, 2%
+Elapsed time:      3m28.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000151.jpg:100% /13.063k, 13.061k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000153.jpg:100% /14.099k, 14.096k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000155.jpg:  0% /12.638k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.805 MBytes/s, ETA 8m35s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          212 / 10222, 2%
+Elapsed time:      3m29.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000151.jpg:100% /13.063k, 13.061k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 12.723k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000155.jpg:100% /12.638k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000156.jpg:  0% /13.104k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.750 MBytes/s, ETA 8m36s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          213 / 10223, 2%
+Elapsed time:      3m29.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 12.723k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000155.jpg:100% /12.638k, 12.634k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000156.jpg:100% /13.104k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.696 MBytes/s, ETA 8m37s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          214 / 10224, 2%
+Elapsed time:      3m30.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 6.361k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000156.jpg:100% /13.104k, 13.100k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000158.jpg:  0% /14.821k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.642 MBytes/s, ETA 8m38s
+Errors:                 5 (retrying may help)
+Checks:             26181 / 26181, 100%
+Transferred:          215 / 10225, 2%
+Elapsed time:      3m30.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 6.361k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 9.688k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000158.jpg:100% /14.821k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000159.jpg:  0% /14.055k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.589 MBytes/s, ETA 8m40s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          215 / 10226, 2%
+Elapsed time:      3m31.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 4.240k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 9.688k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000158.jpg:100% /14.821k, 14.817k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000159.jpg:100% /14.055k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.536 MBytes/s, ETA 8m41s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          216 / 10227, 2%
+Elapsed time:      3m31.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 4.240k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 4.844k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000159.jpg:100% /14.055k, 14.051k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000160.jpg:100% /12.961k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.483 MBytes/s, ETA 8m42s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          216 / 10227, 2%
+Elapsed time:      3m32.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 3.181k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 4.844k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000159.jpg:100% /14.055k, 14.051k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000160.jpg:100% /12.961k, 0/s, -Transferred:   	    4.660G / 16.135 GBytes, 29%, 22.430 MBytes/s, ETA 8m43s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          217 / 10228, 2%
+Elapsed time:      3m32.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 3.181k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 3.229k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000160.jpg:100% /12.961k, 12.957k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000161.jpg:100% /12.415k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.377 MBytes/s, ETA 8m45s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          218 / 10229, 2%
+Elapsed time:      3m33.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 2.544k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 3.229k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000161.jpg:100% /12.415k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000163.jpg:100% /26.318k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.325 MBytes/s, ETA 8m46s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          218 / 10229, 2%
+Elapsed time:      3m33.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 2.544k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 2.422k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000161.jpg:100% /12.415k, 12.412k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000163.jpg:100% /26.318k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.273 MBytes/s, ETA 8m47s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          219 / 10230, 2%
+Elapsed time:      3m34.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 2.120k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 2.422k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000163.jpg:100% /26.318k, 26.312k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000164.jpg:  0% /9.457k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.221 MBytes/s, ETA 8m48s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          220 / 10231, 2%
+Elapsed time:      3m34.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 2.120k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 1.938k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000164.jpg:100% /9.457k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000166.jpg:  0% /11.697k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.170 MBytes/s, ETA 8m50s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          220 / 10231, 2%
+Elapsed time:      3m35.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 1.817k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000157.jpg:100% /9.750k, 1.938k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000164.jpg:100% /9.457k, 9.454k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000166.jpg:100% /11.697k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.118 MBytes/s, ETA 8m51s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          221 / 10232, 2%
+Elapsed time:      3m35.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 1.817k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000164.jpg:100% /9.457k, 9.454k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000166.jpg:100% /11.697k, 11.693k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000167.jpg:100% /17.549k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.067 MBytes/s, ETA 8m52s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          223 / 10233, 2%
+Elapsed time:      3m36.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 1.590k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000167.jpg:100% /17.549k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000168.jpg:100% /15.606k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000169.jpg:  0% /16.217k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 22.016 MBytes/s, ETA 8m53s
+Errors:                 5 (retrying may help)
+Checks:             27517 / 27517, 100%
+Transferred:          223 / 10233, 2%
+Elapsed time:      3m36.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 1.590k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000167.jpg:100% /17.549k, 17.544k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000168.jpg:100% /15.606k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000169.jpg:100% /16.217k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.966 MBytes/s, ETA 8m54s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          224 / 10234, 2%
+Elapsed time:      3m37.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000154.jpg:100% /12.725k, 1.413k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000168.jpg:100% /15.606k, 15.604k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000169.jpg:100% /16.217k, 16.213k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.915 MBytes/s, ETA 8m56s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          226 / 10236, 2%
+Elapsed time:      3m37.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000169.jpg:100% /16.217k, 16.213k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000171.jpg:100% /14.961k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000172.jpg:  0% /17.279k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.865 MBytes/s, ETA 8m57s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          227 / 10237, 2%
+Elapsed time:      3m38.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 11.741k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000171.jpg:100% /14.961k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000172.jpg:100% /17.279k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000173.jpg:  0% /18.746k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.815 MBytes/s, ETA 8m58s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          227 / 10237, 2%
+Elapsed time:      3m38.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 11.741k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000171.jpg:100% /14.961k, 14.957k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000172.jpg:100% /17.279k, 17.275k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000173.jpg:100% /18.746k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.766 MBytes/s, ETA 8m59s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          229 / 10239, 2%
+Elapsed time:      3m39.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 5.870k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000173.jpg:100% /18.746k, 18.740k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000178.jpg:100% /11.298k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000179.jpg:  0% /13.037k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.716 MBytes/s, ETA 9m1s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          229 / 10239, 2%
+Elapsed time:      3m39.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000170.jpg:100% /11.744k, 5.870k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000173.jpg:100% /18.746k, 18.740k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000178.jpg:100% /11.298k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000179.jpg:100% /13.037k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.667 MBytes/s, ETA 9m2s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          230 / 10240, 2%
+Elapsed time:      3m40.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000173.jpg:100% /18.746k, 9.370k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000178.jpg:100% /11.298k, 11.295k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000179.jpg:100% /13.037k, 13.033k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000181.jpg:100% /12.664k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.618 MBytes/s, ETA 9m3s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          233 / 10243, 2%
+Elapsed time:      3m40.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000181.jpg:100% /12.664k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000185.jpg:100% /16.783k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000186.jpg:  0% /15.979k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000187.jpg:  0% /13.273k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.569 MBytes/s, ETA 9m4s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          234 / 10244, 2%
+Elapsed time:      3m41.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000185.jpg:100% /16.783k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000186.jpg:100% /15.979k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000187.jpg:100% /13.273k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000188.jpg:  0% /11.971k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.521 MBytes/s, ETA 9m6s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          234 / 10244, 2%
+Elapsed time:      3m41.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000185.jpg:100% /16.783k, 16.778k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000186.jpg:100% /15.979k, 15.975k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000187.jpg:100% /13.273k, 13.271k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000188.jpg:100% /11.971k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.472 MBytes/s, ETA 9m7s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          235 / 10245, 2%
+Elapsed time:      3m42.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000186.jpg:100% /15.979k, 15.975k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000187.jpg:100% /13.273k, 13.271k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000188.jpg:100% /11.971k, 11.967k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000189.jpg:100% /10.469k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.424 MBytes/s, ETA 9m8s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          237 / 10247, 2%
+Elapsed time:      3m42.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000186.jpg:100% /15.979k, 7.987k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000189.jpg:100% /10.469k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000190.jpg:100% /11.889k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000192.jpg:  0% /17.165k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.376 MBytes/s, ETA 9m9s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          238 / 10248, 2%
+Elapsed time:      3m43.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000189.jpg:100% /10.469k, 10.466k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000190.jpg:100% /11.889k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000192.jpg:100% /17.165k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000193.jpg:  0% /12.333k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.328 MBytes/s, ETA 9m10s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          239 / 10249, 2%
+Elapsed time:      3m43.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000189.jpg:100% /10.469k, 10.466k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000192.jpg:100% /17.165k, 17.161k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000193.jpg:100% /12.333k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000194.jpg:  0% /19.909k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.281 MBytes/s, ETA 9m12s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          239 / 10249, 2%
+Elapsed time:      3m44.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000189.jpg:100% /10.469k, 5.232k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000192.jpg:100% /17.165k, 17.161k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000193.jpg:100% /12.333k, 12.330k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000194.jpg:100% /19.909k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.234 MBytes/s, ETA 9m13s
+Errors:                 5 (retrying may help)
+Checks:             27666 / 27666, 100%
+Transferred:          241 / 10251, 2%
+Elapsed time:      3m44.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000192.jpg:100% /17.165k, 8.580k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000194.jpg:100% /19.909k, 19.903k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000195.jpg:100% /14.186k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000196.jpg:  0% /12.952k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.185 MBytes/s, ETA 9m14s
+Errors:                 5 (retrying may help)
+Checks:             28875 / 29002, 100%
+Transferred:          242 / 10252, 2%
+Elapsed time:      3m45.2s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000194.jpg:100% /19.909k, 19.903k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000195.jpg:100% /14.186k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000196.jpg:100% /12.952k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000197.jpg:  0% /13.081k, 0/s, -Transferred:   	    4.660G / 16.136 GBytes, 29%, 21.140 MBytes/s, ETA 9m15s
+Errors:                 5 (retrying may help)
+Checks:             29002 / 29002, 100%
+Transferred:          243 / 10254, 2%
+Elapsed time:      3m45.7s
+Transferring:
+ *   datasets/AFHQ_resized/flickr_cat_000194.jpg:100% /19.909k, 9.951k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000196.jpg:100% /12.952k, 12.949k/s, 0s
+ *   datasets/AFHQ_resized/flickr_cat_000197.jpg:100% /13.081k, 0/s, -
+ *   datasets/AFHQ_resized/flickr_cat_000198.jpg:  0% /16.334k, 0/s, -
