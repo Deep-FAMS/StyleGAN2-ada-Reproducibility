@@ -4,6 +4,7 @@ import subprocess
 import shlex
 import tarfile
 import urllib.request
+import random
 
 
 def last_snap(num, training_runs_dir):
@@ -20,7 +21,8 @@ def execute(command: str):
 
 
 def executePopen(cmd: str, PROJ_DIR):
-    file_n = f'{PROJ_DIR}/.tmp/tmp_script.sh'
+    rand_int = random.randint(0, 10**10)
+    file_n = f'{PROJ_DIR}/.tmp/tmp_script_{rand_int}.sh'
     with open(file_n, 'w') as f:
         f.write(cmd)
 
