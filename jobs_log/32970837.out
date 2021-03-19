@@ -433,3 +433,5 @@ tick 106   kimg 434.3    time 2h 53m 26s   sec/tick 83.8    sec/kimg 20.47   mai
 tick 107   kimg 438.4    time 2h 54m 49s   sec/tick 83.4    sec/kimg 20.36   maintenance 0.0    gpumem 7.1   augment 0.141
 tick 108   kimg 442.5    time 2h 56m 13s   sec/tick 83.7    sec/kimg 20.44   maintenance 0.0    gpumem 7.1   augment 0.133
 tick 109   kimg 446.6    time 2h 57m 36s   sec/tick 83.4    sec/kimg 20.36   maintenance 0.0    gpumem 7.1   augment 0.133
+tick 110   kimg 450.7    time 2h 59m 00s   sec/tick 83.9    sec/kimg 20.49   maintenance 0.0    gpumem 7.1   augment 0.125
+tick 111   kimg 454.8    time 3h 00m 24s   sec/tick 83.2    sec/kimg 20.31   maintenance 0.0    gpumem 7.1   augment 0.138
