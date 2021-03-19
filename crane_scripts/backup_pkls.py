@@ -2,7 +2,6 @@ import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
-print(os.getcwd())
 
 
 import sys
@@ -16,8 +15,8 @@ from pathlib import Path
 import shutil
 from pprint import pprint
 from datetime import datetime
-
-import DeepFAMS
+import subprocess
+import random
 
 
 def backup_pickles(PROJ_DIR):
@@ -57,9 +56,23 @@ def backup_pickles(PROJ_DIR):
 
     print('\nUploading to Google Drive...')
     
-    DeepFAMS.utils.executePopen(f'''#!/bin/bash
+    bag = []
+    
+    rand_int = random.randint(0, 10**10)
+    file_n = f'{PROJ_DIR}/.tmp/tmp_script_{rand_int}.sh'
+    with open(file_n, 'w') as f:
+        f.write(f'''#!/bin/bash
     module load rclone
-    rclone copy {backups_folder} GoogleDrive:/ADA_Project_pkl_backups/{Path(backups_folder).name} -P''',
-    PROJ_DIR)
+    rclone copy {backups_folder} GoogleDrive:/ADA_Project_pkl_backups/{Path(backups_folder).name} -P''')
+    
+    p = subprocess.Popen(f"bash {file_n}",
+                     shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    
+    while p.poll() is None:
+        line = p.stdout.readline()
+        print(line)
 
     print('\nDone!')
+
+
+backup_pickles(PROJ_DIR)
