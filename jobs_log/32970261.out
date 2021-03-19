@@ -1,9 +1,9 @@
-/lustre/work/chaselab/malyetama
+/lustre/work/chaselab/malyetama/ADA_Project
 Tensorflow version: 1.14.0
-0
-Raw: 0, Resized: 20579
-/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/network-snapshot-000360.pkl
-Fri Mar 19 09:39:10 2021       
+5153
+Raw: 5153, Resized: 5153
+/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/network-snapshot-000001.pkl
+Fri Mar 19 10:26:03 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.0     |
 |-------------------------------+----------------------+----------------------+
@@ -12,11 +12,11 @@ Fri Mar 19 09:39:10 2021
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  Tesla V100-PCIE...  On   | 00000000:5E:00.0 Off |                    0 |
-| N/A   40C    P0    39W / 250W |    311MiB / 32510MiB |      0%      Default |
+| N/A   32C    P0    36W / 250W |    311MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
 |   1  Tesla V100-PCIE...  On   | 00000000:D8:00.0 Off |                    0 |
-| N/A   42C    P0    42W / 250W |    311MiB / 32510MiB |      0%      Default |
+| N/A   33C    P0    38W / 250W |    311MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -25,8 +25,8 @@ Fri Mar 19 09:39:10 2021
 |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
 |        ID   ID                                                   Usage      |
 |=============================================================================|
-|    0   N/A  N/A    127761      C   ...a/envs/ada-env/bin/python      307MiB |
-|    1   N/A  N/A    127761      C   ...a/envs/ada-env/bin/python      307MiB |
+|    0   N/A  N/A    174681      C   ...a/envs/ada-env/bin/python      307MiB |
+|    1   N/A  N/A    174681      C   ...a/envs/ada-env/bin/python      307MiB |
 +-----------------------------------------------------------------------------+
 
 Training options:
@@ -86,7 +86,7 @@ Training options:
   "image_snapshot_ticks": 1,
   "network_snapshot_ticks": 1,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -107,7 +107,7 @@ Training options:
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -117,12 +117,12 @@ Training options:
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/network-snapshot-000360.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00002-StanfordDogs_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/network-snapshot-000001.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00001-AFHQ_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00002-StanfordDogs_custom-auto2-resumecustom
-Training data:     /work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00001-AFHQ_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom
 Training length:   25000 kimg
 Resolution:        256
 Number of GPUs:    2
@@ -186,7 +186,7 @@ Training options:
   "image_snapshot_ticks": 1,
   "network_snapshot_ticks": 1,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -207,7 +207,7 @@ Training options:
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -217,12 +217,12 @@ Training options:
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/network-snapshot-000360.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00002-StanfordDogs_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/network-snapshot-000001.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00001-AFHQ_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00002-StanfordDogs_custom-auto2-resumecustom
-Training data:     /work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00001-AFHQ_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/AFHQ_custom
 Training length:   25000 kimg
 Resolution:        256
 Number of GPUs:    2
@@ -235,7 +235,7 @@ Label shape: [0]
 Constructing networks...
 Setting up TensorFlow plugin "fused_bias_act.cu": Loading... Done.
 Setting up TensorFlow plugin "upfirdn_2d.cu": Loading... Done.
-Resuming from "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/network-snapshot-000360.pkl"
+Resuming from "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/network-snapshot-000001.pkl"
 
 G                             Params    OutputShape         WeightShape     
 ---                           ---       ---                 ---             
@@ -317,35 +317,14 @@ Finalizing training ops...
 Initializing metrics...
 Training for 25000 kimg...
 
-tick 0     kimg 0.1      time 4m 13s       sec/tick 50.3    sec/kimg 393.17  maintenance 202.3  gpumem 7.3   augment 0.001
+tick 0     kimg 0.1      time 3m 29s       sec/tick 47.5    sec/kimg 371.15  maintenance 161.1  gpumem 7.1   augment 0.001
 Evaluating metrics...
-network-snapshot-000000        time 5m 08s       fid50k_full 165.7612
-tick 1     kimg 4.2      time 11m 28s      sec/tick 82.6    sec/kimg 20.18   maintenance 352.3  gpumem 7.3   augment 0.014
+network-snapshot-000000        time 5m 09s       fid50k_full 380.2726
+tick 1     kimg 4.2      time 10m 58s      sec/tick 83.9    sec/kimg 20.49   maintenance 365.2  gpumem 7.1   augment 0.037
 Evaluating metrics...
-network-snapshot-000004        time 5m 07s       fid50k_full 164.3229
-tick 2     kimg 8.3      time 18m 13s      sec/tick 82.8    sec/kimg 20.21   maintenance 323.1  gpumem 7.3   augment 0.029
+network-snapshot-000004        time 5m 07s       fid50k_full 392.2451
+tick 2     kimg 8.3      time 17m 58s      sec/tick 84.5    sec/kimg 20.62   maintenance 335.9  gpumem 7.1   augment 0.068
 Evaluating metrics...
-network-snapshot-000008        time 5m 07s       fid50k_full 162.9401
-tick 3     kimg 12.4     time 25m 01s      sec/tick 84.8    sec/kimg 20.70   maintenance 322.9  gpumem 7.3   augment 0.035
-Evaluating metrics...
-network-snapshot-000012        time 5m 06s       fid50k_full 161.0027
-tick 4     kimg 16.5     time 31m 47s      sec/tick 82.9    sec/kimg 20.25   maintenance 322.6  gpumem 7.3   augment 0.032
-Evaluating metrics...
-network-snapshot-000016        time 5m 08s       fid50k_full 160.8957
-tick 5     kimg 20.6     time 38m 33s      sec/tick 83.1    sec/kimg 20.28   maintenance 323.9  gpumem 7.3   augment 0.042
-Evaluating metrics...
-network-snapshot-000020        time 5m 08s       fid50k_full 159.0707
-tick 6     kimg 24.7     time 45m 21s      sec/tick 83.2    sec/kimg 20.30   maintenance 324.3  gpumem 7.3   augment 0.047
-Evaluating metrics...
-network-snapshot-000024        time 5m 09s       fid50k_full 158.3050
-tick 7     kimg 28.8     time 52m 09s      sec/tick 82.9    sec/kimg 20.25   maintenance 324.9  gpumem 7.3   augment 0.037
-Evaluating metrics...
-network-snapshot-000028        time 5m 06s       fid50k_full 156.9392
-tick 8     kimg 32.9     time 58m 57s      sec/tick 85.3    sec/kimg 20.83   maintenance 322.5  gpumem 7.3   augment 0.032
-Evaluating metrics...
-network-snapshot-000032        time 5m 07s       fid50k_full 154.6244
-tick 9     kimg 37.0     time 1h 05m 42s   sec/tick 83.0    sec/kimg 20.27   maintenance 322.6  gpumem 7.3   augment 0.032
-Evaluating metrics...
-network-snapshot-000036        time 5m 09s       fid50k_full 152.6523
-tick 10    kimg 41.1     time 1h 12m 30s   sec/tick 82.9    sec/kimg 20.25   maintenance 324.8  gpumem 7.3   augment 0.032
+network-snapshot-000008        time 5m 08s       fid50k_full 413.4268
+tick 3     kimg 12.4     time 24m 59s      sec/tick 84.8    sec/kimg 20.69   maintenance 335.9  gpumem 7.1   augment 0.101
 Evaluating metrics...
