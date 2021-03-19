@@ -1,0 +1,1361 @@
+Transferred:   	         0 / 0 Bytes, -, 0 Bytes/s, ETA -
+Checks:                 4 / 4, 100%
+Elapsed time:         0.0sTransferred:   	   30.798k / 695.784 MBytes, 0%, 123.464 kBytes/s, ETA 1h36m10s
+Checks:                35 / 35, 100%
+Transferred:            0 / 13, 0%
+Elapsed time:         0.2s
+Transferring:
+ *                                    .git/index:100% /9.305k, 0/s, -
+ *                             DeepFAMS/utils.py:100% /1.577k, 0/s, -
+ *                           .git/COMMIT_EDITMSG:  0% /7, 0/s, -
+ *                notebooks/ADA-102flowers.ipynb:100% /19.916k, 0/s, -Transferred:   	   30.805k / 1.940 GBytes, 0%, 41.104 kBytes/s, ETA 13h44m57s
+Checks:                83 / 83, 100%
+Transferred:            0 / 33, 0%
+Elapsed time:         0.7s
+Transferring:
+ *                                    .git/index:100% /9.305k, 0/s, -
+ *                             DeepFAMS/utils.py:100% /1.577k, 0/s, -
+ *                           .git/COMMIT_EDITMSG:100% /7, 0/s, -
+ *                notebooks/ADA-102flowers.ipynb:100% /19.916k, 0/s, -Transferred:   	   30.805k / 1.940 GBytes, 0%, 24.651 kBytes/s, ETA 22h55m36s
+Checks:               108 / 108, 100%
+Transferred:            0 / 42, 0%
+Elapsed time:         1.2s
+Transferring:
+ *                                    .git/index:100% /9.305k, 9.288k/s, 0s
+ *                             DeepFAMS/utils.py:100% /1.577k, 1.574k/s, 0s
+ *                           .git/COMMIT_EDITMSG:100% /7, 6/s, 0s
+ *                notebooks/ADA-102flowers.ipynb:100% /19.916k, 19.900k/s, 0sTransferred:   	   30.805k / 2.586 GBytes, 0%, 17.608 kBytes/s, ETA 1d18h46m55s
+Checks:               119 / 119, 100%
+Transferred:            0 / 55, 0%
+Elapsed time:         1.7s
+Transferring:
+ *                                    .git/index:100% /9.305k, 9.288k/s, 0s
+ *                             DeepFAMS/utils.py:100% /1.577k, 1.574k/s, 0s
+ *                           .git/COMMIT_EDITMSG:100% /7, 6/s, 0s
+ *                notebooks/ADA-102flowers.ipynb:100% /19.916k, 19.900k/s, 0sTransferred:   	   49.810k / 2.586 GBytes, 0%, 22.143 kBytes/s, ETA 1d10h1m13s
+Checks:               119 / 119, 100%
+Transferred:            1 / 55, 2%
+Elapsed time:         2.2s
+Transferring:
+ *                                    .git/index:100% /9.305k, 4.644k/s, 0s
+ *                             DeepFAMS/utils.py:100% /1.577k, 806/s, 0s
+ *                           .git/COMMIT_EDITMSG:100% /7, 3/s, 0s
+ *                  notebooks/ADA-AFHQ-CAT.ipynb:100% /19.005k, 0/s, -Transferred:   	   85.470k / 4.658 GBytes, 0%, 31.037 kBytes/s, ETA 1d19h42m47s
+Checks:               119 / 119, 100%
+Transferred:            4 / 74, 5%
+Elapsed time:         2.7s
+Transferring:
+ *                   notebooks/ADA-cars196.ipynb:100% /8.430k, 0/s, -
+ *                  notebooks/ADA-AFHQ-CAT.ipynb:100% /19.005k, 0/s, -
+ *                  notebooks/ADA-METFACES.ipynb:100% /6.864k, 0/s, -
+ *              notebooks/ADA-StanfordDogs.ipynb:100% /20.366k, 0/s, -Transferred:   	   85.470k / 4.658 GBytes, 0%, 26.302 kBytes/s, ETA 2d3h34m57s
+Checks:               150 / 150, 100%
+Transferred:            4 / 75, 5%
+Elapsed time:         3.2s
+Transferring:
+ *                   notebooks/ADA-cars196.ipynb:100% /8.430k, 0/s, -
+ *                  notebooks/ADA-AFHQ-CAT.ipynb:100% /19.005k, 18.993k/s, 0s
+ *                  notebooks/ADA-METFACES.ipynb:100% /6.864k, 0/s, -
+ *              notebooks/ADA-StanfordDogs.ipynb:100% /20.366k, 0/s, -Transferred:   	   85.470k / 4.658 GBytes, 0%, 22.794 kBytes/s, ETA 2d11h31m15s
+Checks:               162 / 162, 100%
+Transferred:            5 / 77, 6%
+Elapsed time:         3.7s
+Transferring:
+ *                             datasets/afhq.zip:  0% /695.691M, 0/s, -
+ *                   notebooks/ADA-cars196.ipynb:100% /8.430k, 8.381k/s, 0s
+ *                  notebooks/ADA-METFACES.ipynb:100% /6.864k, 6.856k/s, 0s
+ *              notebooks/ADA-StanfordDogs.ipynb:100% /20.366k, 20.327k/s, 0sTransferred:   	    2.767M / 4.658 GBytes, 0%, 665.896 kBytes/s, ETA 2h2m10s
+Checks:               172 / 172, 100%
+Transferred:            5 / 77, 6%
+Elapsed time:         4.2s
+Transferring:
+ *                             datasets/afhq.zip:  0% /695.691M, 0/s, -
+ *                   notebooks/ADA-cars196.ipynb:100% /8.430k, 8.381k/s, 0s
+ *                  notebooks/ADA-METFACES.ipynb:100% /6.864k, 6.856k/s, 0s
+ *              notebooks/ADA-StanfordDogs.ipynb:100% /20.366k, 20.327k/s, 0sTransferred:   	   16.090M / 4.658 GBytes, 0%, 3.388 MBytes/s, ETA 23m23s
+Checks:               212 / 212, 100%
+Transferred:            8 / 77, 10%
+Elapsed time:         4.7s
+Transferring:
+ *                             datasets/afhq.zip:  2% /695.691M, 11.669M/s, 58s
+ *                    py_scripts/ADA-METFACES.py:100% /2.197k, 0/s, -
+ *                  py_scripts/ADA-102flowers.py:100% /2.390k, 0/s, -
+ *                py_scripts/ADA-StanfordDogs.py:100% /2.569k, 0/s, -Transferred:   	   24.090M / 4.658 GBytes, 1%, 4.589 MBytes/s, ETA 17m14s
+Checks:               212 / 212, 100%
+Transferred:            8 / 77, 10%
+Elapsed time:         5.2s
+Transferring:
+ *                             datasets/afhq.zip:  3% /695.691M, 11.669M/s, 57s
+ *                    py_scripts/ADA-METFACES.py:100% /2.197k, 0/s, -
+ *                  py_scripts/ADA-102flowers.py:100% /2.390k, 0/s, -
+ *                py_scripts/ADA-StanfordDogs.py:100% /2.569k, 0/s, -Transferred:   	   40.093M / 4.658 GBytes, 1%, 6.973 MBytes/s, ETA 11m18s
+Checks:               212 / 212, 100%
+Transferred:            9 / 77, 12%
+Elapsed time:         5.7s
+Transferring:
+ *                             datasets/afhq.zip:  5% /695.691M, 16.120M/s, 40s
+ *                     py_scripts/ADA-cars196.py:100% /2.355k, 0/s, -
+ *                    py_scripts/ADA-METFACES.py:100% /2.197k, 2.195k/s, 0s
+ *                py_scripts/ADA-StanfordDogs.py:100% /2.569k, 2.566k/s, 0sTransferred:   	   54.966M / 4.728 GBytes, 1%, 8.793 MBytes/s, ETA 9m4s
+Checks:               212 / 212, 100%
+Transferred:           10 / 5230, 0%
+Elapsed time:         6.2s
+Transferring:
+ *                             datasets/afhq.zip:  7% /695.691M, 16.120M/s, 39s
+ *                     py_scripts/ADA-cars196.py:100% /2.355k, 0/s, -
+ *                py_scripts/ADA-StanfordDogs.py:100% /2.569k, 2.566k/s, 0s
+ *     DeepFAMS/__pycache__/utils.cpython-37.pyc:100% /2.058k, 0/s, -Transferred:   	   61.622M / 4.728 GBytes, 1%, 9.130 MBytes/s, ETA 8m43s
+Checks:               212 / 212, 100%
+Transferred:           11 / 5230, 0%
+Elapsed time:         6.7s
+Transferring:
+ *                             datasets/afhq.zip:  8% /695.691M, 18.748M/s, 33s
+ *                         jobs_log/32969865.err:  0% /28.851k, 0/s, -
+ *                     py_scripts/ADA-cars196.py:100% /2.355k, 2.351k/s, 0s
+ *     DeepFAMS/__pycache__/utils.cpython-37.pyc:100% /2.058k, 0/s, -Transferred:   	   80.108M / 4.728 GBytes, 2%, 11.050 MBytes/s, ETA 7m10s
+Checks:               212 / 212, 100%
+Transferred:           12 / 5230, 0%
+Elapsed time:         7.2s
+Transferring:
+ *                             datasets/afhq.zip: 11% /695.691M, 18.748M/s, 32s
+ *                         jobs_log/32969865.err:  0% /28.851k, 0/s, -
+ *                         jobs_log/32969865.out:100% /14.049k, 0/s, -
+ *     DeepFAMS/__pycache__/utils.cpython-37.pyc:100% /2.058k, 2.054k/s, 0sTransferred:   	   96.137M / 4.728 GBytes, 2%, 12.401 MBytes/s, ETA 6m22s
+Checks:               212 / 212, 100%
+Transferred:           13 / 5230, 0%
+Elapsed time:         7.7s
+Transferring:
+ *                             datasets/afhq.zip: 13% /695.691M, 21.915M/s, 27s
+ *                         jobs_log/32969865.err:100% /28.851k, 0/s, -
+ *                         jobs_log/32969865.out:100% /14.049k, 0/s, -
+ *                         jobs_log/32970196.err:  0% /0, 0/s, -Transferred:   	  104.137M / 4.728 GBytes, 2%, 12.624 MBytes/s, ETA 6m15s
+Checks:               212 / 212, 100%
+Transferred:           13 / 5230, 0%
+Elapsed time:         8.2s
+Transferring:
+ *                             datasets/afhq.zip: 14% /695.691M, 21.915M/s, 26s
+ *                         jobs_log/32969865.err:100% /28.851k, 0/s, -
+ *                         jobs_log/32969865.out:100% /14.049k, 14.043k/s, 0s
+ *                         jobs_log/32970196.err:  0% /0, 0/s, -Transferred:   	  119.008M / 4.728 GBytes, 2%, 13.601 MBytes/s, ETA 5m47s
+Checks:               232 / 232, 100%
+Transferred:           14 / 5230, 0%
+Elapsed time:         8.7s
+Transferring:
+ *                             datasets/afhq.zip: 17% /695.691M, 22.360M/s, 25s
+ *                         jobs_log/32969865.err:100% /28.851k, 14.250k/s, 0s
+ *                         jobs_log/32970196.err:  0% /0, 0/s, -
+ *                         jobs_log/32970196.out:  0% /0, 0/s, -
+2021-03-19 10:18:46 ERROR : jobs_log/32970196.out: Failed to copy: can't copy - source file is being updated (size changed from 0 to 8311)
+Transferred:   	  120.137M / 6.033 GBytes, 2%, 13.671 MBytes/s, ETA 7m23s
+Errors:                 1 (retrying may help)
+Checks:               408 / 408, 100%
+Transferred:           14 / 5241, 0%
+Elapsed time:         8.7s
+Transferring:
+ *                             datasets/afhq.zip: 17% /695.691M, 22.360M/s, 25s
+ *                         jobs_log/32969865.err:100% /28.851k, 14.250k/s, 0s
+ *                         jobs_log/32970196.err:  0% /0, 0/s, -
+ *                         jobs_log/32970196.out:  0% /0, 0/s, -Transferred:   	  136.425M / 6.033 GBytes, 2%, 14.745 MBytes/s, ETA 6m49s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           15 / 5241, 0%
+Elapsed time:         9.2s
+Transferring:
+ *                             datasets/afhq.zip: 19% /695.691M, 22.360M/s, 25s
+ *                         jobs_log/32962901.err:100% /262.080k, 0/s, -
+ *                         jobs_log/32962901.out:100% /33.267k, 0/s, -
+ *                         jobs_log/32970196.err:  0% /0, 0/s, -Transferred:   	  144.678M / 6.054 GBytes, 2%, 14.840 MBytes/s, ETA 6m48s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           16 / 5741, 0%
+Elapsed time:         9.7s
+Transferring:
+ *                             datasets/afhq.zip: 20% /695.691M, 23.641M/s, 23s
+ *                         jobs_log/32962901.err:100% /262.080k, 0/s, -
+ *                         jobs_log/32962901.out:100% /33.267k, 0/s, -
+ *                         jobs_log/32962998.err:100% /259.211k, 0/s, -Transferred:   	  160.710M / 6.054 GBytes, 3%, 15.680 MBytes/s, ETA 6m25s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           17 / 5741, 0%
+Elapsed time:        10.2s
+Transferring:
+ *                             datasets/afhq.zip: 22% /695.691M, 23.641M/s, 22s
+ *                         jobs_log/32962901.out:100% /33.267k, 33.210k/s, 0s
+ *                         jobs_log/32962998.err:100% /259.211k, 0/s, -
+ *                         jobs_log/32962998.out:100% /33.004k, 0/s, -Transferred:   	  168.983M / 6.234 GBytes, 3%, 15.690 MBytes/s, ETA 6m36s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           19 / 10024, 0%
+Elapsed time:        10.7s
+Transferring:
+ *                             datasets/afhq.zip: 24% /695.691M, 22.882M/s, 23s
+ *                         jobs_log/32962998.out:100% /33.004k, 0/s, -
+ *                         jobs_log/32963053.err:100% /247.687k, 0/s, -
+ *                         jobs_log/32963053.out:100% /31.448k, 0/s, -Transferred:   	  184.983M / 6.234 GBytes, 3%, 16.444 MBytes/s, ETA 6m16s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           19 / 10024, 0%
+Elapsed time:        11.2s
+Transferring:
+ *                             datasets/afhq.zip: 26% /695.691M, 22.882M/s, 22s
+ *                         jobs_log/32962998.out:100% /33.004k, 32.818k/s, 0s
+ *                         jobs_log/32963053.err:100% /247.687k, 0/s, -
+ *                         jobs_log/32963053.out:100% /31.448k, 0/s, -Transferred:   	  201.131M / 6.234 GBytes, 3%, 17.118 MBytes/s, ETA 6m1s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           21 / 10026, 0%
+Elapsed time:        11.7s
+Transferring:
+ *                             datasets/afhq.zip: 28% /695.691M, 24.022M/s, 20s
+ *                         jobs_log/32963053.out:100% /31.448k, 31.399k/s, 0s
+ *                         jobs_log/32963234.err:100% /128.578k, 0/s, -
+ *                         jobs_log/32963234.out:100% /22.810k, 0/s, -Transferred:   	  217.131M / 6.234 GBytes, 3%, 17.726 MBytes/s, ETA 5m47s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           22 / 10027, 0%
+Elapsed time:        12.2s
+Transferring:
+ *                             datasets/afhq.zip: 31% /695.691M, 24.022M/s, 19s
+ *                         jobs_log/32963234.err:100% /128.578k, 0/s, -
+ *                         jobs_log/32963234.out:100% /22.810k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r02.tfrecords:  0% /493.158k, 0/s, -Transferred:   	  222.689M / 6.234 GBytes, 3%, 17.467 MBytes/s, ETA 5m52s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           22 / 10029, 0%
+Elapsed time:        12.7s
+Transferring:
+ *                             datasets/afhq.zip: 31% /695.691M, 24.019M/s, 19s
+ *                         jobs_log/32963234.err:100% /128.578k, 128.124k/s, 0s
+ *                         jobs_log/32963234.out:100% /22.810k, 22.776k/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r02.tfrecords:  0% /493.158k, 0/s, -Transferred:   	  233.131M / 6.289 GBytes, 4%, 17.596 MBytes/s, ETA 5m52s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           24 / 10031, 0%
+Elapsed time:        13.2s
+Transferring:
+ *                             datasets/afhq.zip: 33% /695.691M, 24.019M/s, 19s
+ * datasets/AFHQ_custom/A…Q_custom-r02.tfrecords:  0% /493.158k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r03.tfrecords:  0% /1.214M, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r04.tfrecords:  0% /4.044M, 0/s, -Transferred:   	  254.871M / 6.289 GBytes, 4%, 18.537 MBytes/s, ETA 5m33s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           24 / 10031, 0%
+Elapsed time:        13.7s
+Transferring:
+ *                             datasets/afhq.zip: 35% /695.691M, 24.018M/s, 18s
+ * datasets/AFHQ_custom/A…Q_custom-r02.tfrecords:100% /493.158k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r03.tfrecords:100% /1.214M, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r04.tfrecords:100% /4.044M, 0/s, -Transferred:   	  270.871M / 6.289 GBytes, 4%, 19.009 MBytes/s, ETA 5m24s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           24 / 10031, 0%
+Elapsed time:        14.2s
+Transferring:
+ *                             datasets/afhq.zip: 37% /695.691M, 24.018M/s, 17s
+ * datasets/AFHQ_custom/A…Q_custom-r02.tfrecords:100% /493.158k, 246.579k/s, 0
+ * datasets/AFHQ_custom/A…Q_custom-r03.tfrecords:100% /1.214M, 1.212M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r04.tfrecords:100% /4.044M, 4.043M/s, 0sTransferred:   	  286.871M / 6.341 GBytes, 4%, 19.448 MBytes/s, ETA 5m19s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           25 / 10032, 0%
+Elapsed time:        14.7s
+Transferring:
+ *                             datasets/afhq.zip: 40% /695.691M, 24.691M/s, 16s
+ * datasets/AFHQ_custom/A…Q_custom-r03.tfrecords:100% /1.214M, 1.212M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r04.tfrecords:100% /4.044M, 4.043M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords:  0% /15.367M, 0/s, -Transferred:   	  303.273M / 6.341 GBytes, 5%, 19.887 MBytes/s, ETA 5m11s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           26 / 10033, 0%
+Elapsed time:        15.2s
+Transferring:
+ *                             datasets/afhq.zip: 42% /695.691M, 24.691M/s, 16s
+ * datasets/AFHQ_custom/A…Q_custom-r04.tfrecords:100% /4.044M, 2.021M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords:  2% /15.367M, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords:  0% /60.657M, 0/s, -Transferred:   	  327.734M / 6.395 GBytes, 5%, 20.763 MBytes/s, ETA 4m59s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           27 / 10034, 0%
+Elapsed time:        15.7s
+Transferring:
+ *                             datasets/afhq.zip: 43% /695.691M, 24.976M/s, 15s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords: 50% /15.367M, 4.151M/s, 1s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords: 12% /60.657M, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:  0% /241.852M, 0/s, -Transferred:   	  365.449M / 6.396 GBytes, 6%, 22.481 MBytes/s, ETA 4m35s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           27 / 10035, 0%
+Elapsed time:        16.2s
+Transferring:
+ *                             datasets/afhq.zip: 45% /695.691M, 24.976M/s, 15s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords:100% /15.367M, 4.151M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords: 35% /60.657M, 15.405M/s, 2s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:  0% /241.852M, 0/s, -Transferred:   	  390.238M / 6.396 GBytes, 6%, 23.299 MBytes/s, ETA 4m24s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           27 / 10035, 0%
+Elapsed time:        16.7s
+Transferring:
+ *                             datasets/afhq.zip: 47% /695.691M, 24.620M/s, 14s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords:100% /15.367M, 7.570M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords: 52% /60.657M, 15.405M/s, 1s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:  3% /241.852M, 7.457M/s, 31sTransferred:   	  427.671M / 6.396 GBytes, 7%, 24.793 MBytes/s, ETA 4m6s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           27 / 10035, 0%
+Elapsed time:        17.2s
+Transferring:
+ *                             datasets/afhq.zip: 49% /695.691M, 24.620M/s, 14s
+ * datasets/AFHQ_custom/A…Q_custom-r05.tfrecords:100% /15.367M, 7.570M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords: 65% /60.657M, 18.550M/s, 1s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:  8% /241.852M, 7.457M/s, 29sTransferred:   	  469.636M / 6.447 GBytes, 7%, 26.458 MBytes/s, ETA 3m51s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           28 / 10036, 0%
+Elapsed time:        17.7s
+Transferring:
+ *                             datasets/afhq.zip: 51% /695.691M, 25.129M/s, 13s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords: 92% /60.657M, 18.550M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 13% /241.852M, 16.077M/s, 13
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  0% /966.492M, 0/s, -Transferred:   	  503.574M / 6.447 GBytes, 8%, 27.583 MBytes/s, ETA 3m41s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           28 / 10036, 0%
+Elapsed time:        18.2s
+Transferring:
+ *                             datasets/afhq.zip: 53% /695.691M, 25.129M/s, 12s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords:100% /60.657M, 20.285M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 15% /241.852M, 16.077M/s, 12
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  0% /966.492M, 0/s, -Transferred:   	  537.735M / 6.447 GBytes, 8%, 28.680 MBytes/s, ETA 3m31s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           28 / 10036, 0%
+Elapsed time:        18.7s
+Transferring:
+ *                             datasets/afhq.zip: 55% /695.691M, 25.448M/s, 12s
+ * datasets/AFHQ_custom/A…Q_custom-r06.tfrecords:100% /60.657M, 20.285M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 19% /241.852M, 16.051M/s, 12
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  2% /966.492M, 7.998M/s, 1m5Transferred:   	  584.547M / 6.447 GBytes, 9%, 30.360 MBytes/s, ETA 3m18s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           29 / 10037, 0%
+Elapsed time:        19.2s
+Transferring:
+ *                             datasets/afhq.zip: 57% /695.691M, 25.448M/s, 11s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 26% /241.852M, 16.051M/s, 11
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  3% /966.492M, 7.998M/s, 1m5
+ * notebooks/.ipynb_check…Q-CAT-checkpoint.ipynb:  0% /18.382k, 0/s, -Transferred:   	  618.913M / 6.447 GBytes, 9%, 31.338 MBytes/s, ETA 3m10s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           29 / 10037, 0%
+Elapsed time:        19.7s
+Transferring:
+ *                             datasets/afhq.zip: 59% /695.691M, 25.502M/s, 10s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 29% /241.852M, 18.038M/s, 9s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  4% /966.492M, 19.845M/s, 46
+ * notebooks/.ipynb_check…Q-CAT-checkpoint.ipynb:100% /18.382k, 0/s, -Transferred:   	  646.878M / 6.447 GBytes, 10%, 31.946 MBytes/s, ETA 3m6s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           29 / 10037, 0%
+Elapsed time:        20.2s
+Transferring:
+ *                             datasets/afhq.zip: 60% /695.691M, 25.502M/s, 10s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 33% /241.852M, 18.038M/s, 8s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  6% /966.492M, 19.845M/s, 45
+ * notebooks/.ipynb_check…Q-CAT-checkpoint.ipynb:100% /18.382k, 18.377k/s, 0sTransferred:   	  670.928M / 6.501 GBytes, 10%, 32.317 MBytes/s, ETA 3m5s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           30 / 10038, 0%
+Elapsed time:        20.7s
+Transferring:
+ *                             datasets/afhq.zip: 61% /695.691M, 24.908M/s, 10s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 36% /241.852M, 17.351M/s, 8s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  7% /966.492M, 21.308M/s, 41
+ * notebooks/.ipynb_check…owers-checkpoint.ipynb:100% /19.916k, 0/s, -Transferred:   	  714.932M / 6.501 GBytes, 11%, 33.643 MBytes/s, ETA 2m56s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           30 / 10038, 0%
+Elapsed time:        21.2s
+Transferring:
+ *                             datasets/afhq.zip: 63% /695.691M, 24.908M/s, 10s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 43% /241.852M, 17.351M/s, 7s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:  9% /966.492M, 21.308M/s, 41
+ * notebooks/.ipynb_check…owers-checkpoint.ipynb:100% /19.916k, 0/s, -Transferred:   	  752.428M / 6.501 GBytes, 11%, 34.595 MBytes/s, ETA 2m50s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           30 / 10038, 0%
+Elapsed time:        21.7s
+Transferring:
+ *                             datasets/afhq.zip: 65% /695.691M, 24.852M/s, 9s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 45% /241.852M, 18.039M/s, 7s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 10% /966.492M, 21.981M/s, 39
+ * notebooks/.ipynb_check…owers-checkpoint.ipynb:100% /19.916k, 19.871k/s, 0sTransferred:   	  791.900M / 6.501 GBytes, 12%, 35.589 MBytes/s, ETA 2m44s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           31 / 10039, 0%
+Elapsed time:        22.2s
+Transferring:
+ *                             datasets/afhq.zip: 67% /695.691M, 24.852M/s, 9s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 49% /241.852M, 18.039M/s, 6s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 12% /966.492M, 21.981M/s, 38
+ * notebooks/.ipynb_check…FACES-checkpoint.ipynb:100% /6.864k, 0/s, -Transferred:   	  814.556M / 6.501 GBytes, 12%, 35.795 MBytes/s, ETA 2m43s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           31 / 10039, 0%
+Elapsed time:        22.7s
+Transferring:
+ *                             datasets/afhq.zip: 68% /695.691M, 24.793M/s, 8s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 49% /241.852M, 17.178M/s, 7s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 13% /966.492M, 23.897M/s, 34
+ * notebooks/.ipynb_check…FACES-checkpoint.ipynb:100% /6.864k, 0/s, -Transferred:   	  842.959M / 6.553 GBytes, 13%, 36.257 MBytes/s, ETA 2m41s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           32 / 10040, 0%
+Elapsed time:        23.2s
+Transferring:
+ *                             datasets/afhq.zip: 70% /695.691M, 24.793M/s, 8s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 52% /241.852M, 17.178M/s, 6s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 14% /966.492M, 23.897M/s, 34
+ * notebooks/.ipynb_check…dDogs-checkpoint.ipynb:100% /20.366k, 0/s, -Transferred:   	  874.959M / 6.553 GBytes, 13%, 36.841 MBytes/s, ETA 2m38s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           32 / 10040, 0%
+Elapsed time:        23.7s
+Transferring:
+ *                             datasets/afhq.zip: 72% /695.691M, 24.749M/s, 7s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 59% /241.852M, 18.028M/s, 5s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 14% /966.492M, 23.988M/s, 34
+ * notebooks/.ipynb_check…dDogs-checkpoint.ipynb:100% /20.366k, 0/s, -Transferred:   	  906.928M / 6.553 GBytes, 14%, 37.379 MBytes/s, ETA 2m35s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           33 / 10041, 0%
+Elapsed time:        24.2s
+Transferring:
+ *                             datasets/afhq.zip: 74% /695.691M, 24.749M/s, 7s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 62% /241.852M, 18.028M/s, 4s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 16% /966.492M, 23.988M/s, 33
+ * notebooks/.ipynb_check…rs196-checkpoint.ipynb:100% /8.430k, 0/s, -Transferred:   	  946.967M / 6.553 GBytes, 14%, 38.262 MBytes/s, ETA 2m30s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           33 / 10041, 0%
+Elapsed time:        24.7s
+Transferring:
+ *                             datasets/afhq.zip: 75% /695.691M, 24.702M/s, 6s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 69% /241.852M, 18.694M/s, 3s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 17% /966.492M, 22.536M/s, 35
+ * notebooks/.ipynb_check…rs196-checkpoint.ipynb:100% /8.430k, 0/s, -Transferred:   	  986.119M / 6.608 GBytes, 15%, 39.055 MBytes/s, ETA 2m28s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        25.2s
+Transferring:
+ *                             datasets/afhq.zip: 78% /695.691M, 24.702M/s, 6s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f: transferring
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 72% /241.852M, 18.694M/s, 3s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 18% /966.492M, 22.536M/s, 34Transferred:   	    1.008G / 6.608 GBytes, 15%, 40.078 MBytes/s, ETA 2m23s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        25.7s
+Transferring:
+ *                             datasets/afhq.zip: 80% /695.691M, 25.158M/s, 5s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f:  0% /4.446k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 79% /241.852M, 18.967M/s, 2s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 20% /966.492M, 23.054M/s, 33Transferred:   	    1.042G / 6.608 GBytes, 16%, 40.647 MBytes/s, ETA 2m20s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        26.2s
+Transferring:
+ *                             datasets/afhq.zip: 82% /695.691M, 25.158M/s, 4s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f:  0% /4.446k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 82% /241.852M, 18.967M/s, 2s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 21% /966.492M, 23.054M/s, 32Transferred:   	    1.089G / 6.608 GBytes, 16%, 41.682 MBytes/s, ETA 2m15s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        26.7s
+Transferring:
+ *                             datasets/afhq.zip: 85% /695.691M, 25.586M/s, 4s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f:100% /4.446k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 89% /241.852M, 19.465M/s, 1s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 23% /966.492M, 23.602M/s, 31Transferred:   	    1.127G / 6.608 GBytes, 17%, 42.357 MBytes/s, ETA 2m12s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        27.2s
+Transferring:
+ *                             datasets/afhq.zip: 87% /695.691M, 25.586M/s, 3s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f:100% /4.446k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords: 95% /241.852M, 19.465M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 24% /966.492M, 23.602M/s, 31Transferred:   	    1.165G / 6.608 GBytes, 18%, 42.971 MBytes/s, ETA 2m9s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           34 / 10042, 0%
+Elapsed time:        27.7s
+Transferring:
+ *                             datasets/afhq.zip: 89% /695.691M, 25.987M/s, 2s
+ * .git/objects/03/7d97af…7b00117424cdea3b51ba8f:100% /4.446k, 2.271k/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:100% /241.852M, 20.178M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 25% /966.492M, 23.250M/s, 31Transferred:   	    1.192G / 6.608 GBytes, 18%, 43.199 MBytes/s, ETA 2m8s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           35 / 10043, 0%
+Elapsed time:        28.2s
+Transferring:
+ *                             datasets/afhq.zip: 91% /695.691M, 25.987M/s, 2s
+ *                 jsub_scripts/rclone_backup.sh:100% /416, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:100% /241.852M, 20.178M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 26% /966.492M, 23.250M/s, 30Transferred:   	    1.223G / 6.608 GBytes, 19%, 43.577 MBytes/s, ETA 2m6s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           35 / 10043, 0%
+Elapsed time:        28.7s
+Transferring:
+ *                             datasets/afhq.zip: 94% /695.691M, 26.330M/s, 1s
+ *                 jsub_scripts/rclone_backup.sh:100% /416, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r07.tfrecords:100% /241.852M, 18.626M/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 28% /966.492M, 23.666M/s, 29Transferred:   	    1.255G / 6.661 GBytes, 19%, 43.926 MBytes/s, ETA 2m6s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           37 / 10045, 0%
+Elapsed time:        29.2s
+Transferring:
+ *                             datasets/afhq.zip: 96% /695.691M, 26.330M/s, 0s
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:  0% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 29% /966.492M, 23.666M/s, 28Transferred:   	    1.276G / 6.661 GBytes, 19%, 43.908 MBytes/s, ETA 2m5s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           37 / 10045, 0%
+Elapsed time:        29.7s
+Transferring:
+ *                             datasets/afhq.zip: 98% /695.691M, 26.463M/s, 0s
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:  0% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 30% /966.492M, 24.042M/s, 27Transferred:   	    1.286G / 6.661 GBytes, 19%, 43.522 MBytes/s, ETA 2m6s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           37 / 10045, 0%
+Elapsed time:        30.2s
+Transferring:
+ *                             datasets/afhq.zip:100% /695.691M, 26.463M/s, 0s
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:  0% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 30% /966.492M, 24.042M/s, 27Transferred:   	    1.293G / 6.661 GBytes, 19%, 43.074 MBytes/s, ETA 2m7s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           37 / 10045, 0%
+Elapsed time:        30.7s
+Transferring:
+ *                             datasets/afhq.zip:100% /695.691M, 26.040M/s, 0s
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:  0% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 31% /966.492M, 22.808M/s, 29Transferred:   	    1.308G / 6.661 GBytes, 20%, 42.855 MBytes/s, ETA 2m7s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           37 / 10045, 0%
+Elapsed time:        31.2s
+Transferring:
+ *                             datasets/afhq.zip:100% /695.691M, 26.040M/s, 0s
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:100% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 32% /966.492M, 22.808M/s, 28Transferred:   	    1.317G / 6.716 GBytes, 20%, 42.474 MBytes/s, ETA 2m10s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           38 / 10046, 0%
+Elapsed time:        31.7s
+Transferring:
+ *                          .git/refs/heads/main:100% /41, 0/s, -
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:100% /19.112k, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 33% /966.492M, 22.893M/s, 27Transferred:   	    1.325G / 6.716 GBytes, 20%, 42.064 MBytes/s, ETA 2m11s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           38 / 10046, 0%
+Elapsed time:        32.2s
+Transferring:
+ *                          .git/refs/heads/main:100% /41, 0/s, -
+ * .git/objects/06/7a18e9…57493b35f96847a2040d03:100% /19.112k, 6.471k/s, 0s
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:  0% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 34% /966.492M, 22.893M/s, 27Transferred:   	    1.340G / 6.716 GBytes, 20%, 41.910 MBytes/s, ETA 2m11s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           39 / 10047, 0%
+Elapsed time:        32.7s
+Transferring:
+ *                                .git/logs/HEAD:100% /455, 0/s, -
+ *                          .git/refs/heads/main:100% /41, 40/s, 0s
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:100% /224, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 36% /966.492M, 22.433M/s, 27Transferred:   	    1.356G / 6.768 GBytes, 20%, 41.761 MBytes/s, ETA 2m12s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           40 / 10048, 0%
+Elapsed time:        33.2s
+Transferring:
+ *                                .git/logs/HEAD:100% /455, 0/s, -
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:100% /224, 55/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 38% /966.492M, 22.433M/s, 26
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.364G / 6.768 GBytes, 20%, 41.379 MBytes/s, ETA 2m13s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           41 / 10049, 0%
+Elapsed time:        33.7s
+Transferring:
+ * .git/objects/0b/753ac9…fb3659fb83622bff935446:100% /224, 55/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 38% /966.492M, 23.031M/s, 25
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.379G / 6.823 GBytes, 20%, 41.243 MBytes/s, ETA 2m15s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        34.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 40% /966.492M, 23.031M/s, 24
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.391G / 6.823 GBytes, 20%, 40.992 MBytes/s, ETA 2m15s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        34.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 41% /966.492M, 23.092M/s, 24
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.403G / 6.823 GBytes, 21%, 40.753 MBytes/s, ETA 2m16s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        35.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 43% /966.492M, 23.092M/s, 23
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.415G / 6.823 GBytes, 21%, 40.516 MBytes/s, ETA 2m16s
+Errors:                 1 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        35.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 44% /966.492M, 23.148M/s, 23
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -
+2021-03-19 10:19:13 ERROR : training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/events.out.tfevents.1616166965.c3101.crane.hcc.unl.edu: Failed to copy: can't copy - source file is being updated (size changed from 887 to 1734)
+Transferred:   	    1.422G / 6.823 GBytes, 21%, 40.406 MBytes/s, ETA 2m16s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        36.0s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 45% /966.492M, 23.148M/s, 22
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…3101.crane.hcc.unl.edu:  0% /887, 0/s, -Transferred:   	    1.426G / 6.823 GBytes, 21%, 40.291 MBytes/s, ETA 2m17s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        36.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 45% /966.492M, 23.148M/s, 22
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:  0% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:  0% /19.491M, 0/s, -Transferred:   	    1.448G / 6.823 GBytes, 21%, 40.343 MBytes/s, ETA 2m16s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        36.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 47% /966.492M, 23.202M/s, 22
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png: 26% /22.661M, 0/s, -
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:  0% /19.491M, 0/s, -Transferred:   	    1.473G / 6.823 GBytes, 22%, 40.498 MBytes/s, ETA 2m15s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        37.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 48% /966.492M, 23.202M/s, 21
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png: 70% /22.661M, 2.428M/s, 2s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:  0% /19.491M, 0/s, -Transferred:   	    1.495G / 6.823 GBytes, 22%, 40.544 MBytes/s, ETA 2m14s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        37.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 50% /966.492M, 23.752M/s, 20
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 2.428M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png: 17% /19.491M, 0/s, -Transferred:   	    1.511G / 6.823 GBytes, 22%, 40.450 MBytes/s, ETA 2m14s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        38.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 51% /966.492M, 23.752M/s, 19
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 5.698M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png: 41% /19.491M, 2.319M/s, 4sTransferred:   	    1.533G / 6.823 GBytes, 22%, 40.521 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        38.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 52% /966.492M, 23.767M/s, 19
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:  0% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 5.698M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png: 82% /19.491M, 2.319M/s, 1sTransferred:   	    1.545G / 6.823 GBytes, 23%, 40.308 MBytes/s, ETA 2m14s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        39.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 53% /966.492M, 23.767M/s, 18
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png: 13% /25.753M, 0/s, -
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 4.559M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 5.339M/s, 0sTransferred:   	    1.561G / 6.823 GBytes, 23%, 40.219 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        39.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 54% /966.492M, 23.643M/s, 18
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png: 31% /25.753M, 1.062M/s, 16s
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 4.559M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 5.339M/s, 0sTransferred:   	    1.592G / 6.823 GBytes, 23%, 40.514 MBytes/s, ETA 2m12s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           42 / 10050, 0%
+Elapsed time:        40.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 56% /966.492M, 23.643M/s, 17
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png: 93% /25.753M, 1.062M/s, 1s
+ * training_runs/AFHQ_tra…-kimg1/fakes000001.png:100% /22.661M, 3.799M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 4.877M/s, 0sTransferred:   	    1.610G / 6.876 GBytes, 23%, 40.453 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           43 / 10051, 0%
+Elapsed time:        40.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 57% /966.492M, 24.020M/s, 16
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 3.679M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 4.877M/s, 0s
+ * training_runs/AFHQ_tra…om-auto2-kimg1/log.txt:  0% /5.705k, 0/s, -Transferred:   	    1.625G / 6.876 GBytes, 24%, 40.351 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           43 / 10051, 0%
+Elapsed time:        41.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 59% /966.492M, 24.020M/s, 16
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 3.679M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 3.902M/s, 0s
+ * training_runs/AFHQ_tra…om-auto2-kimg1/log.txt:  0% /5.705k, 0/s, -Transferred:   	    1.641G / 6.876 GBytes, 24%, 40.238 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           43 / 10051, 0%
+Elapsed time:        41.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 61% /966.492M, 24.301M/s, 15
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 3.219M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 3.902M/s, 0s
+ * training_runs/AFHQ_tra…om-auto2-kimg1/log.txt:  0% /5.705k, 0/s, -Transferred:   	    1.649G / 6.876 GBytes, 24%, 39.964 MBytes/s, ETA 2m13s
+Errors:                 2 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           43 / 10051, 0%
+Elapsed time:        42.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 62% /966.492M, 24.301M/s, 15
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 3.219M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 3.251M/s, 0s
+ * training_runs/AFHQ_tra…om-auto2-kimg1/log.txt:  0% /5.705k, 0/s, -
+2021-03-19 10:19:20 ERROR : training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/log.txt: Failed to copy: can't copy - source file is being updated (size changed from 5842 to 5924)
+Transferred:   	    1.649G / 6.876 GBytes, 24%, 39.867 MBytes/s, ETA 2m14s
+Errors:                 3 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           43 / 10051, 0%
+Elapsed time:        42.3s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 62% /966.492M, 24.283M/s, 15
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 3.219M/s, 0s
+ * training_runs/AFHQ_tra…2-kimg1/fakes_init.png:100% /19.491M, 3.251M/s, 0s
+ * training_runs/AFHQ_tra…om-auto2-kimg1/log.txt:  0% /5.705k, 0/s, -Transferred:   	    1.654G / 6.930 GBytes, 24%, 39.630 MBytes/s, ETA 2m16s
+Errors:                 3 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           44 / 10052, 0%
+Elapsed time:        42.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 62% /966.492M, 24.283M/s, 14
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 2.861M/s, 0s
+ * training_runs/AFHQ_tra…metric-fid50k_full.txt:  0% /70, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:  0% /270.043M, 0/s, -
+2021-03-19 10:19:20 ERROR : training_runs/AFHQ_training-runs/00000-AFHQ_custom-auto2-kimg1/metric-fid50k_full.txt: Failed to copy: can't copy - source file is being updated (size changed from 70 to 140)
+Transferred:   	    1.657G / 6.930 GBytes, 24%, 39.550 MBytes/s, ETA 2m16s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           44 / 10052, 0%
+Elapsed time:        42.8s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 62% /966.492M, 24.283M/s, 14
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 2.861M/s, 0s
+ * training_runs/AFHQ_tra…metric-fid50k_full.txt:  0% /70, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.668G / 6.930 GBytes, 24%, 39.487 MBytes/s, ETA 2m16s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           44 / 10052, 0%
+Elapsed time:        43.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 63% /966.492M, 24.283M/s, 14
+ * training_runs/AFHQ_tra…-kimg1/fakes000000.png:100% /25.753M, 2.861M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:  1% /270.043M, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.680G / 6.982 GBytes, 24%, 39.310 MBytes/s, ETA 2m18s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        43.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 64% /966.492M, 23.765M/s, 14
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:  0% /53.441M, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:  2% /270.043M, 6.120M/s, 42s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.703G / 6.982 GBytes, 24%, 39.408 MBytes/s, ETA 2m17s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        44.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 65% /966.492M, 23.765M/s, 13
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:  6% /53.441M, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:  5% /270.043M, 6.120M/s, 41s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.731G / 6.982 GBytes, 25%, 39.593 MBytes/s, ETA 2m15s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        44.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 67% /966.492M, 23.636M/s, 13
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png: 14% /53.441M, 7.998M/s, 5s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 10% /270.043M, 11.999M/s, 20
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.763G / 6.982 GBytes, 25%, 39.893 MBytes/s, ETA 2m13s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        45.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 68% /966.492M, 23.636M/s, 12
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png: 29% /53.441M, 7.998M/s, 4s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 14% /270.043M, 11.999M/s, 19
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.779G / 6.982 GBytes, 25%, 39.820 MBytes/s, ETA 2m13s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        45.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 68% /966.492M, 23.754M/s, 12
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png: 39% /53.441M, 9.981M/s, 3s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 17% /270.043M, 16.000M/s, 13
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.812G / 6.982 GBytes, 26%, 40.121 MBytes/s, ETA 2m11s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        46.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 69% /966.492M, 23.754M/s, 12
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png: 59% /53.441M, 9.981M/s, 2s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 23% /270.043M, 16.000M/s, 12
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.844G / 6.982 GBytes, 26%, 40.395 MBytes/s, ETA 2m10s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        46.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 70% /966.492M, 22.818M/s, 12
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png: 89% /53.441M, 15.821M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 26% /270.043M, 18.000M/s, 11
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.868G / 6.982 GBytes, 27%, 40.481 MBytes/s, ETA 2m9s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        47.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 70% /966.492M, 22.818M/s, 12
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 15.821M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 31% /270.043M, 18.000M/s, 10
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.894G / 6.982 GBytes, 27%, 40.616 MBytes/s, ETA 2m8s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        47.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 72% /966.492M, 22.343M/s, 11
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 13.360M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 35% /270.043M, 19.200M/s, 9s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.924G / 6.982 GBytes, 28%, 40.842 MBytes/s, ETA 2m6s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        48.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 74% /966.492M, 22.343M/s, 11
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 13.360M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 41% /270.043M, 19.200M/s, 8s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.951G / 6.982 GBytes, 28%, 40.965 MBytes/s, ETA 2m5s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        48.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 75% /966.492M, 22.998M/s, 10
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 10.688M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 45% /270.043M, 20.000M/s, 7s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.974G / 6.982 GBytes, 28%, 41.040 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        49.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 76% /966.492M, 22.998M/s, 9s
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 10.688M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 50% /270.043M, 20.000M/s, 6s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    1.997G / 6.982 GBytes, 29%, 41.106 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        49.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 78% /966.492M, 23.061M/s, 8s
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 8.906M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 53% /270.043M, 20.571M/s, 6s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.016G / 6.982 GBytes, 29%, 41.076 MBytes/s, ETA 2m3s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           45 / 10053, 0%
+Elapsed time:        50.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 79% /966.492M, 23.061M/s, 8s
+ * training_runs/AFHQ_tra…-auto2-kimg1/reals.png:100% /53.441M, 8.906M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 55% /270.043M, 20.571M/s, 5s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.041G / 6.982 GBytes, 29%, 41.176 MBytes/s, ETA 2m2s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        50.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 81% /966.492M, 23.440M/s, 7s
+ * training_runs/AFHQ_tra…/training_options.json:  0% /2.059k, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 60% /270.043M, 20.000M/s, 5s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.068G / 6.982 GBytes, 30%, 41.325 MBytes/s, ETA 2m1s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        51.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 82% /966.492M, 23.440M/s, 7s
+ * training_runs/AFHQ_tra…/training_options.json:  0% /2.059k, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 65% /270.043M, 20.000M/s, 4s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.097G / 6.982 GBytes, 30%, 41.493 MBytes/s, ETA 2m
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        51.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 84% /966.492M, 23.651M/s, 6s
+ * training_runs/AFHQ_tra…/training_options.json:  0% /2.059k, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 70% /270.043M, 20.881M/s, 3s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.123G / 6.982 GBytes, 30%, 41.606 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        52.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 86% /966.492M, 23.651M/s, 5s
+ * training_runs/AFHQ_tra…/training_options.json:  0% /2.059k, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 74% /270.043M, 20.881M/s, 3s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.145G / 6.982 GBytes, 31%, 41.644 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        52.7s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 86% /966.492M, 24.173M/s, 5s
+ * training_runs/AFHQ_tra…/training_options.json:100% /2.059k, 1.019k/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 79% /270.043M, 21.334M/s, 2s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.170G / 6.982 GBytes, 31%, 41.726 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           46 / 10054, 0%
+Elapsed time:        53.2s
+Transferring:
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 88% /966.492M, 24.173M/s, 4s
+ * training_runs/AFHQ_tra…/training_options.json:100% /2.059k, 1.019k/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 82% /270.043M, 21.334M/s, 2s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.189G / 7.037 GBytes, 31%, 41.709 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           47 / 10055, 0%
+Elapsed time:        53.7s
+Transferring:
+ * .git/objects/25/63628e…f2bb8ee9b0b825efae0bda:  0% /189, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 89% /966.492M, 24.162M/s, 4s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 87% /270.043M, 21.091M/s, 1s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.217G / 7.037 GBytes, 32%, 41.840 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           47 / 10055, 0%
+Elapsed time:        54.2s
+Transferring:
+ * .git/objects/25/63628e…f2bb8ee9b0b825efae0bda:  0% /189, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 91% /966.492M, 24.162M/s, 3s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 91% /270.043M, 21.091M/s, 1s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.242G / 7.037 GBytes, 32%, 41.912 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           47 / 10055, 0%
+Elapsed time:        54.7s
+Transferring:
+ * .git/objects/25/63628e…f2bb8ee9b0b825efae0bda:100% /189, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 92% /966.492M, 24.152M/s, 3s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl: 96% /270.043M, 21.657M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.262G / 7.037 GBytes, 32%, 41.918 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           47 / 10055, 0%
+Elapsed time:        55.2s
+Transferring:
+ * .git/objects/25/63628e…f2bb8ee9b0b825efae0bda:100% /189, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 93% /966.492M, 24.152M/s, 2s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:100% /270.043M, 21.657M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.277G / 7.037 GBytes, 32%, 41.829 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           47 / 10055, 0%
+Elapsed time:        55.7s
+Transferring:
+ * .git/objects/25/63628e…f2bb8ee9b0b825efae0bda:100% /189, 94/s, 0s
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 95% /966.492M, 24.142M/s, 1s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:100% /270.043M, 20.769M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.293G / 7.037 GBytes, 33%, 41.741 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           48 / 10056, 0%
+Elapsed time:        56.2s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:  0% /3.110k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 96% /966.492M, 24.142M/s, 1s
+ * training_runs/AFHQ_tra…rk-snapshot-000000.pkl:100% /270.043M, 20.769M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -Transferred:   	    2.309G / 7.089 GBytes, 33%, 41.655 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           49 / 10057, 0%
+Elapsed time:        56.7s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:  0% /3.110k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords: 98% /966.492M, 24.633M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -Transferred:   	    2.323G / 7.089 GBytes, 33%, 41.545 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           49 / 10057, 0%
+Elapsed time:        57.2s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:  0% /3.110k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:100% /966.492M, 24.633M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -Transferred:   	    2.323G / 7.089 GBytes, 33%, 41.185 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           49 / 10057, 0%
+Elapsed time:        57.7s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:  0% /3.110k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:100% /966.492M, 25.000M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -Transferred:   	    2.323G / 7.089 GBytes, 33%, 40.832 MBytes/s, ETA 1m59s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           49 / 10057, 0%
+Elapsed time:        58.2s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:100% /3.110k, 0/s, -
+ * datasets/AFHQ_custom/A…Q_custom-r08.tfrecords:100% /966.492M, 25.000M/s, 0s
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -Transferred:   	    2.323G / 7.089 GBytes, 33%, 40.484 MBytes/s, ETA 2m
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           50 / 10058, 0%
+Elapsed time:        58.7s
+Transferring:
+ * .git/objects/2b/f5a86e…321158c3541916ffda702e:100% /3.110k, 0/s, -
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png:  0% /63.997M, 0/s, -Transferred:   	    2.323G / 7.143 GBytes, 33%, 40.142 MBytes/s, ETA 2m2s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           51 / 10059, 1%
+Elapsed time:        59.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:  0% /4.176k, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png:  0% /63.997M, 0/s, -
+ * training_runs/Stanford…custom/fakes000004.png:  0% /64.269M, 0/s, -Transferred:   	    2.323G / 7.143 GBytes, 33%, 39.807 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           51 / 10059, 1%
+Elapsed time:        59.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:100% /4.176k, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png:  0% /63.997M, 0/s, -
+ * training_runs/Stanford…custom/fakes000004.png:  0% /64.269M, 0/s, -Transferred:   	    2.331G / 7.143 GBytes, 33%, 39.611 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           51 / 10059, 1%
+Elapsed time:       1m0.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…3206.crane.hcc.unl.edu:100% /4.176k, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png:  7% /63.997M, 0/s, -
+ * training_runs/Stanford…custom/fakes000004.png:  5% /64.269M, 3.370M/s, 18sTransferred:   	    2.344G / 7.143 GBytes, 33%, 39.509 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m0.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png: 21% /63.997M, 3.998M/s, 12s
+ * training_runs/Stanford…custom/fakes000004.png: 12% /64.269M, 3.370M/s, 16s
+ * training_runs/Stanford…custom/fakes000008.png:  0% /64.394M, 0/s, -Transferred:   	    2.361G / 7.143 GBytes, 33%, 39.473 MBytes/s, ETA 2m4s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m1.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png: 25% /63.997M, 3.998M/s, 12s
+ * training_runs/Stanford…custom/fakes000004.png: 31% /64.269M, 8.000M/s, 5s
+ * training_runs/Stanford…custom/fakes000008.png:  5% /64.394M, 0/s, -Transferred:   	    2.385G / 7.143 GBytes, 33%, 39.554 MBytes/s, ETA 2m3s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m1.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  0% /270.043M, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png: 37% /63.997M, 7.604M/s, 5s
+ * training_runs/Stanford…custom/fakes000004.png: 49% /64.269M, 8.000M/s, 4s
+ * training_runs/Stanford…custom/fakes000008.png: 12% /64.394M, 7.307M/s, 7sTransferred:   	    2.420G / 7.143 GBytes, 34%, 39.807 MBytes/s, ETA 2m1s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m2.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  1% /270.043M, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png: 62% /63.997M, 7.604M/s, 3s
+ * training_runs/Stanford…custom/fakes000004.png: 62% /64.269M, 8.000M/s, 2s
+ * training_runs/Stanford…custom/fakes000008.png: 24% /64.394M, 7.307M/s, 6sTransferred:   	    2.468G / 7.143 GBytes, 35%, 40.270 MBytes/s, ETA 1m58s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m2.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  2% /270.043M, 0/s, -
+ * training_runs/Stanford…custom/fakes000000.png: 83% /63.997M, 12.001M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png: 85% /64.269M, 14.365M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png: 49% /64.394M, 15.452M/s, 2sTransferred:   	    2.500G / 7.143 GBytes, 35%, 40.477 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m3.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl:  8% /270.043M, 871.747k/s, 4
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 12.001M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png: 99% /64.269M, 15.950M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png: 49% /64.394M, 15.452M/s, 2sTransferred:   	    2.518G / 7.143 GBytes, 35%, 40.450 MBytes/s, ETA 1m57s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m3.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 11% /270.043M, 871.747k/s, 4
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 12.800M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 15.950M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png: 62% /64.394M, 13.327M/s, 1sTransferred:   	    2.550G / 7.143 GBytes, 36%, 40.634 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m4.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 17% /270.043M, 2.447M/s, 1m3
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 12.800M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 12.814M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png: 86% /64.394M, 13.327M/s, 0sTransferred:   	    2.572G / 7.143 GBytes, 36%, 40.674 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m4.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 23% /270.043M, 2.447M/s, 1m2
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 10.667M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 12.814M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png: 97% /64.394M, 14.994M/s, 0sTransferred:   	    2.581G / 7.143 GBytes, 36%, 40.507 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m5.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 26% /270.043M, 3.794M/s, 52s
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 10.667M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 10.679M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 14.994M/s, 0sTransferred:   	    2.596G / 7.143 GBytes, 36%, 40.427 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m5.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 32% /270.043M, 3.794M/s, 48s
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 9.143M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 10.679M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 12.873M/s, 0sTransferred:   	    2.612G / 7.143 GBytes, 37%, 40.376 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m6.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 38% /270.043M, 5.292M/s, 31s
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 9.143M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 9.153M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 12.873M/s, 0sTransferred:   	    2.624G / 7.143 GBytes, 37%, 40.255 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           52 / 10060, 1%
+Elapsed time:       1m6.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 42% /270.043M, 5.292M/s, 29s
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 8.000M/s, 0s
+ * training_runs/Stanford…custom/fakes000004.png:100% /64.269M, 9.153M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 10.727M/s, 0sTransferred:   	    2.628G / 7.195 GBytes, 37%, 40.016 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           53 / 10061, 1%
+Elapsed time:       1m7.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 44% /270.043M, 6.707M/s, 22s
+ * training_runs/Stanford…custom/fakes000000.png:100% /63.997M, 8.000M/s, 0s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 10.727M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png:  0% /64.019M, 0/s, -Transferred:   	    2.651G / 7.195 GBytes, 37%, 40.069 MBytes/s, ETA 1m56s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           54 / 10062, 1%
+Elapsed time:       1m7.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 50% /270.043M, 6.707M/s, 19s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 9.195M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png: 12% /64.019M, 0/s, -
+ * training_runs/Stanford…custom/fakes000016.png:  0% /63.832M, 0/s, -Transferred:   	    2.670G / 7.195 GBytes, 37%, 40.066 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           54 / 10062, 1%
+Elapsed time:       1m8.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 56% /270.043M, 7.549M/s, 15s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 9.195M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png: 12% /64.019M, 7.998M/s, 7s
+ * training_runs/Stanford…custom/fakes000016.png:  5% /63.832M, 0/s, -Transferred:   	    2.687G / 7.195 GBytes, 37%, 40.015 MBytes/s, ETA 1m55s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           54 / 10062, 1%
+Elapsed time:       1m8.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 59% /270.043M, 7.549M/s, 14s
+ * training_runs/Stanford…custom/fakes000008.png:100% /64.394M, 8.046M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png: 18% /64.019M, 7.998M/s, 6s
+ * training_runs/Stanford…custom/fakes000016.png: 12% /63.832M, 7.619M/s, 7sTransferred:   	    2.728G / 7.249 GBytes, 38%, 40.343 MBytes/s, ETA 1m54s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:       1m9.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 65% /270.043M, 8.706M/s, 10s
+ * training_runs/Stanford…custom/fakes000012.png: 35% /64.019M, 6.664M/s, 6s
+ * training_runs/Stanford…custom/fakes000016.png: 37% /63.832M, 7.619M/s, 5s
+ * training_runs/Stanford…custom/fakes000020.png:  0% /63.833M, 0/s, -Transferred:   	    2.773G / 7.249 GBytes, 38%, 40.704 MBytes/s, ETA 1m52s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:       1m9.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 70% /270.043M, 8.706M/s, 9s
+ * training_runs/Stanford…custom/fakes000012.png: 49% /64.019M, 6.664M/s, 4s
+ * training_runs/Stanford…custom/fakes000016.png: 62% /63.832M, 15.999M/s, 1s
+ * training_runs/Stanford…custom/fakes000020.png:  7% /63.833M, 0/s, -Transferred:   	    2.818G / 7.249 GBytes, 39%, 41.078 MBytes/s, ETA 1m50s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m10.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 74% /270.043M, 9.785M/s, 7s
+ * training_runs/Stanford…custom/fakes000012.png: 68% /64.019M, 10.655M/s, 1s
+ * training_runs/Stanford…custom/fakes000016.png: 87% /63.832M, 15.999M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png: 24% /63.833M, 7.597M/s, 6sTransferred:   	    2.852G / 7.249 GBytes, 39%, 41.281 MBytes/s, ETA 1m49s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m10.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 77% /270.043M, 9.785M/s, 6s
+ * training_runs/Stanford…custom/fakes000012.png: 87% /64.019M, 10.655M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png: 87% /63.832M, 18.584M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png: 46% /63.833M, 7.597M/s, 4sTransferred:   	    2.883G / 7.249 GBytes, 40%, 41.438 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m11.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 77% /270.043M, 10.174M/s, 6s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 14.010M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 18.584M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png: 71% /63.833M, 16.059M/s, 1sTransferred:   	    2.903G / 7.249 GBytes, 40%, 41.432 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m11.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 78% /270.043M, 10.174M/s, 5s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 14.010M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 15.917M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png: 96% /63.833M, 16.059M/s, 0sTransferred:   	    2.917G / 7.249 GBytes, 40%, 41.340 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m12.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 82% /270.043M, 9.957M/s, 4s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 12.812M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 15.917M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 21.263M/s, 0sTransferred:   	    2.932G / 7.249 GBytes, 40%, 41.264 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m12.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 88% /270.043M, 9.957M/s, 3s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 12.812M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 12.733M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 21.263M/s, 0sTransferred:   	    2.945G / 7.249 GBytes, 41%, 41.176 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m13.2s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 93% /270.043M, 10.915M/s, 1s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 10.677M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 12.733M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 15.948M/s, 0sTransferred:   	    2.956G / 7.249 GBytes, 41%, 41.041 MBytes/s, ETA 1m47s
+Errors:                 4 (retrying may help)
+Checks:               618 / 618, 100%
+Transferred:           55 / 10063, 1%
+Elapsed time:      1m13.7s
+Transferring:
+ * training_runs/AFHQ_tra…rk-snapshot-000001.pkl: 97% /270.043M, 10.915M/s, 0s
+ * training_runs/Stanford…custom/fakes000012.png:100% /64.019M, 10.677M/s, 0s
+ * training_runs/Stanford…custom/fakes000016.png:100% /63.832M, 10.611M/s, 0s
+ * training_runs/Stanford…custom/fakes000020.png:100% /63.833M, 15.948M/s, 0s
