@@ -317,3 +317,35 @@ Training for 25000 kimg...
 
 tick 0     kimg 0.1      time 3m 14s       sec/tick 43.9    sec/kimg 343.18  maintenance 150.0  gpumem 7.2   augment 0.001
 Evaluating metrics...
+network-snapshot-000000        time 5m 06s       fid50k_full 15.6565
+tick 1     kimg 4.2      time 10m 17s      sec/tick 82.5    sec/kimg 20.15   maintenance 340.9  gpumem 7.2   augment 0.037
+tick 2     kimg 8.3      time 11m 41s      sec/tick 83.4    sec/kimg 20.37   maintenance 0.0    gpumem 7.2   augment 0.065
+tick 3     kimg 12.4     time 13m 04s      sec/tick 83.0    sec/kimg 20.26   maintenance 0.0    gpumem 7.2   augment 0.101
+tick 4     kimg 16.5     time 14m 27s      sec/tick 83.6    sec/kimg 20.40   maintenance 0.0    gpumem 7.2   augment 0.137
+tick 5     kimg 20.6     time 15m 51s      sec/tick 83.3    sec/kimg 20.33   maintenance 0.0    gpumem 7.2   augment 0.170
+tick 6     kimg 24.7     time 17m 15s      sec/tick 83.9    sec/kimg 20.49   maintenance 0.0    gpumem 7.2   augment 0.206
+tick 7     kimg 28.8     time 18m 38s      sec/tick 83.4    sec/kimg 20.37   maintenance 0.0    gpumem 7.2   augment 0.239
+tick 8     kimg 32.9     time 20m 02s      sec/tick 84.0    sec/kimg 20.51   maintenance 0.0    gpumem 7.2   augment 0.275
+tick 9     kimg 37.0     time 21m 26s      sec/tick 83.7    sec/kimg 20.43   maintenance 0.0    gpumem 7.2   augment 0.311
+tick 10    kimg 41.1     time 22m 50s      sec/tick 84.3    sec/kimg 20.58   maintenance 0.0    gpumem 7.2   augment 0.342
+tick 11    kimg 45.2     time 24m 14s      sec/tick 83.8    sec/kimg 20.45   maintenance 0.0    gpumem 7.2   augment 0.375
+tick 12    kimg 49.3     time 25m 39s      sec/tick 84.4    sec/kimg 20.60   maintenance 0.0    gpumem 7.2   augment 0.411
+tick 13    kimg 53.4     time 27m 03s      sec/tick 84.0    sec/kimg 20.50   maintenance 0.0    gpumem 7.2   augment 0.444
+tick 14    kimg 57.5     time 28m 27s      sec/tick 84.6    sec/kimg 20.67   maintenance 0.0    gpumem 7.2   augment 0.472
+tick 15    kimg 61.6     time 29m 51s      sec/tick 84.2    sec/kimg 20.55   maintenance 0.0    gpumem 7.2   augment 0.508
+tick 16    kimg 65.7     time 31m 16s      sec/tick 84.7    sec/kimg 20.68   maintenance 0.0    gpumem 7.2   augment 0.531
+tick 17    kimg 69.8     time 32m 40s      sec/tick 84.2    sec/kimg 20.56   maintenance 0.0    gpumem 7.2   augment 0.554
+tick 18    kimg 73.9     time 34m 05s      sec/tick 84.8    sec/kimg 20.71   maintenance 0.0    gpumem 7.2   augment 0.580
+tick 19    kimg 78.0     time 35m 30s      sec/tick 84.4    sec/kimg 20.60   maintenance 0.0    gpumem 7.2   augment 0.605
+tick 20    kimg 82.0     time 36m 55s      sec/tick 84.9    sec/kimg 20.72   maintenance 0.0    gpumem 7.2   augment 0.628
+tick 21    kimg 86.1     time 38m 19s      sec/tick 84.5    sec/kimg 20.63   maintenance 0.0    gpumem 7.2   augment 0.644
+tick 22    kimg 90.2     time 39m 44s      sec/tick 85.0    sec/kimg 20.76   maintenance 0.0    gpumem 7.2   augment 0.659
+tick 23    kimg 94.3     time 41m 09s      sec/tick 84.5    sec/kimg 20.62   maintenance 0.0    gpumem 7.2   augment 0.669
+tick 24    kimg 98.4     time 42m 34s      sec/tick 85.1    sec/kimg 20.77   maintenance 0.0    gpumem 7.2   augment 0.680
+tick 25    kimg 102.5    time 43m 58s      sec/tick 84.5    sec/kimg 20.63   maintenance 0.0    gpumem 7.2   augment 0.700
+tick 26    kimg 106.6    time 45m 24s      sec/tick 85.1    sec/kimg 20.79   maintenance 0.0    gpumem 7.2   augment 0.713
+tick 27    kimg 110.7    time 46m 48s      sec/tick 84.7    sec/kimg 20.67   maintenance 0.0    gpumem 7.2   augment 0.713
+tick 28    kimg 114.8    time 48m 14s      sec/tick 85.3    sec/kimg 20.82   maintenance 0.0    gpumem 7.2   augment 0.718
+tick 29    kimg 118.9    time 49m 38s      sec/tick 84.7    sec/kimg 20.68   maintenance 0.0    gpumem 7.2   augment 0.726
+tick 30    kimg 123.0    time 51m 04s      sec/tick 85.2    sec/kimg 20.80   maintenance 0.0    gpumem 7.2   augment 0.728
+Evaluating metrics...
