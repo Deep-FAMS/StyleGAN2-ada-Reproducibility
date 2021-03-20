@@ -991,3 +991,6 @@ tick 628   kimg 2572.4   time 14h 58m 33s  sec/tick 76.3    sec/kimg 18.62   mai
 tick 629   kimg 2576.5   time 14h 59m 49s  sec/tick 76.0    sec/kimg 18.55   maintenance 0.0    gpumem 7.1   augment 0.308
 tick 630   kimg 2580.6   time 15h 01m 06s  sec/tick 76.2    sec/kimg 18.61   maintenance 0.0    gpumem 7.1   augment 0.314
 Evaluating metrics...
+network-snapshot-002580        time 4m 30s       fid50k_full 12.6539
+tick 631   kimg 2584.7   time 15h 07m 10s  sec/tick 76.3    sec/kimg 18.63   maintenance 288.0  gpumem 7.1   augment 0.311
+tick 632   kimg 2588.8   time 15h 08m 26s  sec/tick 76.4    sec/kimg 18.64   maintenance 0.0    gpumem 7.1   augment 0.306

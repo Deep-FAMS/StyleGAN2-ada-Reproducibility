@@ -6,7 +6,7 @@ archived/
 .tmp/
 tmp_script.sh
 compile_model.sh
-.temp_imgs/
+.tmp_imgs/
 
 .DS_Store
 ._.DS_Store
