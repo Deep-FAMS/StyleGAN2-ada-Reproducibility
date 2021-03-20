@@ -994,3 +994,10 @@ Evaluating metrics...
 network-snapshot-002580        time 4m 30s       fid50k_full 12.6539
 tick 631   kimg 2584.7   time 15h 07m 10s  sec/tick 76.3    sec/kimg 18.63   maintenance 288.0  gpumem 7.1   augment 0.311
 tick 632   kimg 2588.8   time 15h 08m 26s  sec/tick 76.4    sec/kimg 18.64   maintenance 0.0    gpumem 7.1   augment 0.306
+tick 633   kimg 2592.9   time 15h 09m 43s  sec/tick 76.2    sec/kimg 18.60   maintenance 0.0    gpumem 7.1   augment 0.303
+tick 634   kimg 2597.0   time 15h 10m 59s  sec/tick 76.3    sec/kimg 18.62   maintenance 0.0    gpumem 7.1   augment 0.303
+tick 635   kimg 2601.1   time 15h 12m 15s  sec/tick 76.2    sec/kimg 18.61   maintenance 0.0    gpumem 7.1   augment 0.303
+tick 636   kimg 2605.2   time 15h 13m 31s  sec/tick 76.2    sec/kimg 18.61   maintenance 0.0    gpumem 7.1   augment 0.308
+tick 637   kimg 2609.3   time 15h 14m 47s  sec/tick 76.0    sec/kimg 18.55   maintenance 0.0    gpumem 7.1   augment 0.316
+tick 638   kimg 2613.4   time 15h 16m 04s  sec/tick 76.3    sec/kimg 18.64   maintenance 0.0    gpumem 7.1   augment 0.311
+tick 639   kimg 2617.5   time 15h 17m 20s  sec/tick 76.2    sec/kimg 18.61   maintenance 0.0    gpumem 7.1   augment 0.314
