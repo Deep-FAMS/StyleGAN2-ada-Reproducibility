@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=24:00:00
+#SBATCH --time=72:00:00
 #SBATCH --job-name='ADA-METFACES'
 #SBATCH --partition='gpu'
 #SBATCH --gres=gpu:2
