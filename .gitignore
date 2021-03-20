@@ -1,9 +1,12 @@
+.env
+
 datasets/
 training_runs/
 archived/
 .tmp/
 tmp_script.sh
 compile_model.sh
+.temp_imgs/
 
 .DS_Store
 ._.DS_Store
