@@ -1,5 +1,0 @@
-ln: creating symbolic link `/lib/libcuda.so': Permission denied
-Traceback (most recent call last):
-  File "/work/chaselab/malyetama/ADA_Project/py_scripts/ADA-StanfordDogs.py", line 28, in <module>
-    RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(PROJ_DIR, 'StanfordDogs')
-NameError: name 'PROJ_DIR' is not defined

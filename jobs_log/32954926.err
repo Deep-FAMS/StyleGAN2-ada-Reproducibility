@@ -1,2 +1,0 @@
-ln: creating symbolic link `/lib/libcuda.so': Permission denied
-/work/chaselab/malyetama/.conda/envs/ada-env/bin/python: can't open file '/work/chaselab/malyetama/py_scripts/ADA-102flowers.py': [Errno 2] No such file or directory
