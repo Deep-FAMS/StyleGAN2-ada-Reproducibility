@@ -58,7 +58,6 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
         for num in range(-1, -10, -1):
             files = sorted(glob(folder + "/**/*"))
             files = [x for x in files if 'fakes0' in x]
-            files = [x for x in files if 'pokemon' not in x]
             if files == []:
                 continue
             else:
@@ -74,28 +73,30 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
 
     for img in latest_fakes:
         image = PIL.Image.open(img)
-        resized_path = f'{backups_dir}/{Path(img).name}'
-        output_dim = tuple(x // 4 for x in image.size)
-        resized = image.resize(output_dim)
-        resized.save(resized_path)
+        compressed_path = f'{backups_dir}/{Path(img).stem}' + '.jpg'
+#         output_dim = tuple(x // 2 for x in image.size)
+#         compressed = image.resize(output_dim)
+        compressed = image
+        compressed.save(compressed_path)
         if verbose == 1:
             print(Path(img).name,
-                f'Resized from {image.size} [{mb_size(img):.2f}MB] to ==> '
-                  f'{output_dim} [{mb_size(resized_path):.2f}MB]')
+                f'compressed from ({mb_size(img):.2f}MB) to ==> '
+                  f'({mb_size(compressed_path):.2f}MB)')
         
-        url = upload_img(resized_path, token)
+        url = upload_img(compressed_path, token)
         if verbose == 1:
             print(f'Link ==> {url}\n')
         img_subdir = dir_up(img, -3)
         
         md_content.append(f'### {img_subdir}\n'
-              f'![{Path(resized_path).name}]({url} "{img_subdir}")'
+              f'![{Path(compressed_path).name}]({url} "{img_subdir}")'
               '\n\n')
+
     
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_markdown_reports/{Tstamp}.md'
     with open(report_path, 'w') as f:
-        f.write(''.join(md_content))
+        f.write(''.join(md_content).replace('<br></br>', '\n'))
     
     if verbose == 1:
         print(f'Generated a report at ==> {report_path}')
