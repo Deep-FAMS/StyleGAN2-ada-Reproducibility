@@ -10,7 +10,7 @@ In this project, I attempt to evaluate the reproducibility and generalizability 
 ```shell
 $ git clone git@github.com:Deep-FAMS/ADA_Project.git
 ```
-### Create a conda environment with all the requirements
+### Create a conda environment with all dependencies and requirements
 ```shell
 $ cd ADA_Project
 $ conda env create -f environment.yml
