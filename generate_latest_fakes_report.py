@@ -58,6 +58,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
         for num in range(-1, -10, -1):
             files = sorted(glob(folder + "/**/*"))
             files = [x for x in files if 'fakes0' in x]
+            files = [x for x in files if 'pokemon' not in x]
             if files == []:
                 continue
             else:

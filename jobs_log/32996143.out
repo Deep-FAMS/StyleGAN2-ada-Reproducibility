@@ -3,7 +3,7 @@ Tensorflow version: 1.14.0
 10842
 Raw: 10842, Resized: 9950
 /work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00008-gen1_pokemon_custom-auto2-resumecustom/network-snapshot-000110.pkl
-Sun Mar 21 01:32:55 2021       
+Sun Mar 21 01:50:04 2021       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.0     |
 |-------------------------------+----------------------+----------------------+
@@ -12,11 +12,11 @@ Sun Mar 21 01:32:55 2021
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  Tesla V100-PCIE...  On   | 00000000:5E:00.0 Off |                    0 |
-| N/A   30C    P0    24W / 250W |      0MiB / 32510MiB |      0%      Default |
+| N/A   40C    P0    27W / 250W |      0MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
 |   1  Tesla V100-PCIE...  On   | 00000000:D8:00.0 Off |                    0 |
-| N/A   40C    P0    29W / 250W |      0MiB / 32510MiB |      0%      Default |
+| N/A   40C    P0    25W / 250W |      0MiB / 32510MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -117,10 +117,10 @@ Training options:
   "G_smoothing_kimg": 5.0,
   "G_smoothing_rampup": null,
   "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00008-gen1_pokemon_custom-auto2-resumecustom/network-snapshot-000110.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00010-gen1_pokemon_custom-auto2-resumecustom"
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00011-gen1_pokemon_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00010-gen1_pokemon_custom-auto2-resumecustom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00011-gen1_pokemon_custom-auto2-resumecustom
 Training data:     /work/chaselab/malyetama/ADA_Project/datasets/gen1_pokemon_custom
 Training length:   25000 kimg
 Resolution:        512
@@ -217,10 +217,10 @@ Training options:
   "G_smoothing_kimg": 5.0,
   "G_smoothing_rampup": null,
   "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00008-gen1_pokemon_custom-auto2-resumecustom/network-snapshot-000110.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00010-gen1_pokemon_custom-auto2-resumecustom"
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00011-gen1_pokemon_custom-auto2-resumecustom"
 }
 
-Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00010-gen1_pokemon_custom-auto2-resumecustom
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/gen1_pokemon_training-runs/00011-gen1_pokemon_custom-auto2-resumecustom
 Training data:     /work/chaselab/malyetama/ADA_Project/datasets/gen1_pokemon_custom
 Training length:   25000 kimg
 Resolution:        512
