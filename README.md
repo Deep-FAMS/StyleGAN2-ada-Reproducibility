@@ -10,7 +10,7 @@ In this project, I attempt to evaluate the reproducibility and generalizability 
 ```shell
 $ git clone git@github.com:Deep-FAMS/ADA_Project.git
 ```
-### Create a conda environment with all the requirements
+### Create a conda environment with all dependencies and requirements
 ```shell
 $ cd ADA_Project
 $ conda env create -f environment.yml
@@ -36,11 +36,34 @@ From here, you can start using the notebooks after you [add the new environment 
 If you want to submit jobs on Crane (or any other HPC that uses Slurm), see the next section.
 
 
-## Submitting jobs to the cluster
-If you want to run any of the script in [py_scripts](./py_scripts) interactively, then you will have to load few modules before you start.
+## Working on a cluster
+
+On Crane, to avoid permission errors, it's advisable that you install your environment on $WORK (replace $WORK with your working directory if it's different). Hence, you may have to specify the installation directory of your conda environment.
+
 ```shell
-module load cuda
-module load compiler/gcc/6.1
+$ module load anaconda
+
+$ conda create -p $WORK/.conda/envs/ada-env -f environment.yml
+$ conda activate $WORK/.conda/envs/ada-env
+$ python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
+
+# run the next line only if you don't already have a .jupyter/kernels folder
+# $ mkdir -p $WORK/.jupyter/kernels
+$ mv ~/.local/share/jupyter/kernels/ada-env/ $WORK/.jupyter/kernels/
+
+$ conda config --append envs_dirs $WORK/.conda/envs/ada-env
+$ conda config --set env_prompt '({name})'
+
+# restart your shell, then run
+$ module load cuda
+$ module load compiler/gcc/6.1
+$ conda activate ada-env
+```
+
+If you want to run any of the script in [py_scripts](./py_scripts) interactively in the terminal or submit them as a batch job, then you will have to load few modules before you start.
+```shell
+$ module load cuda
+$ module load compiler/gcc/6.1
 ```
 
 <br></br>
