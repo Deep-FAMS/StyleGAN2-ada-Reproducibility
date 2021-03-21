@@ -26,11 +26,14 @@ def resize_imgs(im, size, output_dir):
     Path(output_dir).mkdir(exist_ok=True)
     
     try:
-        if img_ext != '.png':
+        if img_ext != 'png':
             resized_img.save(f'{output_dir}/{img_name}')
         elif img_ext == '.png':
             rgb_im = resized_img.convert('RGB')
             rgb_im.save(f'{output_dir}/{img_name}')
+        else:
+            return None
+        
 
     except (KeyError, OSError) as e:
         print(e)
@@ -169,7 +172,7 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
                         img = img.transpose([2, 0, 1]) # HWC => CHW
                     tfr.add_image(img)
 
-                except (ValueError, OSError) as e:
+                except (ValueError, OSError, AssertionError) as e:
                     print(e)
                     print(f'Failed to export {image_filenames[order[idx]]}')
                 
