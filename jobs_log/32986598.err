@@ -602,3 +602,6 @@ pciBusID: 0000:d8:00.0
 2021-03-21 02:19:55.392561: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 12117 of 21846
 2021-03-21 02:20:06.966899: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 16379 of 21846
 2021-03-21 02:20:13.357286: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-21 02:26:43.853546: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9449 of 21846
+2021-03-21 02:26:53.944143: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 19109 of 21846
+2021-03-21 02:26:55.247617: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
