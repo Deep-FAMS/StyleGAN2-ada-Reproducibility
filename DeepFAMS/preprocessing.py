@@ -30,7 +30,7 @@ def resize_imgs(im, size, output_dir):
             resized_img.save(f'{output_dir}/{img_name}')
         elif img_ext == '.png':
             rgb_im = resized_img.convert('RGB')
-            rgb_im.save(f'{output_dir}/{img_name}')
+            rgb_im.save(f'{output_dir}/{img_name.name}.jpg')
         else:
             return None
         

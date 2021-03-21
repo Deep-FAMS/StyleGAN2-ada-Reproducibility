@@ -8,14 +8,12 @@ import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
-
 from glob import glob
 import numpy as np
 import PIL.Image
 from tqdm import tqdm
 from pathlib import Path
 import urllib.request
-import tarfile
 import zipfile
 import subprocess
 
@@ -32,24 +30,41 @@ RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils
     PROJ_DIR, 'gen1_pokemon')
 
 
-# ! wget 'https://unomaha.box.com/shared/static/b2quhszs8d7qfh40nnt2sojcztoxmdop.zip' -O datasets/gen1_pokemon.zip
+# url = 'https://unomaha.box.com/shared/static/b2quhszs8d7qfh40nnt2sojcztoxmdop.zip'
+# output_file = f'{Path(RAW_IMGS_DIR).parents[0]}/gen1_pokemon.zip'
+# urllib.request.urlretrieve(url, output_file)
 
-# import zipfile
-# with zipfile.ZipFile('datasets/gen1_pokemon.zip', 'r') as zip_ref:
+# with zipfile.ZipFile(output_file, 'r') as zip_ref:
 #     zip_ref.extractall(RAW_IMGS_DIR)
 
 raw_imgs = glob(f'{RAW_IMGS_DIR}/**/**/*')
-print(len(raw_imgs))
+raw_imgs_ = [x for x in raw_imgs if Path(x).suffix == '.jpg']
+print(f'All raw images: {len(raw_imgs)}, only ".jpg" images: {len(raw_imgs_)}')
 
 
-# for x in tqdm(raw_imgs):
+# for x in tqdm(raw_imgs_):
 #     DeepFAMS.preprocessing.resize_imgs(x, (256, 256), RESIZED_IMGS_DIR)
 
-print(f'Raw: {len(raw_imgs)}, Resized: {len(glob(f"{RESIZED_IMGS_DIR}/*"))}')
+print(f'Raw: {len(raw_imgs_)}, Resized: {len(glob(f"{RESIZED_IMGS_DIR}/*"))}')
 
 
-# DeepFAMS.preprocessing.tf_record_exporter(
-#     tfrecord_dir=DATA_CUSTOM_DIR, image_dir=RESIZED_IMGS_DIR, shuffle=1)
+DeepFAMS.preprocessing.tf_record_exporter(
+    tfrecord_dir=DATA_CUSTOM_DIR, image_dir=RESIZED_IMGS_DIR, shuffle=1)
+
+
+"""Debugging issue with images shape"""
+# >>>>>>>>>>>>>>>>>
+# import sys
+# sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada__source_code')
+
+# from training import dataset
+# import dnnlib
+
+# tf.compat.v1.disable_eager_execution()
+# dnnlib.tflib.init_tf()
+# training_set = dataset.load_dataset('/work/chaselab/malyetama/ADA_Project/datasets/gen1_pokemon_custom')
+# training_set.shape
+# <<<<<<<<<<<<<<<<<
 
 
 # DeepFAMS.utils.executePopen(
@@ -71,16 +86,15 @@ for num in range(-1, -10, -1):
     if files != []:
         break
 
-# latest_snap = sorted(files)[-1]
-latest_snap = f'{PROJ_DIR}/training_runs/gen1_pokemon_training-runs/00006-gen1_pokemon_custom-auto2-resumecustom'
+latest_snap = sorted(files)[-1]
 print(latest_snap)
-
 
 DeepFAMS.utils.execute('nvidia-smi')
 
+
 run_desc, training_options = DeepFAMS.setup_training_options(
     gpus       = 2,
-    snap       = 30,
+    snap       = 1,
     data       = DATA_CUSTOM_DIR,
     resume     = latest_snap
 )
