@@ -1,5 +1,10 @@
 # ADA Project
 
+In this project, I attempt to evaluate the reproducibility and generalizability of the results published in *[Training Generative Adversarial Networks with Limited Data](arxiv.org/abs/2006.06676)* with some of the datasets that were used in the paper and some other small datasets.
+
+**StyleGAN2-ada official repository:** https://github.com/NVlabs/stylegan2-ada
+
+
 ## Getting started
 ### Clone this repository
 ```shell
