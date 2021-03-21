@@ -36,7 +36,7 @@ From here, you can start using the notebooks after you [add the new environment 
 If you want to submit jobs on Crane (or any other HPC that uses Slurm), see the next section.
 
 
-## Submitting jobs to the cluster
+## Working on a cluster
 
 On Crane, to avoid permission errors, it's advisable that you install your environment on $WORK (replace $WORK with your working directory if it's different). Hence, you may have to specify the installation directory of your conda environment.
 
@@ -60,7 +60,7 @@ $ module load compiler/gcc/6.1
 $ conda activate ada-env
 ```
 
-If you want to run any of the script in [py_scripts](./py_scripts) interactively, then you will have to load few modules before you start.
+If you want to run any of the script in [py_scripts](./py_scripts) interactively in the terminal or submit them as a batch job, then you will have to load few modules before you start.
 ```shell
 $ module load cuda
 $ module load compiler/gcc/6.1
