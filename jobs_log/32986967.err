@@ -1,2 +1,0 @@
-ln: creating symbolic link `/lib/libcuda.so': Permission denied
-slurmstepd: error: *** JOB 32986967 ON c0127 CANCELLED AT 2021-03-21T01:35:44 ***
