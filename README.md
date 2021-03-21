@@ -47,7 +47,7 @@ $ conda create -p $WORK/.conda/envs/ada-env -f environment.yml
 $ conda activate $WORK/.conda/envs/ada-env
 $ python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
 
-# run the next line only if you don't have a .jupyter/kernels folder
+# run the next line only if you don't already have a .jupyter/kernels folder
 # $ mkdir -p $WORK/.jupyter/kernels
 $ mv ~/.local/share/jupyter/kernels/ada-env/ $WORK/.jupyter/kernels/
 
