@@ -4,20 +4,16 @@ PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 
 from glob import glob
-from tqdm import tqdm
 from pathlib import Path
-import shutil
 from pprint import pprint
-from datetime import datetime
-import subprocess
-import random
 import PIL
-import matplotlib.pyplot as plt
 import base64
 import requests
 import dotenv
 from datetime import datetime
 # from IPython.display import Markdown, display
+
+import training_time
 
 
 def generate_latest_fakes_report(PROJ_DIR, verbose=1):
@@ -94,9 +90,11 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
 
     
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
-    report_path = f'{PROJ_DIR}/latest_fakes_markdown_reports/{Tstamp}.md'
+    report_path = f'{PROJ_DIR}/latest_fakes_reports/{Tstamp}.md'
+
     with open(report_path, 'w') as f:
-        f.write(''.join(md_content).replace('<br></br>', '\n'))
+        f.write(''.join(md_content))
+        f.write(training_time.training_time('hrs'))
     
     if verbose == 1:
         print(f'Generated a report at ==> {report_path}')

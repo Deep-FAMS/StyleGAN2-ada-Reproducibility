@@ -5,10 +5,11 @@ os.chdir(PROJ_DIR)
 
 from glob import glob
 import re
-import pandas as pd
+# import pandas as pd
+from tabulate import tabulate
 
 
-def training_time(measure: str):
+def training_time(measure: str):    # 'days' or 'hrs'
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
     datasets = [x.replace(TRfolders, '').replace('_training-runs', '') for x in TRfolders_]
@@ -43,10 +44,11 @@ def training_time(measure: str):
     for (x, y) in d.items():
         TTs.append(sum(y["training_time"]) / dvby)
 
-    df = pd.DataFrame(TTs, index=datasets, columns=[f'Training time (in {measure})']).round(2)
-    df.index.name = 'Dataset'
+#     df = pd.DataFrame(TTs, index=False, columns=[f'Training time (in {measure})']).round(2)
+#     df.index.name = 'Dataset'
     
-    return df
-
-
-print(training_time(measure='days'))
+    table = tabulate([[x, y] for x, y in zip(datasets, [round(i, 2) for i in TTs])],
+               headers=['Dataset', f'Training time (in {measure})'],
+               tablefmt='github')
+    
+    return table
