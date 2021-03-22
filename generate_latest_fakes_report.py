@@ -6,7 +6,8 @@ os.chdir(PROJ_DIR)
 from glob import glob
 from pathlib import Path
 from pprint import pprint
-import PIL
+#import PIL
+from PIL import Image
 import base64
 import requests
 import dotenv
@@ -68,7 +69,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
         print('\n', '=' * 90, '\n')
 
     for img in latest_fakes:
-        image = PIL.Image.open(img)
+        image = Image.open(img)
         compressed_path = f'{backups_dir}/{Path(img).stem}' + '.jpg'
 #         output_dim = tuple(x // 2 for x in image.size)
 #         compressed = image.resize(output_dim)
