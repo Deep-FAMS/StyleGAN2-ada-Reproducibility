@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 
 WORK = os.environ['WORK']
-os.chdir(f'{WORK}/stylegan2-ada')
+os.chdir(f'{WORK}/ADA_Project/jsub_scripts')
 cwd = os.getcwd()
 
 time = int(input('time (in hrs)? '))

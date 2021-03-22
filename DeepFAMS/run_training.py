@@ -2,7 +2,7 @@ import os
 import sys
 
 WORK = os.environ["WORK"]
-sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada__source_code')
+sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada')
 
 import argparse
 import json
