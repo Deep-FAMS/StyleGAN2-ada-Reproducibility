@@ -5,6 +5,9 @@ In this project, I attempt to evaluate the reproducibility and generalizability 
 **StyleGAN2-ada official repository:** https://github.com/NVlabs/stylegan2-ada
 
 
+![example.jpg](https://i.ibb.co/vD5Z74q/ddb309dc0571.jpg "AFHQ-WILD_training-runs/00004-AFHQ-WILD_custom-auto2-resumecustom/fakes004382.png")
+
+
 ## Getting started
 ### Clone this repository
 ```shell
