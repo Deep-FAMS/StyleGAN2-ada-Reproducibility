@@ -4,8 +4,8 @@
 #SBATCH --mem=1gb
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user='en4byxffy93v6uy@pipedream.net'
-#SBATCH --error='$WORK/ADA_Project/jobs_log/%J.err'
-#SBATCH --output='$WORK/ADA_Project/jobs_log/%J.out'
+#SBATCH --error=/work/chaselab/malyetama/ADA_Project/jobs_log/%J.err
+#SBATCH --output=/work/chaselab/malyetama/ADA_Project/jobs_log/%J.out
 
 cd $WORK
 module load rclone
