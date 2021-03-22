@@ -55,7 +55,7 @@ TRAIN_RUNS_DIR = f'{PROJ_DIR}/training_runs/102flowers_training-runs'
 # module load anaconda
 # module load compiler/gcc/4.7
 # module load cuda
-# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
+# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
 # --outdir={TRAIN_RUNS_DIR} \
 # --gpus=2 \
 # --data={DATA_CUSTOM_DIR} \

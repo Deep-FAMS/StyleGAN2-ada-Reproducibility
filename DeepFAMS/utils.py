@@ -59,7 +59,7 @@ def set_env():
     WORK = os.getenv('WORK')
     PROJ_DIR = f'{WORK}/ADA_Project'
     os.chdir(PROJ_DIR)
-    sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada__source_code')
+    sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada')
     sys.path.insert(0, f'{WORK}/ADA_Project')
     sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
     return WORK, PROJ_DIR

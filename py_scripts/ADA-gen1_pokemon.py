@@ -55,7 +55,7 @@ DeepFAMS.preprocessing.tf_record_exporter(
 """Debugging issue with images shape"""
 # >>>>>>>>>>>>>>>>>
 # import sys
-# sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada__source_code')
+# sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada')
 
 # from training import dataset
 # import dnnlib
@@ -72,7 +72,7 @@ DeepFAMS.preprocessing.tf_record_exporter(
 # module load anaconda
 # module load compiler/gcc/4.7
 # module load cuda
-# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
+# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
 # --outdir={TRAIN_RUNS_DIR} \
 # --gpus=2 \
 # --data={DATA_CUSTOM_DIR} \
