@@ -12,4 +12,4 @@ module load cuda
 module load anaconda
 module load compiler/gcc/6.1
 conda activate $WORK/.conda/envs/ada-env
-while true; do $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/generate_latest_fakes_report.py; sleep $(( 8 * 3600 )); done
+while true; do $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/generate_latest_fakes_report.py; sleep $(( 4 * 3600 )); done
