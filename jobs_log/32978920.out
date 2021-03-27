@@ -551,3 +551,4 @@ Evaluating metrics...
 network-snapshot-000846        time 8m 36s       fid50k_full 24.6538
 tick 211   kimg 850.8    time 14h 58m 56s  sec/tick 234.9   sec/kimg 58.27   maintenance 536.9  gpumem 9.9   augment 0.302
 tick 212   kimg 854.8    time 15h 02m 52s  sec/tick 235.5   sec/kimg 58.41   maintenance 0.0    gpumem 9.9   augment 0.298
+tick 213   kimg 858.9    time 15h 06m 47s  sec/tick 234.9   sec/kimg 58.25   maintenance 0.0    gpumem 9.9   augment 0.292
