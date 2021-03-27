@@ -106,8 +106,6 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
             self.close()
 
 
-    # In[ ]:
-
     def error(msg):
         print('Error: ' + msg)
         exit(1)
