@@ -14,10 +14,12 @@ $ git clone git@github.com:Deep-FAMS/ADA_Project.git
 ```shell
 $ cd ADA_Project
 $ conda env create -f environment.yml
+$ conda activate ada-env
 ```
 
 ### Create your .env file
 ```shell
+# in ./ADA_Project
 $ mv default_env .env
 $ nano .env    # or any other text editor
 ```
@@ -41,5 +43,5 @@ module load cuda
 module load compiler/gcc/6.1
 ```
 
-
+<br></br>
 ... `README.md` is under construction 👷‍! I will add more details soon!
