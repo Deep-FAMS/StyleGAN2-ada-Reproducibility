@@ -94,7 +94,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_markdown_reports/{Tstamp}.md'
     with open(report_path, 'w') as f:
-        f.write(''.join(md_content).replace('<br></br>', '\n'))
+        f.write(''.join(md_content))
     
     if verbose == 1:
         print(f'Generated a report at ==> {report_path}')
