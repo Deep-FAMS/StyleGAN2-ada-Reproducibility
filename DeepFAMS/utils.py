@@ -19,6 +19,20 @@ def execute(command: str):
     print(lines)
 
 
+def executePopen(cmd: str):
+    with open('tmp_script.sh', 'w') as f:
+        f.write(cmd)
+
+    p = subprocess.Popen("bash tmp_script.sh",
+                     shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+
+    while p.poll() is None:
+        line = p.stdout.readline()
+        print(line)
+    
+    os.remove('tmp_script.sh')
+
+
 def return_dirs(PROJ_DIR, dataset_name):
     RAW_IMGS_DIR = f'{PROJ_DIR}/datasets/{dataset_name}_images_raw'
     RESIZED_IMGS_DIR = f'{PROJ_DIR}/datasets/{dataset_name}_resized'
@@ -29,7 +43,6 @@ def return_dirs(PROJ_DIR, dataset_name):
  
 
 def Get_Raw_Data(url, datasets_dir, RAW_IMGS_DIR, file_name):
-
     file_name = url.split('/')[-1]
     urllib.request.urlretrieve(url, f'{datasets_dir}/{file_name}')
     tarf = tarfile.open(f'{datasets_dir}/{file_name}')

@@ -1,0 +1,17 @@
+2021/03/19 00:44:54 ERROR : jobs_log/32963234.out: Failed to copy: can't copy - source file is being updated (size changed from 14355 to 14425)
+2021/03/19 00:44:55 ERROR : jobs_log/32963726.err: corrupted on transfer: MD5 hash differ "9c4720c51777d113a413bed499519def" vs "d41d8cd98f00b204e9800998ecf8427e"
+2021/03/19 01:01:34 ERROR : training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/events.out.tfevents.1616128200.c2424.crane.hcc.unl.edu: Failed to copy: can't copy - source file is being updated (size changed from 9364 to 11908)
+2021/03/19 01:01:49 ERROR : training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/log.txt: Failed to copy: can't copy - source file is being updated (size changed from 8103 to 8748)
+2021/03/19 01:01:51 ERROR : training_runs/StanfordDogs_training-runs/00001-StanfordDogs_custom-auto2-resumecustom/metric-fid50k_full.txt: Failed to copy: can't copy - source file is being updated (size changed from 770 to 980)
+2021/03/19 01:22:27 ERROR : training_runs/102flowers_training-runs/00021-102flowers_custom-auto2-resumecustom/events.out.tfevents.1616127022.c3210.crane.hcc.unl.edu: Failed to copy: can't copy - source file is being updated (size changed from 11908 to 16148)
+2021/03/19 01:22:48 ERROR : training_runs/102flowers_training-runs/00021-102flowers_custom-auto2-resumecustom/log.txt: Failed to copy: can't copy - source file is being updated (size changed from 8751 to 9826)
+2021/03/19 01:22:48 ERROR : training_runs/102flowers_training-runs/00021-102flowers_custom-auto2-resumecustom/metric-fid50k_full.txt: Failed to copy: can't copy - source file is being updated (size changed from 980 to 1330)
+2021/03/19 01:23:36 ERROR : training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/events.out.tfevents.1616127482.c2422.crane.hcc.unl.edu: Failed to copy: can't copy - source file is being updated (size changed from 11060 to 16148)
+2021/03/19 01:24:00 ERROR : training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/log.txt: Failed to copy: can't copy - source file is being updated (size changed from 8528 to 9818)
+2021/03/19 01:24:00 ERROR : training_runs/cars196_training-runs/00011-cars196_custom-auto2-resumecustom/metric-fid50k_full.txt: Failed to copy: can't copy - source file is being updated (size changed from 908 to 1328)
+2021/03/19 01:24:46 ERROR : training_runs/metfaces_training-runs/00003-metfaces_custom-auto2-resumecustom/events.out.tfevents.1616130186.c3201.crane.hcc.unl.edu: Failed to copy: can't copy - source file is being updated (size changed from 2580 to 5122)
+2021/03/19 01:24:51 ERROR : training_runs/metfaces_training-runs/00003-metfaces_custom-auto2-resumecustom/log.txt: Failed to copy: can't copy - source file is being updated (size changed from 6894 to 7539)
+2021/03/19 01:24:52 ERROR : training_runs/metfaces_training-runs/00003-metfaces_custom-auto2-resumecustom/metric-fid50k_full.txt: Failed to copy: can't copy - source file is being updated (size changed from 210 to 420)
+2021/03/19 06:06:59 ERROR : datasets/cars_train/cars_train/04805.jpg: Failed to copy: couldn't list directory: googleapi: Error 400: Bad Request, failedPrecondition
+2021/03/19 06:42:05 ERROR : datasets/cars196_resized/05845.jpg: Failed to copy: googleapi: Error 400: Bad Request, failedPrecondition
+slurmstepd: error: *** JOB 32963726 ON c1501 CANCELLED AT 2021-03-19T08:44:19 DUE TO TIME LIMIT ***
