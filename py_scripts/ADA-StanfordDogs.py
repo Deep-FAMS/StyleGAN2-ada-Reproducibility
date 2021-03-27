@@ -53,7 +53,7 @@ print(f'Raw: {len(raw_imgs)}, Resized: {len(glob(f"{RESIZED_IMGS_DIR}/*"))}')
 # module load anaconda
 # module load compiler/gcc/4.7
 # module load cuda
-# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
+# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
 # --outdir={TRAIN_RUNS_DIR} \
 # --gpus=2 \
 # --data={DATA_CUSTOM_DIR} \
