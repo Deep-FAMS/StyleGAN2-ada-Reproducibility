@@ -101,7 +101,6 @@ dependencies:
   - openh264=2.1.1=h8b12597_0
   - openssl=1.1.1j=h27cfd23_0
   - packaging=20.9=pyhd3eb1b0_0
-  - pandas=0.25.0=py37hb3f55d8_0
   - pandoc=2.12=h7f98852_0
   - parso=0.5.1=py_0
   - pcre=8.44=he6710b0_0
@@ -188,6 +187,7 @@ dependencies:
     - jupyter-client==6.1.12
     - jupyter-core==4.7.1
     - jupyterlab-pygments==0.1.2
+    - markdown2==2.4.0
     - msgpack==1.0.2
     - multidict==5.1.0
     - nbclient==0.5.3
@@ -197,6 +197,7 @@ dependencies:
     - nvidia-ml-py3==7.352.0
     - opencensus==0.7.12
     - opencensus-context==0.1.2
+    - pandas==1.2.3
     - pandocfilters==1.4.3
     - psutil==5.8.0
     - py-spy==0.3.4
@@ -208,8 +209,9 @@ dependencies:
     - rsa==4.7.2
     - send2trash==1.5.0
     - soupsieve==2.2
+    - tabulate==0.8.9
     - terminado==0.9.3
-    - tornado==6.1
+    - tornado==6.0.3
     - tqdm==4.59.0
     - webencodings==0.5.1
     - yarl==1.6.3
