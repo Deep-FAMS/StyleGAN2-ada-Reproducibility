@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --time=72:00:00
 #SBATCH --job-name='fakes_report'
-#SBATCH --mem=4gb
+#SBATCH --mem=1gb
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user='en4byxffy93v6uy@pipedream.net'
 #SBATCH --error='/work/chaselab/malyetama/ADA_Project/jobs_log/%J.err'
