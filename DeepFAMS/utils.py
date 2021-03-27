@@ -1,10 +1,12 @@
-from glob import glob
 import os
 import subprocess
 import shlex
 import tarfile
 import urllib.request
 import random
+from glob import glob
+import sys
+import dotenv
 
 
 def last_snap(num, training_runs_dir):
@@ -50,3 +52,15 @@ def Get_Raw_Data(url, datasets_dir, RAW_IMGS_DIR, file_name):
     tarf.extractall(path=RAW_IMGS_DIR)
 
     print(f'Downloaded and extracted to:\n{RAW_IMGS_DIR}')
+
+
+def set_env():
+    dotenv.load_dotenv(override=True)
+    WORK = os.getenv('WORK')
+    PROJ_DIR = f'{WORK}/ADA_Project'
+    os.chdir(PROJ_DIR)
+    sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada__source_code')
+    sys.path.insert(0, f'{WORK}/ADA_Project')
+    sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
+    return WORK, PROJ_DIR
+
