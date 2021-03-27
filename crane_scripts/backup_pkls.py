@@ -56,8 +56,6 @@ def backup_pickles(PROJ_DIR):
 
     print('\nUploading to Google Drive...')
     
-    bag = []
-    
     rand_int = random.randint(0, 10**10)
     file_n = f'{PROJ_DIR}/.tmp/tmp_script_{rand_int}.sh'
     with open(file_n, 'w') as f:
