@@ -1058,3 +1058,16 @@ pciBusID: 0000:d8:00.0
 2021-03-20 15:44:00.465336: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9084 of 21846
 2021-03-20 15:44:10.456241: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 19100 of 21846
 2021-03-20 15:44:12.280168: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-20 15:51:07.982225: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9097 of 21846
+2021-03-20 15:51:17.964096: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 18554 of 21846
+2021-03-20 15:51:19.995697: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-20 15:58:15.718327: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9555 of 21846
+2021-03-20 15:58:25.707143: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 19109 of 21846
+2021-03-20 15:58:27.078781: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-20 16:05:22.494183: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9555 of 21846
+2021-03-20 16:05:32.444603: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 19265 of 21846
+2021-03-20 16:05:33.606820: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-20 16:12:29.968415: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 9171 of 21846
+2021-03-20 16:12:40.070414: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 19109 of 21846
+2021-03-20 16:12:41.723930: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+slurmstepd: error: *** JOB 32976737 ON c2429 CANCELLED AT 2021-03-20T16:16:16 ***

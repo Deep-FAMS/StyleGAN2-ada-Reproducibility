@@ -549,3 +549,24 @@ pciBusID: 0000:da:00.0
 2021-03-20 15:15:18.444845: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 30591 MB memory) -> physical GPU (device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:da:00.0, compute capability: 7.0)
 2021-03-20 15:39:19.589809: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:111] Filling up shuffle buffer (this may take a while): 4095 of 21846
 2021-03-20 15:39:19.977737: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:162] Shuffle buffer filled.
+2021-03-20 15:58:14.917298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla V100S-PCIE-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.597
+pciBusID: 0000:60:00.0
+2021-03-20 15:58:14.924266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: Tesla V100S-PCIE-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.597
+pciBusID: 0000:da:00.0
+2021-03-20 15:58:14.930385: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2021-03-20 15:58:14.930726: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2021-03-20 15:58:14.931002: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2021-03-20 15:58:14.931302: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2021-03-20 15:58:14.931332: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2021-03-20 15:58:14.931627: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2021-03-20 15:58:14.931923: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2021-03-20 15:58:14.937251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2021-03-20 15:58:14.937504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-20 15:58:14.937534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2021-03-20 15:58:14.937564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2021-03-20 15:58:14.937583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2021-03-20 15:58:14.941790: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30591 MB memory) -> physical GPU (device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:60:00.0, compute capability: 7.0)
+2021-03-20 15:58:14.943217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 30591 MB memory) -> physical GPU (device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:da:00.0, compute capability: 7.0)
+slurmstepd: error: *** JOB 32978919 ON c3105 CANCELLED AT 2021-03-20T16:17:20 ***

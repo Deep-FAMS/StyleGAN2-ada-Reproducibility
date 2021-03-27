@@ -25,8 +25,9 @@ from training import dataset
 # periodically during training.
 
 def setup_snapshot_image_grid(training_set):
-    gw = np.clip(7680 // training_set.shape[2], 7, 32)
-    gh = np.clip(4320 // training_set.shape[1], 4, 32)
+#     gw = np.clip(7680 // training_set.shape[2], 7, 32)
+#     gh = np.clip(4320 // training_set.shape[1], 4, 32)
+    gw, gh = 15, 8
 
     # Unconditional.
     if training_set.label_size == 0:

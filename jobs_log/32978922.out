@@ -937,3 +937,25 @@ tick 576   kimg 2359.4   time 15h 27m 04s  sec/tick 84.7    sec/kimg 20.69   mai
 tick 577   kimg 2363.5   time 15h 28m 29s  sec/tick 85.1    sec/kimg 20.78   maintenance 0.0    gpumem 7.1   augment 0.265
 tick 578   kimg 2367.6   time 15h 29m 54s  sec/tick 85.2    sec/kimg 20.81   maintenance 0.0    gpumem 7.1   augment 0.265
 tick 579   kimg 2371.7   time 15h 31m 20s  sec/tick 85.2    sec/kimg 20.80   maintenance 0.0    gpumem 7.1   augment 0.260
+tick 580   kimg 2375.8   time 15h 32m 45s  sec/tick 85.1    sec/kimg 20.78   maintenance 0.0    gpumem 7.1   augment 0.265
+tick 581   kimg 2379.9   time 15h 34m 10s  sec/tick 84.8    sec/kimg 20.71   maintenance 0.0    gpumem 7.1   augment 0.270
+tick 582   kimg 2384.0   time 15h 35m 35s  sec/tick 85.0    sec/kimg 20.76   maintenance 0.0    gpumem 7.1   augment 0.265
+tick 583   kimg 2388.1   time 15h 37m 00s  sec/tick 85.2    sec/kimg 20.79   maintenance 0.0    gpumem 7.1   augment 0.278
+tick 584   kimg 2392.2   time 15h 38m 25s  sec/tick 85.0    sec/kimg 20.74   maintenance 0.0    gpumem 7.1   augment 0.288
+tick 585   kimg 2396.3   time 15h 39m 50s  sec/tick 85.1    sec/kimg 20.79   maintenance 0.0    gpumem 7.1   augment 0.283
+tick 586   kimg 2400.4   time 15h 41m 15s  sec/tick 84.8    sec/kimg 20.70   maintenance 0.0    gpumem 7.1   augment 0.283
+tick 587   kimg 2404.5   time 15h 42m 40s  sec/tick 85.1    sec/kimg 20.78   maintenance 0.0    gpumem 7.1   augment 0.275
+tick 588   kimg 2408.6   time 15h 44m 05s  sec/tick 85.2    sec/kimg 20.79   maintenance 0.0    gpumem 7.1   augment 0.275
+tick 589   kimg 2412.7   time 15h 45m 30s  sec/tick 85.1    sec/kimg 20.79   maintenance 0.0    gpumem 7.1   augment 0.275
+tick 590   kimg 2416.8   time 15h 46m 55s  sec/tick 85.1    sec/kimg 20.77   maintenance 0.0    gpumem 7.1   augment 0.278
+tick 591   kimg 2420.9   time 15h 48m 20s  sec/tick 84.8    sec/kimg 20.70   maintenance 0.0    gpumem 7.1   augment 0.280
+tick 592   kimg 2425.0   time 15h 49m 45s  sec/tick 85.0    sec/kimg 20.75   maintenance 0.0    gpumem 7.1   augment 0.278
+tick 593   kimg 2429.1   time 15h 51m 11s  sec/tick 85.2    sec/kimg 20.80   maintenance 0.0    gpumem 7.1   augment 0.275
+tick 594   kimg 2433.2   time 15h 52m 36s  sec/tick 85.0    sec/kimg 20.76   maintenance 0.0    gpumem 7.1   augment 0.275
+tick 595   kimg 2437.2   time 15h 54m 01s  sec/tick 85.1    sec/kimg 20.78   maintenance 0.0    gpumem 7.1   augment 0.283
+tick 596   kimg 2441.3   time 15h 55m 26s  sec/tick 84.8    sec/kimg 20.71   maintenance 0.0    gpumem 7.1   augment 0.280
+tick 597   kimg 2445.4   time 15h 56m 51s  sec/tick 85.1    sec/kimg 20.78   maintenance 0.1    gpumem 7.1   augment 0.278
+tick 598   kimg 2449.5   time 15h 58m 16s  sec/tick 85.2    sec/kimg 20.80   maintenance 0.0    gpumem 7.1   augment 0.280
+tick 599   kimg 2453.6   time 15h 59m 41s  sec/tick 85.2    sec/kimg 20.80   maintenance 0.0    gpumem 7.1   augment 0.278
+tick 600   kimg 2457.7   time 16h 01m 06s  sec/tick 85.2    sec/kimg 20.79   maintenance 0.0    gpumem 7.1   augment 0.285
+Evaluating metrics...
