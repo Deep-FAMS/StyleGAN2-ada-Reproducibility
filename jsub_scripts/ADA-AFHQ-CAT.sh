@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --time=72:00:00
-#SBATCH --job-name='ADA-102flowers'
+#SBATCH --job-name='ADA-AFHQ-CAT'
 #SBATCH --partition='gpu'
 #SBATCH --gres=gpu:2
 #SBATCH --constraint=gpu_32gb&gpu_v100
@@ -15,4 +15,4 @@ module load cuda
 module load anaconda
 module load compiler/gcc/6.1
 conda activate /work/chaselab/malyetama/.conda/envs/ada-env
-/work/chaselab/malyetama/.conda/envs/ada-env/bin/python /work/chaselab/malyetama/ADA_Project/py_scripts/ADA-102flowers.py
+/work/chaselab/malyetama/.conda/envs/ada-env/bin/python /work/chaselab/malyetama/ADA_Project/py_scripts/ADA-AFHQ-CAT.py
