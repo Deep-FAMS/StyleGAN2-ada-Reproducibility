@@ -37,10 +37,33 @@ If you want to submit jobs on Crane (or any other HPC that uses Slurm), see the 
 
 
 ## Submitting jobs to the cluster
+
+On Crane, to avoid permission errors, it's advisable that you install your environment on $WORK (replace $WORK with your working directory if it's different). Hence, you may have to specify the installation directory of your conda environment.
+
+```shell
+$ module load anaconda
+
+$ conda create -p $WORK/.conda/envs/ada-env -f environment.yml
+$ conda activate $WORK/.conda/envs/ada-env
+$ python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
+
+# run the next line only if you don't have a .jupyter/kernels folder
+# $ mkdir -p $WORK/.jupyter/kernels
+$ mv ~/.local/share/jupyter/kernels/ada-env/ $WORK/.jupyter/kernels/
+
+$ conda config --append envs_dirs $WORK/.conda/envs/ada-env
+$ conda config --set env_prompt '({name})'
+
+# restart your shell, then run
+$ module load cuda
+$ module load compiler/gcc/6.1
+$ conda activate ada-env
+```
+
 If you want to run any of the script in [py_scripts](./py_scripts) interactively, then you will have to load few modules before you start.
 ```shell
-module load cuda
-module load compiler/gcc/6.1
+$ module load cuda
+$ module load compiler/gcc/6.1
 ```
 
 <br></br>
