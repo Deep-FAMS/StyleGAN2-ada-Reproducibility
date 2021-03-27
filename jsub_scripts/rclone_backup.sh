@@ -9,4 +9,5 @@
 
 cd $WORK
 module load rclone
-rclone copy /work/chaselab/malyetama/ADA_Project GoogleDrive:/ADA_Project_backup
+rclone sync /work/chaselab/malyetama/ADA_Project GoogleDrive:/ADA_Project_backup -P
+
