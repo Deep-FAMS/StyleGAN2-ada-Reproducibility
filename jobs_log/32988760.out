@@ -1,0 +1,236 @@
+/lustre/work/chaselab/malyetama
+Tensorflow version: 1.14.0
+/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00023-102flowers_custom-auto2-resumecustom/network-snapshot-000368.pkl
+Sat Mar 20 19:11:56 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100S-PCI...  Off  | 00000000:60:00.0 Off |                    0 |
+| N/A   38C    P0    38W / 250W |    311MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100S-PCI...  Off  | 00000000:DA:00.0 Off |                    0 |
+| N/A   34C    P0    34W / 250W |    311MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A    221477      C   ...a/envs/ada-env/bin/python      307MiB |
+|    1   N/A  N/A    221477      C   ...a/envs/ada-env/bin/python      307MiB |
++-----------------------------------------------------------------------------+
+
+Training options:
+{
+  "G_args": {
+    "func_name": "training.networks.G_main",
+    "fmap_base": 16384,
+    "fmap_max": 512,
+    "mapping_layers": 2,
+    "num_fp16_res": 4,
+    "conv_clamp": 256
+  },
+  "D_args": {
+    "func_name": "training.networks.D_main",
+    "mbstd_group_size": 4,
+    "fmap_base": 16384,
+    "fmap_max": 512,
+    "num_fp16_res": 4,
+    "conv_clamp": 256
+  },
+  "G_opt_args": {
+    "beta1": 0.0,
+    "beta2": 0.99,
+    "learning_rate": 0.0025
+  },
+  "D_opt_args": {
+    "beta1": 0.0,
+    "beta2": 0.99,
+    "learning_rate": 0.0025
+  },
+  "loss_args": {
+    "func_name": "training.loss.stylegan2",
+    "r1_gamma": 3.2768
+  },
+  "augment_args": {
+    "class_name": "training.augment.AdaptiveAugment",
+    "tune_heuristic": "rt",
+    "tune_target": 0.6,
+    "apply_func": "training.augment.augment_pipeline",
+    "apply_args": {
+      "xflip": 1,
+      "rotate90": 1,
+      "xint": 1,
+      "scale": 1,
+      "rotate": 1,
+      "aniso": 1,
+      "xfrac": 1,
+      "brightness": 1,
+      "contrast": 1,
+      "lumaflip": 1,
+      "hue": 1,
+      "saturation": 1
+    },
+    "tune_kimg": 100
+  },
+  "num_gpus": 2,
+  "image_snapshot_ticks": 30,
+  "network_snapshot_ticks": 30,
+  "train_dataset_args": {
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "max_label_size": 0,
+    "resolution": 512,
+    "mirror_augment": false
+  },
+  "metric_arg_list": [
+    {
+      "name": "fid50k_full",
+      "class_name": "metrics.frechet_inception_distance.FID",
+      "max_reals": null,
+      "num_fakes": 50000,
+      "minibatch_per_gpu": 8,
+      "force_dataset_args": {
+        "shuffle": false,
+        "max_images": null,
+        "repeat": false,
+        "mirror_augment": false
+      }
+    }
+  ],
+  "metric_dataset_args": {
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "max_label_size": 0,
+    "resolution": 512,
+    "mirror_augment": false
+  },
+  "total_kimg": 25000,
+  "minibatch_size": 16,
+  "minibatch_gpu": 8,
+  "G_smoothing_kimg": 5.0,
+  "G_smoothing_rampup": null,
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00023-102flowers_custom-auto2-resumecustom/network-snapshot-000368.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00024-102flowers_custom-auto2-resumecustom"
+}
+
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00024-102flowers_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom
+Training length:   25000 kimg
+Resolution:        512
+Number of GPUs:    2
+
+Dry run; exiting.
+
+Training options:
+{
+  "G_args": {
+    "func_name": "training.networks.G_main",
+    "fmap_base": 16384,
+    "fmap_max": 512,
+    "mapping_layers": 2,
+    "num_fp16_res": 4,
+    "conv_clamp": 256
+  },
+  "D_args": {
+    "func_name": "training.networks.D_main",
+    "mbstd_group_size": 4,
+    "fmap_base": 16384,
+    "fmap_max": 512,
+    "num_fp16_res": 4,
+    "conv_clamp": 256
+  },
+  "G_opt_args": {
+    "beta1": 0.0,
+    "beta2": 0.99,
+    "learning_rate": 0.0025
+  },
+  "D_opt_args": {
+    "beta1": 0.0,
+    "beta2": 0.99,
+    "learning_rate": 0.0025
+  },
+  "loss_args": {
+    "func_name": "training.loss.stylegan2",
+    "r1_gamma": 3.2768
+  },
+  "augment_args": {
+    "class_name": "training.augment.AdaptiveAugment",
+    "tune_heuristic": "rt",
+    "tune_target": 0.6,
+    "apply_func": "training.augment.augment_pipeline",
+    "apply_args": {
+      "xflip": 1,
+      "rotate90": 1,
+      "xint": 1,
+      "scale": 1,
+      "rotate": 1,
+      "aniso": 1,
+      "xfrac": 1,
+      "brightness": 1,
+      "contrast": 1,
+      "lumaflip": 1,
+      "hue": 1,
+      "saturation": 1
+    },
+    "tune_kimg": 100
+  },
+  "num_gpus": 2,
+  "image_snapshot_ticks": 30,
+  "network_snapshot_ticks": 30,
+  "train_dataset_args": {
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "max_label_size": 0,
+    "resolution": 512,
+    "mirror_augment": false
+  },
+  "metric_arg_list": [
+    {
+      "name": "fid50k_full",
+      "class_name": "metrics.frechet_inception_distance.FID",
+      "max_reals": null,
+      "num_fakes": 50000,
+      "minibatch_per_gpu": 8,
+      "force_dataset_args": {
+        "shuffle": false,
+        "max_images": null,
+        "repeat": false,
+        "mirror_augment": false
+      }
+    }
+  ],
+  "metric_dataset_args": {
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom",
+    "max_label_size": 0,
+    "resolution": 512,
+    "mirror_augment": false
+  },
+  "total_kimg": 25000,
+  "minibatch_size": 16,
+  "minibatch_gpu": 8,
+  "G_smoothing_kimg": 5.0,
+  "G_smoothing_rampup": null,
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00023-102flowers_custom-auto2-resumecustom/network-snapshot-000368.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00024-102flowers_custom-auto2-resumecustom"
+}
+
+Output directory:  /work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00024-102flowers_custom-auto2-resumecustom
+Training data:     /work/chaselab/malyetama/ADA_Project/datasets/102flowers_custom
+Training length:   25000 kimg
+Resolution:        512
+Number of GPUs:    2
+
+Creating output directory...
+Loading training set...
+Image shape: [3, 512, 512]
+Label shape: [0]
+
+Constructing networks...
+Setting up TensorFlow plugin "fused_bias_act.cu": Loading... Done.
+Setting up TensorFlow plugin "upfirdn_2d.cu": Loading... Done.
+Resuming from "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00023-102flowers_custom-auto2-resumecustom/network-snapshot-000368.pkl"
