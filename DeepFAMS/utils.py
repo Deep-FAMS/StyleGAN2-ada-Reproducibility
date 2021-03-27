@@ -2,6 +2,8 @@ from glob import glob
 import os
 import subprocess
 import shlex
+import tarfile
+import urllib.request
 
 
 def last_snap(num, training_runs_dir):
@@ -15,3 +17,22 @@ def execute(command: str):
     stdout = subprocess.run(command, capture_output=True, text=True).stdout
     lines = "\n".join([line for line in stdout.strip().splitlines()])
     print(lines)
+
+
+def return_dirs(PROJ_DIR, dataset_name):
+    RAW_IMGS_DIR = f'{PROJ_DIR}/datasets/{dataset_name}_images_raw'
+    RESIZED_IMGS_DIR = f'{PROJ_DIR}/datasets/{dataset_name}_resized'
+    DATA_CUSTOM_DIR = f'{PROJ_DIR}/datasets/{dataset_name}_custom'
+    TRAIN_RUNS_DIR = f'{PROJ_DIR}/training_runs/{dataset_name}_training-runs'
+
+    return RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR
+ 
+
+def Get_Raw_Data(url, datasets_dir, RAW_IMGS_DIR, file_name):
+
+    file_name = url.split('/')[-1]
+    urllib.request.urlretrieve(url, f'{datasets_dir}/{file_name}')
+    tarf = tarfile.open(f'{datasets_dir}/{file_name}')
+    tarf.extractall(path=RAW_IMGS_DIR)
+
+    print(f'Downloaded and extracted to:\n{RAW_IMGS_DIR}')
