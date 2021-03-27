@@ -48,14 +48,18 @@ TRAIN_RUNS_DIR = f'{PROJ_DIR}/training_runs/cars196_training-runs'
 
 # # Needs to be run through the command line at least once to compile the model
 
-# ! module load anaconda && \
-#     module load compiler/gcc/4.7 && \
-#     module load cuda && \
-#     $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
-#     --outdir=$WORK/ADA_Project/training_runs/cars196_training-runs \
-#     --gpus=2 \
-#     --data=$WORK/ADA_Project/datasets/cars196_custom \
-#     --snap=1
+# DeepFAMS.utils.executePopen(
+# f'''#!/bin/bash
+# module load anaconda
+# module load compiler/gcc/4.7
+# module load cuda
+# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada__source_code/train.py \
+# --outdir={TRAIN_RUNS_DIR} \
+# --gpus=2 \
+# --data={DATA_CUSTOM_DIR} \
+# --snap=1 \
+# --kimg=1''', PROJ_DIR
+# )
 
 
 for num in range(-1, -10, -1):
