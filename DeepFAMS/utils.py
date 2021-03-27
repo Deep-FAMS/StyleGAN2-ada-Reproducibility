@@ -19,18 +19,17 @@ def execute(command: str):
     print(lines)
 
 
-def executePopen(cmd: str):
-    with open('tmp_script.sh', 'w') as f:
+def executePopen(cmd: str, PROJ_DIR):
+    file_n = f'{PROJ_DIR}/.tmp/tmp_script.sh'
+    with open(file_n, 'w') as f:
         f.write(cmd)
 
-    p = subprocess.Popen("bash tmp_script.sh",
+    p = subprocess.Popen(f"bash {file_n}",
                      shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     while p.poll() is None:
         line = p.stdout.readline()
         print(line)
-    
-    os.remove('tmp_script.sh')
 
 
 def return_dirs(PROJ_DIR, dataset_name):

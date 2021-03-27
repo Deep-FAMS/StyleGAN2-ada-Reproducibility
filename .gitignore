@@ -1,6 +1,7 @@
 datasets/
 training_runs/
 archived/
+.tmp/
 
 .DS_Store
 ._.DS_Store
