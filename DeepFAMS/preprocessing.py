@@ -13,38 +13,24 @@ print(f'Tensorflow version: {tf.__version__}')
 
 
 def resize_imgs(im, size, output_dir):
-    img = PIL.Image.open(im)
-    img_name = Path(img.filename).name
-    img_ext = Path(img.filename).suffix
+    img_ = PIL.Image.open(im)
+    img_name = Path(img_.filename).stem
+    img_ext = Path(img_.filename).suffix
     
-    img = tf.keras.preprocessing.image.img_to_array(img)
+    img = tf.keras.preprocessing.image.img_to_array(img_)
+    if img.shape[2] not in [1, 3]:
+        img_rgb = img_.convert('RGB')
+        img = tf.keras.preprocessing.image.img_to_array(img_rgb)
+    
     resized_array = tf.image.resize_images(
-        img, size, method='bilinear')
+            img, size, method='bilinear')
     resized_array = resized_array.numpy()
+    assert resized_array.shape[2] in [1, 3]
+    
     resized_img = tf.keras.preprocessing.image.array_to_img(resized_array)
 
     Path(output_dir).mkdir(exist_ok=True)
-    
-    try:
-        if img_ext != 'png':
-            resized_img.save(f'{output_dir}/{img_name}')
-        elif img_ext == '.png':
-            rgb_im = resized_img.convert('RGB')
-            rgb_im.save(f'{output_dir}/{img_name.name}.jpg')
-        else:
-            return None
-        
-
-    except (KeyError, OSError) as e:
-        print(e)
-        print(f'Warning! Failed to save {im}!\n'
-             'Deleting corrupted image...')
-        try:
-            os.remove(f'{output_dir}/{img_name}')
-        except:
-            print('Failed to remove the corrputed image!\n'
-                  f'Remove it manually ==> {output_dir}/{img_name}')
-        pass
+    resized_img.save(f'{output_dir}/{img_name}.jpg')
 
 
 
