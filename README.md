@@ -46,7 +46,7 @@ On Crane, to avoid permission errors, it's advisable that you install your envir
 ```shell
 $ module load anaconda
 
-$ conda create -p $WORK/.conda/envs/ada-env -f environment.yml
+$ conda env create -p $WORK/.conda/envs/ada-env -f environment.yml
 $ conda activate $WORK/.conda/envs/ada-env
 $ python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
 
