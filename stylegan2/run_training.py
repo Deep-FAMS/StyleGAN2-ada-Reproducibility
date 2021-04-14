@@ -14,6 +14,9 @@ from dnnlib import EasyDict
 
 from metrics.metric_defaults import metric_defaults
 
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 #----------------------------------------------------------------------------
 
 # import comet_ml at the top of your file
