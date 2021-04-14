@@ -1,7 +1,7 @@
 {
   "G_args": {
     "func_name": "training.networks.G_main",
-    "fmap_base": 8192,
+    "fmap_base": 16384,
     "fmap_max": 512,
     "mapping_layers": 2,
     "num_fp16_res": 4,
@@ -10,7 +10,7 @@
   "D_args": {
     "func_name": "training.networks.D_main",
     "mbstd_group_size": 4,
-    "fmap_base": 8192,
+    "fmap_base": 16384,
     "fmap_max": 512,
     "num_fp16_res": 4,
     "conv_clamp": 256
@@ -27,7 +27,7 @@
   },
   "loss_args": {
     "func_name": "training.loss.stylegan2",
-    "r1_gamma": 0.4096
+    "r1_gamma": 3.2768
   },
   "augment_args": {
     "class_name": "training.augment.AdaptiveAugment",
@@ -54,9 +54,9 @@
   "image_snapshot_ticks": 30,
   "network_snapshot_ticks": 30,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/metfaces_custom",
     "max_label_size": 0,
-    "resolution": 256,
+    "resolution": 512,
     "mirror_augment": false
   },
   "metric_arg_list": [
@@ -75,16 +75,16 @@
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/StanfordDogs_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/metfaces_custom",
     "max_label_size": 0,
-    "resolution": 256,
+    "resolution": 512,
     "mirror_augment": false
   },
   "total_kimg": 25000,
-  "minibatch_size": 32,
-  "minibatch_gpu": 16,
-  "G_smoothing_kimg": 10.0,
+  "minibatch_size": 16,
+  "minibatch_gpu": 8,
+  "G_smoothing_kimg": 5.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00003-StanfordDogs_custom-auto2-resumecustom/network-snapshot-002949.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/StanfordDogs_training-runs/00004-StanfordDogs_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/metfaces_training-runs/00005-metfaces_custom-auto2-resumecustom/network-snapshot-003749.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom"
 }

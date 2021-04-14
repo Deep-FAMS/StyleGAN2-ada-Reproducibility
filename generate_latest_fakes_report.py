@@ -95,7 +95,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
 
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
-        f.write(training_time.training_time('hrs'))
+        f.write(training_time.training_time())
     
     if verbose == 1:
         print(f'Generated a report at ==> {report_path}')

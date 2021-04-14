@@ -85,6 +85,6 @@
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00025-102flowers_custom-auto2-resumecustom/network-snapshot-000123.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00026-102flowers_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00026-102flowers_custom-auto2-resumecustom/network-snapshot-010936.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom"
 }

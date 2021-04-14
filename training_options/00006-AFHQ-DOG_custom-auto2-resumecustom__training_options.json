@@ -51,10 +51,10 @@
     "tune_kimg": 100
   },
   "num_gpus": 2,
-  "image_snapshot_ticks": 30,
-  "network_snapshot_ticks": 30,
+  "image_snapshot_ticks": 1,
+  "network_snapshot_ticks": 1,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ-DOG_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -75,7 +75,7 @@
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cars196_custom",
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ-DOG_custom",
     "max_label_size": 0,
     "resolution": 256,
     "mirror_augment": false
@@ -85,6 +85,6 @@
   "minibatch_gpu": 16,
   "G_smoothing_kimg": 10.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00012-cars196_custom-auto2-resumecustom/network-snapshot-004423.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/cars196_training-runs/00013-cars196_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ-DOG_training-runs/00005-AFHQ-DOG_custom-auto2-resumecustom/network-snapshot-001179.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ-DOG_training-runs/00006-AFHQ-DOG_custom-auto2-resumecustom"
 }

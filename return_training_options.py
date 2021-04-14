@@ -6,8 +6,11 @@ from pathlib import Path
 
 
 def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
-    
+                            
     os.chdir(PROJ_DIR)
+    trainOpDir = f'{PROJ_DIR}/training_options'
+    shutil.rmtree(trainOpDir)
+    Path(trainOpDir).mkdir(exist_ok=False)
 
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
@@ -18,7 +21,7 @@ def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
 
     for folder, dataset in zip(TRfolders_, datasets):
         files = sorted(glob(folder + "/**/*"))
-        files = [x for x in files if 'training_options' in x and 'pokemon' not in x]
+        files = [x for x in files if 'training_options' in x or 'submit_config.txt' in x]
         if files == []:
             continue
         else:
