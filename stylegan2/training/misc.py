@@ -97,16 +97,18 @@ def setup_snapshot_image_grid(training_set,
     layout  = 'random'):    # 'random' = grid contents are selected randomly, 'row_per_class' = each row corresponds to one class label.
 
     # Select size.
-    gw = 1; gh = 1
-    if size == '1080p':
-        gw = np.clip(1920 // training_set.shape[2], 3, 32)
-        gh = np.clip(1080 // training_set.shape[1], 2, 32)
-    if size == '4k':
-        gw = np.clip(3840 // training_set.shape[2], 7, 32)
-        gh = np.clip(2160 // training_set.shape[1], 4, 32)
-    if size == '8k':
-        gw = np.clip(7680 // training_set.shape[2], 7, 32)
-        gh = np.clip(4320 // training_set.shape[1], 4, 32)
+#     gw = 1; gh = 1
+#     if size == '1080p':
+#         gw = np.clip(1920 // training_set.shape[2], 3, 32)
+#         gh = np.clip(1080 // training_set.shape[1], 2, 32)
+#     if size == '4k':
+#         gw = np.clip(3840 // training_set.shape[2], 7, 32)
+#         gh = np.clip(2160 // training_set.shape[1], 4, 32)
+#     if size == '8k':
+#         gw = np.clip(7680 // training_set.shape[2], 7, 32)
+#         gh = np.clip(4320 // training_set.shape[1], 4, 32)
+
+    gw, gh = 15, 8 # edited
 
     # Initialize data arrays.
     reals = np.zeros([gw * gh] + training_set.shape, dtype=training_set.dtype)
