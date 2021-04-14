@@ -6,6 +6,7 @@ os.chdir(PROJ_DIR)
 
 from glob import glob
 import re
+import json
 # import pandas as pd
 from tabulate import tabulate
 
@@ -27,6 +28,7 @@ def training_time():
             d[dataset]['files'] = files
             d[dataset]['training_time'] = []
 
+
     findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE).search(s)
 
     def calc_time(t, unit):
@@ -37,7 +39,6 @@ def training_time():
             return 0
 
     TTs = {}
-    
     for dataset, values in d.items():
         for v in values['files']:
             with open(v, 'r') as f:
@@ -70,8 +71,21 @@ def training_time():
 
     days = [round(j / 24, 1) for i, j in TTs.items()]
     
-    table = tabulate([[x, round(y, 2), z] for (x, y), z in zip(TTs.items(), days)],
-               headers=['Dataset', 'Training time (in hrs)', 'Training time (in days)'],
+    with open(f'{PROJ_DIR}/FID_results.json') as f:
+        FID_res = json.load(f)
+    
+    FIDs = []
+    loc_FID = lambda x, y: round(float(y.partition(x)[-1].replace(' ', '')), 2)
+    
+    for x in FID_res.keys():
+        y = FID_res[x]['FID'][0]
+        if y.find('timfid50k_full') != -1:
+            FIDs.append(loc_FID('timfid50k_full', y))
+        else:
+            FIDs.append(loc_FID('timfid50k', y))
+    
+    table = tabulate([[x, round(y, 2), z, f] for (x, y), z, f in zip(TTs.items(), days, FIDs)],
+               headers=['Dataset', 'Training time (in hrs)', 'Training time (in days)', 'FID'],
                tablefmt='github')
 
     return table

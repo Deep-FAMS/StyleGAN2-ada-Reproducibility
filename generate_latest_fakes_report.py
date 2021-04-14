@@ -15,6 +15,7 @@ from datetime import datetime
 # from IPython.display import Markdown, display
 
 import training_time
+import FID_results
 
 
 def generate_latest_fakes_report(PROJ_DIR, verbose=1):
@@ -92,7 +93,9 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_reports/{Tstamp}.md'
-
+    
+    FID_results.FID_results()
+    
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
         f.write(training_time.training_time())
