@@ -13,6 +13,7 @@ jobs_log/
 ._.DS_Store
 
 .stylegan2-cache/
+.gifs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
