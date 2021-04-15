@@ -1,7 +1,7 @@
 {
     "AFHQ-WILD": {
         "FID": [
-            "network-snapshot-001638: timfid50k_full 2.0594"
+            "network-snapshot-004055: timfid50k_full 2.1612"
         ]
     },
     "AFHQ-CAT": {
@@ -11,7 +11,7 @@
     },
     "metfaces": {
         "FID": [
-            "network-snapshot-000604: timfid50k_full 21.3412"
+            "network-snapshot-001572: timfid50k_full 20.9477"
         ]
     },
     "POKEMON": {
@@ -21,22 +21,22 @@
     },
     "StanfordDogs": {
         "FID": [
-            "network-snapshot-004055: timfid50k_full 33.0973"
+            "network-snapshot-007127: timfid50k_full 33.1356"
         ]
     },
     "StyleGAN2_AFHQ-DOG": {
         "FID": [
-            "network-snapshot-000001: timfid50k 292.1955"
+            "network-snapshot-000483: timfid50k 24.1999"
         ]
     },
     "cars196": {
         "FID": [
-            "network-snapshot-004178: timfid50k_full 9.1024"
+            "network-snapshot-007127: timfid50k_full 12.4331"
         ]
     },
     "AFHQ-DOG": {
         "FID": [
-            "network-snapshot-000725: timfid50k_full 11.7250"
+            "network-snapshot-001163: timfid50k_full 11.3704"
         ]
     },
     "ANIME-FACES": {
@@ -46,12 +46,12 @@
     },
     "StyleGAN2_WILD-AFHQ": {
         "FID": [
-            "network-snapshot-001048: timfid50k 3.1685"
+            "network-snapshot-001774: timfid50k 3.0918"
         ]
     },
     "102flowers": {
         "FID": [
-            "network-snapshot-001966: timfid50k_full 11.2149"
+            "network-snapshot-004915: timfid50k_full 15.2182"
         ]
     }
 }

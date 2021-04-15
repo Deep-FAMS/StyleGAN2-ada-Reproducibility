@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --time=72:00:00
 #SBATCH --job-name='StyleGAN2-AFHQ-DOG'
-#SBATCH --partition='gpu'
+#SBATCH --partition='guest_gpu'
 #SBATCH --gres=gpu:2
 #SBATCH --constraint=gpu_32gb&gpu_v100
 #SBATCH --mem=64gb
