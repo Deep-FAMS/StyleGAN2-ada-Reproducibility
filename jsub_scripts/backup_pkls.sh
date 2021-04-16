@@ -9,8 +9,6 @@
 
 cd $WORK
 module load rclone
-module load cuda
 module load anaconda
-module load compiler/gcc/6.1
-conda activate $WORK/.conda/envs/ada-env
-while true; do $WORK/.conda/envs/ada-env/bin/python  python $WORK/ADA_Project/backup_pkls.py; sleep 3600; done
+conda activate $WORK/.conda/envs/tensorflow-env2
+while true; do python $WORK/ADA_Project/backup_pkls.py; sleep 3600; done
