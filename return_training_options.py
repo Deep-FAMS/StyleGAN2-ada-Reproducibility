@@ -1,6 +1,5 @@
 import os
 from glob import glob
-import re
 import shutil
 from pathlib import Path
 

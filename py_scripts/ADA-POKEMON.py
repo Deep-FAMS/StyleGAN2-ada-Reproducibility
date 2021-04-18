@@ -1,12 +1,7 @@
 from glob import glob
-import numpy as np
 import PIL.Image
-from tqdm import tqdm
 from pathlib import Path
 import urllib.request
-import tarfile
-import zipfile
-import subprocess
 import sys
 import dotenv
 import os

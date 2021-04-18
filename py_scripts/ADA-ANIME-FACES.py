@@ -1,14 +1,5 @@
-from glob import glob
-import numpy as np
 import PIL.Image
-from tqdm import tqdm
-from pathlib import Path
-from joblib import Parallel, delayed
-import multiprocessing
 import urllib.request
-import tarfile
-import zipfile
-import subprocess
 import sys
 import os
 
