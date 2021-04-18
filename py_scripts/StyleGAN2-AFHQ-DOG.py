@@ -1,5 +1,6 @@
 # Here, we are training a StyleGAN2 model from scratch to compare to StyleGAN2-ADA on the same dataset
 
+import DeepFAMS
 from glob import glob
 from tqdm import tqdm
 from pathlib import Path
@@ -14,7 +15,6 @@ dotenv.load_dotenv(override=True)
 WORK = os.getenv('WORK')
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/stylegan2')
-import DeepFAMS
 
 
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()

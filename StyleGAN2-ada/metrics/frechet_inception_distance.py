@@ -19,7 +19,8 @@ import dnnlib.tflib as tflib
 
 from metrics import metric_base
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 class FID(metric_base.MetricBase):
     def __init__(self, max_reals, num_fakes, minibatch_per_gpu, use_cached_real_stats=True, **kwargs):
@@ -29,9 +30,10 @@ class FID(metric_base.MetricBase):
         self.minibatch_per_gpu = minibatch_per_gpu
         self.use_cached_real_stats = use_cached_real_stats
 
-    def _evaluate(self, Gs, G_kwargs, num_gpus, **_kwargs): # pylint: disable=arguments-differ
+    def _evaluate(self, Gs, G_kwargs, num_gpus, **_kwargs):  # pylint: disable=arguments-differ
         minibatch_size = num_gpus * self.minibatch_per_gpu
-        with dnnlib.util.open_url('https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/pretrained/metrics/inception_v3_features.pkl') as f: # identical to http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz
+        # identical to http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz
+        with dnnlib.util.open_url('https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/pretrained/metrics/inception_v3_features.pkl') as f:
             feature_net = pickle.load(f)
 
         # Calculate statistics for reals.
@@ -68,10 +70,12 @@ class FID(metric_base.MetricBase):
             with tf.device('/gpu:%d' % gpu_idx):
                 Gs_clone = Gs.clone()
                 feature_net_clone = feature_net.clone()
-                latents = tf.random_normal([self.minibatch_per_gpu] + Gs_clone.input_shape[1:])
+                latents = tf.random_normal(
+                    [self.minibatch_per_gpu] + Gs_clone.input_shape[1:])
                 labels = self._get_random_labels_tf(self.minibatch_per_gpu)
                 images = Gs_clone.get_output_for(latents, labels, **G_kwargs)
-                if images.shape[1] == 1: images = tf.tile(images, [1, 3, 1, 1])
+                if images.shape[1] == 1:
+                    images = tf.tile(images, [1, 3, 1, 1])
                 images = tflib.convert_images_to_uint8(images)
                 result_expr.append(feature_net_clone.get_output_for(images))
 
@@ -86,8 +90,9 @@ class FID(metric_base.MetricBase):
 
         # Calculate FID.
         m = np.square(mu_fake - mu_real).sum()
-        s, _ = scipy.linalg.sqrtm(np.dot(sigma_fake, sigma_real), disp=False) # pylint: disable=no-member
+        s, _ = scipy.linalg.sqrtm(
+            np.dot(sigma_fake, sigma_real), disp=False)  # pylint: disable=no-member
         dist = m + np.trace(sigma_fake + sigma_real - 2*s)
         self._report_result(np.real(dist))
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------

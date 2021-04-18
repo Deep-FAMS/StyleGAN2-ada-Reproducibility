@@ -12,10 +12,12 @@ import tensorflow as tf
 from .. import custom_ops
 from ...util import EasyDict
 
+
 def _get_plugin():
     return custom_ops.get_plugin(os.path.splitext(__file__)[0] + '.cu')
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 activation_funcs = {
     'linear':   EasyDict(func=lambda x, **_:        x,                          def_alpha=None, def_gain=1.0,           cuda_idx=1, ref='y', zero_2nd_grad=True),
@@ -29,7 +31,8 @@ activation_funcs = {
     'swish':    EasyDict(func=lambda x, **_:        tf.nn.sigmoid(x) * x,       def_alpha=None, def_gain=np.sqrt(2),    cuda_idx=9, ref='x', zero_2nd_grad=False),
 }
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def fused_bias_act(x, b=None, axis=1, act='linear', alpha=None, gain=None, impl='cuda'):
     r"""Fused bias and activation function.
@@ -67,16 +70,19 @@ def fused_bias_act(x, b=None, axis=1, act='linear', alpha=None, gain=None, impl=
     }
     return impl_dict[impl](x=x, b=b, axis=axis, act=act, alpha=alpha, gain=gain)
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def _fused_bias_act_ref(x, b, axis, act, alpha, gain):
     """Slow reference implementation of `fused_bias_act()` using standard TensorFlow ops."""
 
     # Validate arguments.
     x = tf.convert_to_tensor(x)
-    b = tf.convert_to_tensor(b) if b is not None else tf.constant([], dtype=x.dtype)
+    b = tf.convert_to_tensor(
+        b) if b is not None else tf.constant([], dtype=x.dtype)
     act_spec = activation_funcs[act]
-    assert b.shape.rank == 1 and (b.shape[0] == 0 or b.shape[0] == x.shape[axis])
+    assert b.shape.rank == 1 and (
+        b.shape[0] == 0 or b.shape[0] == x.shape[axis])
     assert b.shape[0] == 0 or 0 <= axis < x.shape.rank
     if alpha is None:
         alpha = act_spec.def_alpha
@@ -85,7 +91,8 @@ def _fused_bias_act_ref(x, b, axis, act, alpha, gain):
 
     # Add bias.
     if b.shape[0] != 0:
-        x += tf.reshape(b, [-1 if i == axis else 1 for i in range(x.shape.rank)])
+        x += tf.reshape(b, [-1 if i ==
+                        axis else 1 for i in range(x.shape.rank)])
 
     # Evaluate activation function.
     x = act_spec.func(x, alpha=alpha)
@@ -95,7 +102,8 @@ def _fused_bias_act_ref(x, b, axis, act, alpha, gain):
         x *= gain
     return x
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
     """Fast CUDA implementation of `fused_bias_act()` using custom ops."""
@@ -105,7 +113,8 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
     empty_tensor = tf.constant([], dtype=x.dtype)
     b = tf.convert_to_tensor(b) if b is not None else empty_tensor
     act_spec = activation_funcs[act]
-    assert b.shape.rank == 1 and (b.shape[0] == 0 or b.shape[0] == x.shape[axis])
+    assert b.shape.rank == 1 and (
+        b.shape[0] == 0 or b.shape[0] == x.shape[axis])
     assert b.shape[0] == 0 or 0 <= axis < x.shape.rank
     if alpha is None:
         alpha = act_spec.def_alpha
@@ -120,7 +129,8 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
 
     # CUDA kernel.
     cuda_kernel = _get_plugin().fused_bias_act
-    cuda_kwargs = dict(axis=axis, act=act_spec.cuda_idx, alpha=alpha, gain=gain)
+    cuda_kwargs = dict(axis=axis, act=act_spec.cuda_idx,
+                       alpha=alpha, gain=gain)
 
     # Forward pass: y = func(x, b).
     def func_y(x, b):
@@ -134,6 +144,7 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
         dx = cuda_kernel(x=dy, b=empty_tensor, ref=ref, grad=1, **cuda_kwargs)
         dx.set_shape(x.shape)
         return dx
+
     def grad_db(dx):
         if b.shape[0] == 0:
             return empty_tensor
@@ -151,6 +162,7 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
         d_dy = cuda_kernel(x=d_dx, b=d_db, ref=ref, grad=1, **cuda_kwargs)
         d_dy.set_shape(x.shape)
         return d_dy
+
     def grad2_d_x(d_dx, d_db, x, y):
         ref = {'x': x, 'y': y}[act_spec.ref]
         d_x = cuda_kernel(x=d_dx, b=d_db, ref=ref, grad=2, **cuda_kwargs)
@@ -161,10 +173,12 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
     @tf.custom_gradient
     def func_zero_2nd_grad(x, b):
         y = func_y(x, b)
+
         @tf.custom_gradient
         def grad(dy):
             dx = grad_dx(dy, x, y)
             db = grad_db(dx)
+
             def grad2(d_dx, d_db):
                 d_dy = grad2_d_dy(d_dx, d_db, x, y)
                 return d_dy
@@ -175,11 +189,13 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
     @tf.custom_gradient
     def func_nonzero_2nd_grad(x, b):
         y = func_y(x, b)
+
         def grad_wrap(dy):
             @tf.custom_gradient
             def grad_impl(dy, x):
                 dx = grad_dx(dy, x, y)
                 db = grad_db(dx)
+
                 def grad2(d_dx, d_db):
                     d_dy = grad2_d_dy(d_dx, d_db, x, y)
                     d_x = grad2_d_x(d_dx, d_db, x, y)
@@ -193,4 +209,4 @@ def _fused_bias_act_cuda(x, b, axis, act, alpha, gain):
         return func_zero_2nd_grad(x, b)
     return func_nonzero_2nd_grad(x, b)
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------

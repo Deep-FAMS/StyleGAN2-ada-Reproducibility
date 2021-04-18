@@ -10,31 +10,31 @@ job_name = input('job name? ')
 partition = input('partition (default: gpu)? ')
 constraint = input('GPU name (k20, k40, p100, v100)? ')
 if constraint == 'k20' or constraint == 'k40':
-	const_line = '#SBATCH --constraint=' + 'gpu_' + constraint
+    const_line = '#SBATCH --constraint=' + 'gpu_' + constraint
 else:
-	const_line = '#SBATCH --constraint=' + 'gpu_' + mem + 'gb&gpu_' + constraint
+    const_line = '#SBATCH --constraint=' + 'gpu_' + mem + 'gb&gpu_' + constraint
 
 if constraint.lower() == 'k20':
-        no_gpus = int(input('number of GPUs (MAX: 2 or 3)? '))
+    no_gpus = int(input('number of GPUs (MAX: 2 or 3)? '))
 
 elif constraint.lower() == 'k40':
-        no_gpus = int(input('number of GPUs (MAX: 2 or 4)? '))
+    no_gpus = int(input('number of GPUs (MAX: 2 or 4)? '))
 
 elif constraint.lower() == 'p100':
-        no_gpus = int(input('number of GPUs (MAX: 2)? '))
-        mem = int(input('memory per GPU (MAX: 12)? '))
+    no_gpus = int(input('number of GPUs (MAX: 2)? '))
+    mem = int(input('memory per GPU (MAX: 12)? '))
 
 elif constraint.lower() == 'v100':
-        no_gpus = int(input('number of GPUs (MAX: 2 or 4)? '))
-        if no_gpus == 2:
-                mem = int(input('memory per GPU (MAX: 32)? '))
-        elif no_gpus == 4:
-                mem = int(input('memory per GPU (MAX: 16)? '))
+    no_gpus = int(input('number of GPUs (MAX: 2 or 4)? '))
+    if no_gpus == 2:
+        mem = int(input('memory per GPU (MAX: 32)? '))
+    elif no_gpus == 4:
+        mem = int(input('memory per GPU (MAX: 16)? '))
 
 file_name = input('python file name (WITHOUT EXTENSION!)? ')
 
 with open(f'{Path(file_name).stem}.sh', 'w') as f:
-        f.write(f'''#!/bin/bash
+    f.write(f'''#!/bin/bash
 #SBATCH --time={time}:00:00
 #SBATCH --job-name='{job_name}'
 #SBATCH --partition='{partition}'
@@ -53,9 +53,8 @@ $WORK/.conda/envs/ada-env/bin/python {cwd}/{file_name}.py
 ''')
 
 print(
-'=' * 60,
-'\n',
-'Run this command to submit the job:',
-f'$ sbatch {cwd}/{file_name}.sh')
+    '=' * 60,
+    '\n',
+    'Run this command to submit the job:',
+    f'$ sbatch {cwd}/{file_name}.sh')
 print('=' * 60)
-

@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
-                            
+
     os.chdir(PROJ_DIR)
     trainOpDir = f'{PROJ_DIR}/training_options'
     shutil.rmtree(trainOpDir)
@@ -14,20 +14,21 @@ def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
 
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
-    datasets = [x.replace(TRfolders, '').replace('_training-runs', '') for x in TRfolders_]
+    datasets = [x.replace(TRfolders, '').replace(
+        '_training-runs', '') for x in TRfolders_]
     datasets = ['AFHQ-CAT' if x == 'AFHQ' else x for x in datasets]
 
     d = {}
 
     for folder, dataset in zip(TRfolders_, datasets):
         files = sorted(glob(folder + "/**/*"))
-        files = [x for x in files if 'training_options' in x or 'submit_config.txt' in x]
+        files = [
+            x for x in files if 'training_options' in x or 'submit_config.txt' in x]
         if files == []:
             continue
         else:
             d[dataset] = {}
             d[dataset]['file'] = files[-1]
-
 
     for k, v in d.items():
         file = v['file']

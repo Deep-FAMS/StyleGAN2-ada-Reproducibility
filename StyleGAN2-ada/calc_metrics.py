@@ -17,12 +17,14 @@ import dnnlib.tflib as tflib
 
 from metrics import metric_defaults
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 class UserError(Exception):
     pass
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def calc_metrics(network_pkl, metric_names, metricdata, mirror, gpus):
     tflib.init_tf()
@@ -31,8 +33,10 @@ def calc_metrics(network_pkl, metric_names, metricdata, mirror, gpus):
     metrics = []
     for name in metric_names:
         if name not in metric_defaults.metric_defaults:
-            raise UserError('\n'.join(['--metrics can only contain the following values:', 'none'] + list(metric_defaults.metric_defaults.keys())))
-        metrics.append(dnnlib.util.construct_class_by_name(**metric_defaults.metric_defaults[name]))
+            raise UserError('\n'.join(['--metrics can only contain the following values:',
+                            'none'] + list(metric_defaults.metric_defaults.keys())))
+        metrics.append(dnnlib.util.construct_class_by_name(
+            **metric_defaults.metric_defaults[name]))
 
     # Load network.
     if not dnnlib.util.is_url(network_pkl, allow_file_urls=True) and not os.path.isfile(network_pkl):
@@ -47,12 +51,15 @@ def calc_metrics(network_pkl, metric_names, metricdata, mirror, gpus):
     training_options = None
     if os.path.isfile(network_pkl):
         potential_run_dir = os.path.dirname(network_pkl)
-        potential_json_file = os.path.join(potential_run_dir, 'training_options.json')
+        potential_json_file = os.path.join(
+            potential_run_dir, 'training_options.json')
         if os.path.isfile(potential_json_file):
-            print(f'Looking up training options from "{potential_json_file}"...')
+            print(
+                f'Looking up training options from "{potential_json_file}"...')
             run_dir = potential_run_dir
             with open(potential_json_file, 'rt') as f:
-                training_options = json.load(f, object_pairs_hook=dnnlib.EasyDict)
+                training_options = json.load(
+                    f, object_pairs_hook=dnnlib.EasyDict)
     if training_options is None:
         print('Could not look up training options; will rely on --metricdata and --mirror')
 
@@ -64,7 +71,8 @@ def calc_metrics(network_pkl, metric_names, metricdata, mirror, gpus):
     dataset_options.max_label_size = Gs.input_shapes[1][-1]
     if metricdata is not None:
         if not os.path.isdir(metricdata):
-            raise UserError('--metricdata must point to a directory containing *.tfrecords')
+            raise UserError(
+                '--metricdata must point to a directory containing *.tfrecords')
         dataset_options.path = metricdata
     if mirror is not None:
         dataset_options.mirror_augment = mirror
@@ -83,7 +91,8 @@ def calc_metrics(network_pkl, metric_names, metricdata, mirror, gpus):
         metric.configure(dataset_args=dataset_options, run_dir=run_dir)
         metric.run(network_pkl=network_pkl, num_gpus=gpus)
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def _str_to_bool(v):
     if isinstance(v, bool):
@@ -94,12 +103,14 @@ def _str_to_bool(v):
         return False
     raise argparse.ArgumentTypeError('Boolean value expected.')
 
+
 def _parse_comma_sep(s):
     if s is None or s.lower() == 'none' or s == '':
         return []
     return s.split(',')
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 _cmdline_help_epilog = '''examples:
 
@@ -133,7 +144,8 @@ available metrics:
     ls           Linear separability with respect to CelebA attributes.
 '''
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -142,11 +154,16 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
 
-    parser.add_argument('--network',    help='Network pickle filename or URL', dest='network_pkl', metavar='PATH')
-    parser.add_argument('--metrics',    help='Comma-separated list or "none" (default: %(default)s)', dest='metric_names', type=_parse_comma_sep, default='fid50k_full', metavar='LIST')
-    parser.add_argument('--metricdata', help='Dataset to evaluate metrics against (default: look up from training options)', metavar='PATH')
-    parser.add_argument('--mirror',     help='Whether the dataset was augmented with x-flips during training (default: look up from training options)', type=_str_to_bool, metavar='BOOL')
-    parser.add_argument('--gpus',       help='Number of GPUs to use (default: %(default)s)', type=int, default=1, metavar='INT')
+    parser.add_argument('--network',    help='Network pickle filename or URL',
+                        dest='network_pkl', metavar='PATH')
+    parser.add_argument('--metrics',    help='Comma-separated list or "none" (default: %(default)s)',
+                        dest='metric_names', type=_parse_comma_sep, default='fid50k_full', metavar='LIST')
+    parser.add_argument(
+        '--metricdata', help='Dataset to evaluate metrics against (default: look up from training options)', metavar='PATH')
+    parser.add_argument(
+        '--mirror',     help='Whether the dataset was augmented with x-flips during training (default: look up from training options)', type=_str_to_bool, metavar='BOOL')
+    parser.add_argument('--gpus',       help='Number of GPUs to use (default: %(default)s)',
+                        type=int, default=1, metavar='INT')
 
     args = parser.parse_args()
     try:
@@ -155,9 +172,10 @@ def main():
         print(f'Error: {err}')
         exit(1)
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 if __name__ == "__main__":
     main()
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------

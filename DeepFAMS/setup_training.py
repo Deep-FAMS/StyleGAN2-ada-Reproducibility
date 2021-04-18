@@ -1,39 +1,40 @@
+from metrics import metric_defaults
+from training import dataset
+from training import training_loop
+import dnnlib.tflib as tflib
+import dnnlib
+import tensorflow as tf
+import re
+import json
+import argparse
 import os
 import sys
 
 WORK = os.environ["WORK"]
 sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ada')
 
-import argparse
-import json
-import re
-import tensorflow as tf
-import dnnlib
-import dnnlib.tflib as tflib
-
-from training import training_loop
-from training import dataset
-from metrics import metric_defaults
 
 prepend_paths = []
+
 
 def prepend_path(x, y):
     prepend_paths.append(y)
 
-prepend_path("PATH","/util/opt/cuda/10.2/bin")
-prepend_path("LD_LIBRARY_PATH","/util/opt/cuda/10.2/lib64")
-prepend_path("LIBRARY_PATH","/util/opt/cuda/10.2/lib64")
-prepend_path("MANPATH","/util/opt/cuda/10.2/doc/man")
-prepend_path("CPATH","/util/opt/cuda/10.2/include")
-prepend_path("PATH","/util/comp/gcc/4.7/bin")
-prepend_path("LD_LIBRARY_PATH","/util/comp/gcc/4.7/lib")
-prepend_path("LD_LIBRARY_PATH","/util/comp/gcc/4.7/lib64")
-prepend_path("LIBRARY_PATH","/util/comp/gcc/4.7/lib")
-prepend_path("LIBRARY_PATH","/util/comp/gcc/4.7/lib64")
-prepend_path("MANPATH","/util/comp/gcc/4.7/share/man")
-prepend_path("INCLUDE","/util/comp/gcc/4.7/include")
-prepend_path("PKG_CONFIG_PATH","/util/comp/gcc/4.7/lib/pkgconfig")
-prepend_path("MODULEPATH","/util/opt/modulefiles/Compiler/gcc/4.7")
+
+prepend_path("PATH", "/util/opt/cuda/10.2/bin")
+prepend_path("LD_LIBRARY_PATH", "/util/opt/cuda/10.2/lib64")
+prepend_path("LIBRARY_PATH", "/util/opt/cuda/10.2/lib64")
+prepend_path("MANPATH", "/util/opt/cuda/10.2/doc/man")
+prepend_path("CPATH", "/util/opt/cuda/10.2/include")
+prepend_path("PATH", "/util/comp/gcc/4.7/bin")
+prepend_path("LD_LIBRARY_PATH", "/util/comp/gcc/4.7/lib")
+prepend_path("LD_LIBRARY_PATH", "/util/comp/gcc/4.7/lib64")
+prepend_path("LIBRARY_PATH", "/util/comp/gcc/4.7/lib")
+prepend_path("LIBRARY_PATH", "/util/comp/gcc/4.7/lib64")
+prepend_path("MANPATH", "/util/comp/gcc/4.7/share/man")
+prepend_path("INCLUDE", "/util/comp/gcc/4.7/include")
+prepend_path("PKG_CONFIG_PATH", "/util/comp/gcc/4.7/lib/pkgconfig")
+prepend_path("MODULEPATH", "/util/opt/modulefiles/Compiler/gcc/4.7")
 
 os.environ["GCC_LIB"] = "/util/comp/gcc/4.7/lib64"
 os.environ["CC"] = "gcc"
@@ -46,7 +47,7 @@ os.environ["FFLAGS"] = "-march=corei7-avx"
 os.environ["CXXFLAGS"] = "-march=corei7-avx"
 os.environ["F90FLAGS"] = "-march=corei7-avx"
 os.environ["FCFLAGS"] = "-march=corei7-avx"
-    
+
 os.environ["CUDA_HOME"] = "/util/opt/cuda/10.2"
 os.environ["CUDA_PATH"] = "/util/opt/cuda/10.2"
 
@@ -71,45 +72,51 @@ The `setup_training_options()` function is forked from https://github.com/NVlabs
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 class UserError(Exception):
     pass
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 def setup_training_options(
     # General options (not included in desc).
-    gpus       = None, # Number of GPUs: <int>, default = 1 gpu
-    snap       = None, # Snapshot interval: <int>, default = 50 ticks
+    gpus=None,  # Number of GPUs: <int>, default = 1 gpu
+    snap=None,  # Snapshot interval: <int>, default = 50 ticks
 
     # Training dataset.
-    data       = None, # Training dataset (required): <path>
-    res        = None, # Override dataset resolution: <int>, default = highest available
-    mirror     = None, # Augment dataset with x-flips: <bool>, default = False
+    data=None,  # Training dataset (required): <path>
+    res=None,  # Override dataset resolution: <int>, default = highest available
+    mirror=None,  # Augment dataset with x-flips: <bool>, default = False
 
     # Metrics (not included in desc).
-    metrics    = None, # List of metric names: [], ['fid50k_full'] (default), ...
-    metricdata = None, # Metric dataset (optional): <path>
+    metrics=None,  # List of metric names: [], ['fid50k_full'] (default), ...
+    metricdata=None,  # Metric dataset (optional): <path>
 
     # Base config.
-    cfg        = None, # Base config: 'auto' (default), 'stylegan2', 'paper256', 'paper512', 'paper1024', 'cifar', 'cifarbaseline'
-    gamma      = None, # Override R1 gamma: <float>, default = depends on cfg
-    kimg       = None, # Override training duration: <int>, default = depends on cfg
+    # Base config: 'auto' (default), 'stylegan2', 'paper256', 'paper512', 'paper1024', 'cifar', 'cifarbaseline'
+    cfg=None,
+    gamma=None,  # Override R1 gamma: <float>, default = depends on cfg
+    kimg=None,  # Override training duration: <int>, default = depends on cfg
 
     # Discriminator augmentation.
-    aug        = None, # Augmentation mode: 'ada' (default), 'noaug', 'fixed', 'adarv'
-    p          = None, # Specify p for 'fixed' (required): <float>
-    target     = None, # Override ADA target for 'ada' and 'adarv': <float>, default = depends on aug
-    augpipe    = None, # Augmentation pipeline: 'blit', 'geom', 'color', 'filter', 'noise', 'cutout', 'bg', 'bgc' (default), ..., 'bgcfnc'
+    aug=None,  # Augmentation mode: 'ada' (default), 'noaug', 'fixed', 'adarv'
+    p=None,  # Specify p for 'fixed' (required): <float>
+    target=None,  # Override ADA target for 'ada' and 'adarv': <float>, default = depends on aug
+    # Augmentation pipeline: 'blit', 'geom', 'color', 'filter', 'noise', 'cutout', 'bg', 'bgc' (default), ..., 'bgcfnc'
+    augpipe=None,
 
     # Comparison methods.
-    cmethod    = None, # Comparison method: 'nocmethod' (default), 'bcr', 'zcr', 'pagan', 'wgangp', 'auxrot', 'spectralnorm', 'shallowmap', 'adropout'
-    dcap       = None, # Multiplier for discriminator capacity: <float>, default = 1
+    # Comparison method: 'nocmethod' (default), 'bcr', 'zcr', 'pagan', 'wgangp', 'auxrot', 'spectralnorm', 'shallowmap', 'adropout'
+    cmethod=None,
+    dcap=None,  # Multiplier for discriminator capacity: <float>, default = 1
 
     # Transfer learning.
-    resume     = None, # Load previous network: 'noresume' (default), 'ffhq256', 'ffhq512', 'ffhq1024', 'celebahq256', 'lsundog256', <file>, <url>
-    freezed    = None, # Freeze-D: <int>, default = 0 discriminator layers
+    # Load previous network: 'noresume' (default), 'ffhq256', 'ffhq512', 'ffhq1024', 'celebahq256', 'lsundog256', <file>, <url>
+    resume=None,
+    freezed=None,  # Freeze-D: <int>, default = 0 discriminator layers
 ):
     # Initialize dicts.
     args = dnnlib.EasyDict()
@@ -118,7 +125,8 @@ def setup_training_options(
     args.G_opt_args = dnnlib.EasyDict(beta1=0.0, beta2=0.99)
     args.D_opt_args = dnnlib.EasyDict(beta1=0.0, beta2=0.99)
     args.loss_args = dnnlib.EasyDict(func_name='training.loss.stylegan2')
-    args.augment_args = dnnlib.EasyDict(class_name='training.augment.AdaptiveAugment')
+    args.augment_args = dnnlib.EasyDict(
+        class_name='training.augment.AdaptiveAugment')
 
     # ---------------------------
     # General options: gpus, snap
@@ -147,14 +155,19 @@ def setup_training_options(
     assert isinstance(data, str)
     data_name = os.path.basename(os.path.abspath(data))
     if not os.path.isdir(data) or len(data_name) == 0:
-        raise UserError('--data must point to a directory containing *.tfrecords')
+        raise UserError(
+            '--data must point to a directory containing *.tfrecords')
     desc = data_name
 
-    with tf.Graph().as_default(), tflib.create_session().as_default(): # pylint: disable=not-context-manager
-        args.train_dataset_args = dnnlib.EasyDict(path=data, max_label_size='full')
-        dataset_obj = dataset.load_dataset(**args.train_dataset_args) # try to load the data and see what comes out
-        args.train_dataset_args.resolution = dataset_obj.shape[-1] # be explicit about resolution
-        args.train_dataset_args.max_label_size = dataset_obj.label_size # be explicit about label size
+    with tf.Graph().as_default(), tflib.create_session().as_default():  # pylint: disable=not-context-manager
+        args.train_dataset_args = dnnlib.EasyDict(
+            path=data, max_label_size='full')
+        # try to load the data and see what comes out
+        dataset_obj = dataset.load_dataset(**args.train_dataset_args)
+        # be explicit about resolution
+        args.train_dataset_args.resolution = dataset_obj.shape[-1]
+        # be explicit about label size
+        args.train_dataset_args.max_label_size = dataset_obj.label_size
         validation_set_available = dataset_obj.has_validation_set
         dataset_obj.close()
         dataset_obj = None
@@ -166,7 +179,8 @@ def setup_training_options(
         if not (res >= 4 and res & (res - 1) == 0):
             raise UserError('--res must be a power of two and at least 4')
         if res > args.train_dataset_args.resolution:
-            raise UserError(f'--res cannot exceed maximum available resolution in the dataset ({args.train_dataset_args.resolution})')
+            raise UserError(
+                f'--res cannot exceed maximum available resolution in the dataset ({args.train_dataset_args.resolution})')
         desc += f'-res{res:d}'
     args.train_dataset_args.resolution = res
 
@@ -190,14 +204,16 @@ def setup_training_options(
     args.metric_arg_list = []
     for metric in metrics:
         if metric not in metric_defaults.metric_defaults:
-            raise UserError('\n'.join(['--metrics can only contain the following values:', 'none'] + list(metric_defaults.metric_defaults.keys())))
+            raise UserError('\n'.join(['--metrics can only contain the following values:',
+                            'none'] + list(metric_defaults.metric_defaults.keys())))
         args.metric_arg_list.append(metric_defaults.metric_defaults[metric])
 
     args.metric_dataset_args = dnnlib.EasyDict(args.train_dataset_args)
     if metricdata is not None:
         assert isinstance(metricdata, str)
         if not os.path.isdir(metricdata):
-            raise UserError('--metricdata must point to a directory containing *.tfrecords')
+            raise UserError(
+                '--metricdata must point to a directory containing *.tfrecords')
         args.metric_dataset_args.path = metricdata
 
     # -----------------------------
@@ -210,8 +226,10 @@ def setup_training_options(
     desc += f'-{cfg}'
 
     cfg_specs = {
-        'auto':          dict(ref_gpus=-1, kimg=25000,  mb=-1, mbstd=-1, fmaps=-1,  lrate=-1,     gamma=-1,   ema=-1,  ramp=0.05, map=2), # populated dynamically based on 'gpus' and 'res'
-        'stylegan2':     dict(ref_gpus=8,  kimg=25000,  mb=32, mbstd=4,  fmaps=1,   lrate=0.002,  gamma=10,   ema=10,  ramp=None, map=8), # uses mixed-precision, unlike original StyleGAN2
+        # populated dynamically based on 'gpus' and 'res'
+        'auto':          dict(ref_gpus=-1, kimg=25000,  mb=-1, mbstd=-1, fmaps=-1,  lrate=-1,     gamma=-1,   ema=-1,  ramp=0.05, map=2),
+        # uses mixed-precision, unlike original StyleGAN2
+        'stylegan2':     dict(ref_gpus=8,  kimg=25000,  mb=32, mbstd=4,  fmaps=1,   lrate=0.002,  gamma=10,   ema=10,  ramp=None, map=8),
         'paper256':      dict(ref_gpus=8,  kimg=25000,  mb=64, mbstd=8,  fmaps=0.5, lrate=0.0025, gamma=1,    ema=20,  ramp=None, map=8),
         'paper512':      dict(ref_gpus=8,  kimg=25000,  mb=64, mbstd=8,  fmaps=1,   lrate=0.0025, gamma=0.5,  ema=20,  ramp=None, map=8),
         'paper1024':     dict(ref_gpus=8,  kimg=25000,  mb=32, mbstd=4,  fmaps=1,   lrate=0.002,  gamma=2,    ema=10,  ramp=None, map=8),
@@ -224,11 +242,13 @@ def setup_training_options(
     if cfg == 'auto':
         desc += f'{gpus:d}'
         spec.ref_gpus = gpus
-        spec.mb = max(min(gpus * min(4096 // res, 32), 64), gpus) # keep gpu memory consumption at bay
-        spec.mbstd = min(spec.mb // gpus, 4) # other hyperparams behave more predictably if mbstd group size remains fixed
+        # keep gpu memory consumption at bay
+        spec.mb = max(min(gpus * min(4096 // res, 32), 64), gpus)
+        # other hyperparams behave more predictably if mbstd group size remains fixed
+        spec.mbstd = min(spec.mb // gpus, 4)
         spec.fmaps = 1 if res >= 512 else 0.5
         spec.lrate = 0.002 if res >= 1024 else 0.0025
-        spec.gamma = 0.0002 * (res ** 2) / spec.mb # heuristic formula
+        spec.gamma = 0.0002 * (res ** 2) / spec.mb  # heuristic formula
         spec.ema = spec.mb * 10 / 32
 
     args.total_kimg = spec.kimg
@@ -242,13 +262,15 @@ def setup_training_options(
     args.G_smoothing_kimg = spec.ema
     args.G_smoothing_rampup = spec.ramp
     args.G_args.mapping_layers = spec.map
-    args.G_args.num_fp16_res = args.D_args.num_fp16_res = 4 # enable mixed-precision training
-    args.G_args.conv_clamp = args.D_args.conv_clamp = 256 # clamp activations to avoid float16 overflow
+    # enable mixed-precision training
+    args.G_args.num_fp16_res = args.D_args.num_fp16_res = 4
+    # clamp activations to avoid float16 overflow
+    args.G_args.conv_clamp = args.D_args.conv_clamp = 256
 
     if cfg == 'cifar':
-        args.loss_args.pl_weight = 0 # disable path length regularization
-        args.G_args.style_mixing_prob = None # disable style mixing
-        args.D_args.architecture = 'orig' # disable residual skip connections
+        args.loss_args.pl_weight = 0  # disable path length regularization
+        args.G_args.style_mixing_prob = None  # disable style mixing
+        args.D_args.architecture = 'orig'  # disable residual skip connections
 
     if gamma is not None:
         assert isinstance(gamma, float)
@@ -287,7 +309,8 @@ def setup_training_options(
 
     elif aug == 'adarv':
         if not validation_set_available:
-            raise UserError(f'--aug={aug} requires separate validation set; please see "python dataset_tool.py pack -h"')
+            raise UserError(
+                f'--aug={aug} requires separate validation set; please see "python dataset_tool.py pack -h"')
         args.augment_args.tune_heuristic = 'rv'
         args.augment_args.tune_target = 0.5
 
@@ -306,7 +329,8 @@ def setup_training_options(
     if target is not None:
         assert isinstance(target, float)
         if aug not in ['ada', 'adarv']:
-            raise UserError('--target can only be specified with --aug=ada or --aug=adarv')
+            raise UserError(
+                '--target can only be specified with --aug=ada or --aug=adarv')
         if not 0 <= target <= 1:
             raise UserError('--target must be between 0 and 1')
         desc += f'-target{target:g}'
@@ -356,42 +380,50 @@ def setup_training_options(
         args.loss_args.func_name = 'training.loss.cmethods'
         args.loss_args.bcr_real_weight = 10
         args.loss_args.bcr_fake_weight = 10
-        args.loss_args.bcr_augment = dnnlib.EasyDict(func_name='training.augment.augment_pipeline', xint=1, xint_max=1/32)
+        args.loss_args.bcr_augment = dnnlib.EasyDict(
+            func_name='training.augment.augment_pipeline', xint=1, xint_max=1/32)
 
     elif cmethod == 'zcr':
         args.loss_args.func_name = 'training.loss.cmethods'
         args.loss_args.zcr_gen_weight = 0.02
         args.loss_args.zcr_dis_weight = 0.2
-        args.G_args.num_fp16_res = args.D_args.num_fp16_res = 0 # disable mixed-precision training
+        # disable mixed-precision training
+        args.G_args.num_fp16_res = args.D_args.num_fp16_res = 0
         args.G_args.conv_clamp = args.D_args.conv_clamp = None
 
     elif cmethod == 'pagan':
         if aug != 'noaug':
-            raise UserError(f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
+            raise UserError(
+                f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
         args.D_args.use_pagan = True
-        args.augment_args.tune_heuristic = 'rt' # enable ada heuristic
-        args.augment_args.pop('apply_func', None) # disable discriminator augmentation
+        args.augment_args.tune_heuristic = 'rt'  # enable ada heuristic
+        # disable discriminator augmentation
+        args.augment_args.pop('apply_func', None)
         args.augment_args.pop('apply_args', None)
         args.augment_args.tune_target = 0.95
 
     elif cmethod == 'wgangp':
         if aug != 'noaug':
-            raise UserError(f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
+            raise UserError(
+                f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
         if gamma is not None:
-            raise UserError(f'--cmethod={cmethod} is not compatible with --gamma')
+            raise UserError(
+                f'--cmethod={cmethod} is not compatible with --gamma')
         args.loss_args = dnnlib.EasyDict(func_name='training.loss.wgangp')
         args.G_opt_args.learning_rate = args.D_opt_args.learning_rate = 0.001
-        args.G_args.num_fp16_res = args.D_args.num_fp16_res = 0 # disable mixed-precision training
+        # disable mixed-precision training
+        args.G_args.num_fp16_res = args.D_args.num_fp16_res = 0
         args.G_args.conv_clamp = args.D_args.conv_clamp = None
         args.lazy_regularization = False
 
     elif cmethod == 'auxrot':
         if args.train_dataset_args.max_label_size > 0:
-            raise UserError(f'--cmethod={cmethod} is not compatible with label conditioning; please specify a dataset without labels')
+            raise UserError(
+                f'--cmethod={cmethod} is not compatible with label conditioning; please specify a dataset without labels')
         args.loss_args.func_name = 'training.loss.cmethods'
         args.loss_args.auxrot_alpha = 10
         args.loss_args.auxrot_beta = 5
-        args.D_args.score_max = 5 # prepare D to output 5 scalars per image instead of just 1
+        args.D_args.score_max = 5  # prepare D to output 5 scalars per image instead of just 1
 
     elif cmethod == 'spectralnorm':
         args.D_args.use_spectral_norm = True
@@ -403,10 +435,12 @@ def setup_training_options(
 
     elif cmethod == 'adropout':
         if aug != 'noaug':
-            raise UserError(f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
+            raise UserError(
+                f'--cmethod={cmethod} is not compatible with discriminator augmentation; please specify --aug=noaug')
         args.D_args.adaptive_dropout = 1
-        args.augment_args.tune_heuristic = 'rt' # enable ada heuristic
-        args.augment_args.pop('apply_func', None) # disable discriminator augmentation
+        args.augment_args.tune_heuristic = 'rt'  # enable ada heuristic
+        # disable discriminator augmentation
+        args.augment_args.pop('apply_func', None)
         args.augment_args.pop('apply_args', None)
         args.augment_args.tune_target = 0.6
 
@@ -440,14 +474,14 @@ def setup_training_options(
         desc += '-noresume'
     elif resume in resume_specs:
         desc += f'-resume{resume}'
-        args.resume_pkl = resume_specs[resume] # predefined url
+        args.resume_pkl = resume_specs[resume]  # predefined url
     else:
         desc += '-resumecustom'
-        args.resume_pkl = resume # custom path or url
+        args.resume_pkl = resume  # custom path or url
 
     if resume != 'noresume':
-        args.augment_args.tune_kimg = 100 # make ADA react faster at the beginning
-        args.G_smoothing_rampup = None # disable EMA rampup
+        args.augment_args.tune_kimg = 100  # make ADA react faster at the beginning
+        args.G_smoothing_rampup = None  # disable EMA rampup
 
     if freezed is not None:
         assert isinstance(freezed, int)

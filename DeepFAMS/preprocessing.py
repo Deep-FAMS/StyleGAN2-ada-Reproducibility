@@ -1,3 +1,4 @@
+import tensorflow as tf    # tensorflow_version 1.x
 import os
 from glob import glob
 import numpy as np
@@ -8,7 +9,6 @@ from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf    # tensorflow_version 1.x
 print(f'Tensorflow version: {tf.__version__}')
 
 
@@ -16,22 +16,21 @@ def resize_imgs(im, size, output_dir):
     img_ = PIL.Image.open(im)
     img_name = Path(img_.filename).stem
     img_ext = Path(img_.filename).suffix
-    
+
     img = tf.keras.preprocessing.image.img_to_array(img_)
     if img.shape[2] not in [1, 3]:
         img_rgb = img_.convert('RGB')
         img = tf.keras.preprocessing.image.img_to_array(img_rgb)
-    
+
     resized_array = tf.image.resize_images(
-            img, size, method='bilinear')
+        img, size, method='bilinear')
     resized_array = resized_array.numpy()
     assert resized_array.shape[2] in [1, 3]
-    
+
     resized_img = tf.keras.preprocessing.image.array_to_img(resized_array)
 
     Path(output_dir).mkdir(exist_ok=True)
     resized_img.save(f'{output_dir}/{img_name}.jpg')
-
 
 
 """
@@ -53,18 +52,19 @@ The `tf_record_exporter()` and `create_from_images` functions are forked from ht
 def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
     class TFRecordExporter:
         def __init__(self, tfrecord_dir, expected_images, print_progress=True, progress_interval=10, tfr_prefix=None):
-            self.tfrecord_dir       = tfrecord_dir
+            self.tfrecord_dir = tfrecord_dir
             if tfr_prefix is None:
-                self.tfr_prefix = os.path.join(self.tfrecord_dir, os.path.basename(self.tfrecord_dir))
+                self.tfr_prefix = os.path.join(
+                    self.tfrecord_dir, os.path.basename(self.tfrecord_dir))
             else:
                 self.tfr_prefix = os.path.join(self.tfrecord_dir, tfr_prefix)
-            self.expected_images    = expected_images
-            self.cur_images         = 0
-            self.shape              = None
-            self.resolution_log2    = None
-            self.tfr_writers        = []
-            self.print_progress     = print_progress
-            self.progress_interval  = progress_interval
+            self.expected_images = expected_images
+            self.cur_images = 0
+            self.shape = None
+            self.resolution_log2 = None
+            self.tfr_writers = []
+            self.print_progress = print_progress
+            self.progress_interval = progress_interval
 
             if self.print_progress:
                 name = '' if tfr_prefix is None else f' ({tfr_prefix})'
@@ -83,29 +83,35 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
                 print('%-40s\r' % '', end='', flush=True)
                 print('Added %d images.' % self.cur_images)
 
-        def choose_shuffled_order(self): # Note: Images and labels must be added in shuffled order.
+        # Note: Images and labels must be added in shuffled order.
+        def choose_shuffled_order(self):
             order = np.arange(self.expected_images)
             np.random.RandomState(123).shuffle(order)
             return order
 
         def add_image(self, img):
             if self.print_progress and self.cur_images % self.progress_interval == 0:
-                print('%d / %d\r' % (self.cur_images, self.expected_images), end='', flush=True)
+                print('%d / %d\r' % (self.cur_images,
+                      self.expected_images), end='', flush=True)
             if self.shape is None:
                 self.shape = img.shape
                 self.resolution_log2 = int(np.log2(self.shape[1]))
                 assert self.shape[0] in [1, 3]
                 assert self.shape[1] == self.shape[2]
                 assert self.shape[1] == 2**self.resolution_log2
-                tfr_opt = tf.io.TFRecordOptions(tf.compat.v1.io.TFRecordCompressionType.NONE)
+                tfr_opt = tf.io.TFRecordOptions(
+                    tf.compat.v1.io.TFRecordCompressionType.NONE)
                 for lod in range(self.resolution_log2 - 1):
-                    tfr_file = self.tfr_prefix + '-r%02d.tfrecords' % (self.resolution_log2 - lod)
-                    self.tfr_writers.append(tf.io.TFRecordWriter(tfr_file, tfr_opt))
+                    tfr_file = self.tfr_prefix + \
+                        '-r%02d.tfrecords' % (self.resolution_log2 - lod)
+                    self.tfr_writers.append(
+                        tf.io.TFRecordWriter(tfr_file, tfr_opt))
             assert img.shape == self.shape
             for lod, tfr_writer in enumerate(self.tfr_writers):
                 if lod:
                     img = img.astype(np.float32)
-                    img = (img[:, 0::2, 0::2] + img[:, 0::2, 1::2] + img[:, 1::2, 0::2] + img[:, 1::2, 1::2]) * 0.25
+                    img = (img[:, 0::2, 0::2] + img[:, 0::2, 1::2] +
+                           img[:, 1::2, 0::2] + img[:, 1::2, 1::2]) * 0.25
                 quant = np.rint(img).clip(0, 255).astype(np.uint8)
                 ex = tf.train.Example(features=tf.train.Features(feature={
                     'shape': tf.train.Feature(int64_list=tf.train.Int64List(value=quant.shape)),
@@ -125,7 +131,6 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
 
         def __exit__(self, *args):
             self.close()
-
 
     def error(msg):
         print('Error: ' + msg)
@@ -151,15 +156,16 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
             order = tfr.choose_shuffled_order() if shuffle else np.arange(len(image_filenames))
             for idx in range(order.size):
                 try:
-                    img = np.asarray(PIL.Image.open(image_filenames[order[idx]]))
+                    img = np.asarray(PIL.Image.open(
+                        image_filenames[order[idx]]))
                     if channels == 1:
-                        img = img[np.newaxis, :, :] # HW => CHW
+                        img = img[np.newaxis, :, :]  # HW => CHW
                     else:
-                        img = img.transpose([2, 0, 1]) # HWC => CHW
+                        img = img.transpose([2, 0, 1])  # HWC => CHW
                     tfr.add_image(img)
 
                 except (ValueError, OSError, AssertionError) as e:
                     print(e)
                     print(f'Failed to export {image_filenames[order[idx]]}')
-                
+
     create_from_images(tfrecord_dir, image_dir, shuffle)
