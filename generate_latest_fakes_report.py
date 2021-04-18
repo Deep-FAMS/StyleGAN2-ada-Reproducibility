@@ -1,21 +1,20 @@
+import FID_results
+import training_time
+from datetime import datetime
+import dotenv
+import requests
+import base64
+from PIL import Image
+from pprint import pprint
+from pathlib import Path
+from glob import glob
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 
-from glob import glob
-from pathlib import Path
-from pprint import pprint
 # import PIL
-from PIL import Image
-import base64
-import requests
-import dotenv
-from datetime import datetime
 # from IPython.display import Markdown, display
-
-import training_time
-import FID_results
 
 
 def generate_latest_fakes_report(PROJ_DIR, verbose=1):
@@ -34,8 +33,8 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     dotenv.load_dotenv(f'{PROJ_DIR}/.env')
     token = os.getenv('TOKEN')
 
-    mb_size = lambda x: Path(x).stat().st_size / (1024 * 1024)
-    dir_up = lambda x, y: "/".join(Path(x).parts[y:])
+    def mb_size(x): return Path(x).stat().st_size / (1024 * 1024)
+    def dir_up(x, y): return "/".join(Path(x).parts[y:])
 
     WORK = Path(PROJ_DIR).parent
     TRfolders_ = f'{PROJ_DIR}/training_runs'
