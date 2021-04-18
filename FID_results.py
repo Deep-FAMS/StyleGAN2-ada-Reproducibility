@@ -5,12 +5,13 @@ import json
 
 
 def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
-    
+
     os.chdir(PROJ_DIR)
-    
+
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
-    datasets = [x.replace(TRfolders, '').replace('_training-runs', '') for x in TRfolders_]
+    datasets = [x.replace(TRfolders, '').replace(
+        '_training-runs', '') for x in TRfolders_]
     datasets = ['AFHQ-CAT' if x == 'AFHQ' else x for x in datasets]
 
     d = {}
@@ -25,7 +26,8 @@ def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
             d[dataset]['file'] = files[-1]
             d[dataset]['FID'] = []
 
-    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE).search(s)
+    def findWholeWord(w, s): return re.compile(
+        rf'\b({w})\b', flags=re.IGNORECASE).search(s)
 
     for metric, values in d.items():
         with open(values['file'], 'r') as f:
@@ -41,8 +43,8 @@ def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
     for skey in d:
         del d[skey]['file']
 
-    with open("FID_results.json", "w") as outfile: 
-        json.dump(d, outfile, indent = 4)
+    with open("FID_results.json", "w") as outfile:
+        json.dump(d, outfile, indent=4)
 
 
 FID_results()
