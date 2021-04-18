@@ -15,7 +15,8 @@ import dnnlib.tflib as tflib
 from metrics import metric_base
 from training import misc
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
 
 class FID(metric_base.MetricBase):
     def __init__(self, num_images, minibatch_per_gpu, **kwargs):
@@ -25,8 +26,10 @@ class FID(metric_base.MetricBase):
 
     def _evaluate(self, Gs, Gs_kwargs, num_gpus):
         minibatch_size = num_gpus * self.minibatch_per_gpu
-        inception = misc.load_pkl('https://nvlabs-fi-cdn.nvidia.com/stylegan/networks/metrics/inception_v3_features.pkl')
-        activations = np.empty([self.num_images, inception.output_shape[1]], dtype=np.float32)
+        inception = misc.load_pkl(
+            'https://nvlabs-fi-cdn.nvidia.com/stylegan/networks/metrics/inception_v3_features.pkl')
+        activations = np.empty(
+            [self.num_images, inception.output_shape[1]], dtype=np.float32)
 
         # Calculate statistics for reals.
         cache_file = self._get_cache_file_for_reals(num_images=self.num_images)
@@ -37,7 +40,8 @@ class FID(metric_base.MetricBase):
             for idx, images in enumerate(self._iterate_reals(minibatch_size=minibatch_size)):
                 begin = idx * minibatch_size
                 end = min(begin + minibatch_size, self.num_images)
-                activations[begin:end] = inception.run(images[:end-begin], num_gpus=num_gpus, assume_frozen=True)
+                activations[begin:end] = inception.run(
+                    images[:end-begin], num_gpus=num_gpus, assume_frozen=True)
                 if end == self.num_images:
                     break
             mu_real = np.mean(activations, axis=0)
@@ -50,7 +54,8 @@ class FID(metric_base.MetricBase):
             with tf.device('/gpu:%d' % gpu_idx):
                 Gs_clone = Gs.clone()
                 inception_clone = inception.clone()
-                latents = tf.random_normal([self.minibatch_per_gpu] + Gs_clone.input_shape[1:])
+                latents = tf.random_normal(
+                    [self.minibatch_per_gpu] + Gs_clone.input_shape[1:])
                 labels = self._get_random_labels_tf(self.minibatch_per_gpu)
                 images = Gs_clone.get_output_for(latents, labels, **Gs_kwargs)
                 images = tflib.convert_images_to_uint8(images)
@@ -60,14 +65,16 @@ class FID(metric_base.MetricBase):
         for begin in range(0, self.num_images, minibatch_size):
             self._report_progress(begin, self.num_images)
             end = min(begin + minibatch_size, self.num_images)
-            activations[begin:end] = np.concatenate(tflib.run(result_expr), axis=0)[:end-begin]
+            activations[begin:end] = np.concatenate(
+                tflib.run(result_expr), axis=0)[:end-begin]
         mu_fake = np.mean(activations, axis=0)
         sigma_fake = np.cov(activations, rowvar=False)
 
         # Calculate FID.
         m = np.square(mu_fake - mu_real).sum()
-        s, _ = scipy.linalg.sqrtm(np.dot(sigma_fake, sigma_real), disp=False) # pylint: disable=no-member
+        s, _ = scipy.linalg.sqrtm(
+            np.dot(sigma_fake, sigma_real), disp=False)  # pylint: disable=no-member
         dist = m + np.trace(sigma_fake + sigma_real - 2*s)
         self._report_result(np.real(dist))
 
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
