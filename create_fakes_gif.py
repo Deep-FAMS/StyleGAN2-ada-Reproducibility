@@ -16,7 +16,10 @@ def create_fakes_gif(DATASET_NAME: str):
 
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
-    datasets = [x.replace(TRfolders, '').replace('_training-runs', '') for x in TRfolders_]
+    datasets = [
+        x.replace(TRfolders, '').replace('_training-runs', '')
+        for x in TRfolders_
+    ]
     datasets = ['AFHQ-CAT' if x == 'AFHQ' else x for x in datasets]
 
     d = {}
@@ -30,7 +33,6 @@ def create_fakes_gif(DATASET_NAME: str):
             d[dataset] = {}
             d[dataset]['files'] = files
 
-
     history = f'{PROJ_DIR}/datasets/{DATASET_NAME}_history'
     Path(history).mkdir(exist_ok=True)
 
@@ -42,7 +44,8 @@ def create_fakes_gif(DATASET_NAME: str):
 
     n_jobs = multiprocessing.cpu_count() - 1
 
-    images = Parallel(n_jobs=n_jobs)(delayed(process)(i) for i in tqdm(d[DATASET_NAME]['files']))
+    images = Parallel(n_jobs=n_jobs)(delayed(process)(i)
+                                     for i in tqdm(d[DATASET_NAME]['files']))
 
     #     display(im_cropped)
 
@@ -50,5 +53,9 @@ def create_fakes_gif(DATASET_NAME: str):
     fp_out = f'{DATASET_NAME}.gif'
 
     img, *imgs = [Image.open(f) for f in tqdm(fp_in)]
-    img.save(fp=fp_out, format='GIF', append_images=imgs,
-             save_all=True, duration=100, loop=0)
+    img.save(fp=fp_out,
+             format='GIF',
+             append_images=imgs,
+             save_all=True,
+             duration=100,
+             loop=0)

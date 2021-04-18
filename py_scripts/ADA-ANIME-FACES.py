@@ -17,17 +17,14 @@ import DeepFAMS
 
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()
 
-
 # Dataset download link: https://unomaha.box.com/shared/static/emdbt8qdkq6p5841o1dbcwe01zlzn7p2.zip
 
 RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(
     PROJ_DIR, 'ANIME-FACES')
 
-
 # RAW_IMGS_DIR_ = glob(f'{RAW_IMGS_DIR}/waifus/images/*')
 # RAW_IMGS_DIR_ = [x for x in RAW_IMGS_DIR_ if Path(x).suffix in ['.jpg', '.png', '.jpeg']]
 # print(len(RAW_IMGS_DIR_))
-
 
 # def select_imgs(img):
 #     image = PIL.Image.open(img)
@@ -44,7 +41,6 @@ RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils
 #     DeepFAMS.preprocessing.resize_imgs(x, (256, 256), RESIZED_IMGS_DIR)
 
 # print(f'Raw: {len(fraw_imgs)}, Resized: {len(glob(f"{RESIZED_IMGS_DIR}/*"))}')
-
 
 # DeepFAMS.preprocessing.tf_record_exporter(tfrecord_dir=DATA_CUSTOM_DIR, image_dir=RESIZED_IMGS_DIR, shuffle=1)
 
@@ -69,19 +65,18 @@ for num in range(-1, -10, -1):
 latest_snap = sorted(files)[-1]
 print(latest_snap)
 
-
 run_desc, training_options = DeepFAMS.setup_training_options(
-    gpus       = 2,
-    snap       = 1,
-    data       = DATA_CUSTOM_DIR,
-    resume     = latest_snap
-)
+    gpus=2, snap=1, data=DATA_CUSTOM_DIR, resume=latest_snap)
 
-
-DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=True, run_desc=run_desc, training_options=training_options)
-
+DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR,
+                     seed=1000,
+                     dry_run=True,
+                     run_desc=run_desc,
+                     training_options=training_options)
 
 tf.compat.v1.disable_eager_execution()
-DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=False, run_desc=run_desc, training_options=training_options)
+DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR,
+                     seed=1000,
+                     dry_run=False,
+                     run_desc=run_desc,
+                     training_options=training_options)

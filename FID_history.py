@@ -130,7 +130,6 @@ for dataset, values in d.items():
         else:
             FID_history[dataset]['times'] = all_times[:lens[1]]
 
-
 # Compare between StyleGAN2-ada and baseline StyleGAN2 (AFHQ-WILD dataset)
 fig = plt.figure(figsize=(12, 6))
 ax = plt.axes()

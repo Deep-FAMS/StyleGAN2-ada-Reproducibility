@@ -17,8 +17,10 @@ def last_snap(num, training_runs_dir):
 
 def execute(command: str):
     command = shlex.split(command)
-    stdout = subprocess.run(command, capture_output=True,
-                            text=True, check=True).stdout
+    stdout = subprocess.run(command,
+                            capture_output=True,
+                            text=True,
+                            check=True).stdout
     lines = "\n".join(list(stdout.strip().splitlines()))
     print(lines)
 
@@ -30,7 +32,10 @@ def executePopen(cmd: str, PROJ_DIR):
         f.write(cmd)
 
     p = subprocess.Popen(f"bash {file_n}",
-                         shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+                         shell=True,
+                         stdout=subprocess.PIPE,
+                         stderr=subprocess.PIPE,
+                         universal_newlines=True)
 
     while p.poll() is None:
         line = p.stdout.readline()
