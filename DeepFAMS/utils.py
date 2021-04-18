@@ -11,14 +11,14 @@ import dotenv
 
 def last_snap(num, training_runs_dir):
     files = glob(f'{sorted(glob(training_runs_dir + "/*"))[num]}/*')
-    files = [x for x in files if 'network-snapshot' in x]  
+    files = [x for x in files if 'network-snapshot' in x]
     return files
 
-             
+
 def execute(command: str):
     command = shlex.split(command)
     stdout = subprocess.run(command, capture_output=True, text=True).stdout
-    lines = "\n".join([line for line in stdout.strip().splitlines()])
+    lines = "\n".join(list(stdout.strip().splitlines()))
     print(lines)
 
 
@@ -29,7 +29,7 @@ def executePopen(cmd: str, PROJ_DIR):
         f.write(cmd)
 
     p = subprocess.Popen(f"bash {file_n}",
-                     shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+                         shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     while p.poll() is None:
         line = p.stdout.readline()
@@ -43,7 +43,7 @@ def return_dirs(PROJ_DIR, dataset_name):
     TRAIN_RUNS_DIR = f'{PROJ_DIR}/training_runs/{dataset_name}_training-runs'
 
     return RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR
- 
+
 
 def Get_Raw_Data(url, datasets_dir, RAW_IMGS_DIR, file_name):
     file_name = url.split('/')[-1]
@@ -63,4 +63,3 @@ def set_env():
     sys.path.insert(0, f'{WORK}/ADA_Project')
     sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
     return WORK, PROJ_DIR
-
