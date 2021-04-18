@@ -6,7 +6,7 @@ os.chdir(PROJ_DIR)
 from glob import glob
 from pathlib import Path
 from pprint import pprint
-#import PIL
+# import PIL
 from PIL import Image
 import base64
 import requests
