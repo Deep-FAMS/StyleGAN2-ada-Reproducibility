@@ -28,8 +28,8 @@ def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
             d[dataset]['file'] = files[-1]
             d[dataset]['FID'] = []
 
-    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
-                                            ).search(s)
+    def findWholeWord(w, s): return re.compile(rf'\b({w})\b', flags=re.IGNORECASE
+                                               ).search(s)
 
     for metric, values in d.items():
         with open(values['file'], 'r') as f:

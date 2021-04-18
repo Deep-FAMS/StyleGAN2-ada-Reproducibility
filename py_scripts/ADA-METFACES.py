@@ -1,21 +1,21 @@
+import DeepFAMS
+import tensorflow as tf
+import warnings
+import PIL.Image
+import sys
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(WORK)
 print(os.getcwd())
 
-import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
-import PIL.Image
 
-import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
-import DeepFAMS
 
 PROJ_DIR = f'{WORK}/ADA_Project'
 RAW_IMGS_DIR = f'{PROJ_DIR}/datasets/metfaces-release/images'

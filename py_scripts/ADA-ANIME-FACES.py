@@ -1,3 +1,5 @@
+import DeepFAMS
+import tensorflow as tf
 import PIL.Image
 import urllib.request
 import sys
@@ -6,14 +8,12 @@ import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
 WORK = os.getenv('WORK')
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ADA')
 
-import DeepFAMS
 
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()
 

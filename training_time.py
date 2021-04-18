@@ -1,14 +1,14 @@
+from tabulate import tabulate
+import json
+import re
+from glob import glob
 import os
 
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 
-from glob import glob
-import re
-import json
 # import pandas as pd
-from tabulate import tabulate
 
 
 def training_time():
@@ -32,8 +32,8 @@ def training_time():
             d[dataset]['files'] = files
             d[dataset]['training_time'] = []
 
-    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
-                                            ).search(s)
+    def findWholeWord(w, s): return re.compile(rf'\b({w})\b', flags=re.IGNORECASE
+                                               ).search(s)
 
     def calc_time(t, unit):
         s = t.partition(unit)[0][-2:].replace(' ', '')
@@ -80,7 +80,9 @@ def training_time():
         FID_res = json.load(f)
 
     FIDs = []
-    loc_FID = lambda x, y: round(float(y.partition(x)[-1].replace(' ', '')), 2)
+
+    def loc_FID(x, y): return round(
+        float(y.partition(x)[-1].replace(' ', '')), 2)
 
     for x in FID_res.keys():
         y = FID_res[x]['FID'][0]
@@ -94,7 +96,7 @@ def training_time():
                      headers=[
                          'Dataset', 'Training time (in hrs)',
                          'Training time (in days)', 'FID'
-                     ],
-                     tablefmt='github')
+    ],
+        tablefmt='github')
 
     return table

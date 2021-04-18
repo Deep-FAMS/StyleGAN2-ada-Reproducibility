@@ -1,19 +1,18 @@
+import random
+import subprocess
+from datetime import datetime
+from pprint import pprint
+import shutil
+from pathlib import Path
+from glob import glob
+import sys
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 
-import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
-
-from glob import glob
-from pathlib import Path
-import shutil
-from pprint import pprint
-from datetime import datetime
-import subprocess
-import random
 
 
 def backup_pickles(PROJ_DIR):

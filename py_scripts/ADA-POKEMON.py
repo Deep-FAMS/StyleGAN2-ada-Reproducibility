@@ -1,3 +1,5 @@
+import DeepFAMS
+import tensorflow as tf
 from glob import glob
 import PIL.Image
 from pathlib import Path
@@ -9,13 +11,11 @@ import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
 dotenv.load_dotenv(override=True)
 WORK = os.getenv('WORK')
 sys.path.insert(0, f'{WORK}/ADA_Project')
-import DeepFAMS
 
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()
 

@@ -1,24 +1,24 @@
+import DeepFAMS
+import tensorflow as tf
+import warnings
+import urllib.request
+import PIL.Image
+from glob import glob
+import sys
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 print(os.getcwd())
 
-import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
-from glob import glob
-import PIL.Image
-import urllib.request
 
-import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
-import DeepFAMS
 
 RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(
     PROJ_DIR, 'AFHQ')
