@@ -38,7 +38,7 @@ def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
                 values['FID'].append(line)
                 break
 
-    for skey in d.keys():
+    for skey in d:
         del d[skey]['file']
 
     with open("FID_results.json", "w") as outfile: 
