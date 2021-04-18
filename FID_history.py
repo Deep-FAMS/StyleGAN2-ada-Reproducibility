@@ -16,8 +16,7 @@ def calc_time(t, unit):
     s = t.partition(unit)[0][-2:].replace(' ', '')
     if t.partition(unit)[0] != t:
         return float(s)
-    else:
-        return 0
+    return 0
 
 
 WORK = os.environ["WORK"]
