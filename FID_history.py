@@ -141,7 +141,7 @@ ds2 = 'StyleGAN2_WILD-AFHQ'
 ds1_t = [
     x for x in FID_history[ds1]['times'] if x <= max(FID_history[ds2]['times'])
 ]
-ds1_t = list([int(x) for x in ds1_t])
+ds1_t = [int(x) for x in ds1_t]
 
 ds1_f = FID_history[ds1]['FID'][:len(ds1_t)]
 
