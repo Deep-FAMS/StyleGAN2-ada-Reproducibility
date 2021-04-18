@@ -18,7 +18,7 @@ def last_snap(num, training_runs_dir):
 def execute(command: str):
     command = shlex.split(command)
     stdout = subprocess.run(command, capture_output=True, text=True).stdout
-    lines = "\n".join([line for line in stdout.strip().splitlines()])
+    lines = "\n".join(list(stdout.strip().splitlines()))
     print(lines)
 
 
