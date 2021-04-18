@@ -1,25 +1,24 @@
+import FID_results
+import training_time
+from datetime import datetime
+import dotenv
+import requests
+import base64
+from PIL import Image
+from pprint import pprint
+from pathlib import Path
+from glob import glob
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 
-from glob import glob
-from pathlib import Path
-from pprint import pprint
 #import PIL
-from PIL import Image
-import base64
-import requests
-import dotenv
-from datetime import datetime
 # from IPython.display import Markdown, display
-
-import training_time
-import FID_results
 
 
 def generate_latest_fakes_report(PROJ_DIR, verbose=1):
-    
+
     def upload_img(image, token):
         with open(image, "rb") as file:
             url = "https://api.imgbb.com/1/upload"
@@ -31,13 +30,13 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
             link = res.json()
             url = link['data']['url']
             return url
-        
+
     dotenv.load_dotenv(f'{PROJ_DIR}/.env')
     token = os.getenv('TOKEN')
 
-    mb_size = lambda x: Path(x).stat().st_size / (1024*1024)
-    dir_up = lambda x, y: "/".join(Path(x).parts[y:])
-    
+    def mb_size(x): return Path(x).stat().st_size / (1024*1024)
+    def dir_up(x, y): return "/".join(Path(x).parts[y:])
+
     WORK = Path(PROJ_DIR).parent
     TRfolders_ = f'{PROJ_DIR}/training_runs'
     TRfolders = glob(f'{TRfolders_}/*')
@@ -46,7 +45,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
 
     md_content = []
     latest_fakes = []
-    
+
     now = datetime.now()
     date_time = now.strftime('%m/%d/%Y, %H:%M:%S')
     md_content.append('# Latest fakes\n')
@@ -62,10 +61,10 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
                 latest_fake = sorted(files)[-1]
                 latest_fakes.append(latest_fake)
                 break
-    
+
     if verbose == 1:
         print('=' * 90,
-             '\n\nLatest fakes:\n')
+              '\n\nLatest fakes:\n')
         pprint([x.replace(str(TRfolders_), '') for x in latest_fakes])
         print('\n', '=' * 90, '\n')
 
@@ -78,31 +77,30 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
         compressed.save(compressed_path)
         if verbose == 1:
             print(Path(img).name,
-                f'compressed from ({mb_size(img):.2f}MB) to ==> '
+                  f'compressed from ({mb_size(img):.2f}MB) to ==> '
                   f'({mb_size(compressed_path):.2f}MB)')
-        
+
         url = upload_img(compressed_path, token)
         if verbose == 1:
             print(f'Link ==> {url}\n')
         img_subdir = dir_up(img, -3)
-        
-        md_content.append(f'### {img_subdir}\n'
-              f'![{Path(compressed_path).name}]({url} "{img_subdir}")'
-              '\n\n')
 
-    
+        md_content.append(f'### {img_subdir}\n'
+                          f'![{Path(compressed_path).name}]({url} "{img_subdir}")'
+                          '\n\n')
+
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_reports/{Tstamp}.md'
-    
+
     FID_results.FID_results()
-    
+
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
         f.write(training_time.training_time())
-    
+
     if verbose == 1:
         print(f'Generated a report at ==> {report_path}')
-        
+
     return report_path
 
 

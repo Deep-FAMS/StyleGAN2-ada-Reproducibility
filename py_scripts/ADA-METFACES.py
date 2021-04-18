@@ -1,26 +1,25 @@
+import DeepFAMS
+import tensorflow as tf
+import warnings
+from pathlib import Path
+from tqdm import tqdm
+import PIL.Image
+import numpy as np
+from glob import glob
+import sys
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(WORK)
 print(os.getcwd())
 
-import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
-from glob import glob
-import numpy as np
-import PIL.Image
-from tqdm import tqdm
-from pathlib import Path
 
-import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
-
-import DeepFAMS
 
 
 PROJ_DIR = f'{WORK}/ADA_Project'
@@ -65,18 +64,18 @@ print(latest_snap)
 
 
 run_desc, training_options = DeepFAMS.setup_training_options(
-    gpus       = 2,
-    snap       = 30,
-    data       = DATA_CUSTOM_DIR,
-    resume     = latest_snap
+    gpus=2,
+    snap=30,
+    data=DATA_CUSTOM_DIR,
+    resume=latest_snap
 )
 
 DeepFAMS.utils.execute('nvidia-smi')
 
 
 DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=True, run_desc=run_desc, training_options=training_options)
+                     dry_run=True, run_desc=run_desc, training_options=training_options)
 
 tf.compat.v1.disable_eager_execution()
 DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=False, run_desc=run_desc, training_options=training_options)
+                     dry_run=False, run_desc=run_desc, training_options=training_options)
