@@ -8,7 +8,7 @@ from pathlib import Path
 # from IPython import display
 
 
-def create_fakes_gif(DATASET_NAME: string):
+def create_fakes_gif(DATASET_NAME: str):
 
     WORK = os.environ["WORK"]
     PROJ_DIR = f'{WORK}/ADA_Project'
