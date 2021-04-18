@@ -1,5 +1,14 @@
 version = 1
 
+exclude_patterns = [
+  "*/StyleGAN2-ada/**",
+  "*/stylegan2/**",
+  "*/DeepFAMS/preprocessing.py",
+  "*/DeepFAMS/run_training.py",
+  "*/DeepFAMS/setup_training.py"
+]
+
+
 [[analyzers]]
 name = "python"
 enabled = true
