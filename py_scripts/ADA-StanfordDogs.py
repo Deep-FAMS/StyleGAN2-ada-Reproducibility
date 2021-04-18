@@ -9,8 +9,6 @@ sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
 from glob import glob
-import PIL.Image
-import urllib.request
 
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
