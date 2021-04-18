@@ -42,8 +42,10 @@ for folder, dataset in zip(TRfolders_, datasets):
         d[dataset]['files'] = files
         d[dataset]['training_time'] = []
 
-findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
-                                        ).search(s)
+
+def findWholeWord(w, s): return re.compile(rf'\b({w})\b', flags=re.IGNORECASE
+                                           ).search(s)
+
 
 FID_history = {}
 
