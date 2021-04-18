@@ -1,27 +1,27 @@
+import DeepFAMS
+import tensorflow as tf
+import warnings
+import urllib.request
+import PIL.Image
+from glob import glob
+import sys
 import os
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
 os.chdir(PROJ_DIR)
 print(os.getcwd())
 
-import sys
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
-from glob import glob
-import PIL.Image
-import urllib.request
 
-import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
-import DeepFAMS
 
-
-RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(PROJ_DIR, 'AFHQ-DOG')
+RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(
+    PROJ_DIR, 'AFHQ-DOG')
 RAW_IMGS_DIR_ = f'{PROJ_DIR}/datasets/AFHQ_images_raw/afhq/train/dog'
 
 raw_imgs = glob(f'{RAW_IMGS_DIR_}/*')
@@ -59,19 +59,19 @@ print(latest_snap)
 
 
 run_desc, training_options = DeepFAMS.setup_training_options(
-    gpus       = 2,
-    snap       = 1,
-    data       = DATA_CUSTOM_DIR,
-    resume     = latest_snap
+    gpus=2,
+    snap=1,
+    data=DATA_CUSTOM_DIR,
+    resume=latest_snap
 )
 
 DeepFAMS.utils.execute('nvidia-smi')
 
 
 DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=True, run_desc=run_desc, training_options=training_options)
+                     dry_run=True, run_desc=run_desc, training_options=training_options)
 
 
 tf.compat.v1.disable_eager_execution()
 DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR, seed=1000,
-             dry_run=False, run_desc=run_desc, training_options=training_options)
+                     dry_run=False, run_desc=run_desc, training_options=training_options)

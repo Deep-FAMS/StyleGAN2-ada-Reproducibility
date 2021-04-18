@@ -1,5 +1,7 @@
 # Here, we are training a StyleGAN2 model from scratch to compare to StyleGAN2-ADA on the same dataset
 
+import DeepFAMS
+import tensorflow as tf
 from glob import glob
 import sys
 import dotenv
@@ -8,15 +10,12 @@ import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
 dotenv.load_dotenv(override=True)
 WORK = os.getenv('WORK')
 sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/stylegan2')
-
-import DeepFAMS
 
 
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()
