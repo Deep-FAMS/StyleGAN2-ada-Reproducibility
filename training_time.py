@@ -39,8 +39,7 @@ def training_time():
         s = t.partition(unit)[0][-2:].replace(' ', '')
         if t.partition(unit)[0] != t:
             return int(s)
-        else:
-            return 0
+        return 0
 
     TTs = {}
     for dataset, values in d.items():
