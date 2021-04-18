@@ -9,7 +9,7 @@ time = int(input('time (in hrs)? '))
 job_name = input('job name? ')
 partition = input('partition (default: gpu)? ')
 constraint = input('GPU name (k20, k40, p100, v100)? ')
-if constraint == 'k20' or constraint == 'k40':
+if constraint in ['k20', 'k40']:
 	const_line = '#SBATCH --constraint=' + 'gpu_' + constraint
 else:
 	const_line = '#SBATCH --constraint=' + 'gpu_' + mem + 'gb&gpu_' + constraint
