@@ -1,7 +1,6 @@
 # Here, we are training a StyleGAN2 model from scratch to compare to StyleGAN2-ADA on the same dataset
 
 from glob import glob
-from tqdm import tqdm
 from pathlib import Path
 import sys
 import dotenv

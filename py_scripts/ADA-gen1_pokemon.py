@@ -9,13 +9,9 @@ sys.path.insert(0, f'{WORK}/ADA_Project')
 sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
 from glob import glob
-import numpy as np
 import PIL.Image
-from tqdm import tqdm
 from pathlib import Path
 import urllib.request
-import zipfile
-import subprocess
 
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)

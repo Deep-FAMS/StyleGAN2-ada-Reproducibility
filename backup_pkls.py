@@ -10,7 +10,6 @@ sys.path.insert(0, f'{WORK}/ADA_Project/DeepFAMS')
 
 
 from glob import glob
-from tqdm import tqdm
 from pathlib import Path
 import shutil
 from pprint import pprint
