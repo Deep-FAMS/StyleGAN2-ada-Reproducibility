@@ -41,7 +41,12 @@
     },
     "FFHQ_5K": {
         "FID": [
-            "network-snapshot-000000: timfid50k_full 339.8222"
+            "network-snapshot-001966: timfid50k_full 17.0253"
+        ]
+    },
+    "FFHQ_2K": {
+        "FID": [
+            "network-snapshot-001474: timfid50k_full 28.0667"
         ]
     },
     "ANIME-FACES": {
@@ -57,6 +62,16 @@
     "102flowers": {
         "FID": [
             "network-snapshot-008478: timfid50k_full 23.8895"
+        ]
+    },
+    "FFHQ_30K": {
+        "FID": [
+            "network-snapshot-001474: timfid50k_full 18.3419"
+        ]
+    },
+    "FFHQ": {
+        "FID": [
+            "network-snapshot-003317: timfid50k_full 10.0621"
         ]
     }
 }
