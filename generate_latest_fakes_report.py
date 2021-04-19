@@ -51,14 +51,15 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     md_content.append(f'## Date and time: {date_time}\n')
 
     for folder in TRfolders:
-        for _ in range(-1, -10, -1):
-            files = sorted(glob(folder + "/**/*"))
-            files = [x for x in files if 'fakes0' in x]
-            if files == []:
-                continue
-            latest_fake = sorted(files)[-1]
-            latest_fakes.append(latest_fake)
-            break
+        if 'FFHQ' in folder:  # !! remove this line to generate report for all datasets
+            for _ in range(-1, -10, -1):
+                files = sorted(glob(folder + "/**/*"))
+                files = [x for x in files if 'fakes0' in x]
+                if files == []:
+                    continue
+                latest_fake = sorted(files)[-1]
+                latest_fakes.append(latest_fake)
+                break
 
     if verbose == 1:
         print('=' * 90, '\n\nLatest fakes:\n')
