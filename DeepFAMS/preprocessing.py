@@ -50,7 +50,7 @@ The `tf_record_exporter()` and `create_from_images` functions are forked from ht
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
 
-def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
+def tf_record_exporter(tfrecord_dir, image_dir, shuffle, subset=None):
     class TFRecordExporter:
         def __init__(self, tfrecord_dir, expected_images, print_progress=True, progress_interval=10, tfr_prefix=None):
             self.tfrecord_dir       = tfrecord_dir
@@ -133,7 +133,7 @@ def tf_record_exporter(tfrecord_dir, image_dir, shuffle):
 
     def create_from_images(tfrecord_dir, image_dir, shuffle):
         print('Loading images from "%s"' % image_dir)
-        image_filenames = sorted(glob(os.path.join(image_dir, '*')))
+        image_filenames = sorted(glob(os.path.join(image_dir, '*')))[:subset]
         if len(image_filenames) == 0:
             error('No input images found')
 
