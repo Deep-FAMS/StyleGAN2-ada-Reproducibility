@@ -37,7 +37,6 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     mb_size = lambda x: Path(x).stat().st_size / (1024 * 1024)
     dir_up = lambda x, y: "/".join(Path(x).parts[y:])
 
-    WORK = Path(PROJ_DIR).parent
     TRfolders_ = f'{PROJ_DIR}/training_runs'
     TRfolders = glob(f'{TRfolders_}/*')
     backups_dir = f'{PROJ_DIR}/.tmp_imgs'
@@ -52,7 +51,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     md_content.append(f'## Date and time: {date_time}\n')
 
     for folder in TRfolders:
-        for num in range(-1, -10, -1):
+        for _ in range(-1, -10, -1):
             files = sorted(glob(folder + "/**/*"))
             files = [x for x in files if 'fakes0' in x]
             if files == []:

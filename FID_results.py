@@ -30,7 +30,7 @@ def FID_results(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
     findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
                                             ).search(s)
 
-    for metric, values in d.items():
+    for _, values in d.items():
         with open(values['file'], 'r') as f:
             lines = f.readlines()
             for line in reversed(lines):

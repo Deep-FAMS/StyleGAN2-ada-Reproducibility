@@ -43,7 +43,7 @@ def create_fakes_gif(DATASET_NAME: str):
 
     n_jobs = multiprocessing.cpu_count() - 1
 
-    images = Parallel(n_jobs=n_jobs)(delayed(process)(i)
+    Parallel(n_jobs=n_jobs)(delayed(process)(i)
                                      for i in tqdm(d[DATASET_NAME]['files']))
 
     #     display(im_cropped)

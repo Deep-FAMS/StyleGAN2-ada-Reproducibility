@@ -32,7 +32,7 @@ def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
         d[dataset] = {}
         d[dataset]['file'] = files[-1]
 
-    for k, v in d.items():
+    for _, v in d.items():
         file = v['file']
         file_dst = f'{PROJ_DIR}/training_options/{Path(file).parent.name.replace("AFHQ_custom", "AFHQ-CAT_custom")}__{Path(file).name}'
         shutil.copyfile(file, file_dst)

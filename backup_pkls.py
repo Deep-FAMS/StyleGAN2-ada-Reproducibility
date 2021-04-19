@@ -29,7 +29,7 @@ def backup_pickles(PROJ_DIR):
     latest_snaps = []
 
     for folder in TRfolders:
-        for num in range(-1, -10, -1):
+        for _ in range(-1, -10, -1):
             files = sorted(glob(folder + "/**/*"))
             files = [x for x in files if 'network-snapshot' in x]
             if files == []:
