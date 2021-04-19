@@ -39,6 +39,11 @@
             "network-snapshot-001163: timfid50k_full 11.3704"
         ]
     },
+    "FFHQ_5K": {
+        "FID": [
+            "network-snapshot-000000: timfid50k_full 339.8222"
+        ]
+    },
     "ANIME-FACES": {
         "FID": [
             "network-snapshot-001171: timfid50k_full 22.1679"
