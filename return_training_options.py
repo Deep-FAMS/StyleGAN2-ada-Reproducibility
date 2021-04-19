@@ -29,9 +29,8 @@ def return_training_options(PROJ_DIR=f'{os.environ["WORK"]}/ADA_Project'):
         ]
         if files == []:
             continue
-        else:
-            d[dataset] = {}
-            d[dataset]['file'] = files[-1]
+        d[dataset] = {}
+        d[dataset]['file'] = files[-1]
 
     for k, v in d.items():
         file = v['file']

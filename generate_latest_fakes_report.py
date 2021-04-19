@@ -57,10 +57,9 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
             files = [x for x in files if 'fakes0' in x]
             if files == []:
                 continue
-            else:
-                latest_fake = sorted(files)[-1]
-                latest_fakes.append(latest_fake)
-                break
+            latest_fake = sorted(files)[-1]
+            latest_fakes.append(latest_fake)
+            break
 
     if verbose == 1:
         print('=' * 90, '\n\nLatest fakes:\n')
