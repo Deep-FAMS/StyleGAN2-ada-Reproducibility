@@ -29,9 +29,8 @@ def create_fakes_gif(DATASET_NAME: str):
         files = [x for x in files if 'fakes' in x]
         if files == []:
             continue
-        else:
-            d[dataset] = {}
-            d[dataset]['files'] = files
+        d[dataset] = {}
+        d[dataset]['files'] = files
 
     history = f'{PROJ_DIR}/datasets/{DATASET_NAME}_history'
     Path(history).mkdir(exist_ok=True)

@@ -37,10 +37,9 @@ for folder, dataset in zip(TRfolders_, datasets):
     files = [x for x in files if 'log' in x]
     if files == []:
         continue
-    else:
-        d[dataset] = {}
-        d[dataset]['files'] = files
-        d[dataset]['training_time'] = []
+    d[dataset] = {}
+    d[dataset]['files'] = files
+    d[dataset]['training_time'] = []
 
 findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
                                         ).search(s)

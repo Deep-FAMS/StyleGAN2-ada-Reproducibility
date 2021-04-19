@@ -34,10 +34,9 @@ def backup_pickles(PROJ_DIR):
             files = [x for x in files if 'network-snapshot' in x]
             if files == []:
                 continue
-            else:
-                latest_snap = sorted(files)[-1]
-                latest_snaps.append(latest_snap)
-                break
+            latest_snap = sorted(files)[-1]
+            latest_snaps.append(latest_snap)
+            break
 
     print('=' * 100, '\nLatest snaps:\n')
     pprint(latest_snaps)
