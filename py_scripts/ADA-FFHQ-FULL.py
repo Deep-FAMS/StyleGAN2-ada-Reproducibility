@@ -1,7 +1,4 @@
 from glob import glob
-from tqdm import tqdm
-from pathlib import Path
-import zipfile
 import sys
 import dotenv
 import os
