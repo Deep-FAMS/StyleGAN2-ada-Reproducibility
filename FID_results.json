@@ -41,12 +41,12 @@
     },
     "FFHQ_5K": {
         "FID": [
-            "network-snapshot-002089: timfid50k_full 17.1110"
+            "network-snapshot-002826: timfid50k_full 14.7329"
         ]
     },
     "FFHQ_2K": {
         "FID": [
-            "network-snapshot-001720: timfid50k_full 27.8110"
+            "network-snapshot-002211: timfid50k_full 25.5787"
         ]
     },
     "ANIME-FACES": {
@@ -66,12 +66,12 @@
     },
     "FFHQ_30K": {
         "FID": [
-            "network-snapshot-001597: timfid50k_full 17.4117"
+            "network-snapshot-002211: timfid50k_full 12.9684"
         ]
     },
     "FFHQ": {
         "FID": [
-            "network-snapshot-003563: timfid50k_full 10.2698"
+            "network-snapshot-004178: timfid50k_full 9.4620"
         ]
     }
 }

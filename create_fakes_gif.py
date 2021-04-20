@@ -7,14 +7,17 @@ from tqdm import tqdm
 from pathlib import Path
 import imageio
 from pygifsicle import optimize
-from IPython.display import Image as displayIMG
+from IPython.display import Markdown, display
 
 
-def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
+def create_fakes_gif(DATASET_NAME, output_dir=None, subset=None, display_gif=False, verbose=False):
     
     def process(i):
         im = Image.open(i)
-        left, top, right, bottom = 0, 0, 1020, 1020
+        if DATASET_NAME == 'metfaces':
+            left, top, right, bottom = 0, 0, 1020 * 2, 1020 * 2
+        else:
+            left, top, right, bottom = 0, 0, 1020, 1020
         im_cropped = im.crop((left, top, right, bottom))
         return im_cropped.save(f'{history}/{Path(i).stem}.jpg')
 
@@ -27,9 +30,11 @@ def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
         x.replace(TRfolders, '').replace('_training-runs', '')
         for x in TRfolders_
     ]
-    datasets = ['AFHQ-CAT' if x == 'AFHQ' else x for x in datasets]
+    ds_rename = lambda before, after: [after if x == before else x for x in datasets]
+    datasets = ds_rename('AFHQ', 'AFHQ-CAT')
+    datasets = ds_rename('FFHQ', 'FFHQ_FULL')
     
-    if verbose == 1:
+    if verbose:
         print(f'Available datasets:\n {datasets}')
 
     d = {}
@@ -40,9 +45,13 @@ def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
         if fakes == []:
             continue
         d[dataset] = {}
-        d[dataset]['files'] = fakes
-
+        d[dataset]['files'] = fakes[::subset]
+    
     history = f'{PROJ_DIR}/datasets/{DATASET_NAME}_history'
+    try:
+        shutil.rmtree(history)
+    except:
+        pass
     Path(history).mkdir(exist_ok=True)
     
     if output_dir is None:
@@ -55,6 +64,9 @@ def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
 
     history_imgs = sorted([x for x in glob(f'{history}/*.jpg')])
     history_imgs = [history_imgs[-1]] + [x for x in history_imgs if 'init' not in x]
+    
+    if subset is not None and verbose:
+        print(f'Subset size: {len(history_imgs)} image')
     
     anim_file = f'{DATASET_NAME}.gif'
 
@@ -69,15 +81,12 @@ def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
         writer.append_data(image)
     
     file_size = lambda file: Path(file).stat().st_size / 1e+6
-    if verbose == 1:
+    if verbose:
         print(f'gif size before optimization: {file_size(anim_file):.2f} MB')
     optimize(source=anim_file, destination=anim_file)
-    if verbose == 1:
+    if verbose:
         print(f'         after optimization: {file_size(anim_file):.2f} MB')
     
-    if display is True:
+    if display_gif is True:
         print('Loading...')
-        return displayIMG(anim_file, format='gif', embed=True, width=400, height=400)
-        
-
-create_fakes_gif(DATASET_NAME='FFHQ_5K', output_dir=None, display=True, verbose=1)
+        return display(Markdown(f'<img src="{anim_file}" width="600">'))
