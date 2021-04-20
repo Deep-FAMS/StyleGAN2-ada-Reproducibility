@@ -5,14 +5,21 @@ import multiprocessing
 from joblib import Parallel, delayed
 from tqdm import tqdm
 from pathlib import Path
-# from IPython import display
+import imageio
+from pygifsicle import optimize
+from IPython.display import Image as displayIMG
 
 
-def create_fakes_gif(DATASET_NAME: str):
+def create_fakes_gif(DATASET_NAME, output_dir=None, display=False, verbose=0):
+    
+    def process(i):
+        im = Image.open(i)
+        left, top, right, bottom = 0, 0, 1020, 1020
+        im_cropped = im.crop((left, top, right, bottom))
+        return im_cropped.save(f'{history}/{Path(i).stem}.jpg')
 
     WORK = os.environ["WORK"]
     PROJ_DIR = f'{WORK}/ADA_Project'
-    os.chdir(PROJ_DIR)
 
     TRfolders = f'{PROJ_DIR}/training_runs/'
     TRfolders_ = glob(f'{PROJ_DIR}/training_runs/*')
@@ -21,40 +28,56 @@ def create_fakes_gif(DATASET_NAME: str):
         for x in TRfolders_
     ]
     datasets = ['AFHQ-CAT' if x == 'AFHQ' else x for x in datasets]
+    
+    if verbose == 1:
+        print(f'Available datasets:\n {datasets}')
 
     d = {}
 
     for folder, dataset in zip(TRfolders_, datasets):
         files = sorted(glob(folder + "/**/*"))
-        files = [x for x in files if 'fakes' in x]
-        if files == []:
+        fakes = [x for x in files if 'fakes' in x]
+        if fakes == []:
             continue
         d[dataset] = {}
-        d[dataset]['files'] = files
+        d[dataset]['files'] = fakes
 
     history = f'{PROJ_DIR}/datasets/{DATASET_NAME}_history'
     Path(history).mkdir(exist_ok=True)
-
-    def process(i):
-        im = Image.open(i)
-        left, top, right, bottom = 0, 0, 1020, 1020
-        im_cropped = im.crop((left, top, right, bottom))
-        im_cropped.save(f'{history}/{Path(i).stem}.jpg')
+    
+    if output_dir is None:
+        output_dir = Path.cwd()
 
     n_jobs = multiprocessing.cpu_count() - 1
 
-    Parallel(n_jobs=n_jobs)(delayed(process)(i)
+    _ = Parallel(n_jobs=n_jobs)(delayed(process)(i)
                                      for i in tqdm(d[DATASET_NAME]['files']))
 
-    #     display(im_cropped)
+    history_imgs = sorted([x for x in glob(f'{history}/*.jpg')])
+    history_imgs = [history_imgs[-1]] + [x for x in history_imgs if 'init' not in x]
+    
+    anim_file = f'{DATASET_NAME}.gif'
 
-    fp_in = glob(f'{DATASET_NAME}/*')
-    fp_out = f'{DATASET_NAME}.gif'
+    with imageio.get_writer(anim_file, mode='I') as writer:
+        for filename in history_imgs:
+            image = imageio.imread(filename)
+            if filename == history_imgs[-1]:
+                for _ in range(20):
+                    writer.append_data(image)
+            writer.append_data(image)
+        image = imageio.imread(filename)
+        writer.append_data(image)
+    
+    file_size = lambda file: Path(file).stat().st_size / 1e+6
+    if verbose == 1:
+        print(f'gif size before optimization: {file_size(anim_file):.2f} MB')
+    optimize(source=anim_file, destination=anim_file)
+    if verbose == 1:
+        print(f'         after optimization: {file_size(anim_file):.2f} MB')
+    
+    if display is True:
+        print('Loading...')
+        return displayIMG(anim_file, format='gif', embed=True, width=400, height=400)
+        
 
-    img, *imgs = [Image.open(f) for f in tqdm(fp_in)]
-    img.save(fp=fp_out,
-             format='GIF',
-             append_images=imgs,
-             save_all=True,
-             duration=100,
-             loop=0)
+create_fakes_gif(DATASET_NAME='FFHQ_5K', output_dir=None, display=True, verbose=1)
