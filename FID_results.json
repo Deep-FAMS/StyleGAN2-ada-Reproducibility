@@ -36,17 +36,17 @@
     },
     "AFHQ-DOG": {
         "FID": [
-            "network-snapshot-001163: timfid50k_full 11.3704"
+            "network-snapshot-000001: timfid50k_full 348.3302"
         ]
     },
     "FFHQ_5K": {
         "FID": [
-            "network-snapshot-002826: timfid50k_full 14.7329"
+            "network-snapshot-006881: timfid50k_full 13.4420"
         ]
     },
     "FFHQ_2K": {
         "FID": [
-            "network-snapshot-002211: timfid50k_full 25.5787"
+            "network-snapshot-006021: timfid50k_full 24.2396"
         ]
     },
     "ANIME-FACES": {
@@ -66,12 +66,12 @@
     },
     "FFHQ_30K": {
         "FID": [
-            "network-snapshot-002211: timfid50k_full 12.9684"
+            "network-snapshot-006021: timfid50k_full 7.4961"
         ]
     },
     "FFHQ": {
         "FID": [
-            "network-snapshot-004178: timfid50k_full 9.4620"
+            "network-snapshot-007987: timfid50k_full 7.6914"
         ]
     }
 }

@@ -54,7 +54,7 @@ latest_snap = sorted(files)[-1]
 print(latest_snap)
 
 run_desc, training_options = DeepFAMS.setup_training_options(
-    gpus=2, snap=1, data=DATA_CUSTOM_DIR, resume=latest_snap)
+    gpus=2, snap=10, data=DATA_CUSTOM_DIR, resume=latest_snap)
 
 DeepFAMS.utils.execute('nvidia-smi')
 

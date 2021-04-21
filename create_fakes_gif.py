@@ -90,3 +90,6 @@ def create_fakes_gif(DATASET_NAME, output_dir=None, subset=None, display_gif=Fal
     if display_gif is True:
         print('Loading...')
         return display(Markdown(f'<img src="{anim_file}" width="600">'))
+
+
+# create_fakes_gif(DATASET_NAME='FFHQ_5K', display_gif=True, verbose=True)

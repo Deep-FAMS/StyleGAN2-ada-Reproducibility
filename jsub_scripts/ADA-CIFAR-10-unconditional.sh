@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --time=5-00:00:00
-#SBATCH --job-name='ADA-AFHQ-DOG'
+#SBATCH --time=3-00:00:00
+#SBATCH --job-name='ADA-CIFAR-10-unconditional'
 #SBATCH --partition='gpu'
 #SBATCH --gres=gpu:2
 #SBATCH --constraint=gpu_32gb&gpu_v100
@@ -15,4 +15,4 @@ module load cuda
 module load anaconda
 module load compiler/gcc/6.1
 conda activate $WORK/.conda/envs/ada-env
-$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/py_scripts/ADA-AFHQ-DOG.py
+$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/py_scripts/ADA-CIFAR-10-unconditional.py
