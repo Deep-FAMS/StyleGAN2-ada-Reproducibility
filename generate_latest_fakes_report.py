@@ -1,24 +1,141 @@
 import os
-WORK = os.environ["WORK"]
-PROJ_DIR = f'{WORK}/ADA_Project'
-os.chdir(PROJ_DIR)
-
+import re
 from glob import glob
 from pathlib import Path
+import json
 from pprint import pprint
-# import PIL
 from PIL import Image
 import base64
 import requests
 import dotenv
 from datetime import datetime
-# from IPython.display import Markdown, display
-
-import training_time
-import FID_results
+from IPython.display import Markdown, display
+from tabulate import tabulate
 
 
-def generate_latest_fakes_report(PROJ_DIR, verbose=1):
+def generate_latest_fakes_report(PROJ_DIR,
+                                 verbose=False,
+                                 export=False,
+                                 display_output=False):
+
+    tr = f'{WORK}/ADA_Project/training_runs'
+
+    fid_logs = {}
+
+    tf_folders = glob(f'{tr}/*')
+    for f in tf_folders:
+        folder = sorted(glob(f'{f}/*'))[-1]
+        fid_file = glob(f'{folder}/metric-*.txt')
+        if fid_file != []:
+            fid_file = fid_file[0]
+            dataset = Path(fid_file).parents[1].name.replace(
+                '_training-runs', '')
+            fid_logs[dataset] = fid_file
+
+    fid_logs['AFHQ-CAT'] = fid_logs.pop('AFHQ')
+
+    fid_logs = {
+        k.replace('FFHQ', 'FFHQ_custom'): v
+        for k, v in fid_logs.items()
+    }
+
+    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
+                                            ).search(s)
+
+    snapshots = {}
+
+    for k, v in fid_logs.items():
+        with open(v) as f:
+            lines = f.readlines()
+            snapshots[k] = {}
+            snapshots[k]['scores'] = []
+            for line in lines:
+                if 'StyleGAN2' in k:
+                    string = 'fid50k'
+                else:
+                    string = 'fid50k_full'
+                sp = findWholeWord(string, line).span()
+                snapshot = line[:23]
+                score = float(line[sp[-1] + 1:sp[-1] + 7])
+                snapshots[k]['scores'].append({f'{snapshot}': score})
+
+    best_snapshots = {}
+
+    for ds in snapshots:
+        d = snapshots[ds]['scores']
+        keys = [list(x.keys()) for x in d]
+        vals = [list(x.values()) for x in d]
+        best_snapshots[ds] = {
+            'snapshot': keys[vals.index(min(vals))][0],
+            'score': min(vals)[0]
+        }
+
+    files = [
+        v.replace('metric-fid50k_full.txt', 'log.txt')
+        for k, v in fid_logs.items()
+    ]
+
+    for (k, v), f in zip(best_snapshots.items(), files):
+        best_snapshots[k]['file'] = f.replace(f'{tr}/', '')
+
+    if export is True:
+        with open('best_snapshots.json', 'w') as out_file:
+            json.dump(best_snapshots, out_file, indent=4)
+
+    d = best_snapshots
+
+    for k, v in best_snapshots.items():
+        d[k]['training_time'] = []
+
+    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
+                                            ).search(s)
+
+    def calc_time(t, unit):
+        s = t.partition(unit)[0][-2:].replace(' ', '')
+        if t.partition(unit)[0] != t:
+            return int(s)
+        return 0
+
+    TTs = {}
+
+    for k, v in d.items():
+        file = f'{tr}/{d[k]["file"]}'
+        with open(file, 'r') as f:
+            lines = f.readlines()
+
+        if 'Exporting sample images...' in lines[-1]:
+            continue
+        else:
+            snap = f'{tr}/{d[k]["snapshot"]}'
+            snap = Path(snap).name
+            for line in lines:
+                if snap in line:
+                    line_idx = lines.index(line) - 2
+                    line = lines[line_idx]
+                    try:
+                        sp = findWholeWord('time', line).span()
+                        t = line[sp[1] + 1:sp[1] + 12]
+                        last = t.partition('s')[-1]
+                        t = t.replace(last, '')
+                        T = (calc_time(t, 'd') * 24) + calc_time(
+                            t, 'h') + (calc_time(t, 'm') /
+                                       60) + (calc_time(t, 's') / 3600)
+                        d[k]['training_time'].append(T)
+
+                    except AttributeError:
+                        continue
+
+    days = [round(j['training_time'][0] / 24, 1) for i, j in d.items()]
+
+    table = tabulate(
+        [[x, round(y['training_time'][0], 2), z,
+          round(y['score'], 2)] for (x, y), z in zip(d.items(), days)],
+        headers=[
+            'Dataset', 'Training time (in hrs)', 'Training time (in days)',
+            'FID'
+        ],
+        tablefmt='github')
+
     def upload_img(image, token):
         with open(image, "rb") as file:
             url = "https://api.imgbb.com/1/upload"
@@ -43,25 +160,18 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     Path(backups_dir).mkdir(exist_ok=True)
 
     md_content = []
-    latest_fakes = []
+    latest_fakes = [
+        str(Path(tr + '/' + d[k]["file"]).parent) +
+        f'/{d[k]["snapshot"]}.png'.replace('network-snapshot-', 'fakes')
+        for k, v in d.items()
+    ]
 
     now = datetime.now()
     date_time = now.strftime('%m/%d/%Y, %H:%M:%S')
     md_content.append('# Latest fakes\n')
     md_content.append(f'## Date and time: {date_time}\n')
 
-    for folder in TRfolders:
-        if 'FFHQ' in folder:  # !! remove this line to generate report for all datasets
-            for _ in range(-1, -10, -1):
-                files = sorted(glob(folder + "/**/*"))
-                files = [x for x in files if 'fakes0' in x]
-                if files == []:
-                    continue
-                latest_fake = sorted(files)[-1]
-                latest_fakes.append(latest_fake)
-                break
-
-    if verbose == 1:
+    if verbose:
         print('=' * 90, '\n\nLatest fakes:\n')
         pprint([x.replace(str(TRfolders_), '') for x in latest_fakes])
         print('\n', '=' * 90, '\n')
@@ -73,7 +183,7 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
         #         compressed = image.resize(output_dim)
         compressed = image
         compressed.save(compressed_path)
-        if verbose == 1:
+        if verbose:
             print(
                 Path(img).name,
                 f'compressed from ({mb_size(img):.2f}MB) to ==> '
@@ -92,18 +202,21 @@ def generate_latest_fakes_report(PROJ_DIR, verbose=1):
     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_reports/{Tstamp}.md'
 
-    FID_results.FID_results()
-
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
-        f.write(training_time.training_time())
+        f.write(table)
 
-    if verbose == 1:
+    if verbose:
         print(f'Generated a report at ==> {report_path}')
 
-    return report_path
+    if display_output:
+        display(Markdown(report_path))
 
 
-report_path = generate_latest_fakes_report(PROJ_DIR, verbose=1)
+WORK = os.environ["WORK"]
+PROJ_DIR = f'{WORK}/ADA_Project'
 
-# display(Markdown(report_path))
+generate_latest_fakes_report(PROJ_DIR=PROJ_DIR,
+                             verbose=True,
+                             export=True,
+                             display_output=False)

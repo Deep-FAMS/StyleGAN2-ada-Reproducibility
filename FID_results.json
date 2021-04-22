@@ -26,7 +26,7 @@
     },
     "StyleGAN2_AFHQ-DOG": {
         "FID": [
-            "network-snapshot-003387: timfid50k 27.7954"
+            "network-snapshot-000887: timfid50k 20.2146"
         ]
     },
     "cars196": {
@@ -36,17 +36,17 @@
     },
     "AFHQ-DOG": {
         "FID": [
-            "network-snapshot-000001: timfid50k_full 348.3302"
+            "network-snapshot-004792: timfid50k_full 10.8033"
         ]
     },
     "FFHQ_5K": {
         "FID": [
-            "network-snapshot-006881: timfid50k_full 13.4420"
+            "network-snapshot-013516: timfid50k_full 10.8701"
         ]
     },
     "FFHQ_2K": {
         "FID": [
-            "network-snapshot-006021: timfid50k_full 24.2396"
+            "network-snapshot-012165: timfid50k_full 20.3216"
         ]
     },
     "ANIME-FACES": {
@@ -54,9 +54,19 @@
             "network-snapshot-001171: timfid50k_full 22.1679"
         ]
     },
+    "conditional_CIFAR-10": {
+        "FID": [
+            "network-snapshot-000001: timfid50k_full 273.0600"
+        ]
+    },
     "StyleGAN2_WILD-AFHQ": {
         "FID": [
             "network-snapshot-003064: timfid50k 3.1841"
+        ]
+    },
+    "unconditional_CIFAR-10": {
+        "FID": [
+            "network-snapshot-000001: timfid50k_full 246.7384"
         ]
     },
     "102flowers": {
@@ -66,12 +76,12 @@
     },
     "FFHQ_30K": {
         "FID": [
-            "network-snapshot-006021: timfid50k_full 7.4961"
+            "network-snapshot-012165: timfid50k_full 6.7718"
         ]
     },
     "FFHQ": {
         "FID": [
-            "network-snapshot-007987: timfid50k_full 7.6914"
+            "network-snapshot-013516: timfid50k_full 6.1643"
         ]
     }
 }
