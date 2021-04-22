@@ -1,82 +1,50 @@
 {
     "AFHQ-WILD": {
-        "snapshot": "network-snapshot-010199",
-        "score": 1.9444,
-        "file": "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-010199": 1.9444
     },
     "metfaces": {
-        "snapshot": "network-snapshot-004112",
-        "score": 18.26,
-        "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-004112": 18.26
     },
     "POKEMON": {
-        "snapshot": "network-snapshot-010813",
-        "score": 29.8,
-        "file": "POKEMON_training-runs/00004-POKEMON_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-010813": 29.8
     },
     "StanfordDogs": {
-        "snapshot": "network-snapshot-011919",
-        "score": 31.434,
-        "file": "StanfordDogs_training-runs/00005-StanfordDogs_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-011919": 31.434
     },
     "StyleGAN2_AFHQ-DOG": {
-        "snapshot": "network-snapshot-000967",
-        "score": 19.847,
-        "file": "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/metric-fid50k.txt"
+        "network-snapshot-001129": 19.662
     },
     "cars196": {
-        "snapshot": "network-snapshot-001843",
-        "score": 8.0721,
-        "file": "cars196_training-runs/00014-cars196_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-001843": 8.0721
     },
     "AFHQ-DOG": {
-        "snapshot": "network-snapshot-005038",
-        "score": 10.202,
-        "file": "AFHQ-DOG_training-runs/00001-AFHQ-DOG_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-005038": 10.202
     },
-    "FFHQ_custom_5K": {
-        "snapshot": "network-snapshot-013639",
-        "score": 10.392,
-        "file": "FFHQ_training-runs_5K/00002-FFHQ_custom_5K-auto2-resumecustom/log.txt"
+    "FFHQ_5K": {
+        "network-snapshot-013639": 10.392
     },
-    "FFHQ_custom_2K": {
-        "snapshot": "network-snapshot-011796",
-        "score": 19.11,
-        "file": "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/log.txt"
+    "FFHQ_2K": {
+        "network-snapshot-011796": 19.11
     },
     "ANIME-FACES": {
-        "snapshot": "network-snapshot-001171",
-        "score": 22.167,
-        "file": "ANIME-FACES_training-runs/00005-ANIME-FACES_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-001171": 22.167
     },
     "conditional_CIFAR-10": {
-        "snapshot": "network-snapshot-000001",
-        "score": 273.06,
-        "file": "conditional_CIFAR-10_training-runs/00000-cifar10c-cifar-kimg1/log.txt"
+        "network-snapshot-000001": 273.06
     },
     "StyleGAN2_WILD-AFHQ": {
-        "snapshot": "network-snapshot-001532",
-        "score": 2.8911,
-        "file": "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/metric-fid50k.txt"
+        "network-snapshot-001532": 2.8911
     },
     "102flowers": {
-        "snapshot": "network-snapshot-000245",
-        "score": 6.8489,
-        "file": "102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-000245": 6.8489
     },
-    "FFHQ_custom_30K": {
-        "snapshot": "network-snapshot-011919",
-        "score": 6.454,
-        "file": "FFHQ_training-runs_30K/00001-FFHQ_custom_30K-auto2-resumecustom/log.txt"
+    "FFHQ_30K": {
+        "network-snapshot-012902": 6.2826
     },
-    "FFHQ_custom": {
-        "snapshot": "network-snapshot-013516",
-        "score": 6.1643,
-        "file": "FFHQ_training-runs/00002-FFHQ_custom-auto2-resumecustom/log.txt"
+    "FFHQ": {
+        "network-snapshot-013516": 6.1643
     },
     "AFHQ-CAT": {
-        "snapshot": "network-snapshot-000635",
-        "score": 6.2694,
-        "file": "AFHQ_training-runs/00004-AFHQ_custom-auto2-resumecustom/log.txt"
+        "network-snapshot-000635": 6.2694
     }
 }

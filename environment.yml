@@ -1,7 +1,12 @@
 name: ada-env
 channels:
+  - hcc
+  - https://conda.anaconda.org/t/HC-87426f5f-7186-4015-b160-e228942c9e05/hcc
+  - https://conda.anaconda.org/t/HC-469e5d5d-a498-4cb8-902d-a2080b87a52b/hcc
   - conda-forge
+  - bioconda
   - defaults
+  - file:///util/opt/conda_repo
 dependencies:
   - _libgcc_mutex=0.1=main
   - _tflow_select=2.1.0=gpu
@@ -76,6 +81,7 @@ dependencies:
   - libcblas=3.8.0=11_openblas
   - libcurl=7.69.1=h20c2e04_0
   - libedit=3.1.20181209=hc058e9b_0
+  - libevent=2.1.10=hcdb4288_3
   - libffi=3.2.1=he1b5a44_1006
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.3.0=hdf63c60_0
@@ -121,7 +127,6 @@ dependencies:
   - pip=19.2.2=py37_0
   - prometheus_client=0.9.0=pyhd3eb1b0_0
   - prompt_toolkit=2.0.9=py_0
-  - protobuf=3.9.1=py37he1b5a44_0
   - psutil=5.8.0=py37h27cfd23_1
   - pthread-stubs=0.4=h14c3975_1001
   - ptyprocess=0.6.0=py_1001
@@ -160,6 +165,7 @@ dependencies:
   - termcolor=1.1.0=py_2
   - testpath=0.4.4=pyhd3eb1b0_0
   - tk=8.6.9=hed695b0_1002
+  - tmux=3.1=ha1ba12b_0
   - toolz=0.11.1=pyhd3eb1b0_0
   - traitlets=4.3.2=py37_1000
   - typing_extensions=3.7.4.3=pyha847dfd_0
@@ -192,7 +198,13 @@ dependencies:
     - cachetools==4.2.1
     - colorama==0.4.4
     - colorful==0.5.4
+    - comet-ml==3.8.1
+    - configobj==5.0.6
+    - dill==0.3.3
+    - dulwich==0.20.21
+    - everett==1.0.3
     - filelock==3.0.12
+    - future==0.18.2
     - google==3.0.0
     - google-api-core==1.26.1
     - google-auth==1.28.0
@@ -200,9 +212,12 @@ dependencies:
     - gpustat==0.6.0
     - grpcio==1.36.1
     - hiredis==1.1.0
+    - importlib-resources==5.1.2
+    - ipyplot==1.1.0
     - jupyter-client==6.1.12
     - jupyter-core==4.7.1
     - jupyterlab-pygments==0.1.2
+    - kaggle==1.5.12
     - markdown2==2.4.0
     - multidict==5.1.0
     - nbclient==0.5.3
@@ -214,18 +229,29 @@ dependencies:
     - opencensus-context==0.1.2
     - pandas==1.2.3
     - pandocfilters==1.4.3
+    - promise==2.3
+    - protobuf==3.15.8
     - py-spy==0.3.4
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
+    - pygifsicle==1.0.2
     - pyrsistent==0.17.3
+    - python-slugify==4.0.1
     - pyyaml==5.4.1
     - redis==3.4.1
+    - requests-toolbelt==0.9.1
     - rsa==4.7.2
     - send2trash==1.5.0
+    - shortuuid==1.0.1
     - soupsieve==2.2
     - tabulate==0.8.9
+    - tensorflow-datasets==4.2.0
+    - tensorflow-metadata==0.30.0
     - terminado==0.9.3
+    - text-unidecode==1.3
     - tornado==6.0.3
     - tqdm==4.59.0
     - webencodings==0.5.1
+    - websocket-client==0.58.0
+    - wurlitzer==2.1.0
     - yarl==1.6.3
