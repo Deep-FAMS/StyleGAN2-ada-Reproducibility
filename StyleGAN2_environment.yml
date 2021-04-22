@@ -112,4 +112,4 @@ dependencies:
     - wrapt==1.12.1
     - wurlitzer==2.1.0
     - zipp==3.4.1
-prefix: /work/chaselab/malyetama/.conda/envs/stylegan2
+
