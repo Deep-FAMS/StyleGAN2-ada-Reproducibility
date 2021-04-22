@@ -1,13 +1,14 @@
 import os
 import re
-from glob import glob
-from pathlib import Path
 import json
-from pprint import pprint
-from PIL import Image
 import base64
 import requests
 import dotenv
+import io
+from glob import glob
+from pathlib import Path
+from pprint import pprint
+from PIL import Image
 from datetime import datetime
 from IPython.display import Markdown, display
 from tabulate import tabulate
@@ -179,10 +180,14 @@ def generate_latest_fakes_report(PROJ_DIR,
     for img in latest_fakes:
         image = Image.open(img)
         compressed_path = f'{backups_dir}/{Path(img).stem}' + '.jpg'
-        #         output_dim = tuple(x // 2 for x in image.size)
-        #         compressed = image.resize(output_dim)
-        compressed = image
-        compressed.save(compressed_path)
+
+        if 'StyleGAN2_WILD-AFHQ' in img:
+            left, top, right, bottom = 0, 0, 256 * 15, 256 * 8
+            image = image.crop((left, top, right, bottom))
+            temp = io.BytesIO()
+
+        image.save(compressed_path)
+
         if verbose:
             print(
                 Path(img).name,
