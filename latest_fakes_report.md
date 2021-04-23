@@ -1,13 +1,10 @@
 # Latest fakes
-## Date and time: 04/23/2021, 12:57:02
+## Date and time: 04/23/2021, 13:12:25
 ### AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/fakes010199.png
 ![fakes010199.jpg](https://i.ibb.co/qj4YSDn/0b96e122f2ee.jpg "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/fakes010199.png")
 
 ### metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png
 ![fakes004112.jpg](https://i.ibb.co/P5cr6R8/8d14b1437dc9.jpg "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png")
-
-### POKEMON_training-runs/00004-POKEMON_custom-auto2-resumecustom/fakes010813.png
-![fakes010813.jpg](https://i.ibb.co/nCKHV6r/e8d637d1b262.jpg "POKEMON_training-runs/00004-POKEMON_custom-auto2-resumecustom/fakes010813.png")
 
 ### StanfordDogs_training-runs/00005-StanfordDogs_custom-auto2-resumecustom/fakes011919.png
 ![fakes011919.jpg](https://i.ibb.co/mT7Pq6B/fa61880a7c55.jpg "StanfordDogs_training-runs/00005-StanfordDogs_custom-auto2-resumecustom/fakes011919.png")
@@ -26,9 +23,6 @@
 
 ### FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/fakes011796.png
 ![fakes011796.jpg](https://i.ibb.co/nR1YnCD/470205ede911.jpg "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/fakes011796.png")
-
-### ANIME-FACES_training-runs/00005-ANIME-FACES_custom-auto2-resumecustom/fakes001171.png
-![fakes001171.jpg](https://i.ibb.co/FsmBh3q/b7b12525b835.jpg "ANIME-FACES_training-runs/00005-ANIME-FACES_custom-auto2-resumecustom/fakes001171.png")
 
 ### StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/fakes001532.png
 ![fakes001532.jpg](https://i.ibb.co/BGddjgz/cbd592b53fd8.jpg "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/fakes001532.png")
@@ -49,14 +43,12 @@
 |---------------------|--------------------------|---------------------------|-------|
 | AFHQ-WILD           |                    67.63 |                       2.8 |  1.94 |
 | metfaces            |                    68.48 |                       2.9 | 18.26 |
-| POKEMON             |                    71.28 |                       3   | 29.8  |
 | StanfordDogs        |                    71.25 |                       3   | 31.43 |
 | StyleGAN2_AFHQ-DOG  |                    25.98 |                       1.1 | 19.47 |
 | cars196             |                    15.11 |                       0.6 |  8.07 |
 | AFHQ-DOG            |                    51.82 |                       2.2 |  9.03 |
 | FFHQ_custom_5K      |                    66.42 |                       2.8 | 10.39 |
 | FFHQ_custom_2K      |                    62.52 |                       2.6 | 19.11 |
-| ANIME-FACES         |                    31.9  |                       1.3 | 22.17 |
 | StyleGAN2_WILD-AFHQ |                    38.92 |                       1.6 |  2.89 |
 | 102flowers          |                     1.39 |                       0.1 |  6.85 |
 | FFHQ_custom_30K     |                    68.02 |                       2.8 |  6.28 |
