@@ -74,8 +74,7 @@ run_desc, training_options = DeepFAMS.setup_training_options(
     gpus       = 2,
     snap       = 50,
     data       = DATA_CUSTOM_DIR_u,
-    resume     = latest_snap,
-    cfg        = 'cifar'
+    resume     = latest_snap
 )
 
 
