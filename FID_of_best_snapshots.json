@@ -22,7 +22,7 @@
     "StyleGAN2_AFHQ-DOG": {
         "snapshot": "network-snapshot-001209",
         "score": 19.47,
-        "file": "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/metric-fid50k.txt"
+        "file": "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/log.txt"
     },
     "cars196": {
         "snapshot": "network-snapshot-001843",
@@ -52,7 +52,7 @@
     "StyleGAN2_WILD-AFHQ": {
         "snapshot": "network-snapshot-001532",
         "score": 2.8911,
-        "file": "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/metric-fid50k.txt"
+        "file": "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/log.txt"
     },
     "102flowers": {
         "snapshot": "network-snapshot-000245",

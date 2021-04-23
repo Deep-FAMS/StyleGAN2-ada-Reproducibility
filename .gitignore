@@ -15,9 +15,10 @@ jobs_log/
 .stylegan2-cache/
 .gifs/
 
-
 crane_scripts/gpu_job.py 
 crane_scripts/.archived/
+
+archived/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
