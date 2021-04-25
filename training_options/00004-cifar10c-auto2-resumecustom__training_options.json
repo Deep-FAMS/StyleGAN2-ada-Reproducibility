@@ -27,7 +27,7 @@
   },
   "loss_args": {
     "func_name": "training.loss.stylegan2",
-    "r1_gamma": 0.4096
+    "r1_gamma": 0.0032
   },
   "augment_args": {
     "class_name": "training.augment.AdaptiveAugment",
@@ -51,12 +51,12 @@
     "tune_kimg": 100
   },
   "num_gpus": 2,
-  "image_snapshot_ticks": 1,
-  "network_snapshot_ticks": 1,
+  "image_snapshot_ticks": 50,
+  "network_snapshot_ticks": 50,
   "train_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ-DOG_custom",
-    "max_label_size": 0,
-    "resolution": 256,
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cifar10c",
+    "max_label_size": 10,
+    "resolution": 32,
     "mirror_augment": false
   },
   "metric_arg_list": [
@@ -75,16 +75,16 @@
     }
   ],
   "metric_dataset_args": {
-    "path": "/work/chaselab/malyetama/ADA_Project/datasets/AFHQ-DOG_custom",
-    "max_label_size": 0,
-    "resolution": 256,
+    "path": "/work/chaselab/malyetama/ADA_Project/datasets/cifar10c",
+    "max_label_size": 10,
+    "resolution": 32,
     "mirror_augment": false
   },
   "total_kimg": 25000,
-  "minibatch_size": 32,
-  "minibatch_gpu": 16,
-  "G_smoothing_kimg": 10.0,
+  "minibatch_size": 64,
+  "minibatch_gpu": 32,
+  "G_smoothing_kimg": 20.0,
   "G_smoothing_rampup": null,
-  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ-DOG_training-runs/00005-AFHQ-DOG_custom-auto2-resumecustom/network-snapshot-001179.pkl",
-  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/AFHQ-DOG_training-runs/00006-AFHQ-DOG_custom-auto2-resumecustom"
+  "resume_pkl": "/work/chaselab/malyetama/ADA_Project/training_runs/conditional_CIFAR-10_training-runs/00003-cifar10c-auto2-resumecustom/network-snapshot-000000.pkl",
+  "run_dir": "/work/chaselab/malyetama/ADA_Project/training_runs/conditional_CIFAR-10_training-runs/00004-cifar10c-auto2-resumecustom"
 }

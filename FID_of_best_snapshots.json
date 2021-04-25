@@ -5,8 +5,8 @@
         "file": "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom_30K": {
-        "snapshot": "network-snapshot-000483",
-        "score": 32.125,
+        "snapshot": "network-snapshot-001451",
+        "score": 12.805,
         "file": "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/log.txt"
     },
     "metfaces": {
@@ -44,10 +44,10 @@
         "score": 19.11,
         "file": "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/log.txt"
     },
-    "conditional_CIFAR-10": {
-        "snapshot": "network-snapshot-000000",
-        "score": 272.78,
-        "file": "conditional_CIFAR-10_training-runs/00003-cifar10c-auto2-resumecustom/log.txt"
+    "StyleGAN2_FFHQ_custom_5K": {
+        "snapshot": "network-snapshot-000645",
+        "score": 29.929,
+        "file": "StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/log.txt"
     },
     "StyleGAN2_WILD-AFHQ": {
         "snapshot": "network-snapshot-001532",
@@ -60,8 +60,8 @@
         "file": "102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom": {
-        "snapshot": "network-snapshot-000967",
-        "score": 17.829,
+        "snapshot": "network-snapshot-001451",
+        "score": 12.088,
         "file": "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/log.txt"
     },
     "FFHQ_custom_30K": {
@@ -73,6 +73,11 @@
         "snapshot": "network-snapshot-013516",
         "score": 6.1643,
         "file": "FFHQ_training-runs/00002-FFHQ_custom-auto2-resumecustom/log.txt"
+    },
+    "StyleGAN2_FFHQ_custom_2K": {
+        "snapshot": "network-snapshot-000403",
+        "score": 46.09,
+        "file": "StyleGAN2_FFHQ_training-runs_2K/00001-stylegan2-FFHQ_custom_2K-2gpu-config-f/log.txt"
     },
     "AFHQ-CAT": {
         "snapshot": "network-snapshot-000635",
