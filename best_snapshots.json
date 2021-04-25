@@ -7,12 +7,17 @@
     "StyleGAN2_FFHQ_custom_30K": {
         "snapshot": "network-snapshot-000483",
         "score": 32.125,
-        "file": "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/log.txt"
+        "file": "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/metric-fid50k.txt"
     },
     "metfaces": {
         "snapshot": "network-snapshot-004112",
         "score": 18.26,
         "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
+    },
+    "POKEMON": {
+        "snapshot": "network-snapshot-010813",
+        "score": 29.8,
+        "file": "POKEMON_training-runs/00004-POKEMON_custom-auto2-resumecustom/log.txt"
     },
     "StanfordDogs": {
         "snapshot": "network-snapshot-011919",
@@ -22,7 +27,7 @@
     "StyleGAN2_AFHQ-DOG": {
         "snapshot": "network-snapshot-001209",
         "score": 19.47,
-        "file": "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/log.txt"
+        "file": "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/metric-fid50k.txt"
     },
     "cars196": {
         "snapshot": "network-snapshot-001843",
@@ -44,6 +49,11 @@
         "score": 19.11,
         "file": "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/log.txt"
     },
+    "ANIME-FACES": {
+        "snapshot": "network-snapshot-001171",
+        "score": 22.167,
+        "file": "ANIME-FACES_training-runs/00005-ANIME-FACES_custom-auto2-resumecustom/log.txt"
+    },
     "conditional_CIFAR-10": {
         "snapshot": "network-snapshot-000000",
         "score": 272.78,
@@ -52,7 +62,7 @@
     "StyleGAN2_WILD-AFHQ": {
         "snapshot": "network-snapshot-001532",
         "score": 2.8911,
-        "file": "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/log.txt"
+        "file": "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/metric-fid50k.txt"
     },
     "102flowers": {
         "snapshot": "network-snapshot-000245",
@@ -62,7 +72,7 @@
     "StyleGAN2_FFHQ_custom": {
         "snapshot": "network-snapshot-000967",
         "score": 17.829,
-        "file": "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/log.txt"
+        "file": "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/metric-fid50k.txt"
     },
     "FFHQ_custom_30K": {
         "snapshot": "network-snapshot-012902",

@@ -14,16 +14,18 @@ from IPython.display import Markdown, display
 from tabulate import tabulate
 
 
-def generate_latest_fakes_report(PROJ_DIR,
-                                 verbose=False,
-                                 export=False,
-                                 display_output=False):
+def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, export=False, display_output=False):
 
     tr = f'{WORK}/ADA_Project/training_runs'
 
     fid_logs = {}
 
     tf_folders = glob(f'{tr}/*')
+    print(tf_folders)
+    if exclude is not None:
+        exclude = [x + '_training-runs' for x in exclude]
+        tf_folders = [x for x in tf_folders if Path(x).name not in exclude]
+    
     for f in tf_folders:
         folder = sorted(glob(f'{f}/*'))[-1]
         fid_file = glob(f'{folder}/metric-*.txt')
@@ -35,10 +37,7 @@ def generate_latest_fakes_report(PROJ_DIR,
 
     fid_logs['AFHQ-CAT'] = fid_logs.pop('AFHQ')
 
-    fid_logs = {
-        k.replace('FFHQ', 'FFHQ_custom'): v
-        for k, v in fid_logs.items()
-    }
+    fid_logs = {k.replace('FFHQ', 'FFHQ_custom'): v for k, v in fid_logs.items()}
 
     findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
                                             ).search(s)
@@ -71,22 +70,23 @@ def generate_latest_fakes_report(PROJ_DIR,
             'score': min(vals)[0]
         }
 
-    files = [
-        v.replace('metric-fid50k_full.txt', 'log.txt')
-        for k, v in fid_logs.items()
-    ]
+    files = [v.replace('metric-fid50k_full.txt', 'log.txt').replace(
+        'metric-fid50k.txt', 'log.txt')
+             for k, v in fid_logs.items()]
 
     for (k, v), f in zip(best_snapshots.items(), files):
-        best_snapshots[k]['file'] = f.replace(f'{tr}/', '')
+        best_snapshots[k]['file'] = f.replace(f'{tr}/' , '')
 
     if export is True:
-        with open('best_snapshots.json', 'w') as out_file:
+        with open(f'{PROJ_DIR}/FID_of_best_snapshots.json', 'w') as out_file:
             json.dump(best_snapshots, out_file, indent=4)
 
+            
     d = best_snapshots
 
     for k, v in best_snapshots.items():
         d[k]['training_time'] = []
+
 
     findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
                                             ).search(s)
@@ -118,9 +118,8 @@ def generate_latest_fakes_report(PROJ_DIR,
                         t = line[sp[1] + 1:sp[1] + 12]
                         last = t.partition('s')[-1]
                         t = t.replace(last, '')
-                        T = (calc_time(t, 'd') * 24) + calc_time(
-                            t, 'h') + (calc_time(t, 'm') /
-                                       60) + (calc_time(t, 's') / 3600)
+                        T = (calc_time(t, 'd') * 24) + calc_time(t, 'h') + (
+                            calc_time(t, 'm') / 60) + (calc_time(t, 's') / 3600)
                         d[k]['training_time'].append(T)
 
                     except AttributeError:
@@ -128,14 +127,15 @@ def generate_latest_fakes_report(PROJ_DIR,
 
     days = [round(j['training_time'][0] / 24, 1) for i, j in d.items()]
 
-    table = tabulate(
-        [[x, round(y['training_time'][0], 2), z,
-          round(y['score'], 2)] for (x, y), z in zip(d.items(), days)],
-        headers=[
-            'Dataset', 'Training time (in hrs)', 'Training time (in days)',
-            'FID'
-        ],
-        tablefmt='github')
+    table = tabulate([[x, round(y['training_time'][0], 2), z, round(y['score'], 2)]
+                      for (x, y), z in zip(d.items(), days)],
+                     headers=[
+                         'Dataset', 'Training time (in hrs)',
+                         'Training time (in days)', 'FID'
+                     ],
+                     tablefmt='github')
+
+
 
     def upload_img(image, token):
         with open(image, "rb") as file:
@@ -161,16 +161,15 @@ def generate_latest_fakes_report(PROJ_DIR,
     Path(backups_dir).mkdir(exist_ok=True)
 
     md_content = []
-    latest_fakes = [
-        str(Path(tr + '/' + d[k]["file"]).parent) +
-        f'/{d[k]["snapshot"]}.png'.replace('network-snapshot-', 'fakes')
-        for k, v in d.items()
-    ]
+    latest_fakes = [str(Path(tr + '/' + d[k]["file"]).parent) +
+                    f'/{d[k]["snapshot"]}.png'.replace('network-snapshot-', 'fakes')
+                    for k, v in d.items()]
 
     now = datetime.now()
     date_time = now.strftime('%m/%d/%Y, %H:%M:%S')
     md_content.append('# Latest fakes\n')
     md_content.append(f'## Date and time: {date_time}\n')
+
 
     if verbose:
         print('=' * 90, '\n\nLatest fakes:\n')
@@ -180,14 +179,14 @@ def generate_latest_fakes_report(PROJ_DIR,
     for img in latest_fakes:
         image = Image.open(img)
         compressed_path = f'{backups_dir}/{Path(img).stem}' + '.jpg'
-
+        
         if 'StyleGAN2_WILD-AFHQ' in img:
             left, top, right, bottom = 0, 0, 256 * 15, 256 * 8
             image = image.crop((left, top, right, bottom))
             temp = io.BytesIO()
-
+            
         image.save(compressed_path)
-
+            
         if verbose:
             print(
                 Path(img).name,
@@ -204,8 +203,8 @@ def generate_latest_fakes_report(PROJ_DIR,
             f'![{Path(compressed_path).name}]({url} "{img_subdir}")'
             '\n\n')
 
-    Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
-    report_path = f'{PROJ_DIR}/latest_fakes_reports/{Tstamp}.md'
+#     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
+    report_path = f'{PROJ_DIR}/latest_fakes_report.md'
 
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
@@ -217,11 +216,13 @@ def generate_latest_fakes_report(PROJ_DIR,
     if display_output:
         display(Markdown(report_path))
 
-
+        
 WORK = os.environ["WORK"]
 PROJ_DIR = f'{WORK}/ADA_Project'
+
 
 generate_latest_fakes_report(PROJ_DIR=PROJ_DIR,
                              verbose=True,
                              export=True,
-                             display_output=False)
+                             display_output=False,
+                             exclude=['POKEMON', 'ANIME-FACES'])
