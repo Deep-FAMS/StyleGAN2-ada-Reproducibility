@@ -14,6 +14,11 @@
         "score": 18.26,
         "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
     },
+    "POKEMON": {
+        "snapshot": "network-snapshot-000123",
+        "score": 27.903,
+        "file": "POKEMON_training-runs/00005-POKEMON_custom-auto2-resumecustom/log.txt"
+    },
     "StanfordDogs": {
         "snapshot": "network-snapshot-011919",
         "score": 31.434,
@@ -43,6 +48,11 @@
         "snapshot": "network-snapshot-011796",
         "score": 19.11,
         "file": "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/log.txt"
+    },
+    "ANIME-FACES": {
+        "snapshot": "network-snapshot-000372",
+        "score": 20.645,
+        "file": "ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom_5K": {
         "snapshot": "network-snapshot-000645",

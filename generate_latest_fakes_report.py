@@ -21,7 +21,6 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
     fid_logs = {}
 
     tf_folders = glob(f'{tr}/*')
-    print(tf_folders)
     if exclude is not None:
         exclude = [x + '_training-runs' for x in exclude]
         tf_folders = [x for x in tf_folders if Path(x).name not in exclude]
@@ -224,5 +223,7 @@ PROJ_DIR = f'{WORK}/ADA_Project'
 generate_latest_fakes_report(PROJ_DIR=PROJ_DIR,
                              verbose=True,
                              export=True,
-                             display_output=False,
-                             exclude=['POKEMON', 'ANIME-FACES'])
+                             display_output=False)
+
+# exclude=['POKEMON', 'ANIME-FACES']
+
