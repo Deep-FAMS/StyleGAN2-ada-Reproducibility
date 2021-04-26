@@ -1,10 +1,10 @@
 # Latest fakes
-## Date and time: 04/25/2021, 23:36:49
+## Date and time: 04/26/2021, 05:37:40
 ### AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/fakes010199.png
 ![fakes010199.jpg](https://i.ibb.co/tQtkq2X/433083532a8e.jpg "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/fakes010199.png")
 
-### StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/fakes001693.png
-![fakes001693.jpg](https://i.ibb.co/3CskDmk/4fd628a2b8a4.jpg "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/fakes001693.png")
+### StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/fakes001935.png
+![fakes001935.jpg](https://i.ibb.co/HLv5t2P/81b80cb548b0.jpg "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/fakes001935.png")
 
 ### metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png
 ![fakes004112.jpg](https://i.ibb.co/5WXv73F/3f0a4068c21a.jpg "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png")
@@ -30,11 +30,11 @@
 ### FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/fakes011796.png
 ![fakes011796.jpg](https://i.ibb.co/1KNfCZr/bf858d0219db.jpg "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/fakes011796.png")
 
-### ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/fakes000753.png
-![fakes000753.jpg](https://i.ibb.co/RvqkBRb/b55a35f63081.jpg "ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/fakes000753.png")
+### ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/fakes000999.png
+![fakes000999.jpg](https://i.ibb.co/R2Q6GL8/15f035b332d1.jpg "ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/fakes000999.png")
 
-### StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/fakes000887.png
-![fakes000887.jpg](https://i.ibb.co/d2HzZRL/8582924726e7.jpg "StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/fakes000887.png")
+### StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/fakes001129.png
+![fakes001129.jpg](https://i.ibb.co/rkxKNV2/4d074da59cc8.jpg "StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/fakes001129.png")
 
 ### StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/fakes001532.png
 ![fakes001532.jpg](https://i.ibb.co/6nDJ3kD/a00ed3642b7f.jpg "StyleGAN2_WILD-AFHQ_training-runs/00006-stylegan2-AFHQ-WILD_custom-2gpu-config-f/fakes001532.png")
@@ -42,8 +42,8 @@
 ### 102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom/fakes000245.png
 ![fakes000245.jpg](https://i.ibb.co/6Y9KQBq/b440b15271aa.jpg "102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom/fakes000245.png")
 
-### StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/fakes002258.png
-![fakes002258.jpg](https://i.ibb.co/r3cyh8z/e0c65a4b3dc0.jpg "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/fakes002258.png")
+### StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/fakes002338.png
+![fakes002338.jpg](https://i.ibb.co/DRXJfJk/6882959dd44b.jpg "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/fakes002338.png")
 
 ### FFHQ_training-runs_30K/00001-FFHQ_custom_30K-auto2-resumecustom/fakes012902.png
 ![fakes012902.jpg](https://i.ibb.co/94fyg0D/cd1ec69e8374.jpg "FFHQ_training-runs_30K/00001-FFHQ_custom_30K-auto2-resumecustom/fakes012902.png")
@@ -60,7 +60,7 @@
 | Dataset                   |   Training time (in hrs) |   Training time (in days) |   FID |
 |---------------------------|--------------------------|---------------------------|-------|
 | AFHQ-WILD                 |                    67.63 |                       2.8 |  1.94 |
-| StyleGAN2_FFHQ_custom_30K |                    35.97 |                       1.5 | 11.55 |
+| StyleGAN2_FFHQ_custom_30K |                    41.13 |                       1.7 | 10.5  |
 | metfaces                  |                    68.48 |                       2.9 | 18.26 |
 | POKEMON                   |                     0.7  |                       0   | 27.9  |
 | StanfordDogs              |                    71.25 |                       3   | 31.43 |
@@ -69,11 +69,11 @@
 | AFHQ-DOG                  |                    65.88 |                       2.7 |  8.68 |
 | FFHQ_custom_5K            |                    66.42 |                       2.8 | 10.39 |
 | FFHQ_custom_2K            |                    62.52 |                       2.6 | 19.11 |
-| ANIME-FACES               |                    18.39 |                       0.8 | 19.84 |
-| StyleGAN2_FFHQ_custom_5K  |                    18.8  |                       0.8 | 26.93 |
+| ANIME-FACES               |                    24.37 |                       1   | 19.45 |
+| StyleGAN2_FFHQ_custom_5K  |                    23.96 |                       1   | 25.33 |
 | StyleGAN2_WILD-AFHQ       |                    38.92 |                       1.6 |  2.89 |
 | 102flowers                |                     1.39 |                       0.1 |  6.85 |
-| StyleGAN2_FFHQ_custom     |                    48.1  |                       2   | 11.02 |
+| StyleGAN2_FFHQ_custom     |                    49.82 |                       2.1 | 10.99 |
 | FFHQ_custom_30K           |                    68.02 |                       2.8 |  6.28 |
 | FFHQ_custom               |                    71.45 |                       3   |  6.16 |
 | StyleGAN2_FFHQ_custom_2K  |                     8.48 |                       0.4 | 46.09 |
