@@ -5,8 +5,8 @@
         "file": "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom_30K": {
-        "snapshot": "network-snapshot-001935",
-        "score": 10.502,
+        "snapshot": "network-snapshot-003145",
+        "score": 8.3387,
         "file": "StyleGAN2_FFHQ_training-runs_30K/00001-stylegan2-FFHQ_custom_30K-2gpu-config-f/log.txt"
     },
     "metfaces": {
@@ -55,8 +55,8 @@
         "file": "ANIME-FACES_training-runs/00006-ANIME-FACES_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom_5K": {
-        "snapshot": "network-snapshot-001129",
-        "score": 25.326,
+        "snapshot": "network-snapshot-001371",
+        "score": 25.226,
         "file": "StyleGAN2_FFHQ_training-runs_5K/00001-stylegan2-FFHQ_custom_5K-2gpu-config-f/log.txt"
     },
     "StyleGAN2_WILD-AFHQ": {
@@ -70,8 +70,8 @@
         "file": "102flowers_training-runs/00027-102flowers_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_custom": {
-        "snapshot": "network-snapshot-002338",
-        "score": 10.992,
+        "snapshot": "network-snapshot-003306",
+        "score": 8.3893,
         "file": "StyleGAN2_FFHQ_training-runs/00002-stylegan2-FFHQ_custom-2gpu-config-f/log.txt"
     },
     "FFHQ_custom_30K": {
