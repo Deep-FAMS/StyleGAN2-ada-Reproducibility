@@ -11,7 +11,7 @@ from pprint import pprint
 from PIL import Image
 from datetime import datetime
 from IPython.display import Markdown, display
-from tabulate import tabulate
+from training_time import training_time
 
 
 def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, export=False, display_output=False):
@@ -34,9 +34,9 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
                 '_training-runs', '')
             fid_logs[dataset] = fid_file
 
-    fid_logs['AFHQ-CAT'] = fid_logs.pop('AFHQ')
+#     fid_logs['AFHQ-CAT'] = fid_logs.pop('AFHQ')
 
-    fid_logs = {k.replace('FFHQ', 'FFHQ_custom'): v for k, v in fid_logs.items()}
+#     fid_logs = {k.replace('FFHQ', 'FFHQ_custom'): v for k, v in fid_logs.items()}
 
     findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
                                             ).search(s)
@@ -61,9 +61,9 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
     best_snapshots = {}
 
     for ds in snapshots:
-        d = snapshots[ds]['scores']
-        keys = [list(x.keys()) for x in d]
-        vals = [list(x.values()) for x in d]
+        DI = snapshots[ds]['scores']
+        keys = [list(x.keys()) for x in DI]
+        vals = [list(x.values()) for x in DI]
         best_snapshots[ds] = {
             'snapshot': keys[vals.index(min(vals))][0],
             'score': min(vals)[0]
@@ -79,62 +79,6 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
     if export is True:
         with open(f'{PROJ_DIR}/FID_of_best_snapshots.json', 'w') as out_file:
             json.dump(best_snapshots, out_file, indent=4)
-
-            
-    d = best_snapshots
-
-    for k, v in best_snapshots.items():
-        d[k]['training_time'] = []
-
-
-    findWholeWord = lambda w, s: re.compile(rf'\b({w})\b', flags=re.IGNORECASE
-                                            ).search(s)
-
-    def calc_time(t, unit):
-        s = t.partition(unit)[0][-2:].replace(' ', '')
-        if t.partition(unit)[0] != t:
-            return int(s)
-        return 0
-
-    TTs = {}
-
-    for k, v in d.items():
-        file = f'{tr}/{d[k]["file"]}'
-        with open(file, 'r') as f:
-            lines = f.readlines()
-
-        if 'Exporting sample images...' in lines[-1]:
-            continue
-        else:
-            snap = f'{tr}/{d[k]["snapshot"]}'
-            snap = Path(snap).name
-            for line in lines:
-                if snap in line:
-                    line_idx = lines.index(line) - 2
-                    line = lines[line_idx]
-                    try:
-                        sp = findWholeWord('time', line).span()
-                        t = line[sp[1] + 1:sp[1] + 12]
-                        last = t.partition('s')[-1]
-                        t = t.replace(last, '')
-                        T = (calc_time(t, 'd') * 24) + calc_time(t, 'h') + (
-                            calc_time(t, 'm') / 60) + (calc_time(t, 's') / 3600)
-                        d[k]['training_time'].append(T)
-
-                    except AttributeError:
-                        continue
-
-    days = [round(j['training_time'][0] / 24, 1) for i, j in d.items()]
-
-    table = tabulate([[x, round(y['training_time'][0], 2), z, round(y['score'], 2)]
-                      for (x, y), z in zip(d.items(), days)],
-                     headers=[
-                         'Dataset', 'Training time (in hrs)',
-                         'Training time (in days)', 'FID'
-                     ],
-                     tablefmt='github')
-
-
 
     def upload_img(image, token):
         with open(image, "rb") as file:
@@ -160,9 +104,9 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
     Path(backups_dir).mkdir(exist_ok=True)
 
     md_content = []
-    latest_fakes = [str(Path(tr + '/' + d[k]["file"]).parent) +
-                    f'/{d[k]["snapshot"]}.png'.replace('network-snapshot-', 'fakes')
-                    for k, v in d.items()]
+    latest_fakes = [str(Path(tr + '/' + best_snapshots[k]["file"]).parent) +
+                    f'/{best_snapshots[k]["snapshot"]}.png'.replace('network-snapshot-', 'fakes')
+                    for k, v in best_snapshots.items()]
 
     now = datetime.now()
     date_time = now.strftime('%m/%d/%Y, %H:%M:%S')
@@ -204,7 +148,8 @@ def generate_latest_fakes_report(PROJ_DIR, exclude:list=None, verbose=False, exp
 
 #     Tstamp = datetime.now().strftime('%m_%d_%Y__%H_%M')
     report_path = f'{PROJ_DIR}/latest_fakes_report.md'
-
+    table = training_time(PROJ_DIR, best_snapshots, False)
+    
     with open(report_path, 'w') as f:
         f.write(''.join(md_content))
         f.write(table)

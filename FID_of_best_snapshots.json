@@ -1,8 +1,8 @@
 {
     "AFHQ-WILD": {
-        "snapshot": "network-snapshot-010199",
-        "score": 1.9444,
-        "file": "AFHQ-WILD_training-runs/00006-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
+        "snapshot": "network-snapshot-007127",
+        "score": 2.0429,
+        "file": "AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_30K": {
         "snapshot": "network-snapshot-003225",
@@ -14,10 +14,10 @@
         "score": 18.26,
         "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
     },
-    "StanfordDogs": {
-        "snapshot": "network-snapshot-011919",
-        "score": 31.434,
-        "file": "StanfordDogs_training-runs/00005-StanfordDogs_custom-auto2-resumecustom/log.txt"
+    "POKEMON": {
+        "snapshot": "network-snapshot-000123",
+        "score": 27.903,
+        "file": "POKEMON_training-runs/00005-POKEMON_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_AFHQ-DOG": {
         "snapshot": "network-snapshot-001209",
@@ -78,10 +78,5 @@
         "snapshot": "network-snapshot-000403",
         "score": 46.09,
         "file": "StyleGAN2_FFHQ_training-runs_2K/00001-stylegan2-FFHQ_custom_2K-2gpu-config-f/log.txt"
-    },
-    "AFHQ-CAT": {
-        "snapshot": "network-snapshot-000635",
-        "score": 6.2694,
-        "file": "AFHQ_training-runs/00004-AFHQ_custom-auto2-resumecustom/log.txt"
     }
 }
