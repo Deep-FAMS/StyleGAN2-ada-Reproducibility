@@ -33,7 +33,8 @@ def create_fakes_gif(
         if DATASET_NAME == 'metfaces':
             left, top, right, bottom = 0, 0, (256 * 4) * 2, (256 * 4) * 2
         else:
-            left, top, right, bottom = 1 * shift['shift_r'], 1 * shift['shift_b'], (256 * 4) + shift['shift_r'], (256 * 4) + shift['shift_b']
+            left, top, right, bottom = 1 * shift['shift_r'], 1 * shift[
+                'shift_b'], (256 * 4) + shift['shift_r'], (256 * 4) + shift['shift_b']
         im_cropped = im.crop((left, top, right, bottom))
         return im_cropped.save(f'{history}/{Path(i).stem}.png')
     
@@ -69,7 +70,6 @@ def create_fakes_gif(
     ]
     ds_rename = lambda before, after: [after if x == before else x for x in datasets]
     datasets = ds_rename('AFHQ', 'AFHQ-CAT')
-    datasets = ds_rename('StyleGAN2_FFHQ', 'StyleGAN2_FFHQ_custom')
     
     if verbose:
         print(f'Available datasets:\n {datasets}')
@@ -78,8 +78,6 @@ def create_fakes_gif(
     
     with open(f'{PROJ_DIR}/FID_of_best_snapshots.json') as jf:
         jd = json.load(jf)
-        if 'StyleGAN2_FFHQ' in DATASET_NAME:
-            DATASET_NAME = DATASET_NAME.replace('StyleGAN2_FFHQ', 'StyleGAN2_FFHQ_custom')
         best = 'fakes' + jd[DATASET_NAME]['snapshot'].replace('network-snapshot-', '')
 
     for folder, dataset in zip(TRfolders_, datasets):
@@ -88,7 +86,8 @@ def create_fakes_gif(
         if fakes == []:
             continue
         d[dataset] = {}
-        d[dataset]['files'] = fakes[::subset] + [f'{Path(fakes[-1]).parent}/{best}{Path(fakes[-1]).suffix}']
+        d[dataset]['files'] = fakes[::subset] + [
+            f'{Path(fakes[-1]).parent}/{best}{Path(fakes[-1]).suffix}']
     
     Path(history).mkdir(exist_ok=True)
     
