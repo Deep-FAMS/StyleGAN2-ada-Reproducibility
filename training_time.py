@@ -93,7 +93,7 @@ def training_time(PROJ_DIR, best_snapshots, verbose=False):
 
     days = [round(d[x]['total_time'] / 24, 1) for x in d.keys()]
                                   
-    table = tabulate([[x, round(d[x]['total_time'], 2), z, d[x]['FID']]
+    table = tabulate([[x, round(d[x]['total_time'], 2), z, round(d[x]['FID'], 2)]
                   for (x, y), z in zip(d.items(), days)],
                  headers=[
                      'Dataset', 'Training time (in hrs)', 'Training time (in days)', 'FID'

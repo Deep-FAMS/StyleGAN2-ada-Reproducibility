@@ -1,5 +1,5 @@
 # Latest fakes
-## Date and time: 04/30/2021, 14:52:23
+## Date and time: 04/30/2021, 14:54:02
 ### AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/fakes007127.png
 ![fakes007127.jpg](https://i.ibb.co/nQzTKKR/5eaa9525006c.jpg "AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/fakes007127.png")
 
@@ -48,21 +48,21 @@
 ### StyleGAN2_FFHQ_training-runs_2K/00001-stylegan2-FFHQ_custom_2K-2gpu-config-f/fakes000403.png
 ![fakes000403.jpg](https://i.ibb.co/GH5gFvx/56aedd898285.jpg "StyleGAN2_FFHQ_training-runs_2K/00001-stylegan2-FFHQ_custom_2K-2gpu-config-f/fakes000403.png")
 
-| Dataset             |   Training time (in hrs) |   Training time (in days) |     FID |
-|---------------------|--------------------------|---------------------------|---------|
-| AFHQ-WILD           |                   116.86 |                       4.9 |  2.0429 |
-| StyleGAN2_FFHQ_30K  |                    68.65 |                       2.9 |  8.0649 |
-| metfaces            |                   181.01 |                       7.5 | 18.26   |
-| POKEMON             |                    72.82 |                       3   | 27.903  |
-| StyleGAN2_AFHQ-DOG  |                    97.5  |                       4.1 | 19.47   |
-| cars196             |                   139.06 |                       5.8 |  8.0721 |
-| AFHQ-DOG            |                    65.98 |                       2.7 |  8.6783 |
-| FFHQ_5K             |                    66.53 |                       2.8 | 10.392  |
-| FFHQ_2K             |                    62.52 |                       2.6 | 19.11   |
-| StyleGAN2_FFHQ_5K   |                    29.12 |                       1.2 | 25.226  |
-| StyleGAN2_WILD-AFHQ |                    39.93 |                       1.7 |  2.8911 |
-| 102flowers          |                   119.1  |                       5   |  6.8489 |
-| StyleGAN2_FFHQ      |                    70.5  |                       2.9 |  8.3893 |
-| FFHQ_30K            |                    68.02 |                       2.8 |  6.2826 |
-| FFHQ                |                    71.45 |                       3   |  6.1643 |
-| StyleGAN2_FFHQ_2K   |                     8.48 |                       0.4 | 46.09   |
+| Dataset             |   Training time (in hrs) |   Training time (in days) |   FID |
+|---------------------|--------------------------|---------------------------|-------|
+| AFHQ-WILD           |                   116.86 |                       4.9 |  2.04 |
+| StyleGAN2_FFHQ_30K  |                    68.65 |                       2.9 |  8.06 |
+| metfaces            |                   181.01 |                       7.5 | 18.26 |
+| POKEMON             |                    72.82 |                       3   | 27.9  |
+| StyleGAN2_AFHQ-DOG  |                    97.5  |                       4.1 | 19.47 |
+| cars196             |                   139.06 |                       5.8 |  8.07 |
+| AFHQ-DOG            |                    65.98 |                       2.7 |  8.68 |
+| FFHQ_5K             |                    66.53 |                       2.8 | 10.39 |
+| FFHQ_2K             |                    62.52 |                       2.6 | 19.11 |
+| StyleGAN2_FFHQ_5K   |                    29.12 |                       1.2 | 25.23 |
+| StyleGAN2_WILD-AFHQ |                    39.93 |                       1.7 |  2.89 |
+| 102flowers          |                   119.1  |                       5   |  6.85 |
+| StyleGAN2_FFHQ      |                    70.5  |                       2.9 |  8.39 |
+| FFHQ_30K            |                    68.02 |                       2.8 |  6.28 |
+| FFHQ                |                    71.45 |                       3   |  6.16 |
+| StyleGAN2_FFHQ_2K   |                     8.48 |                       0.4 | 46.09 |
