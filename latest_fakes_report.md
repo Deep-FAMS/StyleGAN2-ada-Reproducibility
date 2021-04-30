@@ -1,5 +1,5 @@
 # Latest fakes
-## Date and time: 04/30/2021, 14:54:02
+## Date and time: 04/30/2021, 14:55:26
 ### AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/fakes007127.png
 ![fakes007127.jpg](https://i.ibb.co/nQzTKKR/5eaa9525006c.jpg "AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/fakes007127.png")
 
@@ -8,9 +8,6 @@
 
 ### metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png
 ![fakes004112.jpg](https://i.ibb.co/ZVz6sB9/62e3aa4d5119.jpg "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/fakes004112.png")
-
-### POKEMON_training-runs/00005-POKEMON_custom-auto2-resumecustom/fakes000123.png
-![fakes000123.jpg](https://i.ibb.co/hXCwXtD/7791ce524067.jpg "POKEMON_training-runs/00005-POKEMON_custom-auto2-resumecustom/fakes000123.png")
 
 ### StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/fakes001209.png
 ![fakes001209.jpg](https://i.ibb.co/VQkHW4k/f8fdc31c70fc.jpg "StyleGAN2_AFHQ-DOG_training-runs/00003-stylegan2-AFHQ-DOG_custom-2gpu-config-f/fakes001209.png")
@@ -53,7 +50,6 @@
 | AFHQ-WILD           |                   116.86 |                       4.9 |  2.04 |
 | StyleGAN2_FFHQ_30K  |                    68.65 |                       2.9 |  8.06 |
 | metfaces            |                   181.01 |                       7.5 | 18.26 |
-| POKEMON             |                    72.82 |                       3   | 27.9  |
 | StyleGAN2_AFHQ-DOG  |                    97.5  |                       4.1 | 19.47 |
 | cars196             |                   139.06 |                       5.8 |  8.07 |
 | AFHQ-DOG            |                    65.98 |                       2.7 |  8.68 |

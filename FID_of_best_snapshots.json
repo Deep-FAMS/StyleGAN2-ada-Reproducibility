@@ -14,11 +14,6 @@
         "score": 18.26,
         "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
     },
-    "POKEMON": {
-        "snapshot": "network-snapshot-000123",
-        "score": 27.903,
-        "file": "POKEMON_training-runs/00005-POKEMON_custom-auto2-resumecustom/log.txt"
-    },
     "StyleGAN2_AFHQ-DOG": {
         "snapshot": "network-snapshot-001209",
         "score": 19.47,
