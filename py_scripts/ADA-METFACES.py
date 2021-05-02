@@ -23,28 +23,29 @@ RESIZED_IMGS_DIR = f'{PROJ_DIR}/datasets/metfaces_resized_imgs'
 DATA_CUSTOM_DIR = f'{PROJ_DIR}/datasets/metfaces_custom'
 TRAIN_RUNS_DIR = f'{PROJ_DIR}/training_runs/metfaces_training-runs'
 
-# # data was downloaded from https://drive.google.com/open?id=1w-Os4uERBmXwCm7Oo_kW6X3Sd2YHpJMC
-# raw_imgs = glob(f'{RAW_IMGS_DIR}/*')
+# data was downloaded from https://drive.google.com/open?id=1w-Os4uERBmXwCm7Oo_kW6X3Sd2YHpJMC
+raw_imgs = glob(f'{RAW_IMGS_DIR}/*')
 
-# for x in tqdm(raw_imgs):
-#     DeepFAMS.preprocessing.resize_imgs(x, (512, 512), RESIZED_IMGS_DIR)
+for x in tqdm(raw_imgs):
+    DeepFAMS.preprocessing.resize_imgs(x, (512, 512), RESIZED_IMGS_DIR)
 
-# DeepFAMS.preprocessing.tf_record_exporter(tfrecord_dir=DATA_CUSTOM_DIR, image_dir=RESIZED_IMGS_DIR, shuffle=1)
+DeepFAMS.preprocessing.tf_record_exporter(tfrecord_dir=DATA_CUSTOM_DIR,
+                                          image_dir=RESIZED_IMGS_DIR,
+                                          shuffle=1)
 
-# # Needs to be run through the command line at least once to compile the model
+# Needs to be run through the command line at least once to compile the model
 
-# DeepFAMS.utils.executePopen(
-# f'''#!/bin/bash
-# module load anaconda
-# module load compiler/gcc/4.7
-# module load cuda
-# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
-# --outdir={TRAIN_RUNS_DIR} \
-# --gpus=2 \
-# --data={DATA_CUSTOM_DIR} \
-# --snap=1 \
-# --kimg=1''', PROJ_DIR
-# )
+DeepFAMS.utils.executePopen(
+    f'''#!/bin/bash
+module load anaconda
+module load compiler/gcc/4.7
+module load cuda
+$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
+--outdir={TRAIN_RUNS_DIR} \
+--gpus=2 \
+--data={DATA_CUSTOM_DIR} \
+--snap=1 \
+--kimg=1''', PROJ_DIR)
 
 for num in range(-1, -10, -1):
     files = DeepFAMS.utils.last_snap(num, TRAIN_RUNS_DIR)

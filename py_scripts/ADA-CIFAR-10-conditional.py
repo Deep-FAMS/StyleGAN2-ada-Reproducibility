@@ -23,19 +23,19 @@ import DeepFAMS
 WORK, PROJ_DIR = DeepFAMS.utils.set_env()
 
 
-# url = 'https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz'
-# output_file = f'{PROJ_DIR}/datasets/cifar-10-python.tar.gz'
-# urllib.request.urlretrieve(url, output_file)
+url = 'https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz'
+output_file = f'{PROJ_DIR}/datasets/cifar-10-python.tar.gz'
+urllib.request.urlretrieve(url, output_file)
 
-# tarf = tarfile.open(output_file)
-# tarf.extractall(path=f'{PROJ_DIR}/datasets')
+tarf = tarfile.open(output_file)
+tarf.extractall(path=f'{PROJ_DIR}/datasets')
 
 # class-conditional
 
-# DeepFAMS.utils.executePopen(
-#     f'$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/dataset_tool.py \
-#     create_cifar10 --ignore_labels=0 \
-#     {PROJ_DIR}/datasets/cifar10c {PROJ_DIR}/datasets/cifar-10-batches-py', PROJ_DIR)
+DeepFAMS.utils.executePopen(
+    f'$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/dataset_tool.py \
+    create_cifar10 --ignore_labels=0 \
+    {PROJ_DIR}/datasets/cifar10c {PROJ_DIR}/datasets/cifar-10-batches-py', PROJ_DIR)
 
 
 _, _, _, TRAIN_RUNS_DIR = DeepFAMS.utils.return_dirs(PROJ_DIR, 'CIFAR-10')
@@ -46,18 +46,18 @@ TRAIN_RUNS_DIR_c = f'{Path(TRAIN_RUNS_DIR).parent}/conditional_{Path(TRAIN_RUNS_
 DeepFAMS.utils.execute('nvidia-smi')
 
 
-# # unconditional training
-# DeepFAMS.utils.executePopen(f'''#!/bin/bash
-# module load anaconda
-# module load compiler/gcc/4.7
-# module load cuda
-# $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
-# --outdir={TRAIN_RUNS_DIR_c} \
-# --gpus=2 \
-# --data={DATA_CUSTOM_DIR_c} \
-# --snap=1 \
-# --kimg=1 \
-# --cfg=cifar''', PROJ_DIR)
+# conditional training
+DeepFAMS.utils.executePopen(f'''#!/bin/bash
+module load anaconda
+module load compiler/gcc/4.7
+module load cuda
+$WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
+--outdir={TRAIN_RUNS_DIR_c} \
+--gpus=2 \
+--data={DATA_CUSTOM_DIR_c} \
+--snap=1 \
+--kimg=1 \
+--cfg=cifar''', PROJ_DIR)
 
 
 for num in range(-1, -10, -1):

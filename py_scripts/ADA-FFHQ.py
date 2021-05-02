@@ -1,8 +1,4 @@
-# Here, we are training a StyleGAN2 model from scratch to compare to StyleGAN2-ADA on the same dataset
 from glob import glob
-from tqdm import tqdm
-from pathlib import Path
-import zipfile
 import sys
 import dotenv
 import os
@@ -21,20 +17,22 @@ sys.path.insert(0, f'{WORK}/ADA_Project/StyleGAN2-ADA')
 import DeepFAMS
 
 
-def StyleGAN2_FFHQ(subset):
+def ADA_FFHQ(subset):
 
     WORK, PROJ_DIR = DeepFAMS.utils.set_env()
 
-    RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR_, TRAIN_RUNS_DIR_ = DeepFAMS.utils.return_dirs(
+    RAW_IMGS_DIR, RESIZED_IMGS_DIR, DATA_CUSTOM_DIR, TRAIN_RUNS_DIR_ = DeepFAMS.utils.return_dirs(
         PROJ_DIR, 'FFHQ')
 
     if subset != '':
         subset = '_' + subset.upper()
 
     DATA_CUSTOM_DIR = f'{Path(DATA_CUSTOM_DIR_)}' + subset
-    TRAIN_RUNS_DIR = f'{Path(TRAIN_RUNS_DIR_).parent}/StyleGAN2_{Path(TRAIN_RUNS_DIR_).name}' + subset
+    TRAIN_RUNS_DIR = f'{Path(TRAIN_RUNS_DIR_).parent}/{Path(TRAIN_RUNS_DIR_).name}' + subset
 
-    # Data was downloaded with Kaggle's API (source: arnaud58/flickrfaceshq-dataset-ffhq)
+    DeepFAMS.utils.execute(
+        '$WORK/.conda/envs/ada-env/bin/kaggle datasets download -d \
+        arnaud58/flickrfaceshq-dataset-ffhq -p $WORK/ADA_Project/datasets')
 
     downloaded_file = f'{Path(RAW_IMGS_DIR).parent}/flickrfaceshq-dataset-ffhq.zip'
 
@@ -58,19 +56,19 @@ def StyleGAN2_FFHQ(subset):
                                               image_dir=RESIZED_IMGS_DIR,
                                               shuffle=1)
 
+    DeepFAMS.utils.execute('nvidia-smi')
+
     DeepFAMS.utils.executePopen(
         f'''#!/bin/bash
     module load anaconda
-    module load compiler/gcc/6.1
-    module load cuda/10.0
-    $WORK/.conda/envs/stylegan2/bin/python3 $WORK/ADA_Project/stylegan2/run_training.py \
-        --num-gpus=2 \
-        --data-dir=$WORK/ADA_Project/datasets \
-        --result-dir={TRAIN_RUNS_DIR} \
-        --config=config-f \
-        --mirror-augment=true \
-        --total-kimg=1 \
-        --dataset={Path(DATA_CUSTOM_DIR).name}''', PROJ_DIR)
+    module load compiler/gcc/4.7
+    module load cuda
+    $WORK/.conda/envs/ada-env/bin/python $WORK/ADA_Project/StyleGAN2-ada/train.py \
+    --outdir={TRAIN_RUNS_DIR} \
+    --gpus=2 \
+    --data={DATA_CUSTOM_DIR} \
+    --snap=1 \
+    --kimg=1''', PROJ_DIR)
 
     for num in range(-1, -10, -1):
         files = DeepFAMS.utils.last_snap(num, TRAIN_RUNS_DIR)
@@ -80,21 +78,23 @@ def StyleGAN2_FFHQ(subset):
     latest_snap = sorted(files)[-1]
     print(latest_snap)
 
-    DeepFAMS.utils.executePopen(
-        f'''#!/bin/bash
-    module load anaconda
-    module load compiler/gcc/6.1
-    module load cuda/10.0
-    $WORK/.conda/envs/stylegan2/bin/python3 $WORK/ADA_Project/stylegan2/run_training.py \
-        --num-gpus=2 \
-        --data-dir=$WORK/ADA_Project/datasets \
-        --result-dir={TRAIN_RUNS_DIR} \
-        --config=config-f \
-        --mirror-augment=true \
-        --dataset={Path(DATA_CUSTOM_DIR).name}
-        --resume-pkl={latest_snap}''', PROJ_DIR)
+    run_desc, training_options = DeepFAMS.setup_training_options(
+        gpus=2, snap=30, data=DATA_CUSTOM_DIR, resume=latest_snap)
+
+    DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR,
+                         seed=1000,
+                         dry_run=True,
+                         run_desc=run_desc,
+                         training_options=training_options)
+
+    tf.compat.v1.disable_eager_execution()
+    DeepFAMS.RunTraining(outdir=TRAIN_RUNS_DIR,
+                         seed=1000,
+                         dry_run=False,
+                         run_desc=run_desc,
+                         training_options=training_options)
 
 
 if __name__ == "__main__":
     subset = sys.argv[1]  # one of: ['', '2K', '5K', '30K']
-    StyleGAN2_FFHQ(subset)
+    ADA_FFHQ(subset)
