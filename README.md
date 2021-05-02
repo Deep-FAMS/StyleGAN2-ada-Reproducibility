@@ -13,11 +13,11 @@ In this project, I attempt to evaluate the reproducibility and generalizability 
 ```shell
 $ git clone git@github.com:Deep-FAMS/ADA_Project.git
 ```
-### Create a conda environments with all dependencies and requirements
+### Create conda environments with all dependencies and requirements
 ```shell
 $ cd ADA_Project
 $ bash create_project_envs.sh
-$ module load cuda compiler/gcc/6.1
+$ module load cuda compiler/gcc/6.1    # on Crane
 ```
 
 ### Create your .env file
@@ -33,4 +33,4 @@ Edit the file to append your working directory to the first line (e.g., `WORK=/w
 $ mkdir datasets training_runs .tmp .tmp_imgs jobs_log 
 ```
 
-Now everything is ready! :tada:
+Now you're ready to go! :tada:
