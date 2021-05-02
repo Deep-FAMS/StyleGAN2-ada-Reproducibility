@@ -4,7 +4,7 @@
 
 module load anaconda
 
-conda create -p $WORK/.conda/envs/ada-env -f ./envs/environment.yml
+conda env create -p $WORK/.conda/envs/ada-env -f ./envs/environment.yml
 conda activate $WORK/.conda/envs/ada-env
 
 python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
@@ -21,7 +21,7 @@ conda config --set env_prompt '({name})'
 
 # Baseline StyleGAN2 env
 
-conda create -p $WORK/.conda/envs/stylegan2 -f ./envs/StyleGAN2_environment.yml
+conda env create -p $WORK/.conda/envs/stylegan2 -f ./envs/StyleGAN2_environment.yml
 conda activate $WORK/.conda/envs/stylegan2
 
 python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
