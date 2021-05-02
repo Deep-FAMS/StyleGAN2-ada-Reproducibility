@@ -20,12 +20,6 @@ $ bash create_project_envs.sh
 $ module load cuda compiler/gcc/6.1
 ```
 
-### Clone source code of StyleGAN2-ada and StyleGAN2
-```shell
-$ git clone https://github.com/NVlabs/stylegan2-ada.git StyleGAN2-ada  # Replace instances of $HOME with $WORK, or just export $HOME as $WORK
-$ git clone https://github.com/NVlabs/stylegan2.git
-```
-
 ### Create your .env file
 ```shell
 $ mv default_env .env
