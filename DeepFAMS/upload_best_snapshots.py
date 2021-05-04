@@ -26,11 +26,14 @@ def upload_best_snapshots():
         for k, v in d.items()
     ]
 
-    with open('best_pkls.sh', 'w') as f:
+    with open('../slurm_batch_jobs/upload_best_pkls.sh', 'w') as f:
         print('#!/bin/bash \n' + '#SBATCH --nodes=1 \n' +
               '#SBATCH --partition=tmp_anvil \n' +
               '#SBATCH --ntasks-per-node=4 \n' +
-              '#SBATCH --time=4:00:00 \n\n' + 'module load rclone',
+              f'#SBATCH --error={WORK}/ADA_Project/jobs_log/%J.err \n' +
+              f'#SBATCH --output={WORK}/ADA_Project/jobs_log/%J.out \n'
+              '#SBATCH --time=4:00:00 \n\n' +
+              'module load rclone \n\n',
               file=f)
 
         print(f'rclone mkdir GoogleDrive:/best_pkls', file=f)
