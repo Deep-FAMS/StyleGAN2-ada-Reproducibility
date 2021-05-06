@@ -47,5 +47,7 @@ Now you're ready to go! :tada:
 | AFHQ-DOG            |                    65.98 |  8.68 | [Download](https://drive.google.com/file/d/1uUYLWP0-A3tZrVKkcJTMnGiFHHWtvChc/view?usp=sharing) |
 | 102flowers          |                   119.1  |  6.85 | [Download](https://drive.google.com/file/d/1tOW9eJnoWvjF-YKveT9Mnkbaft3VBEL1/view?usp=sharing) |
 | FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/file/d/1Yt0H31FVXRGh5opi7XU7zkhd2tCCfHQV/view?usp=sharing) |
+| ANIME-FACES         |              92.51   | 19.53 | [Download](https://drive.google.com/file/d/1o8z9mgoR7JqZnhAmh3C7sZKw6YmVOt2n/view?usp=sharing) |
+| StanfordDogs | 182.31 | 31.56 | [Download](https://drive.google.com/file/d/1CovWMe3vFbglxBOftgfTkr50crMn67sr/view?usp=sharing) |
 
 *All models are trained on 2 Tesla V100 GPUs.
