@@ -34,3 +34,18 @@ $ mkdir datasets training_runs .tmp .tmp_imgs jobs_log
 ```
 
 Now you're ready to go! :tada:
+
+---
+
+## Pretrained Weights*
+
+| Dataset             |   Training time (in hrs) |   FID | Pickle file |
+|---------------------|--------------------------|-------|-------------|
+| AFHQ-WILD           |                   116.86 |  2.04 | [Download](https://drive.google.com/file/d/1p-M_PICnek3hLwT4LPsyhh3LnvpaUm19/view?usp=sharing) | 
+| metfaces            |                   181.01 | 18.26 | [Download](https://drive.google.com/file/d/1tQTh5sTMg_VaU98wmPAZ9VxKNIe2wu5D/view?usp=sharing) |
+| cars196             |                   139.06 |  8.07 | [Download](https://drive.google.com/file/d/16eH9cZ--1onDLzZC3m4xDuZxYrLQED0_/view?usp=sharing) |
+| AFHQ-DOG            |                    65.98 |  8.68 | [Download](https://drive.google.com/file/d/1uUYLWP0-A3tZrVKkcJTMnGiFHHWtvChc/view?usp=sharing) |
+| 102flowers          |                   119.1  |  6.85 | [Download](https://drive.google.com/file/d/1tOW9eJnoWvjF-YKveT9Mnkbaft3VBEL1/view?usp=sharing) |
+| FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/file/d/1Yt0H31FVXRGh5opi7XU7zkhd2tCCfHQV/view?usp=sharing) |
+
+*All models are trained on 2 Tesla V100 GPUs.
