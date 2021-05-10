@@ -4,6 +4,11 @@
         "score": 2.0429,
         "file": "AFHQ-WILD_training-runs/00005-AFHQ-WILD_custom-auto2-resumecustom/log.txt"
     },
+    "best-artworks-of-all-time": {
+        "snapshot": "network-snapshot-003830",
+        "score": 19.652,
+        "file": "best-artworks-of-all-time_training-runs/00001-best-artworks-of-all-time_custom-auto2-resumecustom/log.txt"
+    },
     "StyleGAN2_FFHQ_30K": {
         "snapshot": "network-snapshot-003225",
         "score": 8.0649,
@@ -13,6 +18,11 @@
         "snapshot": "network-snapshot-004112",
         "score": 18.26,
         "file": "metfaces_training-runs/00006-metfaces_custom-auto2-resumecustom/log.txt"
+    },
+    "StanfordDogs": {
+        "snapshot": "network-snapshot-011919",
+        "score": 31.434,
+        "file": "StanfordDogs_training-runs/00005-StanfordDogs_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_AFHQ-DOG": {
         "snapshot": "network-snapshot-001209",
@@ -34,10 +44,20 @@
         "score": 10.392,
         "file": "FFHQ_training-runs_5K/00002-FFHQ_custom_5K-auto2-resumecustom/log.txt"
     },
+    "Pokemon_Official_Artworks": {
+        "snapshot": "network-snapshot-004382",
+        "score": 53.876,
+        "file": "Pokemon_Official_Artworks_training-runs/00010-Pokemon_Official_Artworks_custom-auto2-bgcfnc-resumecustom/log.txt"
+    },
     "FFHQ_2K": {
         "snapshot": "network-snapshot-011796",
         "score": 19.11,
         "file": "FFHQ_training-runs_2K/00001-FFHQ_custom_2K-auto2-resumecustom/log.txt"
+    },
+    "ANIME-FACES": {
+        "snapshot": "network-snapshot-000000",
+        "score": 20.319,
+        "file": "ANIME-FACES_training-runs/00007-ANIME-FACES_custom-auto2-resumecustom/log.txt"
     },
     "StyleGAN2_FFHQ_5K": {
         "snapshot": "network-snapshot-001371",
