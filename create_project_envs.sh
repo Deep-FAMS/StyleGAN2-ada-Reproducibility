@@ -7,6 +7,7 @@ module load anaconda
 conda env create -p $WORK/.conda/envs/ada-env -f ./envs/environment.yml
 conda activate $WORK/.conda/envs/ada-env
 
+conda install ipykernel
 python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
 
 # run the next line only if you don't already have a .jupyter/kernels folder
@@ -24,6 +25,7 @@ conda config --set env_prompt '({name})'
 conda env create -p $WORK/.conda/envs/stylegan2 -f ./envs/StyleGAN2_environment.yml
 conda activate $WORK/.conda/envs/stylegan2
 
+conda install ipykernel
 python -m ipykernel install --user --name "$CONDA_DEFAULT_ENV" --display-name "Python ($CONDA_DEFAULT_ENV)"
 
 # run the next line only if you don't already have a .jupyter/kernels folder
