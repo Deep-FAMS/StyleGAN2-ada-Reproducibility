@@ -41,13 +41,14 @@ Now you're ready to go! :tada:
 
 | Dataset             |   Training time (in hrs) |   FID | Pickle file |
 |---------------------|--------------------------|-------|-------------|
-| AFHQ-WILD           |                   116.86 |  2.04 | [Download](https://drive.google.com/file/d/1p-M_PICnek3hLwT4LPsyhh3LnvpaUm19/view?usp=sharing) | 
-| metfaces            |                   181.01 | 18.26 | [Download](https://drive.google.com/file/d/1tQTh5sTMg_VaU98wmPAZ9VxKNIe2wu5D/view?usp=sharing) |
-| cars196             |                   139.06 |  8.07 | [Download](https://drive.google.com/file/d/16eH9cZ--1onDLzZC3m4xDuZxYrLQED0_/view?usp=sharing) |
-| AFHQ-DOG            |                    65.98 |  8.68 | [Download](https://drive.google.com/file/d/1uUYLWP0-A3tZrVKkcJTMnGiFHHWtvChc/view?usp=sharing) |
-| 102flowers          |                   119.1  |  6.85 | [Download](https://drive.google.com/file/d/1tOW9eJnoWvjF-YKveT9Mnkbaft3VBEL1/view?usp=sharing) |
-| FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/file/d/1Yt0H31FVXRGh5opi7XU7zkhd2tCCfHQV/view?usp=sharing) |
-| ANIME-FACES         |              92.51   | 19.53 | [Download](https://drive.google.com/file/d/1o8z9mgoR7JqZnhAmh3C7sZKw6YmVOt2n/view?usp=sharing) |
-| StanfordDogs | 182.31 | 31.56 | [Download](https://drive.google.com/file/d/1CovWMe3vFbglxBOftgfTkr50crMn67sr/view?usp=sharing) |
+| AFHQ-WILD           |                   116.86 |  2.04 | [Download](https://drive.google.com/uc?id=1p-M_PICnek3hLwT4LPsyhh3LnvpaUm19) | 
+| metfaces            |                   181.01 | 18.26 | [Download](https://drive.google.com/uc?id=1tQTh5sTMg_VaU98wmPAZ9VxKNIe2wu5D) |
+| cars196             |                   139.06 |  8.07 | [Download](https://drive.google.com/uc?id=16eH9cZ--1onDLzZC3m4xDuZxYrLQED0_) |
+| AFHQ-DOG            |                    65.98 |  8.68 | [Download](https://drive.google.com/uc?id=1uUYLWP0-A3tZrVKkcJTMnGiFHHWtvChc) |
+| 102flowers          |                   119.1  |  6.85 | [Download](https://drive.google.com/uc?id=1tOW9eJnoWvjF-YKveT9Mnkbaft3VBEL1) |
+| FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/uc?id=1Yt0H31FVXRGh5opi7XU7zkhd2tCCfHQV) |
+| ANIME-FACES         |              92.51   | 19.53 | [Download](https://drive.google.com/uc?id=1o8z9mgoR7JqZnhAmh3C7sZKw6YmVOt2n) |
+| StanfordDogs | 182.31 | 31.56 | [Download](https://drive.google.com/uc?id=1CovWMe3vFbglxBOftgfTkr50crMn67sr) |
+| Best-Artworks-of-All-Time | 72 | 19.87 | [Download](https://drive.google.com/uc?id=1Ezn7TT6yeZzjCUw0XiDqnoxrsPfYTQNk) |
 
 *All models are trained on 2 Tesla V100 GPUs.
