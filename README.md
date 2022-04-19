@@ -46,9 +46,9 @@ Now you're ready to go! :tada:
 | cars196             |                   139.06 |  8.07 | [Download](https://drive.google.com/uc?id=16eH9cZ--1onDLzZC3m4xDuZxYrLQED0_) |
 | AFHQ-DOG            |                    65.98 |  8.68 | [Download](https://drive.google.com/uc?id=1uUYLWP0-A3tZrVKkcJTMnGiFHHWtvChc) |
 | 102flowers          |                   119.1  |  6.85 | [Download](https://drive.google.com/uc?id=1tOW9eJnoWvjF-YKveT9Mnkbaft3VBEL1) |
-| FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/uc?id=1Yt0H31FVXRGh5opi7XU7zkhd2tCCfHQV) |
-| ANIME-FACES         |              92.51   | 19.53 | [Download](https://drive.google.com/uc?id=1o8z9mgoR7JqZnhAmh3C7sZKw6YmVOt2n) |
-| StanfordDogs | 182.31 | 31.56 | [Download](https://drive.google.com/uc?id=1CovWMe3vFbglxBOftgfTkr50crMn67sr) |
-| Best-Artworks-of-All-Time | 72 | 19.87 | [Download](https://drive.google.com/uc?id=1Ezn7TT6yeZzjCUw0XiDqnoxrsPfYTQNk) |
+| FFHQ                |                    71.45 |  6.16 | [Download](https://drive.google.com/file/d/1I1qCgDSbBhybWWzMPGMtVz5i7YdjPOov/view?usp=sharing) |
+| ANIME-FACES         |              92.51   | 19.53 | [Download](https://drive.google.com/file/d/1mA4mJnmNzDHY1k0cqGD5SnZSnrHlpNIX/view?usp=sharing) |
+| StanfordDogs | 182.31 | 31.56 | [Download](https://drive.google.com/file/d/1Wgn2OtYM9RdHMBpaPymOhjHaj5ocGc-2/view?usp=sharing) |
+| Best-Artworks-of-All-Time | 72 | 19.87 | [Download](https://drive.google.com/file/d/1JzAGDJ9tM_wSGW7pwLCW_424PBmjyCLm/view?usp=sharing) |
 
-*All models are trained on 2 Tesla V100 GPUs.
+*All models are trained on 2 Tesla V100 GPUs
